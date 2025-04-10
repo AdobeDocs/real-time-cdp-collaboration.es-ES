@@ -1,0 +1,152 @@
+---
+title: Administrar el acceso de los usuarios mediante permisos
+description: Administre los permisos y el acceso de los usuarios a diferentes componentes de la interfaz de usuario de Real-Time CDP Collaboration.
+audience: admin
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
+source-git-commit: a1328ab6da15bb48f62e313659baf7c7723ffc32
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 0%
+
+---
+
+# Administrar el acceso de los usuarios mediante permisos {#manage-user-access}
+
+{{limited-availability-release-note}}
+
+Administre permisos y acceso de usuarios a componentes individuales dentro de Real-Time CDP Collaboration a través de la interfaz de Experience Cloud [Permissions](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse). Los permisos permiten a los administradores de sistemas y productos definir [roles](./manage-roles.md) para administrar el acceso de los usuarios a características y recursos específicos.
+
+## Configuración del acceso a los permisos {#permissions-access}
+
+Para acceder a los permisos, debe tener acceso de administrador de producto y de usuario al producto de Adobe Experience Platform. Se requiere un administrador del sistema para configurar los privilegios de administrador de productos, mientras que un administrador del sistema o de productos puede configurar los privilegios de usuario. Para obtener más información sobre las funciones administrativas, lea la guía [jerarquía de control de acceso](./overview.md#hierarchy).
+
+>[!TIP]
+>
+>A lo largo de esta guía, un **administrador** hará referencia a **administradores de sistemas y productos**.
+
+### Administradores del sistema: configurar el acceso de administrador de productos {#admin-access}
+
+Conceda a un administrador de productos de usuario acceso para proporcionarle funciones administrativas dentro del producto de Experience Platform mediante los siguientes pasos:
+
+>[!IMPORTANT]
+>
+>Como administrador del sistema, tiene acceso predeterminado a productos específicos de Experience Cloud, como Adobe Admin Console. Sin embargo, para utilizar los permisos, debe otorgarse a sí mismo el administrador del producto y usuario acceso al producto Experience Platform. Siga los guía paso a paso que se indican a continuación para obtener acceso como administrador del sistema.
+
+Inicie sesión para [Adobe Experience Cloud](https://experience.adobe.com/) con sus credenciales. La vista principal se muestra con una lista de los productos disponibles dentro de la **[!UICONTROL sección Acceso rápido]** . Seleccione **[!UICONTROL Admin Console]**.
+
+![La casa de Experience Cloud vista con Admin Console resaltado.](../../assets/permissions/experience-cloud.png)
+
+Se muestra el panel de información general de [Adobe Admin Console](https://adminconsole.adobe.com/). Seleccione **[!UICONTROL Adobe Experience Platform en el]** **[!UICONTROL lista Productos y**[!UICONTROL  servicios ]**.]**
+
+![La descripción general de Admin Console panel con el producto Adobe Experience Platform resaltado.](../../assets/permissions/admin-console.png)
+
+Se muestra la Adobe Experience Platform panel. Seleccione el **[!UICONTROL pestaña administradores]** y, a continuación, seleccione **[!UICONTROL añadir administrador]**.
+
+![Adobe Experience Platform panel de producto con el Administrador pestaña seleccionado y añadir Administrador resaltado.](../../assets/permissions/add-admin.png)
+
+Aparecerá el **[!UICONTROL cuadro de diálogo añadir de administradores]** de productos. Ingrese el correo electrónico de usuario o nombre de usuario en el campo de **[!UICONTROL texto Correo electrónico o nombre]** de usuario y luego seleccione la cuenta correcta en el menú desplegable. Seleccione **[!UICONTROL Guardar]** para terminar de agregar la usuario como administrador del producto.
+
+![Cuadro de diálogo Agregar administradores de productos con información de usuarios completada y la opción Guardar seleccionada.](../../assets/permissions/add-product-administrators.png)
+
+El usuario ahora tiene privilegios de administrador de productos y puede realizar funciones administrativas, como agregar usuarios u otros administradores, al producto en Admin Console. A continuación, necesitará el acceso de usuario al producto de Experience Platform para acceder y realizar funciones dentro de Permisos.
+
+### Administradores: configurar el acceso de los usuarios a Experience Platform {#user-access}
+
+Ahora que ha concedido al administrador de productos acceso, debe proporcionarle acceso de usuario al producto de Experience Platform. Como parte de las configuraciones de acceso, asignará al usuario [perfiles de producto](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) específicos.
+
+>[!TIP]
+>
+>Si está siguiendo los pasos de la sección anterior, ya estará dentro del producto de Adobe Experience Platform y puede omitir el primer paso.
+
+Vaya a [Admin Console](https://adminconsole.adobe.com/) y seleccione **[!UICONTROL Adobe Experience Platform]** de la lista **[!UICONTROL Productos]** en **[!UICONTROL Productos y servicios]**.
+
+![Vista de inicio de Experience Cloud con Admin Console resaltado.](../../assets/permissions/experience-cloud.png)
+
+Seleccione la ficha **[!UICONTROL Usuarios]** y luego seleccione **[!UICONTROL Agregar usuarios]**.
+
+![Tablero de producto de Adobe Experience Platform con la ficha Usuarios seleccionada y Agregar usuarios resaltada.](../../assets/permissions/add-users.png)
+
+Aparecerá el cuadro de diálogo **[!UICONTROL Agregar usuarios a este producto]**. Escriba el nombre o el correo electrónico del usuario en el campo de texto **[!UICONTROL Nombre, grupo de usuarios o dirección de correo electrónico]** y, a continuación, seleccione la cuenta correcta en el menú desplegable. A continuación, seleccione la opción de adición **[!UICONTROL Productos]**.
+
+![Cuadro de diálogo Agregar usuarios a este producto con información de usuarios rellenada y la opción Agregar productos seleccionada.](../../assets/permissions/add-users-to-product.png)
+
+Aparecerá el cuadro de diálogo **[!UICONTROL Seleccionar perfiles de producto]**. Seleccione **[!UICONTROL AEP-Default-All-Users]** y **[!UICONTROL Acceso predeterminado a todas las aplicaciones de producción]** y, a continuación, seleccione **[!UICONTROL Aplicar]**.
+
+![El cuadro de diálogo Seleccionar perfiles de producto con las opciones AEP-Default-All-Users y Default Production All Access seleccionadas y Aplicar resaltadas.](../../assets/permissions/select-product-profiles.png)
+
+Confirme que la información es correcta y, a continuación, seleccione **[!UICONTROL Guardar]**.
+
+![Cuadro de diálogo Agregar usuarios a productos con la información de los usuarios y los perfiles de producto mostrados y el cuadro de diálogo Guardar resaltado.](../../assets/permissions/save-selections.png)
+
+El usuario ahora debe tener acceso de administrador de productos y productos a Experience Platform, lo que le permitirá acceder a los permisos. A continuación, debe asignar al usuario dos funciones fundamentales para que tenga acceso a la interfaz de usuario de Experience Platform.
+
+### Administradores: configurar el acceso a la IU de Experience Platform {#product-access}
+
+En Real-Time CDP Collaboration, los administradores y los usuarios finales trabajarán con datos de Experience Platform, como audiencias y registros de auditoría. Estos datos se mantienen en instancias de Experience Platform denominadas zonas protegidas. Para garantizar que los usuarios puedan interactuar con estos datos, debe asignar [funciones predeterminadas](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles) al usuario.
+
+Para empezar, ve a [Adobe Experience Cloud](https://experience.adobe.com/). Ahora debería ver **[!UICONTROL Experience Platform]** y **[!UICONTROL Permisos]** dentro de **[!UICONTROL Acceso rápido]**.
+
+![Vista de inicio de Experience Cloud con Experience Platform y permisos resaltados.](../../assets/permissions/experience-cloud-products.png)
+
+>[!NOTE]
+>
+> Los productos pueden tardar varios minutos en obtener acceso a y recibirá un correo electrónico que le avisará de que ha recibido acceso. Si no ve Experience Platform o Permisos en Adobe Experience Cloud después de recibir el correo electrónico, cierre la sesión y vuelva a iniciarla en la cuenta.
+
+En este momento, ahora puede obtener acceso a **[!UICONTROL Permisos]**. Si intentas acceder a **[!UICONTROL Experience Platform]**, recibirás una advertencia avisando que no hay zonas protegidas habilitadas, como se muestra a continuación. Para resolver esto, debe asignar las funciones predeterminadas al usuario. Para empezar, seleccione **[!UICONTROL Permisos]**.
+
+![Vista de inicio de Experience Cloud con una advertencia y Permisos resaltados.](../../assets/permissions/experience-cloud-warning.png)
+
+Se mostrará el panel **[!UICONTROL Permisos]**. Seleccione **Usuarios** en el panel izquierdo y, a continuación, seleccione el nombre del usuario.
+
+![Panel de permisos con el área de trabajo Usuarios mostrado y un usuario resaltado.](../../assets/permissions/permissions-user.png)
+
+Seleccione la ficha **[!UICONTROL Roles]** y luego seleccione **[!UICONTROL Agregar roles]**.
+
+![Espacio de trabajo del usuario con la ficha Roles mostrada y Agregar roles resaltados.](../../assets/permissions/user-roles.png)
+
+Aparecerá el cuadro de diálogo **[!UICONTROL Agregar roles]**. Seleccione **[!UICONTROL Acceso predeterminado a todos los equipos de producción]** y **[!UICONTROL Administradores de espacio aislado]** y, a continuación, seleccione **[!UICONTROL Guardar]**.
+
+![Se seleccionó el cuadro de diálogo Agregar roles con los administradores de acceso y de zona protegida de producción predeterminada y se resaltó Guardar.](../../assets/permissions/add-roles.png)
+
+Ahora tiene acceso a Experience Platform y a Permisos. En el último paso, concederá acceso a Real-Time CDP Collaboration.
+
+### Administradores: configurar el acceso a Real-Time CDP Collaboration {#RTCDP-collaboration-access}
+
+Para conceder a los usuarios acceso a Real-Time CDP Collaboration, utilizará un concepto de control de acceso denominado funciones. Las funciones definen el nivel de acceso que un administrador o usuario tiene a [recursos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) en su organización.
+
+Al configurar el acceso individual a Real-Time CDP Collaboration, debe asignar las funciones de los usuarios que contengan permisos del recurso de colaboraciones. Puede usar la guía [administrar roles](./manage-roles.md) para obtener información sobre:
+
+- las [dos funciones estándar](./manage-roles.md#standard-roles) y los niveles de acceso que conceden a Real-Time CDP Collaboration
+- creando [funciones personalizadas](./manage-roles.md#specific-access-roles) con el recurso de Collaboration
+- la lista de permisos incluidos en el recurso de colaboraciones
+
+>[!NOTE]
+>
+>Además, se debe asignar a un usuario a una función que contenga el permiso **[!UICONTROL Prod]** en los recursos **[!UICONTROL Sandboxes]**. Ambas funciones estándar contienen este permiso. Si decide asignar a un usuario una función personalizada en lugar de una función estándar, debe asegurarse de que una de las funciones para las que está asignado contenga este permiso.
+
+Una vez que haya elegido o creado una función que incluya el nivel de acceso que necesita el usuario, debe asignarle dicha función.
+
+#### Asignar un rol
+
+Puede asignar varias funciones a una sola usuario o asignar varios usuarios a una sola función. El primer caso se cubrió anteriormente al [asignar los roles](#product-access) predeterminados para dar a una usuario acceso a Experience Platform. En los siguientes pasos, asignará usuarios directamente a la función que haya seleccionado.
+
+En **[!UICONTROL Permisos]** , seleccione **[!UICONTROL Funciones]** en el panel izquierdo y, a continuación, seleccione la función en la lista.
+
+![Los panel permisos con los espacio de trabajo de roles mostrados y los función resaltados.](../../assets/permissions/select-role.png)
+
+Se muestra la Página de detalles del función. Seleccione la ficha **[!UICONTROL Usuarios]** y luego seleccione **[!UICONTROL Agregar usuarios]**.
+
+![Los detalles del función espacio de trabajo con los Usuarios pestaña mostrados y añadir Usuarios resaltados.](../../assets/permissions/role-users.png)
+
+Aparecerá el **[!UICONTROL cuadro de diálogo Usuarios]** añadir. Seleccione las usuario en el lista y, a continuación, seleccione **[!UICONTROL Guardar]**.
+
+![El cuadro de diálogo Usuarios de añadir con una selección usuario y la opción Guardar resaltada.](../../assets/permissions/add-users-to-role.png)
+
+El usuario ahora debería ver **[!UICONTROL RTCDP Collaboration]** listado como un producto en **[!UICONTROL Acceso rápido en Experience Cloud]** .
+
+![Experience Cloud con RTCDP Producto de colaboración resaltado en Acceso rápido](../../assets/permissions/rtcdp-experience-cloud.png)
+
+## Pasos siguientes
+
+Ahora que los usuarios tienen acceso a Real-Time CDP Collaboration, pueden empezar a utilizar el producto. Para obtener más información sobre el producto en su conjunto, lea la [guía de información general](../home.md).
