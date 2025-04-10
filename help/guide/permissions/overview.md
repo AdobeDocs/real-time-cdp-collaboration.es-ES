@@ -23,7 +23,7 @@ El control de acceso para Real-Time Customer Data Platform (CDP) Collaboration s
 
 ## Jerarquía de control de acceso {#hierarchy}
 
-Para configurar control de acceso a Real-Time CDP Collaboration, **debe** tener privilegios de administrador del sistema o del producto. Un administrador de sistema no tiene restricciones y se aprovisiona durante el proceso de incorporación. Mientras tanto, un administrador de productos puede proporcionar funciones administrativas para todos los productos a los que se le han asignado. Un administrador del sistema debe otorgar acceso administrativo y de producto a un administrador de productos.
+Para configurar el control de acceso a Real-Time CDP Collaboration, **debe** tener privilegios de administrador de sistemas o productos. Un administrador del sistema no tiene restricciones y se aprovisiona durante el proceso de incorporación. Mientras tanto, un administrador de productos puede proporcionar funciones administrativas para todos los productos a los que se les ha asignado. Un administrador del sistema debe otorgar acceso administrativo y de producto a un administrador de productos.
 
 En estas guías se describe la configuración del acceso para administradores del sistema, administradores de productos y usuarios finales. Consulte la tabla siguiente para comprender la diferencia clave entre las funciones.
 
@@ -47,8 +47,8 @@ Antes de que puedas dar acceso a Real-Time CDP Collaboration, necesitarás acces
 
 | Producto | Usos |
 | --- | --- |
-| [Admin Console](https://adminconsole.adobe.com/) | Los administradores utilizan esto para asignar a los usuarios acceso de administrador y/o producto. |
-| [Permisos](https://experience.adobe.com/) | Los administradores la utilizan para asignar funciones a los administradores o usuarios finales. |
+| [Admin Console](https://adminconsole.adobe.com/) | Los administradores utilizan esto para asignar a los usuarios acceso de producto o administrador. |
+| [Permisos](https://experience.adobe.com/) | Los administradores utilizan esta opción para asignar funciones de administrador o de usuario final. |
 | [Experience Platform](https://platform.adobe.com/) | Los administradores y los usuarios finales deben tener acceso al producto de Experience Platform para asignarlos a funciones. |
 
 ## Por dónde empezar {#use-cases}
@@ -66,8 +66,8 @@ Consulte el gráfico siguiente para determinar quién es necesario para configur
 
 | Ejemplo de uso | Función requerida | Por dónde empezar |
 | --- | --- | --- | 
-| Superusuario sin acceso a producto de Experience Platform existente. | Un administrador del sistema. | [Configuración del acceso de administrador de producto](./manage-user-access.md#admin-access) |
-| Super usuario para un administrador **de sistema Experience Platform existente con** acceso Experience Platform IU. | Un administrador del sistema. | [Configurar el acceso a Real-Time CDP Collaboration](./manage-user-access.md#RTCDP-collab-access) |
+| Superusuario sin acceso a producto de Experience Platform existente. | Un administrador del sistema. | [Configurar el acceso de administrador de productos](./manage-user-access.md#admin-access) |
+| Superusuario para un administrador de sistema de Experience Platform existente **con** acceso a la interfaz de usuario de Experience Platform. | Un administrador del sistema. | [Configurar el acceso a Real-Time CDP Collaboration](./manage-user-access.md#RTCDP-collab-access) |
 | Superusuario para un administrador de sistema de Experience Platform existente **sin** acceso a la interfaz de usuario de Experience Platform. | Un administrador del sistema. | [Configurar el acceso de administrador de productos](./manage-user-access.md#admin-access) |
 | Privilegios de administrador de productos y acceso a Real-Time CDP Collaboration para un nuevo administrador de productos. | Un administrador del sistema. | [Configurar el acceso de administrador de productos](./manage-user-access.md#admin-access) |
 | Acceso a Real-Time CDP Collaboration para un administrador de productos de Experience Platform existente **con** acceso a la interfaz de usuario de Experience Platform. | Un administrador de sistemas o productos. | [Configurar el acceso a Real-Time CDP Collaboration](./manage-user-access.md#RTCDP-collab-access) |
@@ -79,7 +79,7 @@ Consulte el gráfico siguiente para determinar quién es necesario para configur
 
 ## Permisos adicionales
 
-Una vez que haya obtenido acceso a Real-Time CDP Collaboration, es posible que necesite algunos permisos de Experience Platform adicionales para funcionalidad específicos.
+Una vez que haya obtenido acceso a Real-Time CDP Collaboration, es posible que necesite algunos permisos de Experience Platform adicionales para una funcionalidad específica.
 
 ### Importación de audiencias {#audience-importation}
 

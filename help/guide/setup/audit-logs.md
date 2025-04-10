@@ -23,7 +23,7 @@ Utilice la funcionalidad de registros de auditoría de Real-Time CDP Collaborati
 
 ![Pantalla de información general de alto nivel sobre la funcionalidad de registros de auditoría](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Para obtener información más completa acerca de los registros de auditoría, visite la [Documentación de registros de auditoría de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Para obtener información más completa acerca de los registros de auditoría, visite la [documentación de los registros de auditoría de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Acceder a registros de auditoría
 

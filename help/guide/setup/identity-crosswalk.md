@@ -1,6 +1,6 @@
 ---
 title: Cruces de identidades
-description: Learn all about identity crosswalks in Real-Time CDP Collaboration, including how bring identity crosswalks in from different sources, and how to manage identity crosswalks
+description: Conozca todo acerca de los pasos transversales de identidad en Real-Time CDP Collaboration, incluyendo cómo traer pasos transversales de identidad de diferentes fuentes y cómo administrar los pasos transversales de identidad
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
@@ -34,9 +34,9 @@ Como primer paso, debe importar pasos transversales de identidad en Real-Time CD
 
 ## Importación de pasos de identidad en Real-Time CDP Collaboration {#import-crosswalk}
 
-Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Identity crosswalks]** tab, select the Plus **+** symbol, and select **[!UICONTROL Identity crosswalk]**
+Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Cruces de identidad]**, seleccione el símbolo Más **+** y seleccione **[!UICONTROL Cruce de identidad]**
 
-![Recording of how to get to the screen to add identity crosswalks](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
+![Grabación de cómo llegar a la pantalla para agregar cruces de identidad](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
 ### Seleccionar fuente de cruce
 
@@ -73,8 +73,8 @@ Seleccione la clave de unión que desee para la tabla de cruce y seleccione **[!
 
 ### Revisar
 
-Revise cualquiera de las selecciones de las pantallas anteriores. When satisfied with your selection, select **[!UICONTROL Next]** to complete the workflow.
+Revise cualquiera de las selecciones de las pantallas anteriores. Cuando esté satisfecho con la selección, seleccione **[!UICONTROL Siguiente]** para completar el flujo de trabajo.
 
 ## Pasos siguientes
 
-After learning how to import identity crosswalks into Real-Time CDP, you can view all the identity crosswalks that you have so far added to Real-Time CDP Collaboration. You can also now use the identity crosswalks that you have imported when importing audiences into Real-Time CDP Collaboration.
+Después de aprender a importar pasos de identidad en Real-Time CDP, puede ver todos los pasos de identidad que ha agregado hasta ahora a Real-Time CDP Collaboration. Ahora también puede utilizar los pasos de identidad que ha importado al importar audiencias en Real-Time CDP Collaboration.

@@ -15,7 +15,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Para administrar el acceso de usuarios a diferentes componentes de la interfaz de usuario de Real-Time CDP Collaboration, un [administrador](./manage-user-access.md#system-admin-gain-access) puede definir y asignar funciones. Las funciones definen el acceso que un administrador o usuario tiene a [recursos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) en su organización. Esta guía proporciona información sobre las funciones estándar que se proporcionan en Real-Time CDP Collaboration, así como los permisos individuales que se pueden asignar a las funciones personalizadas.
+Para administrar el acceso de usuarios a diferentes componentes de la interfaz de usuario de Real-Time CDP Collaboration, un [administrador](./manage-user-access.md#system-admin-gain-access) puede definir y asignar funciones. Las funciones definen el acceso que un administrador o usuario tiene a [recursos](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions){target="_blank"} en su organización. Esta guía proporciona información sobre las funciones estándar que se proporcionan en Real-Time CDP Collaboration, así como los permisos individuales que se pueden asignar a las funciones personalizadas.
 
 Para empezar a administrar funciones, un administrador deberá tener acceso al producto Experience Platform. Para obtener información sobre cómo obtener acceso administrativo o sobre cómo obtener acceso a Experience Platform, lea la guía [administrar el acceso de usuario](./manage-user-access.md#manage-user-access-through-permissions).
 
@@ -32,7 +32,7 @@ Se le han proporcionado dos funciones estándar que rellenan dos casos de uso co
 
 ## Crear funciones de acceso específicas {#specific-access-roles}
 
-Es probable que desee crear funciones adicionales para proporcionar distintos niveles de acceso a distintos usuarios. Al crear funciones, puede administrar diferentes niveles de acceso seleccionando permisos específicos en el recurso **[!UICONTROL Colaboraciones]**. Para aprender a crear y administrar roles, consulte la guía [roles](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role).
+Es probable que desee crear funciones adicionales para proporcionar distintos niveles de acceso a distintos usuarios. Al crear funciones, puede administrar diferentes niveles de acceso seleccionando permisos específicos en el recurso **[!UICONTROL Colaboraciones]**. Para obtener información sobre cómo crear y administrar roles, consulte la guía [roles](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}.
 
 >[!NOTE]
 > Para obtener acceso a Real-Time CDP Collaboration, un usuario debe tener acceso a la zona protegida **[!UICONTROL Prod]** en Experience Platform. Para que un usuario tenga acceso a esta zona protegida, debe asignársele un rol que contenga el permiso **[!UICONTROL Prod]** en el recurso **[!UICONTROL Sandboxes]**.

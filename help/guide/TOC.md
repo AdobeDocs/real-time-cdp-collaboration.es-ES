@@ -5,7 +5,7 @@ user-guide-description: Adobe Real-Time CDP Collaboration permite un uso compart
 source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 21%
    * [Cruces de identidades](./setup/identity-crosswalk.md)
    * [Adición y administración de datos de medición](./setup/onboard-measurement-data.md)
    * [Registros de auditoría](./setup/audit-logs.md)
-* Conectar con editor o anunciante {#connect}
+* Conectar con el editor o anunciante {#connect}
    * [Descubrir editores](./connect/discover-publishers.md)
    * [Descubre anunciantes](./connect/discover-advertisers.md)
    * [Conectar con anunciantes o editores](./connect/establishing-connections.md)
@@ -39,7 +39,7 @@ ht-degree: 21%
    * [Información general](/help/guide/permissions/overview.md)
    * [Administrar el acceso de usuario](/help/guide/permissions/manage-user-access.md)
    * [Administrar funciones](/help/guide/permissions/manage-roles.md)
-* Ejemplos de uso {#use-cases}
+* Casos de uso de muestra {#use-cases}
    * [Medición de campañas](./use-cases/campaign-measurement.md)
    * [Prospección](./use-cases/prospecting.md)
    * [Retargeting](./use-cases/retargeting.md)

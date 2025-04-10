@@ -1,6 +1,6 @@
 ---
-title: Principales ventajas y casos de uso de Adobe Systems colaboración CDP en tiempo real
-description: Comprenda los principales beneficios y casos de uso de Adobe Systems colaboración de CDP en tiempo real
+title: Principales ventajas y casos de uso de Adobe Real-Time CDP Collaboration
+description: Comprender las principales ventajas y casos de uso de Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
@@ -11,28 +11,28 @@ ht-degree: 2%
 
 ---
 
-# Principales ventajas y casos de uso de Adobe Systems colaboración CDP en tiempo real
+# Principales ventajas y casos de uso de Adobe Real-Time CDP Collaboration
 
 {{limited-availability-release-note}}
 
-Adobe Systems Real-Time CDP Collaboration proporciona las capacidades esenciales para descubrir, activar y medir a sus audiencias de manera efectiva, asegurando que sus estrategias de marketing permanezcan sólidas y basadas en datos, todo esto en un espacio de privacidad primero.
+Adobe Real-Time CDP Collaboration proporciona las funciones esenciales para descubrir, activar y medir sus audiencias de forma eficaz, lo que garantiza que sus estrategias de marketing sigan siendo sólidas y estén basadas en datos. Todo esto en un espacio con prioridad de privacidad.
 
-![Beneficios y casos de uso de la colaboración CDP en tiempo real](/help/assets/benefits-use-cases/discover-activate-measure.png)
+![Ventajas y casos de uso de Real-Time CDP Collaboration](/help/assets/benefits-use-cases/discover-activate-measure.png)
 
 ## Descubrir {#discover}
 
-Utilice tableros e informes para descubrir audiencias para colaboración de publicador marca.
-Como anunciante trabaja con Real-Time CDP Collaboration, acceda y comprenda audiencia superposiciones para desbloquear oportunidades de reorientación, supresión y posible prospección de una amplia inventario de editores.
+Utilice paneles e informes para descubrir audiencias y colaborar de marca a editor.
+Como anunciante que trabaja con Real-Time CDP Collaboration, acceda y comprenda las superposiciones de audiencias para desbloquear las oportunidades de retargeting, supresión y posible prospección de un amplio inventario de editores.
 
 ## Activar {#activate}
 
-Los publicadores pueden activar audiencias de forma segura desde Adobe Systems CDP en tiempo real, nube almacenes de datos (versión futura) y otros sistemas (versión futura) para las campañas.
-En una versión futura, trabaje con los socios de identidad seleccionados para impulsar identidades reales y utilice los cruces peatonales de identidad para ampliar el alcance.
+Los editores pueden activar de forma segura audiencias de Adobe Real-Time CDP, los almacenes de datos en la nube (versión futura) y otros sistemas (versión futura) para campañas.
+En una versión futura, trabaje con los socios de identidad seleccionados para aprovechar las identidades reales y utilizar pasos cruzados de identidad para ampliar el alcance.
 
 ## Medida {#measure}
 
-Combine y explore los participación conocidos de los clientes de diversas fuentes, como impresiones de la web y más.
-Ver rendimiento de la campaña en informes simplificados y personalizables.
+Combine y explore la participación de clientes conocidos desde varias fuentes, como impresiones web y mucho más.
+Vea el rendimiento de la campaña en informes simplificados y personalizables.
 
 <!--
 

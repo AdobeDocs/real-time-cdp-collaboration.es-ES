@@ -91,15 +91,15 @@ A continuación, debe asegurarse de que las acciones de marketing correctas se e
 
 Utilice acciones de marketing para controlar qué datos de audiencia se importarán en Real-Time CDP Collaboration desde Experience Platform. La acción de marketing **Data Collaboration** admite etiquetas de uso de datos C4, C5 y C9. La acción de marketing **Data Science** admite la etiqueta de uso de datos C9.
 
-Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract).
+Obtenga más información sobre las etiquetas de uso de datos [C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Con la casilla de verificación *habilitada*, cualquier dato marcado con las etiquetas llamadas arriba en Experience Platform se excluye y *no* se trae a Real-Time CDP Collaboration.
 * Con la casilla de verificación *deshabilitada*, no hay restricciones en los datos de Experience Platform que se pueden importar a Real-Time CDP Collaboration.
 
 Obtenga más información sobre las etiquetas de uso de datos en la documentación de Experience Platform:
 
-* [Información general sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview)
-* [Glosario de etiquetas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference)
+* [Resumen de etiquetas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}
+* [Glosario de etiquetas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 ![Acciones de marketing necesarias para la colaboración de datos.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
 
@@ -337,7 +337,7 @@ Seleccione si la audiencia debe ser privada para usted o utilizable y detectable
 
 >[!IMPORTANT]
 >
->Independientemente del estado del acceso (público, privado o personalizado), la población de cualquier audiencia contribuye a la población de **[!UICONTROL Todas las audiencias]** en la vista de análisis de superposición de Audience Discovery. <br> ![El audiencia de superposición de Todas las **audiencias generado** por el sistema en la análisis de superposición de Audience Discovery incluye audiencias con todos los estados de acceso de conexión (público, privado y personalizado).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "La audiencia **Todas las audiencias** generada por el sistema en el análisis de superposición **Detección de audiencias** incluye audiencias con todos los estados de acceso a la conexión (pública, privada, personalizada).")
+>Independientemente del estado del acceso (público, privado o personalizado), la población de cualquier audiencia contribuye a la población de **[!UICONTROL Todas las audiencias]** en la vista de análisis de superposición de Audience Discovery. <br> ![La audiencia de **Todas las audiencias** generada por el sistema en el análisis de superposición de detección de audiencias incluye audiencias con todos los estados de acceso a la conexión (pública, privada o personalizada).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "La audiencia **Todas las audiencias** generada por el sistema en el análisis de superposición **Detección de audiencias** incluye audiencias con todos los estados de acceso a la conexión (pública, privada, personalizada)."){width="100" zoomable="yes"}
 
 La disponibilidad de la audiencia para su uso en proyectos con colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar la conexión de acceso de privada a pública, pero no puede volver a cambiar esa configuración una vez que una audiencia se comparte con los colaboradores.
 
