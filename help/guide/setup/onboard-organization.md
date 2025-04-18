@@ -4,7 +4,7 @@ description: Aprenda a incorporar y administrar varios aspectos de su organizaci
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: a93ba1bc2aa043fcc1519ec2e1cc79435175d71c
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 1%
