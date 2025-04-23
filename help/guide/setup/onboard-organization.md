@@ -4,9 +4,9 @@ description: Aprenda a incorporar y administrar varios aspectos de su organizaci
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: a93ba1bc2aa043fcc1519ec2e1cc79435175d71c
+source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Seleccione las claves de coincidencia que desee utilizar para reconciliar a los 
 
 ![Paso de selección de claves coincidentes.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
-Seleccione hasta cinco claves de coincidencia que desee utilizar. Posteriormente, al configurar las conexiones, puede quitar las claves de coincidencia no deseadas, pero no puede agregar nuevas. Defina el umbral de recuento de identidades (recuento mínimo) para cada clave de coincidencia seleccionada. Las claves de coincidencia con menos del recuento mínimo no aparecerán en los desgloses de identidad para algunos casos de uso.
+Seleccione hasta cinco claves de coincidencia que desee utilizar. Posteriormente, al configurar las conexiones, puede quitar las claves de coincidencia no deseadas, pero no puede agregar nuevas.
 
 Las claves de coincidencia disponibles en Real-Time CDP Collaboration pueden ser de tres tipos:
 
