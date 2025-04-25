@@ -4,9 +4,9 @@ description: Aprenda a incorporar y administrar varios aspectos de su organizaci
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f146a39ab69a9a41bb12aeb59b0d23ae567cf4c2
+source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '830'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,11 @@ El flujo de trabajo para configurar su organización incluye las dos páginas si
 >Las *claves de coincidencia* que seleccione en el nivel de organización se filtrarán al [nivel de proyecto](/help/guide/collaborate/manage-projects.md) en colaboración entre anunciantes y editores. En el nivel de proyecto, usted puede eliminar cualquier clave de coincidencia, pero *no* puede agregar ninguna clave adicional que no se haya seleccionado en el nivel de organización en esta pantalla.
 
 ### Configuración de detalles {#set-up-details}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_contact_email"
+>title="Correo electrónico de contacto"
+>abstract="Proporcione un correo electrónico basado en roles o equipo, como `collaboration@yourcompany.com`. No se deben utilizar direcciones de correo electrónico personales o individuales."
 
 ![Los detalles y pasos de casos de uso para configurar una organización](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
 
