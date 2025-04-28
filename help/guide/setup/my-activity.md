@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo rastrear la actividad de consumo d
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: a69d4405c47824c8afabc84782dc9f8a9d70763a
+source-git-commit: 3aec9806d2ea920d656bb0981f22ba31fd8ae3ee
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ El panel de actividad muestra una lista completa de todas las operaciones de con
 | **[!UICONTROL Id. de conexión]** | Un identificador único para cada conexión asociada con una actividad que consume crédito, representada como una cadena alfanumérica. |
 | **[!UICONTROL Nombre de conexión]** | El nombre del colaborador asociado con la conexión y la actividad consumidora de crédito. |
 | **[!UICONTROL Actividad]** | El tipo de actividad realizada, como **Activación - Uso compartido**, **Activación - Salida** o **Gestión de público**. |
-| **[!UICONTROL Entradas procesadas]** | Número total de entradas (por ejemplo, ID o filas) procesadas para la actividad, medidas en millones. Esto le ayuda a comprender el coste de la actividad correlacionándola con su CPM (coste por mil) para calcular el coste aproximado. |
+| **[!UICONTROL Entradas procesadas]** | Número total de entradas (por ejemplo, ID o filas) procesadas para la actividad. |
 | **[!UICONTROL Créditos totales utilizados]** | Número total de créditos consumidos por la actividad. |
 | **[!UICONTROL Mi recurso compartido de crédito]** | La parte de los créditos utilizados para la actividad de su organización. |
 

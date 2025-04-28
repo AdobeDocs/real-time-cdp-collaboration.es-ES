@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear y administrar proyectos en A
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: 55835f1e37975793f3a96c79e7c3a5bfeabfc88e
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '398'
 ht-degree: 3%
 
 ---
@@ -28,6 +28,11 @@ Puede utilizar filtros para ver únicamente los proyectos que ha iniciado con ci
 ![Vista filtrada de proyectos con un solo colaborador.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Crear proyecto {#create-project}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_manage_projects_advertiser_name"
+>title="Nombre del anunciante"
+>abstract="Seleccione el nombre del anunciante en el menú desplegable. El editor preconfigura las opciones en la configuración de conexión para garantizar la compatibilidad con sus sistemas."
 
 Para crear un proyecto, seleccione el símbolo Más **+** en la esquina superior derecha. O, si este es su primer proyecto, vaya a **[!UICONTROL Colaborar]** > **[!UICONTROL Mis proyectos]** y seleccione **[!UICONTROL Crear un proyecto]**.
 
