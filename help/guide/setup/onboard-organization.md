@@ -4,7 +4,7 @@ description: Aprenda a incorporar y administrar varios aspectos de su organizaci
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: b9aa8851799ddb492daeb13842a2cad39e84899e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 1%
@@ -81,7 +81,7 @@ Cuando esté satisfecho con su selección, use **[!UICONTROL Siguiente]** para c
 >title="ID de socios admitidos"
 >abstract="Los ID de socio asociados con perfiles amplían el alcance a un perfil determinado."
 
-Las claves de coincidencia, como las direcciones de correo electrónico, los ID de dispositivo o los ID de cliente, ayudan a los anunciantes y editores a trabajar juntos al habilitar una sincronización de datos precisa y compatible con la privacidad, lo que permite una segmentación y medición de audiencias más precisas.
+Las claves de coincidencia, como las direcciones de correo electrónico, los ID de dispositivo o los ID de cliente, ayudan a los anunciantes y editores a trabajar juntos, ya que permiten una sincronización de datos precisa y centrada en la privacidad, lo que permite una segmentación y medición de audiencias más precisas.
 
 ![Diapositiva que muestra los identificadores disponibles para la primera versión de Real-Time CDP Collaboration.](/help/assets/setup/manage-organization/available-identifiers.png)
 

@@ -4,7 +4,7 @@ description: Comprender el flujo de trabajo de extremo a extremo del uso de Real
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
+source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform (CDP) Collaboration permite a los anunciantes y editores colaborar en campañas de una manera que prioriza la privacidad. Lea esta página para comprender el flujo de trabajo y sacar el máximo partido al producto, como anunciante o editor.
+Adobe Real-Time Customer Data Platform (CDP) Collaboration permite a los anunciantes y editores colaborar en campañas de una manera centrada en la privacidad. Lea esta página para comprender el flujo de trabajo y sacar el máximo partido al producto, como anunciante o editor.
 
 ## Flujo de trabajo completo del anunciante {#advertiser}
 
