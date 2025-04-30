@@ -4,9 +4,9 @@ description: Siga las últimas versiones de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: 5b331e2de1c91dd566f1139e57d44a47dd01dba5
+source-git-commit: fd19bb0fb0f09f5d704ce05ae719119287cbdc30
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '411'
 ht-degree: 5%
 
 ---
@@ -15,19 +15,14 @@ ht-degree: 5%
 
 {{limited-availability-release-note}}
 
-**Última actualización**: marzo de 2025.
-
-<!--**Last update**: April, 2025. uncomment when ready to release and delete line above-->
+**Última actualización**: abril de 2025.
 
 Estas notas de la versión abarcan la funcionalidad incluida en Real-Time Customer Data Platform Collaboration. Las versiones de Real-Time CDP Collaboration funcionan con un modelo de entrega continua, que permite una cadencia de versión mensual aproximada. Estas notas de la versión se actualizan con frecuencia, por lo que asegúrese de consultarlas regularmente.
 
-<!--
+## Abril de 2025 {#april-2025}
 
-## April 2025 {#april-2025}
-
-* A new **Inputs Processed** column has been added to the credit consumption activity table. This column displays the total number of inputs (for example, IDs or rows) processed for each activity. [Read more](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Inputs processed column highighted in My activity view.](/help/assets/release-notes/2025/inputs-processed-column.png "Inputs processed column highighted in My activity view."){width="250" align="center" zoomable="yes"}
-
--->
+* Se ha agregado una nueva columna **Entradas procesadas** a la tabla de actividad de consumo de crédito. Esta columna muestra el número total de entradas (por ejemplo, ID o filas) procesadas para cada actividad. [Más información](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Columna de entradas procesadas resaltada en Mi vista de actividad.](/help/assets/release-notes/2025/inputs-processed-column.png "Columna de entradas procesadas resaltada en Mi vista de actividad."){width="250" align="center" zoomable="yes"}
+* Se ha añadido una nueva opción de correo electrónico de contacto a la creación de cuentas. Esto ayuda a los colaboradores de los socios a ponerse en contacto con usted según sea necesario durante el proceso de conexión. [Más información](../setup/onboard-organization.md).
 
 ## Marzo de 2025 {#march-2025}
 
