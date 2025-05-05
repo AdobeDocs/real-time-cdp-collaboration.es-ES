@@ -7,7 +7,7 @@ exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 1%
+ht-degree: 24%
 
 ---
 
@@ -46,27 +46,27 @@ Una vez cumplidos los requisitos previos mencionados, puede empezar a explorar y
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_compare_audiences"
 >title="Comparar públicos"
->abstract="Descubra las superposiciones entre las audiencias de y del colaborador. Puede ajustar la configuración en el selector desplegable para detectar superposiciones entre una o más audiencias y una o más de las audiencias del colaborador."
+>abstract="Descubra los solapamientos entre sus públicos y los de de su colaborador. Puede ajustar la configuración en el selector desplegable para detectar los solapamientos entre uno o varios de sus públicos y uno o varios públicos de su colaborador."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
->title="Su recuento de identidad"
->abstract="El número de perfiles con esa identidad seleccionada que forman parte de la audiencia seleccionada"
+>title="Su recuento de identidades"
+>abstract="El número de perfiles con esa identidad seleccionada que forman parte de su público seleccionado"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
->title="Recuento de identidad de Collaborator"
->abstract="El número de perfiles con esa identidad seleccionada que forman parte de la audiencia seleccionada del colaborador"
+>title="Recuento de identidades del colaborador"
+>abstract="El número de perfiles con esa identidad seleccionada que forman parte del público seleccionado de su colaborador"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
->title="Recuento de identidades superpuestas"
->abstract="El número de perfiles con esa identidad seleccionada que están presentes tanto en la audiencia de como en la de su colaborador"
+>title="Recuento de identidades solapadas"
+>abstract="El número de perfiles con esa identidad seleccionada que están presentes tanto en su público como en el de su colaborador"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
->title="Porcentaje de identidades superpuestas"
->abstract="El porcentaje de perfiles que se superponen entre el y la audiencia seleccionada del colaborador."
+>title="Porcentaje de identidades solapadas"
+>abstract="El porcentaje de perfiles que se solapan entre el público seleccionado por usted y el seleccionado por su colaborador."
 
 Utilice la tarjeta Comparar audiencias para obtener información enriquecida sobre la superposición entre las audiencias de y de su colaborador. Puede seleccionar comparar cualquiera de las siguientes combinaciones de audiencias:
 
@@ -82,7 +82,7 @@ La información mostrada está relacionada con lo siguiente:
 | **[!UICONTROL Recuento de identidades]** (suyos) | El número de perfiles con una identidad seleccionada que forman parte de la audiencia seleccionada. |
 | **[!UICONTROL Recuento de identidades]** (su colaborador) | El número de perfiles con una identidad seleccionada que forman parte de la audiencia seleccionada del colaborador. |
 | **[!UICONTROL Identidades superpuestas]** | El número de perfiles con una identidad seleccionada que están presentes tanto en la audiencia de como en la de su colaborador. |
-| **[!UICONTROL Porcentaje de superposición]** | El porcentaje de perfiles que se superponen entre el y la audiencia seleccionada del colaborador. |
+| **[!UICONTROL Porcentaje de superposición]** | El porcentaje de perfiles que se solapan entre el público seleccionado por usted y el seleccionado por su colaborador. |
 | **[!UICONTROL Desglose de identidades por clave de coincidencia]** | En función de las claves de coincidencia que usted y su colaborador hayan acordado para el proyecto, visualice la composición de las identidades en los cálculos de superposición por claves de coincidencia individuales. |
 
 {style="table-layout:auto"}
@@ -96,7 +96,7 @@ La información mostrada está relacionada con lo siguiente:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="Públicos relevantes"
->abstract="En función de los porcentajes de superposición, estas audiencias de editor pueden ser adecuadas para la campaña. <br><br>: <b>el recuento de identidades</b> es el tamaño de audiencia del editor. <br><br> <b>Identidades superpuestas</b> representa la superposición entre la audiencia del editor recomendado y todas las audiencias del anunciante. <br><br> <b>Superposición %</b> representa el número de identidades superpuestas dividido por el tamaño de <i>todas</i> las audiencias de anunciante."
+>abstract="En función de los porcentajes de solapamiento, estos públicos del publicador pueden ser adecuados para su campaña. <br><br> <b>El recuento de identidades</b> es el tamaño de público del publicador. <br><br> <b>Identidades solapadas</b> representa el solapamiento entre el público del publicador recomendado y todos los públicos del anunciante. <br><br> El <b>% de solapamiento</b> representa el número de identidades solapadas dividido por el tamaño de <i>todos</i> los públicos del anunciante."
 
 La vista **[!UICONTROL Audiencias relevantes]** del módulo **[!UICONTROL Discover]** proporciona una lista revisada de las cinco audiencias principales en función del porcentaje de superposición. Esta función le ayuda a identificar rápidamente las audiencias con la mayor superposición con los datos actuales, lo que le permite segmentar las campañas de forma más eficaz.
 
@@ -106,12 +106,12 @@ La vista **[!UICONTROL Audiencias relevantes]** del módulo **[!UICONTROL Discov
 
 ![Vista de audiencias relevantes](/help/assets/collaborate/discover-overlaps/relevant-audiences-highlighted.png)
 
-## Detectar superposiciones {#discover-overlaps}
+## Detecctar solapamientos {#discover-overlaps}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
->title="Detección de superposiciones con audiencias individuales"
->abstract="Obtenga información sobre la población de esta audiencia y sus superposiciones con el universo de identidades del colaborador."
+>title="Detectar solapamientos con públicos individuales"
+>abstract="Obtenga información sobre la población de este público y sus superposiciones con el universo de identidades del colaborador."
 
 ![Detectar superposiciones con distintas vistas de audiencias](/help/assets/collaborate/discover-overlaps/discover-overlaps-cards-view.png)
 

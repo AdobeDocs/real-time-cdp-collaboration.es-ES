@@ -7,7 +7,7 @@ exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
@@ -60,26 +60,26 @@ El flujo de trabajo para configurar su organización incluye las dos páginas si
 
 Cuando esté satisfecho con su selección, use **[!UICONTROL Siguiente]** para continuar a la página siguiente y seleccionar las claves de coincidencia que su organización debería usar.
 
-### Configuración de claves de coincidencia {#set-up-match-keys}
+### Configurar claves de coincidencia {#set-up-match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Claves de coincidencia"
->abstract="Las claves de coincidencia son identificadores utilizados para reconciliar miembros entre audiencias de diferentes fuentes de datos. Incluya cualquier clave de coincidencia con la que pueda trabajar su compañía."
+>abstract="Las claves de coincidencia son identificadores que se utilizan para reconciliar miembros entre los públicos de diferentes fuentes de datos. Incluya cualquier clave de coincidencia con la que pueda trabajar su compañía."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="ID de personas de origen"
->abstract="Los ID de personas de origen, como las direcciones de correo electrónico con hash o los números de teléfono, están conectados directamente a un perfil individual. Los ID admitidos actualmente son correos electrónicos con hash y números de teléfono."
+>title="ID de personas propios"
+>abstract="Los ID de personas propios, como las direcciones de correo electrónico con hash o los números de teléfono, están conectados directamente a un perfil individual. Los ID admitidos actualmente son correos electrónicos con hash y números de teléfono."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="ID de dispositivos propios"
->abstract="Los ID de dispositivos de origen, como ECID o direcciones IP, se conectan directamente a los dispositivos, que pueden compartirse entre varias personas. IPv4 es el único ID de dispositivo de origen compatible actualmente."
+>abstract="Los ID de dispositivos propios, como las direcciones ECID o IP, se conectan directamente a los dispositivos, que pueden compartirse entre varias personas. IPv4 es el único ID de dispositivo propio compatible actualmente."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
->title="ID de socios admitidos"
+>title="ID de socios compatibles"
 >abstract="Los ID de socio asociados con perfiles amplían el alcance a un perfil determinado."
 
 Las claves de coincidencia, como las direcciones de correo electrónico, los ID de dispositivo o los ID de cliente, ayudan a los anunciantes y editores a trabajar juntos, ya que permiten una sincronización de datos precisa y centrada en la privacidad, lo que permite una segmentación y medición de audiencias más precisas.
@@ -94,7 +94,7 @@ Seleccione hasta cinco claves de coincidencia que desee utilizar. Posteriormente
 
 Las claves de coincidencia disponibles en Real-Time CDP Collaboration pueden ser de tres tipos:
 
-* ID de personas de origen
+* ID de personas propios
 * ID de dispositivos propios
 * ID de socios
 

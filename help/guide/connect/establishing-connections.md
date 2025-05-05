@@ -7,7 +7,7 @@ exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 81cedb2a06d930734b1f97304de82d450c06bf79
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -47,7 +47,7 @@ En este punto, la invitación no está disponible y puede obtener una vista prev
 
 Una vez que el colaborador acepta la invitación, puede configurar los ajustes de conexión y enviarlos al colaborador para que los revise y acepte.
 
-## Configuración de conexión {#connection-settings}
+## Configuración de la conexión {#connection-settings}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
@@ -61,13 +61,13 @@ Una vez que el colaborador acepta la invitación, puede configurar los ajustes d
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
->title="División de crédito"
->abstract="Esta sección determina quién paga las actividades correspondientes dentro de Real-Time CDP Collaboration. Actualmente, solo se puede configurar el caso de uso compartido de audiencia."
+>title="Pago dividido"
+>abstract="Esta sección determina quién paga las actividades correspondientes dentro de Real-Time CDP Collaboration. Actualmente, solo se puede configurar el caso de uso compartido de públicos."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Uso compartido de audiencias"
->abstract="Compartir audiencias es la actividad que una parte realiza al solicitar que su socio de colaboración active sus datos coincidentes."
+>abstract="El uso compartido de públicos es la actividad que una parte realiza al solicitar que su socio de colaboración active sus datos coincidentes."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"

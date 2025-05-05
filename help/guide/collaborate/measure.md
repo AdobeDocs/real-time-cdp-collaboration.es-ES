@@ -7,7 +7,7 @@ exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -50,11 +50,11 @@ La vista de la parte superior de la página en la pestaña de medición muestra 
 
 ![Vista de resumen de campaña](/help/assets/collaborate/measure/campaign-summary.png)
 
-### Métricas acumuladas {#metrics-over-time}
+### Métricas a lo largo del tiempo {#metrics-over-time}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measure_metricsovertime"
->title="Métricas acumuladas"
+>title="Métricas a lo largo del tiempo"
 >abstract="Utilice la vista de métricas a lo largo del tiempo para comprender la cantidad total de impresiones que se muestran para su creativo durante el periodo de la campaña. Puede seleccionar un máximo de dos dimensiones para mostrarlas en el informe."
 
 Utilice la vista de métricas a lo largo del tiempo para comprender la cantidad total de impresiones que se muestran para su creativo durante el periodo de la campaña. Tenga en cuenta que puede seleccionar un máximo de dos métricas para mostrarlas y analizarlas en el informe.

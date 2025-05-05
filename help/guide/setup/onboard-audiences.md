@@ -7,7 +7,7 @@ exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: ff22dde9730fab89481338753b1dc4a0adf1d57e
 workflow-type: tm+mt
 source-wordcount: '2642'
-ht-degree: 2%
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ Utilice esta página como referencia para comprender todas las métricas relevan
 Lo que encontrará en esta página de documentación:
 
 * [Importación de audiencias en Real-Time CDP Collaboration](#import-audiences)
-* [Ver panel de audiencias](#view-audiences-dashboard)
+* [Panel de vista de públicos](#view-audiences-dashboard)
 * [Ver audiencias individuales](#view-individual-audiences)
 
 >[!ENDSHADEBOX]
@@ -49,10 +49,10 @@ En la ficha **[!UICONTROL Mis audiencias]**, seleccione el símbolo Más **+** y
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
->title="Acciones de marketing"
->abstract="<p>Utilice acciones de marketing para controlar qué datos de audiencia se importarán en Real-Time CDP Collaboration desde Experience Platform. La acción de marketing <strong>Data Collaboration</strong> admite etiquetas de uso de datos C4, C5 y C9. La acción de marketing <strong>Data Science</strong> admite la etiqueta de uso de datos C9.</p> <p> <ul><li> Con la casilla de verificación <em>habilitada</em>, cualquier dato marcado con las etiquetas llamadas arriba en Experience Platform se excluye y <strong>no</strong> se trae a Real-Time CDP Collaboration.</li><li> Con la casilla de verificación <em>deshabilitada</em>, no hay restricciones en los datos de Experience Platform que se pueden importar a Real-Time CDP Collaboration.</li></ul></p>"
+>title="Acción de marketing"
+>abstract="<p>Utilice acciones de marketing para controlar qué datos del público se importarán a Real-Time CDP Collaboration desde Experience Platform. La acción de marketing <strong>Colaboración de datos</strong> admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing <strong>Ciencia de datos</strong> admite la etiqueta de uso de datos C9.</p> <p> <ul><li> Con la casilla de verificación <em>habilitada</em>, cualquier dato marcado con las etiquetas llamadas arriba en Experience Platform se excluye y <strong>no</strong> se incorpora a Real-Time CDP Collaboration.</li><li> Con la casilla de verificación <em>deshabilitada</em>, no hay restricciones en los datos de Experience Platform que se pueden importar a Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=es" text="Información general sobre las etiquetas de uso de datos"
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html" text="Glosario de etiquetas de uso de datos"
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es" text="Glosario de etiquetas de uso de datos"
 
 >[!IMPORTANT]
 >
@@ -89,11 +89,11 @@ Seleccione **[!UICONTROL Siguiente]** después de seleccionar la zona protegida 
 
 A continuación, debe asegurarse de que las acciones de marketing correctas se establecen en los datos importados. También debe dar su consentimiento para que los datos importados de Real-Time CDP se utilicen para la colaboración de datos.
 
-Utilice acciones de marketing para controlar qué datos de audiencia se importarán en Real-Time CDP Collaboration desde Experience Platform. La acción de marketing **Data Collaboration** admite etiquetas de uso de datos C4, C5 y C9. La acción de marketing **Data Science** admite la etiqueta de uso de datos C9.
+Utilice acciones de marketing para controlar qué datos del público se importarán a Real-Time CDP Collaboration desde Experience Platform. La acción de marketing **Colaboración de datos** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **Ciencia de datos** admite la etiqueta de uso de datos C9.
 
 Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
-* Con la casilla de verificación *habilitada*, cualquier dato marcado con las etiquetas llamadas arriba en Experience Platform se excluye y *no* se trae a Real-Time CDP Collaboration.
+* Con la casilla de verificación *habilitada*, cualquier dato marcado con las etiquetas llamadas arriba en Experience Platform se excluye y *no* se incorpora a Real-Time CDP Collaboration.
 * Con la casilla de verificación *deshabilitada*, no hay restricciones en los datos de Experience Platform que se pueden importar a Real-Time CDP Collaboration.
 
 Obtenga más información sobre las etiquetas de uso de datos en la documentación de Experience Platform:
@@ -120,29 +120,29 @@ A continuación, proporcione un nombre y una descripción para que pueda reconoc
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Campos de origen"
->abstract="Los campos de Source son áreas de nombres y atributos de identidad de la implementación existente de Real-Time CDP. Puede asignarlas a campos de destino definidos en Real-Time CDP Collaboration."
+>abstract="Los campos de origen son espacios de nombres de identidad y atributos de la implementación existente de Real-Time CDP. Puede asignarlos a los campos de destino definidos en Real-Time CDP Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Campos de destino"
->abstract="Los campos de destino corresponden a las claves de coincidencia seleccionadas al incorporar a la empresa. Actualmente, los correos electrónicos con hash son las únicas claves de coincidencia admitidas."
+>abstract="Los campos de destino corresponden a las claves de coincidencia seleccionadas al incorporar la empresa. Actualmente, los correos electrónicos con hash son las únicas claves de coincidencia admitidas."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="Aplicar transformación"
->abstract="Al importar *campos sin hash* desde su origen, utilice esta opción para que Real-Time CDP Collaboration aplique el hash y transforme los campos sin formato en campos con hash."
+>abstract="Al importar campos *sin hash* desde su origen, utilice esta opción para que Real-Time CDP Collaboration aplique el hash y transforme los campos sin formato en campos con hash."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
 >title="Áreas de nombres de identidad"
->abstract="Seleccione un área de nombres de identidad de las áreas de nombres de identidad estándar y personalizadas disponibles en su organización de Experience Platform."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#standard" text="Áreas de nombres estándar e identidades en Experience Platform"
+>abstract="Seleccione un espacio de nombres de identidad del espacio de nombres de identidad estándar y personalizados disponibles en su organización de Experience Platform."
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard" text="Áreas de nombres estándar y de identidad de Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Atributos de perfil"
->abstract="Seleccione atributos del esquema de unión para la clase de perfil en Experience Platform. Esta vista muestra los atributos que están presentes en el esquema de unión y pertenecen a la clase XDM Individual Profile."
->additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html" text="Esquema de unión en Experience Platform"
+>abstract="Seleccione atributos del esquema de unión para la clase de perfil en Experience Platform. Esta vista muestra los atributos que están presentes en el esquema de unión y pertenecen a la clase de perfil individual XDM."
+>additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es" text="Esquema de unión en Experience Platform"
 
 ![Pantalla Asignar campos que muestra los campos de origen asignados a los campos de destino.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
 
@@ -241,12 +241,12 @@ Después de seleccionar la fuente de audiencia, elegirá las audiencias específ
 
 Revise todas las configuraciones y ajustes de antes de finalizar la adición de audiencias. Asegúrese de que todos los detalles sean correctos y seleccione **[!UICONTROL Completar]** para finalizar el proceso.
 
-## Ver panel de audiencias {#view-audiences-dashboard}
+## Panel de vista de públicos {#view-audiences-dashboard}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_missing_identities"
->title="Faltan identidades"
->abstract="El recuento de identidades muestra un `-` durante aproximadamente las primeras 24 horas después de importar una audiencia en Real-Time CDP Collaboration. Después de este periodo de tiempo, el recuento de identidades se actualizará con el número de perfiles presentes en la audiencia."
+>title="Identidades que faltan"
+>abstract="El recuento de identidades muestra un `-` durante aproximadamente las primeras 24 horas después de importar un público a Real-Time CDP Collaboration. Después de este periodo de tiempo, el recuento de identidades se actualizará con el número de perfiles presentes en el público."
 
 Después de importar audiencias en Real-Time CDP Collaboration, puede obtener información sobre ellas en una vista de panel. La vista predeterminada de la página **[!UICONTROL Mis audiencias]** muestra todas las audiencias que su organización ha importado actualmente a Real-Time CDP Collaboration.
 
@@ -301,15 +301,15 @@ A continuación, encontrará más información acerca de la audiencia, que se pu
 
 * [Identidades](#identities)
 * [Categorías](#categories)
-* [Acceso a conexión](#connection-access)
-* [Visibilidad de metadatos](#metadata-visibility)
+* [Acceso a la conexión](#connection-access)
+* [Visibilidad de los metadatos](#metadata-visibility)
 
 ### Identidades {#identities}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identidades"
->abstract="Obtenga una vista detallada de las identidades que componen esta audiencia, así como un recuento total de perfiles con las identidades respectivas."
+>abstract="Obtenga una vista desglosada de las identidades que componen este público, así como un recuento total de los perfiles con las identidades respectivas."
 
 Esta sección indica el número de perfiles presentes en la audiencia con cualquiera de las identidades especificadas al importar las audiencias. La sección también contiene un desglose de identidades para que pueda saber qué identidades conforman la mayor parte de la población de audiencia.
 
@@ -318,16 +318,16 @@ Esta sección indica el número de perfiles presentes en la audiencia con cualqu
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
 >title="Categorías"
->abstract="Etiquete sus audiencias para facilitar la organización, el filtrado y la recuperación. Puede etiquetar una audiencia con varias categorías y, a continuación, puede utilizar estas etiquetas de categoría para filtrar las audiencias que desee en otras áreas del producto."
+>abstract="Etiquete sus públicos para facilitar la organización, el filtrado y la recuperación. Puede etiquetar un público con varias categorías y, a continuación, puede utilizar estas etiquetas de categoría para filtrar los públicos que desee en otras áreas del producto."
 
 Para facilitar la organización, el filtrado y la recuperación de audiencias, puede etiquetar sus audiencias. Puede etiquetar una audiencia con varias categorías y, a continuación, puede usar estas etiquetas de categoría para filtrar las audiencias que desee en el área de producto [Discover](/help/guide/collaborate/discover.md) al ejecutar informes de superposición de audiencias.
 
-### Acceso a conexión {#connection-access}
+### Acceso a la conexión {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
->title="Acceso a conexión"
->abstract="<p>Las audiencias pueden ser de tres tipos: públicas, privadas y personalizadas.</p><p> Su disponibilidad para usarlas en proyectos con colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar la conexión de acceso de privada a pública, pero no puede volver a cambiar esa configuración una vez que una audiencia se comparte con los colaboradores.</p>"
+>title="Acceso a la conexión"
+>abstract="<p>Los públicos pueden ser de tres tipos: públicos, privados y personalizados.</p><p> Su disponibilidad para usarlos en proyectos con los colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar el acceso a la conexión de privado a público, pero no puede volver a cambiar esa configuración cuando un público se ha compartido con los colaboradores.</p>"
 
 Seleccione si la audiencia debe ser privada para usted o utilizable y detectable en las conexiones. Las tres opciones disponibles son:
 
@@ -339,14 +339,14 @@ Seleccione si la audiencia debe ser privada para usted o utilizable y detectable
 >
 >Independientemente del estado del acceso (público, privado o personalizado), la población de cualquier audiencia contribuye a la población de **[!UICONTROL Todas las audiencias]** en la vista de análisis de superposición de Audience Discovery. <br> ![La audiencia de **Todas las audiencias** generada por el sistema en el análisis de superposición de detección de audiencias incluye audiencias con todos los estados de acceso a la conexión (pública, privada o personalizada).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "La audiencia **Todas las audiencias** generada por el sistema en el análisis de superposición **Detección de audiencias** incluye audiencias con todos los estados de acceso a la conexión (pública, privada, personalizada)."){width="100" zoomable="yes"}
 
-La disponibilidad de la audiencia para su uso en proyectos con colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar la conexión de acceso de privada a pública, pero no puede volver a cambiar esa configuración una vez que una audiencia se comparte con los colaboradores.
+La disponibilidad de la audiencia para su uso en proyectos con colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar el acceso a la conexión de privado a público, pero no puede volver a cambiar esa configuración cuando un público se ha compartido con los colaboradores.
 
-### Visibilidad de metadatos {#metadata-visibility}
+### Visibilidad de los metadatos {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
->title="Visibilidad de metadatos"
->abstract="<p>Indica qué información de metadatos de audiencia es visible para otras organizaciones antes de conectarse con su organización. </p> <p> **Recuento de identidades** controla si tu socio puede ver los recuentos de identidades de tus audiencias cuando visualiza los informes de superposición en la pestaña de detección. **Superposición de audiencias %** controla si los colaboradores pueden descubrir porcentajes de superposición entre sus audiencias y las suyas."
+>title="Visibilidad de los metadatos"
+>abstract="<p>Indica qué información de metadatos del público es visible para otras organizaciones antes de conectarse con su organización. </p> <p> **Recuento de identidades** controla si su socio puede ver los recuentos de identidades de sus públicos cuando visualiza los informes de superposición en la pestaña de detección. **% de solapamiento de público** controla si los colaboradores pueden descubrir los porcentajes de solapamiento entre sus públicos y los suyos."
 
 >[!NOTE]
 >

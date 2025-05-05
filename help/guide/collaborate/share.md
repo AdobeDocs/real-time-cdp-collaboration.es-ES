@@ -7,7 +7,7 @@ exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
 source-wordcount: '754'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -102,8 +102,8 @@ La página también proporciona controles para **[!UICONTROL Pausar el uso compa
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_share_edit_audiences_usecases"
->title="Segmentación o supresión de casos de uso"
->abstract="<p>Seleccione **Target** si quiere que los perfiles de la audiencia se muestren como anuncios en la campaña.</p> <p>Seleccione **Suprimir** si desea excluir los perfiles de la audiencia de los mensajes de la campaña.</p>"
+>title="Caso de uso de destino o de supresión"
+>abstract="<p>Seleccione **Destino** si quiere que a los perfiles del público se les muestren anuncios en la campaña.</p> <p>Seleccione **Suprimir** si desea excluir los perfiles del público de la mensajería de la campaña.</p>"
 
 Seleccione **[!UICONTROL Editar audiencias]** para cambiar qué audiencias se comparten en un módulo de uso compartido de audiencias, así como para cambiar varias configuraciones relacionadas con cómo se comparten las audiencias.
 
