@@ -2,7 +2,7 @@
 title: Administrar conexiones de datos
 description: Obtenga información sobre cómo administrar conexiones de datos, incluidas claves de coincidencia, programación, casos de uso y filtrado de audiencias en Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
 workflow-type: tm+mt
@@ -25,7 +25,7 @@ Antes de administrar las conexiones de datos aquí, debe configurarlas inicialme
 
 >[!IMPORTANT]
 >
->En este momento no se admite la eliminación de una conexión de datos en la interfaz de usuario de Real-Time CDP Collaboration. Para eliminar una conexión de datos, comuníquese con su representante de Adobe o [cree un ticket de atención al cliente](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=open-ticket#support){target="_blank"}.
+>En este momento no se admite la eliminación de una conexión de datos en la interfaz de usuario de Real-Time CDP Collaboration. Para eliminar una conexión de datos, comuníquese con su representante de Adobe o [cree un ticket de atención al cliente](https://experienceleague.adobe.com/home?lang=es&amp;support-tab=open-ticket#support){target="_blank"}.
 
 Para ver las conexiones de datos existentes, vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Mis audiencias]** y seleccione **[!UICONTROL Administrar conexiones de datos]**.
 

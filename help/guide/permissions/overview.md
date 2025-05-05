@@ -2,7 +2,7 @@
 title: Información general de control de acceso
 description: Obtenga información sobre cómo obtener acceso a Adobe Real-Time Customer Data Platform (CDP) Collaboration.
 audience: admin
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
 source-git-commit: 56872a2cd91ae040aba51ed5784c86b055f88756
 workflow-type: tm+mt
@@ -35,7 +35,7 @@ En estas guías se describe la configuración del acceso para administradores de
 
 {style="table-layout:auto"}
 
-Para obtener más información sobre las funciones administrativas, visite el [Centro de ayuda de Adobe](https://helpx.adobe.com/enterprise/using/admin-roles.html).
+Para obtener más información sobre las funciones administrativas, visite el [Centro de ayuda de Adobe](https://helpx.adobe.com/es/enterprise/using/admin-roles.html).
 
 >[!TIP]
 >

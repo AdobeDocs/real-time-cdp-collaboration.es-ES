@@ -2,7 +2,7 @@
 title: Cruces de identidades
 description: Conozca todo acerca de los pasos transversales de identidad en Real-Time CDP Collaboration, incluyendo cómo traer pasos transversales de identidad de diferentes fuentes y cómo administrar los pasos transversales de identidad
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
