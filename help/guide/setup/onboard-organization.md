@@ -2,11 +2,11 @@
 title: Incorporación y administración de la organización
 description: Aprenda a incorporar y administrar varios aspectos de su organización en Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 0de6ab9af8152975f8e0b0f75b1ee0116ed73584
+source-git-commit: 27faef284a07be114ea0a9a7beeae75ec6265d53
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '827'
 ht-degree: 14%
 
 ---
@@ -53,10 +53,8 @@ El flujo de trabajo para configurar su organización incluye las dos páginas si
 4. Seleccione el **[!UICONTROL sector]** de su organización. Algunos ejemplos son **[!UICONTROL Retail]**, **[!UICONTROL Telecomunicaciones]** o **[!UICONTROL Servicios financieros]**.
 5. Seleccione la **[!UICONTROL región]** de su organización. En la versión actual del producto, **[!UICONTROL Norteamérica]** es la selección predeterminada preestablecida.
 6. Agregue un **[!UICONTROL correo electrónico de contacto]** para su organización. Debe ser una dirección de correo electrónico basada en el equipo o en la función. No se deben proporcionar direcciones de correo electrónico personales.
-7. <span class="preview"> de sólo editor</span>: al configurar una organización de editor, debe leer y reconocer que los anunciantes del catálogo de editores podrán detectarlo.
-   ![Mensaje de inclusión específico del publicador.](/help/assets/setup/manage-organization/publisher-specific-optin-message.png){zoomable="yes"}
-8. Cargue un **[!UICONTROL logotipo]** para su compañía. Actualmente, se admiten imágenes de tipo SVG.
-9. Seleccione una imagen para la imagen del encabezado de la empresa.
+7. Cargue un **[!UICONTROL logotipo]** para su compañía. Actualmente, se admiten imágenes de tipo SVG.
+8. Seleccione una imagen para la imagen del encabezado de la empresa.
 
 Cuando esté satisfecho con su selección, use **[!UICONTROL Siguiente]** para continuar a la página siguiente y seleccionar las claves de coincidencia que su organización debería usar.
 
