@@ -2,11 +2,11 @@
 title: Conectar con anunciantes o editores
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ee434f1bb8119e2a378580a02ffa0b9efb93cf28
+source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '952'
 ht-degree: 13%
 
 ---
@@ -78,6 +78,11 @@ Una vez que el colaborador acepta la invitación, puede configurar los ajustes d
 >id="rtcdp_collaboration_connection_settings_legalagreement"
 >title="Acuerdo legal"
 >abstract="Compruebe que existe un acuerdo de uso compartido de datos entre las dos partes."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_connection_settings_advertisername"
+>title="Nombres de anunciantes"
+>abstract="Indica los alias mediante los cuales el editor conoce al anunciante. "
 
 Una vez enviada la invitación, puede obtener una vista previa de la configuración de conexión. La invitación debe ser aceptada antes de que pueda finalizar la configuración de la conexión.
 
