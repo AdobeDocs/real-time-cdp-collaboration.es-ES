@@ -2,12 +2,12 @@
 title: Conectar con anunciantes o editores
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: e0894fb3cb290334e0e95d5c26288705967d9dbe
+source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 16%
+source-wordcount: '1191'
+ht-degree: 12%
 
 ---
 
@@ -82,7 +82,8 @@ Una vez que el colaborador acepta la invitación, puede configurar los ajustes d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Nombres de anunciantes"
->abstract="Indica los alias mediante los cuales el editor conoce al anunciante. "
+>abstract="<p>Configuración opcional. Indica el nombre y el ID con los que el editor conoce al anunciante.</p><p>El nombre del anunciante que agregue aquí se rellenará previamente en el paso Crear proyecto.</p><ul><li>Si el publicador configuró varios nombres, seleccione uno de la lista.</li><li>Si solo se configura un nombre, se preselecciona automáticamente.</li><li>Si no se configuran nombres, el campo se rellena previamente con el nombre de cuenta del anunciante de Real-Time CDP Collaboration.</li></ul>"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Crear un proyecto"
 
 Una vez enviada la invitación, puede obtener una vista previa de la configuración de conexión. La invitación debe ser aceptada antes de que pueda finalizar la configuración de la conexión.
 
@@ -127,6 +128,22 @@ Utilice la sección de división de crédito para determinar cuál de las dos pa
 Antes de continuar con esta conexión, debe reconocer que existe un acuerdo de uso compartido de datos entre las dos partes.
 
 ![Acuerdos legales.](/help/assets/connect/establish-connection/legal-agreement.png)
+
++++
+
++++Nombres del anunciante
+
+Como editor que trabaja en la configuración de conexión, puede seleccionar agregar en sus sistemas cualquier nombre de anunciante por el que conozca al anunciante. Como editor, puede agregar varios nombres de anunciante a una conexión, por ejemplo, en casos en los que el anunciante con el que trabaja tenga presencia en varias regiones geográficas. Más adelante en el proceso, al [crear un proyecto](/help/guide/collaborate/manage-projects.md#create-project) en el que colaborar, usted o su colaborador podrán seleccionar el nombre del anunciante que se asociará con el proyecto.
+
+![Agregar modal de nombres de anunciante.](/help/assets/connect/establish-connection/add-advertiser-names-modal.png)
+
+Así funciona la selección de nombre del anunciante al crear un proyecto:
+
+1. **Sin conjunto de nombres de anunciante**: Si no se agregan nombres de anunciante, Real-Time CDP Collaboration usa de manera predeterminada el nombre del anunciante como nombre del anunciante.
+2. **Un conjunto de nombres de anunciante**: Si se agrega un solo nombre de anunciante, Real-Time CDP Collaboration lo usará automáticamente como nombre de anunciante para el proyecto.
+3. **Conjunto de varios nombres de anunciante**: Si se agrega más de un nombre de anunciante, usted o su colaborador pueden seleccionar cualquiera de los nombres proporcionados al crear el proyecto.
+
+![Nombres de anunciantes.](/help/assets/connect/establish-connection/advertiser-names.png)
 
 +++
 
