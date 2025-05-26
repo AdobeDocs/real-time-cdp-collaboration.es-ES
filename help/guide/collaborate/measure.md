@@ -2,12 +2,12 @@
 title: Rendimiento de medida
 description: Mida el rendimiento de las campañas en diferentes canales. Aprenda a utilizar e interpretar varios informes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
 source-git-commit: b69d204149f203d1950fd0e28b0858ffca2c1225
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -42,13 +42,13 @@ The syntax rtcdp_collaboration_measurement_create_report is currently implemente
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_create_report_campaignID"
->title="ID de campañas"
->abstract="Marcador de posición para añadir información relevante en la IU sobre los ID de campaña."
+>title="ID de campaña"
+>abstract="Marcador de posición para añadir información relevante en la interfaz de usuario sobre lo que son los ID de campaña."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_measurement_create_report"
->title="ID de campañas"
->abstract="Marcador de posición para añadir información relevante en la IU sobre los ID de campaña."
+>title="ID de campaña"
+>abstract="Marcador de posición para añadir información relevante en la interfaz de usuario sobre lo que son los ID de campaña."
 
 Para ver los informes disponibles en la pestaña de medición:
 
