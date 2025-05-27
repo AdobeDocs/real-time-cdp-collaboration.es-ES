@@ -2,12 +2,12 @@
 title: Conectar con anunciantes o editores
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: cc74b26091a4f764e200c9cae91316492874551a
+source-git-commit: e4826c777d9d1df1dac7cd894536b7fd51be8a39
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 12%
+source-wordcount: '1272'
+ht-degree: 11%
 
 ---
 
@@ -83,7 +83,7 @@ Una vez que el colaborador acepta la invitación, puede configurar los ajustes d
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Nombres de anunciantes"
 >abstract="<p>Configuración opcional. Indica el nombre y el ID con los que el editor conoce al anunciante.</p><p>El nombre del anunciante que agregue aquí se rellenará previamente en el paso Crear proyecto.</p><ul><li>Si el publicador configuró varios nombres, seleccione uno de la lista.</li><li>Si solo se configura un nombre, se preselecciona automáticamente.</li><li>Si no se configuran nombres, el campo se rellena previamente con el nombre de cuenta del anunciante de Real-Time CDP Collaboration.</li></ul>"
->additional-url="https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Crear un proyecto"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Crear un proyecto"
 
 Una vez enviada la invitación, puede obtener una vista previa de la configuración de conexión. La invitación debe ser aceptada antes de que pueda finalizar la configuración de la conexión.
 
@@ -111,23 +111,26 @@ Los casos de uso se rellenan previamente con todos los casos de uso disponibles.
 
 Las claves de coincidencia se rellenan previamente con las que [seleccionó en el nivel organizativo](/help/guide/setup/onboard-organization.md#set-up-match-keys). Puede desactivar cualquier clave de coincidencia que no desee utilizar en esta conexión, pero no puede añadir ninguna clave de coincidencia que no estuviera seleccionada al configurar la organización.
 
-![Claves coincidentes](/help/assets/connect/establish-connection/match-keys.png)
+![Claves coincidentes](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
 +++
 
 +++División de crédito
 
-Utilice la sección de división de crédito para determinar cuál de las dos partes colaboradoras cubrirá los costes de las actividades.
+Utilice la sección de división de crédito para determinar cuál de las dos partes colaboradoras cubrirá los costes de las actividades. Las opciones de división de crédito están determinadas por los casos de uso seleccionados para la conexión. Aunque el caso de uso **[!UICONTROL Medición]** requiere que una parte cubra los costes, el caso de uso **[!UICONTROL Activación de audiencias]** ofrece una opción adicional para que cada parte cubra sus propios costes. Para obtener información sobre el desglose de costos, lea la guía [tipos de actividades de crédito](/help/guide/setup/my-activity.md#types-of-activities).
 
-![División de crédito](/help/assets/connect/establish-connection/edit-billing-ownership.png)
+>[!NOTE]
+>
+>Audiencia: la salida siempre está cubierta por el colaborador que recibe la audiencia, por lo que no se requiere ninguna selección.
 
+![Cuadro de diálogo de división de crédito con opciones en el área de trabajo de conexión.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 +++
 
 +++Acuerdos
 
 Antes de continuar con esta conexión, debe reconocer que existe un acuerdo de uso compartido de datos entre las dos partes.
 
-![Acuerdos legales.](/help/assets/connect/establish-connection/legal-agreement.png)
+![Acuerdos legales.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
 
 +++
 
