@@ -2,9 +2,9 @@
 title: Glosario
 description: Comprender la terminología clave de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: b929cf9d75b4fc844ba03799f07a5e372b8f9052
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 3%
@@ -33,7 +33,7 @@ El almacenamiento en la nube es una solución de computación en la nube que per
 
 Una solicitud de conexión es una solicitud formal enviada de una organización a otra para establecer una conexión de uso compartido de datos. Una vez aceptado, permite a las dos partes colaborar y compartir datos de audiencia de forma segura.
 
-### Configuración de conexión
+### Configuración de la conexión
 
 Una vez aceptada una solicitud de conexión, el iniciador de dicha solicitud envía la configuración de conexión al colaborador para su aprobación. Esta configuración de conexión rige la forma en que los colaboradores trabajan juntos en los proyectos e incluye las claves de coincidencia que se van a utilizar, la propiedad de facturación, etc.
 

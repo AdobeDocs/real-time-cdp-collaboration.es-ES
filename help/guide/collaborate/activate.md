@@ -2,9 +2,9 @@
 title: Activar públicos
 description: Como editor, aprenda a activar en campañas audiencias que su colaborador ha compartido con usted.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: acaaaa1e1fab981d874210639c16e76e48fc3394
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 3%
@@ -27,7 +27,7 @@ Solo **organizaciones de editores** pueden activar audiencias para campañas. La
 
 Como editor que utiliza Real-Time CDP Collaboration, primero debe trabajar con el equipo de ingeniería y habilitación de Adobe para configurar una conexión con la ubicación de Amazon S3 deseada. Una vez configurado, puede activar o exportar audiencias de Real-Time CDP Collaboration a su ubicación de Amazon S3. Póngase en contacto con su representante de Adobe para iniciar este flujo de trabajo.
 
-Además, su conexión debe tener habilitado el caso de uso compartido de audiencias y activación **1&rbrace;.**
+Además, su conexión debe tener habilitado el caso de uso compartido de audiencias y activación **1}.**
 
 ## Comportamiento de activación {#activation-behavior}
 

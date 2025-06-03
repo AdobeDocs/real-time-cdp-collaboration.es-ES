@@ -2,7 +2,7 @@
 user-guide-title: Real-Time Customer Data Platform Collaboration
 breadcrumb-title: Real-Time Customer Data Platform Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration permite un uso compartido de datos y una colaboración seguros y sin problemas entre anunciantes y editores, lo que facilita perspectivas de audiencia en tiempo real y estrategias de marketing personalizadas.
-source-git-commit: c2a20aad386314f654d5451126390da4228f5572
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 19%

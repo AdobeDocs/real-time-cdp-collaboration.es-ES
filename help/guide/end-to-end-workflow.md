@@ -2,9 +2,9 @@
 title: Flujo de trabajo de extremo a extremo
 description: Comprender el flujo de trabajo de extremo a extremo del uso de Real-Time CDP Collaboration como anunciante o editor
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 26ac800b35ce07bd50c79657af7de69d20deb147
+source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
