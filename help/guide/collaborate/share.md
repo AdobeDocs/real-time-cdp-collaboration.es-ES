@@ -2,7 +2,7 @@
 title: Compartir públicos
 description: Aprenda a compartir audiencias con sus colaboradores para campañas publicitarias.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0fdf0598-89c9-452d-a2e3-ce868df0b9d2
 source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
 workflow-type: tm+mt
