@@ -55,7 +55,7 @@ Una vez cumplidos estos requisitos previos, puede empezar a explorar y comparar 
 >title="Su recuento de identidades"
 >abstract="El número de ID únicos dentro de la audiencia seleccionada, en función de las claves de coincidencia que usted y su colaborador acordaron para el proyecto."
 >
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Recuento de identidades del colaborador"
 >abstract="El número de ID únicos dentro de la audiencia de su colaborador, según las claves de coincidencia que usted y su colaborador acordaron para el proyecto."
