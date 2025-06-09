@@ -2,12 +2,12 @@
 title: Últimas notas de la versión de Real-Time CDP Collaboration
 description: Siga las últimas versiones de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 6b945c78202ca7ad6366baa265a08381953adc2e
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 5%
+source-wordcount: '684'
+ht-degree: 3%
 
 ---
 
@@ -19,9 +19,18 @@ ht-degree: 5%
 
 Estas notas de la versión abarcan la funcionalidad incluida en Real-Time Customer Data Platform Collaboration. Las versiones de Real-Time CDP Collaboration funcionan con un modelo de entrega continua, que permite una cadencia de versión mensual aproximada. Estas notas de la versión se actualizan con frecuencia, por lo que asegúrese de consultarlas regularmente.
 
+## Mayo de 2025 {#may-2025}
+
+* Real-Time CDP Collaboration ya está disponible para los clientes de **Australia** y **Nueva Zelanda**. Está disponible automáticamente para los clientes de Real-Time CDP Prime y Ultimate en estas regiones.
+* Real-Time CDP Collaboration ahora ofrece [destinos de autoservicio](../setup/manage-destinations.md) a través de la ficha Mis destinos de la sección Configuración. Los destinos le permiten activar audiencias en plataformas de terceros, como redes de publicidad o plataformas de administración de datos, para llegar a sus clientes a través de varios canales. Actualmente, solo se admiten destinos de Adobe Experience Platform. Si le interesa configurar un destino diferente, póngase en contacto con su representante de Adobe. Para obtener más información sobre los destinos, lea la guía [descripción general de destinos](../destinations/overview.md).
+   * Los destinos también agregan compatibilidad para ver audiencias de Real-Time CDP Collaboration en [Adobe Experience Platform audience portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.).
+* Ahora puede editar la frecuencia de actualización de audiencia para conexiones de datos existentes en Real-Time CDP Collaboration. Actualmente, puede elegir actualizar las audiencias diariamente o cada dos a seis días. Para obtener más información sobre cómo editar la frecuencia de actualización de la audiencia, lea la guía [administrar conexiones de datos](../setup/manage-data-connection.md#scheduling).
+* Las divisiones de crédito entre colaboradores ahora se establecen para cada caso de uso seleccionado dentro de la conexión. Puede establecer diferentes reglas de consumo de crédito para cada caso de uso para controlar mejor cómo se utilizan los créditos. Para obtener más información acerca de la funcionalidad de división de crédito, lee la guía [configuración de conexión](../connect/establishing-connections.md#connection-settings). Para obtener más información sobre cómo se consumen los créditos, lea la guía [tipos de actividades de crédito](../setup/my-activity.md#types-of-activities). <br> ![Pantalla de configuración de conexión que muestra la funcionalidad de división de crédito.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
+* Los editores ahora pueden establecer nombres e ID de anunciantes antes de aceptar la configuración de conexión de un anunciante. Los editores pueden establecer nombres e ID que se alineen con sus sistemas internos, que pueden ser diferentes de los nombres e ID del anunciante. Para obtener más información sobre cómo agregar nombres e ID de anunciantes, lee la guía [configuración de conexión](../connect/establishing-connections.md#connection-settings.md). <br> ![Pantalla de configuración de conexión que muestra los nombres e ID del anunciante de configuración del publicador.](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
+
 ## Abril de 2025 {#april-2025}
 
-* Se ha agregado una nueva columna **Entradas procesadas** a la tabla de actividad de consumo de crédito. Esta columna muestra el número total de entradas (por ejemplo, ID o filas) procesadas para cada actividad. [Más información](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Columna de entradas procesadas resaltada en Mi vista de actividad.](/help/assets/release-notes/2025/inputs-processed-column.png "Columna de entradas procesadas resaltada en Mi vista de actividad."){width="250" align="center" zoomable="yes"}
+* Se ha agregado una nueva columna **[!UICONTROL Entradas procesadas]** a la tabla de actividad de consumo de crédito. Esta columna muestra el número total de entradas (por ejemplo, ID o filas) procesadas para cada actividad. [Más información](/help/guide/setup/my-activity.md#inputs-processed). <br> ![Columna de entradas procesadas resaltada en Mi vista de actividad.](/help/assets/release-notes/2025/inputs-processed-column.png){zoomable="yes"}
 * Se ha añadido una nueva opción de correo electrónico de contacto a la creación de cuentas. Esto ayuda a los colaboradores de los socios a ponerse en contacto con usted según sea necesario durante el proceso de conexión. [Más información](../setup/onboard-organization.md).
 
 ## Marzo de 2025 {#march-2025}
