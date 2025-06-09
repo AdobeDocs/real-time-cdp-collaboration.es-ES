@@ -2,7 +2,7 @@
 title: Descubra superposiciones y compare audiencias
 description: Descubra las superposiciones entre las audiencias de y de sus colaboradores. Descubra las mejores audiencias para usar en sus campañas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
 workflow-type: tm+mt
@@ -55,7 +55,7 @@ Una vez cumplidos estos requisitos previos, puede empezar a explorar y comparar 
 >title="Su recuento de identidades"
 >abstract="El número de ID únicos dentro de la audiencia seleccionada, en función de las claves de coincidencia que usted y su colaborador acordaron para el proyecto."
 >
->[!CONTEXTUALHELP]
+[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Recuento de identidades del colaborador"
 >abstract="El número de ID únicos dentro de la audiencia de su colaborador, según las claves de coincidencia que usted y su colaborador acordaron para el proyecto."
