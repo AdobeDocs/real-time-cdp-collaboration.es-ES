@@ -2,10 +2,10 @@
 title: Configuración de Adobe Experience Platform como destino
 description: Obtenga información sobre cómo configurar y administrar Adobe Experience Platform como destino en Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: f19aff1b7d10a446dd209721e7a6fdf537c9d63e
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: f777b8249e31282f234d9d9798379c35ea8431ea
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '848'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Configure este destino para activar audiencias de su proyecto a Adobe Experience Platform. La activación de audiencias en Adobe Experience Platform le permite aprovechar las capacidades de la plataforma para la segmentación de audiencias, el análisis y la activación en varios canales de marketing. Para obtener más información sobre Adobe Experience Platform, consulte la [descripción general de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/home){target="_blank"}.
+Configure este destino para activar audiencias de su proyecto a Adobe Experience Platform. La activación de audiencias en Adobe Experience Platform le permite aprovechar las capacidades de la plataforma para la segmentación de audiencias, el análisis y la activación en varios canales de marketing. Para obtener más información sobre Adobe Experience Platform, consulte la [descripción general de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ A continuación, configure **[!UICONTROL Caducidad de audiencia]**. De forma pre
 >title="Espacios de nombres de destino"
 >abstract="Las áreas de nombres de destino especifican a qué área de nombres de identidad se asignará la clave de coincidencia en Adobe Experience Platform. Las claves de coincidencia con hash deben asignarse a un área de nombres de destino que admita valores con hash."
 
-A continuación, debe crear una asignación de activación para definir cómo se enviarán los datos de audiencia a Adobe Experience Platform. Puede asignar cada [clave de coincidencia](../setup/onboard-organization.md#set-up-match-keys) que seleccionó al crear su organización a un área de nombres de destino. Las áreas de nombres de destino especifican a qué [área de nombres de identidad](https://experienceleague.adobe.com/es/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} se asignará la clave de coincidencia en Adobe Experience Platform.
+A continuación, debe crear una asignación de activación para definir cómo se enviarán los datos de audiencia a Adobe Experience Platform. Puede asignar cada [clave de coincidencia](../setup/onboard-organization.md#set-up-match-keys) que seleccionó al crear su organización a un área de nombres de destino. Las áreas de nombres de destino especifican a qué [área de nombres de identidad](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#standard){target="_blank"} se asignará la clave de coincidencia en Adobe Experience Platform.
 
 >
 >
@@ -88,3 +88,9 @@ Una vez que hayas configurado Adobe Experience Platform como destino, puedes emp
 Una vez activada la audiencia, estará disponible en [Audience Portal](#audience-portal) en Experience Platform con Real-Time CDP Collaboration como origen.  Estas audiencias se pueden usar en campañas y participación de clientes.
 
 ### Audience Portal {#audience-portal}
+
+Ahora que ha configurado Adobe Experience Platform como destino, puede ver las audiencias activadas en el Portal de audiencias. Audience Portal es un concentrador central dentro de Adobe Experience Platform que le permite ver y administrar sus audiencias. Audience Portal ahora proporciona Real-Time CDP Collaboration como origen al filtrar las audiencias.
+
+![El portal de audiencia con Real-Time CDP Collaboration como origen en las opciones de filtro.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
+
+Para obtener más información sobre Audience Portal, consulte la guía [Información general de Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
