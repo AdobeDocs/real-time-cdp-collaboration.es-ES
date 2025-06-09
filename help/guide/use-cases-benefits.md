@@ -2,9 +2,9 @@
 title: Principales ventajas y casos de uso de Adobe Real-Time CDP Collaboration
 description: Comprender las principales ventajas y casos de uso de Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 88582b25-a0cd-4901-844d-fb049af09e79
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 2%
@@ -21,8 +21,7 @@ Adobe Real-Time CDP Collaboration proporciona las funciones esenciales para desc
 
 ## Descubrir {#discover}
 
-Utilice paneles e informes para descubrir audiencias y colaborar de marca a editor.
-Como anunciante que trabaja con Real-Time CDP Collaboration, acceda y comprenda las superposiciones de audiencias para desbloquear las oportunidades de retargeting, supresión y posible prospección de un amplio inventario de editores.
+Utilice paneles e informes para descubrir audiencias y colaborar de marca a editor. Como anunciante que trabaja con Real-Time CDP Collaboration, acceda y comprenda las superposiciones de audiencias para desbloquear las oportunidades de retargeting, supresión y posible prospección de un amplio inventario de editores.
 
 ## Activar {#activate}
 
@@ -31,5 +30,4 @@ En una versión futura, trabaje con los socios de identidad seleccionados para a
 
 ## Medida {#measure}
 
-Combine y explore la participación de clientes conocidos desde varias fuentes, como impresiones web y mucho más.
-Vea el rendimiento de la campaña en informes simplificados y personalizables.
+Combine y explore la participación de clientes conocidos desde varias fuentes, como impresiones web y mucho más. Vea el rendimiento de la campaña en informes simplificados y personalizables.

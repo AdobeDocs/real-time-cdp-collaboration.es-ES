@@ -2,12 +2,12 @@
 title: Importar y administrar audiencias
 description: Obtenga información sobre cómo importar y administrar audiencias en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '2685'
-ht-degree: 24%
+source-wordcount: '2961'
+ht-degree: 18%
 
 ---
 
@@ -39,11 +39,11 @@ Lo que encontrará en esta página de documentación:
 >
 >Para importar audiencias, el usuario debe estar asignado a una función que contenga dos permisos de Administración de perfiles: Ver perfiles y Ver segmentos. Para obtener información sobre cómo asignar los permisos necesarios, consulte la guía [importación de audiencias](../permissions/overview.md#audience-importation).
 
-Para poder compartir audiencias con colaboradores y ejecutar cálculos de superposición, es necesario importar las audiencias a Real-Time CDP Collaboration. Para importar audiencias, siga los pasos de flujo de trabajo de la sección siguiente.
+Para poder activar audiencias con colaboradores y ejecutar cálculos de superposición, es necesario importar las audiencias a Real-Time CDP Collaboration. Para importar audiencias, siga los pasos de flujo de trabajo de la sección siguiente.
 
-![Mis audiencias se mostraron en pantalla antes de que se agregaran audiencias a la organización.](/help/assets/setup/add-manage-audiences/org-without-audiences-added.png)
+En la ficha **[!UICONTROL Mis audiencias]** del área de trabajo **[!UICONTROL Configurar]**, seleccione el icono Agregar (![Agregar icono.](/help/assets/icons/plus.png)) o la opción **[!UICONTROL Agregar]** y, a continuación, seleccione **Audiencia**.
 
-En la ficha **[!UICONTROL Mis audiencias]**, seleccione el símbolo Más **+** y seleccione **Audiencia**.
+![Área de trabajo de Mis audiencias con la opción Agregar y las opciones de Audiencias resaltadas.](/help/assets/setup/add-manage-audiences/add-audiences.png)
 
 ### Seleccionar conexión de datos {#select-data-connection}
 
@@ -56,34 +56,38 @@ En la ficha **[!UICONTROL Mis audiencias]**, seleccione el símbolo Más **+** y
 
 >[!IMPORTANT]
 >
->Después de conectarse a la primera conexión de datos e importar la primera audiencia, puede seleccionar importar varias audiencias desde esta conexión de datos existente. En este caso, el flujo de trabajo le llevará directamente al paso [seleccionar audiencia](#select-audience), ya que toda la información de requisitos previos de los demás pasos se importará desde la conexión existente.
+>Después de establecer en la primera conexión de datos e importar la primera audiencia, puede importar varias audiencias desde la conexión de datos existente. Al agregar audiencias adicionales, empezará desde el paso [seleccionar audiencia](#select-audience), ya que toda la información de requisitos previos de los demás pasos se importará desde la conexión existente.
 
-Las conexiones de datos son el origen de los datos desde los que se importan las audiencias a Real-Time CDP Collaboration. En la primera versión de Real-Time CDP Collaboration, la única conexión de datos compatible es Adobe Experience Platform.
+Las conexiones de datos son el origen de los datos desde los que se importan las audiencias a Real-Time CDP Collaboration. Actualmente, la única conexión de datos admitida es Adobe Experience Platform.
 
-Cualquier configuración, como la asignación de identidad o la programación, que configure para la conexión de datos se aplica a todas las audiencias importadas desde esta conexión de datos.
+Cualquier configuración, como la programación, que configure para la conexión de datos se aplica a todas las audiencias importadas desde esta conexión de datos.
 
 >[!TIP]
 >
->Hay un flujo de trabajo independiente en el que siempre puede ver y editar todas las conexiones de datos que añadió en este paso. Más información sobre [administrar conexiones de datos](/help/guide/setup/manage-data-connection.md).
+>Hay un flujo de trabajo independiente en el que puede ver y editar las conexiones de datos. Para obtener más información, consulte la guía [administración de conexiones de datos](/help/guide/setup/manage-data-connection.md).
 
-![Seleccione la pantalla de origen de la audiencia que muestra las opciones de AEP RTCDP, archivo CSV, Amazon S3 y Snowflake.](/help/assets/setup/add-manage-audiences/Step-Select-Audience-Source.png)
+Para empezar a agregar su conexión de datos, seleccione **[!UICONTROL Agregar una nueva conexión de datos]** y, a continuación, seleccione **[!UICONTROL Siguiente]**.
+
+![Espacio de trabajo Agregar audiencias con la opción Agregar una nueva conexión de datos resaltada.](/help/assets/setup/add-manage-audiences/add-data-connection.png)
 
 #### Seleccionar fuente de datos
 
-En este paso, elegirá la fuente de los datos de audiencia. Las fuentes disponibles incluyen:
+A continuación, elegirá el origen de la conexión de datos. Las fuentes disponibles incluyen:
 
 * **Adobe Experience Platform**: seleccione esta opción para traer sus audiencias desde Adobe Experience Platform Real-Time CDP.
 * **Archivo CSV** (versión futura): cargue un archivo CSV que contenga los datos de su audiencia para introducir datos de forma rápida y directa.
 * **Amazon Web Service** (versión futura): conéctese a su almacenamiento de Amazon S3 para importar datos de audiencia directamente desde sus bloques de S3.
 * **Snowflake** (versión futura): Use su almacén de datos de Snowflake para extraer datos de audiencia sin problemas.
 
+Seleccione su fuente de datos y luego seleccione **[!UICONTROL Siguiente]**.
+
+![Espacio de trabajo Agregar audiencias con la opción Adobe Experience Platform resaltada.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png)
+
 #### Selección de zona protegida
 
-Después de seleccionar **Adobe Experience Platform** como fuente de datos, debe seleccionar la zona protegida que incluye las audiencias que va a importar.
+Después de seleccionar la fuente de datos, debe seleccionar la zona protegida que incluye las audiencias que va a importar. Seleccione la zona protegida de la lista de zonas protegidas disponibles y, a continuación, seleccione **[!UICONTROL Siguiente]**
 
-![Seleccionar zona protegida para importar audiencias](/help/assets/setup/add-manage-audiences/import-audiences-select-sandbox.png)
-
-Seleccione **[!UICONTROL Siguiente]** después de seleccionar la zona protegida deseada.
+![Espacio de trabajo Agregar audiencias con una zona protegida seleccionada.](/help/assets/setup/add-manage-audiences/select-sandbox.png)
 
 #### Política de gobernanza y acciones de cumplimiento {#governance-policy-and-enforcement-actions}
 
@@ -91,7 +95,7 @@ A continuación, debe asegurarse de que las acciones de marketing correctas se e
 
 Utilice acciones de marketing para controlar qué datos del público se importarán a Real-Time CDP Collaboration desde Experience Platform. La acción de marketing **Colaboración de datos** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **Ciencia de datos** admite la etiqueta de uso de datos C9.
 
-Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Con la casilla de verificación *habilitada*, cualquier dato marcado con las etiquetas llamadas arriba en Experience Platform se excluye y *no* se incorpora a Real-Time CDP Collaboration.
 * Con la casilla de verificación *deshabilitada*, no hay restricciones en los datos de Experience Platform que se pueden importar a Real-Time CDP Collaboration.
@@ -99,21 +103,21 @@ Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](http
 Obtenga más información sobre las etiquetas de uso de datos en la documentación de Experience Platform:
 
 * [Información general sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glosario de etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Glosario de etiquetas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
-![Acciones de marketing necesarias para la colaboración de datos.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
+Además, debe seleccionar las reglas de consentimiento que se aplicarán a los datos que se importan en Real-Time CDP Collaboration.
+
+![Espacio de trabajo Agregar audiencias en la sección Directiva de administración y acciones de cumplimiento.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
+
+Una vez que haya seleccionado las acciones de marketing y las reglas de consentimiento, seleccione **[!UICONTROL Siguiente]** para continuar con el paso siguiente. Aparecerá un cuadro de diálogo de confirmación en el que se le pedirá que acepte los términos. Seleccione la casilla de verificación y, a continuación, seleccione **[!UICONTROL Aceptar]** para confirmar.
+
+![Cuadro de diálogo Directiva de gobernanza y acciones de aplicación con la casilla de verificación y la opción Aceptar resaltadas.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png)
 
 ### Proporcionar detalles
 
-A continuación, proporcione un nombre y una descripción para que pueda reconocer esta conexión de datos en el futuro.
+A continuación, proporcione un nombre y una descripción para la conexión de datos. Esta información le ayudará a identificar la conexión de datos más adelante.
 
-<!--
-
->[!IMPORTANT]
->
->Note a difference in terminology where the sandbox selected from Real-Time CDP is considered a dataset in the UI in Real-Time CDP Collaboration.
-
--->
+![El área de trabajo Agregar audiencias tiene la opción de proporcionar un nombre y una descripción.](/help/assets/setup/add-manage-audiences/data-connection-details.png)
 
 ### Asignar campos {#map-fields}
 
@@ -125,7 +129,7 @@ A continuación, proporcione un nombre y una descripción para que pueda reconoc
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Campos de destino"
->abstract="Los campos de destino corresponden a las claves de coincidencia seleccionadas al incorporar la empresa. Actualmente, los correos electrónicos con hash son las únicas claves de coincidencia admitidas."
+>abstract="Actualmente, los correos electrónicos con hash son las únicas claves de coincidencia admitidas."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -144,14 +148,9 @@ A continuación, proporcione un nombre y una descripción para que pueda reconoc
 >abstract="Seleccione atributos del esquema de unión para la clase de perfil en Experience Platform. Esta vista muestra los atributos que están presentes en el esquema de unión y pertenecen a la clase de perfil individual XDM."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es" text="Esquema de unión en Experience Platform"
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_target_namespaces"
->title="Espacios de nombres de destino"
->abstract="Se rellenará con una descripción adecuada."
+A continuación, seleccione los campos de origen para asignarlos a los campos de destino en Real-Time CDP Collaboration.
 
-![Pantalla Asignar campos que muestra los campos de origen asignados a los campos de destino.](/help/assets/setup/add-manage-audiences/Step-Map-Fields.png)
-
-En el paso Asignar campos, puede seleccionar cómo se debe asignar cualquier campo de identidad para los perfiles introducidos desde la conexión de datos a las claves de coincidencia seleccionadas en su organización.
+![Espacio de trabajo Agregar audiencias con la opción de asignar campos de origen a campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png)
 
 >[!TIP]
 >
@@ -159,83 +158,41 @@ En el paso Asignar campos, puede seleccionar cómo se debe asignar cualquier cam
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Campos de Source]** indican cómo se hace referencia a las identidades en el origen desde el que se importan los datos.
+**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de su implementación existente de Real-Time CDP. Así es como existen las identidades en el origen desde el que se importan los datos. Los campos de Source se asignan a los campos de destino definidos en Real-Time CDP Collaboration.
 
-**[!UICONTROL Campos de destino]** indican cómo se hace referencia a las identidades en Real-Time CDP Collaboration. Los valores que puede seleccionar aquí corresponden a las claves de coincidencia configuradas en el flujo de trabajo de incorporación de la empresa.
+**[!UICONTROL Campos de destino]** indican cómo se hace referencia a las identidades en Real-Time CDP Collaboration. Actualmente, los correos electrónicos con hash son las únicas claves de coincidencia admitidas.
 
 Utilice la opción **[!UICONTROL Aplicar transformación]** al importar *campos sin hash* desde su origen. En este caso, Real-Time CDP Collaboration aplica el hash y transforma los campos. El algoritmo hash utilizado por Adobe es SHA256.
 
 >[!ENDSHADEBOX]
 
-Agregue todos los pares de asignación que necesite y seleccione **[!UICONTROL Siguiente]** para continuar con el paso siguiente.
+Seleccione el campo de origen vacío junto al campo de destino. Aparecerá el cuadro de diálogo **[!UICONTROL Seleccionar campo de origen]**. Seleccione entre las opciones **[!UICONTROL Áreas de nombres de identidad]** y **[!UICONTROL Atributos de perfil]** para encontrar el campo de origen deseado y, a continuación, seleccione el campo de origen de la lista, utilizando la opción de búsqueda para encontrar el campo deseado.
 
-<!--
+![Cuadro de diálogo Seleccionar campo de origen con las opciones de correo electrónico mostradas.](/help/assets/setup/add-manage-audiences/select-source-field.png)
 
-In this step, you can also add any identity crosswalks that you would like to use.
+Para administrar varios campos de correo electrónico, asigne el campo de origen de correo electrónico sin hash con **[!UICONTROL Aplicar transformación]**.
 
-Identity crosswalks will be supported after the beta release.
+![Espacio de trabajo Agregar audiencias con los campos de origen de correo electrónico asignados al campo de destino, con la opción Aplicar transformación activada para uno.](/help/assets/setup/add-manage-audiences/apply-transformation.png)
 
-#### Add identity crosswalk
-
-Use identity crosswalks to connect different identifiers across datasets to enrich your audience data with additional attributes or dimensions. 
-
-TODO add GIF Identity crosswalks screen showing a list of available identity crosswalks with details.
-
-Select **[!UICONTROL Add identity crosswalk]** to see a screen where you can choose from various identity crosswalks that you have previously [imported into Real-Time CDP Collaboration](/help/guide/setup/identity-crosswalk.md#import-crosswalk). Each entry includes details such as the table name, type, description, and creation date.
-
-After selecting the desired crosswalk, use a source field join key to map to the crosswalk table join key. 
-
->[!NOTE]
->
->After selecting an identity crosswalk, the **[!UICONTROL Add identity crosswalk]** control is greyed out. 
-
-For further reading about identity crosswalks, refer to the [glossary](/help/guide/glossary.md).
-
--->
-
-
-<!-- will uncomment this part when Manage use cases part becomes available
-
-### Manage use cases {#manage-use-cases}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_import_audience_usecases"
->title="Use cases for identities"
->abstract="This control is disabled in the initial release of Real-Time CDP Collaboration"
-
-![Manage use cases screen.](/help/assets/setup/add-manage-audiences/Step-manage-use-cases.png)
-
-For every identity selected in the mapping step, select the use cases that you can use the identity for. Available use cases are: 
-
-* Discover
-* Share
-* Activate
-* Measure
-
-Note that this control is disabled in the initial release of Real-Time CDP Collaboration.
-
-After selecting the desired use cases for each identity, proceed to the next step. 
-
--->›
+Siga agregando pares de asignación según sea necesario y, a continuación, seleccione **[!UICONTROL Siguiente]**.
 
 ### Programación {#schedule}
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_audience_expiration"
->title="Caducidad del público"
->abstract="Próximamente se darán detalles sobre la caducidad del público."
+A continuación, programe cuándo comenzar y terminar de rellenar las audiencias. La audiencia se actualizará según esta programación.
 
-Programe cuándo comenzar y finalizar la cumplimentación y actualización de las audiencias. El abono a audiencia se actualizará según esta programación.
-
-![Pantalla de programación que muestra las fechas de inicio y finalización para rellenar las audiencias.](/help/assets/setup/add-manage-audiences/Step-Schedule.png)
-
-Seleccione la frecuencia de actualización de las audiencias. Las opciones disponibles tienen una frecuencia de actualización de entre uno y seis días.
+![Espacio de trabajo Agregar audiencia con las opciones de programación mostradas.](/help/assets/setup/add-manage-audiences/audience-scheduling.png)
 
 >[!IMPORTANT]
 >
->Ajustar la frecuencia de las actualizaciones de audiencias ayudará a administrar la [actividad de crédito de Gestión de público](/help/guide/setup/my-activity.md#types-of-activities), que se calcula por actualización de pertenencia a audiencias. El impacto de esto puede ser que haya menos datos nuevos disponibles para los informes de descubrimiento de audiencias y para el uso compartido y la activación de audiencias.
+>Ajustar la frecuencia de las actualizaciones de audiencias ayudará a administrar la [actividad de crédito de Gestión de público](/help/guide/setup/my-activity.md#types-of-activities), que se calcula por actualización de audiencia. La selección de una frecuencia mayor puede afectar a la actualización de los datos disponibles para los informes de detección de audiencias y la activación de audiencias.
 
-![Pantalla de programación que muestra diferentes intervalos de frecuencia para actualizar la pertenencia a audiencias.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png)
+Seleccione la frecuencia de actualización de la audiencia en el menú desplegable **[!UICONTROL Frecuencia]**.
+
+![Espacio de trabajo de programación Agregar audiencias con la lista desplegable Frecuencia abierta.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png)
+
+A continuación, seleccione **[!UICONTROL Intervalo de fecha]**. La fecha de inicio es la fecha en la que la audiencia empezará a rellenarse con perfiles y la fecha de finalización es cuando la audiencia dejará de actualizarse.
+
+![Espacio de trabajo de programación Agregar audiencias con la opción Intervalo de fechas mostrada.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png)
 
 >[!IMPORTANT]
 >
@@ -243,13 +200,15 @@ Seleccione la frecuencia de actualización de las audiencias. Las opciones dispo
 
 ### Seleccionar públicos {#select-audience}
 
-Después de seleccionar la fuente de audiencia, elegirá las audiencias específicas que desea incluir. Utilice las opciones de búsqueda y filtrado de la página para encontrar las audiencias relevantes de la fuente de datos seleccionada.
+Después de seleccionar la fuente de audiencia, elegirá las audiencias específicas que desea incluir. Utilice las opciones de búsqueda y filtro para encontrar las audiencias relevantes de la fuente de datos. Seleccione las audiencias que desee y luego seleccione **[!UICONTROL Siguiente]**.
 
-![La pantalla Seleccionar audiencia muestra una lista de audiencias disponibles con casillas de verificación para seleccionarlas.](/help/assets/setup/add-manage-audiences/Step-Select-Audience.png)
+![Espacio de trabajo Agregar audiencias con una lista de audiencias disponibles.](/help/assets/setup/add-manage-audiences/select-audience.png)
 
 ### Revisar
 
-Revise todas las configuraciones y ajustes de antes de finalizar la adición de audiencias. Asegúrese de que todos los detalles sean correctos y seleccione **[!UICONTROL Completar]** para finalizar el proceso.
+Revise todas las configuraciones y ajustes de antes de finalizar la adición de audiencias. Asegúrese de que todos los detalles sean correctos y, a continuación, seleccione **[!UICONTROL Completar]** para finalizar la creación de la conexión de datos.
+
+![Espacio de trabajo Agregar audiencias con todas las configuraciones seleccionadas mostradas.](/help/assets/setup/add-manage-audiences/review-connection.png)
 
 ## Panel de vista de públicos {#view-audiences-dashboard}
 
@@ -258,56 +217,58 @@ Revise todas las configuraciones y ajustes de antes de finalizar la adición de 
 >title="Identidades que faltan"
 >abstract="El recuento de identidades estará disponible tras la siguiente actualización de la conexión de datos siguiendo la programación configurada. La actualización inicial suele producirse en las 24 horas siguientes al establecimiento de la conexión de datos. Las actualizaciones continuas seguirán la programación configurada. "
 
-Después de importar audiencias en Real-Time CDP Collaboration, puede obtener información sobre ellas en una vista de panel. La vista predeterminada de la página **[!UICONTROL Mis audiencias]** muestra todas las audiencias que su organización ha importado actualmente a Real-Time CDP Collaboration.
+Después de importar audiencias en Real-Time CDP Collaboration, el área de trabajo **[!UICONTROL Mis audiencias]** muestra todas las audiencias que su organización ha importado actualmente en Real-Time CDP Collaboration.
 
-![Página de información general de audiencias que muestra todas las audiencias importadas por un anunciante](/help/assets/setup/add-manage-audiences/audiences-overview.png)
 
-Puede ver la siguiente información relevante sobre cada audiencia:
+Cada audiencia contiene una descripción general de la siguiente información:
 
 | Elemento | Descripción |
 |----------|---------|
 | **[!UICONTROL Identidades]** | Indica el número de identidades presentes en esta audiencia. Tenga en cuenta que si el mismo perfil tiene dos o más identidades y estas identidades se utilizan como claves de coincidencia en el proyecto, el perfil aparecerá dos veces en el recuento. |
-| **[!UICONTROL Estado]** | Indica si la audiencia está activa y si se puede utilizar en proyectos. El estado Pendiente indica que la audiencia se ha importado recientemente y que los miembros de la audiencia aún no se han completado. Las audiencias importadas se rellenarán con perfiles después de la siguiente actualización de la conexión de datos según la programación configurada. La actualización inicial suele producirse en un plazo de 24 horas tras la configuración de la conexión de datos                                         . |
-| **[!UICONTROL Source]** | Indica la fuente desde la que se importó esta audiencia. En la versión actual de Real-Time CDP Collaboration, Adobe Experience Platform es la única fuente compatible. |
-| **[!UICONTROL Conexión de datos]** | Más información detallada acerca de desde dónde se importó esta audiencia. Por ejemplo, al importar audiencias desde el origen de Experience Platform, los entornos limitados individuales a los que su organización tiene acceso se consideran las conexiones de datos. |
-| **[!UICONTROL Acceso a la conexión]** | Define si esta audiencia es privada o pública. Las audiencias públicas se pueden detectar en informes de superposición y compartir con colaboradores. |
-| **[!UICONTROL Creado]** | Indica cuándo se importó esta audiencia a Real-Time CDP Collaboration. |
-| **[!UICONTROL Última actualización]** | Indica la última fecha y hora en que se actualizó cualquier aspecto de esta audiencia. |
+| **[!UICONTROL Estado]** | Indica si la audiencia está activa y si se puede utilizar en proyectos. El estado **[!UICONTROL Pendiente]** indica que la audiencia se importó recientemente y que los miembros de la audiencia aún no se han completado. Las audiencias importadas se rellenarán con perfiles después de la actualización inicial, que generalmente se produce dentro de las 24 horas siguientes a la configuración de la conexión de datos. |
+| **[!UICONTROL Source]** | Indica el origen desde el que se importó la audiencia. En la versión actual de Real-Time CDP Collaboration, Adobe Experience Platform es la única fuente compatible. |
+| **[!UICONTROL Conexión de datos]** | La conexión de datos desde la que se origina la audiencia. Puede seleccionar el nombre para ver la conexión de datos. |
+| **[!UICONTROL Acceso a la conexión]** | Define si la audiencia es pública o privada. Las audiencias públicas se pueden descubrir en los informes de superposición y se pueden activar dentro de un proyecto. |
+| **[!UICONTROL Creado]** | Indica cuándo se importó la audiencia a Real-Time CDP Collaboration. |
+| **[!UICONTROL Última actualización]** | Indica la última fecha y hora en que se actualizó cualquier aspecto de la audiencia. |
 
-Seleccione **[!UICONTROL Administrar conexiones de datos]** para ver y editar todas las conexiones de datos que haya configurado.
-Seleccione los elipsis y **[!UICONTROL Delete]** para eliminar la audiencia.
-Seleccione los puntos suspensivos y **[!UICONTROL Editar categorías]** para agregar distintas etiquetas de categoría a la audiencia. Obtenga más información en la sección [categorías](/#categories) a continuación.
-Seleccione el nombre de la audiencia para inspeccionar o editar audiencias individuales.
+![Área de trabajo de Mi audiencia que muestra todas las audiencias importadas.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+
+Para realizar acciones rápidas en una audiencia, seleccione los puntos suspensivos **...** junto al nombre de la audiencia. Las opciones disponibles son las siguientes:
+
+* **[!UICONTROL Editar categorías]** le permite agregar diferentes etiquetas de categoría a la audiencia. Para obtener más información, consulte la sección [categorías](#categories) a continuación.
+* **[!UICONTROL Eliminar]** eliminará la audiencia de la conexión de datos.
+
+![Área de trabajo Mis audiencias con el menú de los tres puntos abierto y las opciones Editar categorías y Eliminar resaltadas.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png)
 
 ## Ver audiencias individuales {#view-individual-audiences}
 
-La vista de audiencia revela más información sobre su audiencia.
+Para ver más información y editar las configuraciones de una audiencia individual, selecciona la audiencia en el espacio de trabajo **[!UICONTROL Mis audiencias]**. El espacio de trabajo de audiencia muestra información detallada sobre la audiencia seleccionada, incluidos detalles, identidades, categorías, acceso a conexiones y configuración de visibilidad de metadatos.
 
-![Ver e inspeccionar audiencia individual.](/help/assets/setup/add-manage-audiences/view-inspect-audience.png)
+### Detalles de público
 
-Las métricas que puede ver en esta pantalla se describen a continuación:
+Se muestra la siguiente información para cada audiencia individual:
 
 | Elemento | Descripción |
 |----------|---------|
 | **[!UICONTROL Estado]** | Indica si la audiencia está activa y si se puede utilizar en proyectos. |
-| **[!UICONTROL Source]** | Indica la fuente desde la que se importó esta audiencia. En la versión actual de Real-Time CDP Collaboration, Adobe Experience Platform es la única fuente compatible. |
-| **[!UICONTROL Conexión de datos]** | Más información detallada acerca de desde dónde se importó esta audiencia. Por ejemplo, al importar audiencias desde el origen de Experience Platform, los entornos limitados individuales a los que su organización tiene acceso se consideran las conexiones de datos. |
-| **[!UICONTROL Última actualización]** | Indica la última fecha y hora en que se actualizó cualquier aspecto de esta audiencia. |
-| **[!UICONTROL Última actualización por]** | Indica el usuario que actualizó esta audiencia por última vez. |
-| **[!UICONTROL Creado]** | Indica cuándo se importó esta audiencia a Real-Time CDP Collaboration. |
+| **[!UICONTROL Source]** | Indica el origen desde el que se importó la audiencia. En la versión actual de Real-Time CDP Collaboration, Adobe Experience Platform es la única fuente compatible. |
+| **[!UICONTROL Conexión de datos]** | La conexión de datos desde la que se origina la audiencia. |
+| **[!UICONTROL Última actualización]** | Indica la última fecha y hora en que se actualizó la audiencia. |
+| **[!UICONTROL Última actualización por]** | Indica el usuario que actualizó la audiencia por última vez. |
+| **[!UICONTROL Creado]** | Indica cuándo se importó la audiencia a Real-Time CDP Collaboration. |
 | **[!UICONTROL Creado por]** | Indica el usuario que importó la audiencia en Real-Time CDP Collaboration. |
 
+![Espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details.png)
 
-Puede utilizar otros dos controles en la página para editar o eliminar audiencias:
+Además, los siguientes controles están disponibles en el espacio de trabajo de audiencia:
 
-* **[!UICONTROL Eliminar]**: elimine la audiencia de su inventario
-* **[!UICONTROL Editar]**: edite los metadatos de la audiencia como su nombre o descripción.
+* **[!UICONTROL Eliminar]**: elimine la audiencia de su conexión de datos.
+* **[!UICONTROL Editar]**: edite el nombre o la descripción de la audiencia.
 
-![Ver e inspeccionar audiencia individual.](/help/assets/setup/add-manage-audiences/audiences-edit-delete-controls.png)
+![Espacio de trabajo de una audiencia individual con la opción Editar y eliminar resaltada.](/help/assets/setup/add-manage-audiences/audience-details-edit-delete.png)
 
-A continuación, encontrará más información acerca de la audiencia, que se puede editar parcialmente en los widgets:
-
-![Ver e inspeccionar audiencia individual.](/help/assets/setup/add-manage-audiences/audiences-further-info-boxes.png)
+A continuación, puede actualizar las secciones siguientes en el espacio de trabajo de la audiencia:
 
 * [Identidades](#identities)
 * [Categorías](#categories)
@@ -319,9 +280,11 @@ A continuación, encontrará más información acerca de la audiencia, que se pu
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identidades"
->abstract="Obtenga una vista desglosada de las identidades que componen este público, así como un recuento total de los perfiles con las identidades respectivas."
+>abstract="Una vista desglosada de las identidades que componen esta audiencia, así como un recuento total de perfiles con las identidades respectivas."
 
-Esta sección indica el número de perfiles presentes en la audiencia con cualquiera de las identidades especificadas al importar las audiencias. La sección también contiene un desglose de identidades para que pueda saber qué identidades conforman la mayor parte de la población de audiencia.
+La sección **[!UICONTROL Identidades]** indica el número de perfiles presentes en la audiencia con cualquiera de las identidades seleccionadas al importar la audiencia. La sección también contiene un desglose de identidades para que pueda saber qué identidades conforman la mayor parte de la población de audiencia.
+
+![La sección Identidades del espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
 ### Categorías {#categories}
 
@@ -332,46 +295,66 @@ Esta sección indica el número de perfiles presentes en la audiencia con cualqu
 
 Para facilitar la organización, el filtrado y la recuperación de audiencias, puede etiquetar sus audiencias. Puede etiquetar una audiencia con varias categorías y, a continuación, puede usar estas etiquetas de categoría para filtrar las audiencias que desee en el área de producto [Discover](/help/guide/collaborate/discover.md) al ejecutar informes de superposición de audiencias.
 
+Para agregar categorías, seleccione la opción **[!UICONTROL Editar]** en la sección **[!UICONTROL Categorías]**.
+
+![La sección Categorías del espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-categories.png)
+
+Aparecerá el cuadro de diálogo **[!UICONTROL Categorías]**, que le permitirá seleccionar las categorías que desee agregar a la audiencia. Para seleccionar una categoría individual, marque la casilla que hay junto al nombre de la categoría.
+
+![Cuadro de diálogo Categorías con las categorías disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
+
 ### Acceso a la conexión {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Acceso a la conexión"
->abstract="<p>Los públicos pueden ser de tres tipos: públicos, privados y personalizados.</p><p> Su disponibilidad para usarlos en proyectos con los colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar el acceso a la conexión de privado a público, pero no puede volver a cambiar esa configuración cuando un público se ha compartido con los colaboradores.</p>"
+>abstract="<p>Los públicos pueden ser de tres tipos: públicos, privados y personalizados.</p><p> Su disponibilidad para usarlos en proyectos con los colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar la conexión de acceso de privada a pública, pero no puede volver a cambiar esa configuración una vez que se activa una audiencia con colaboradores.</p>"
 
-Seleccione si la audiencia debe ser privada para usted o utilizable y detectable en las conexiones. Las tres opciones disponibles son:
+La disponibilidad de una audiencia para su uso en proyectos con colaboradores difiere según la configuración de acceso a la conexión. En la sección **[!UICONTROL Acceso a la conexión]**, puede seleccionar si la audiencia debe ser privada o utilizable y detectable en las conexiones.
 
-* **[!UICONTROL Público]**. Estas audiencias están disponibles para su uso en informes de superposición y para compartir y activar conexiones con cualquier colaborador.
-* **[!UICONTROL Audiencia privada]**. Estas audiencias *no* están disponibles para su uso en informes de superposición y para compartirlas y activarlas en conexiones con colaboradores. Aunque no está disponible para que los colaboradores la vean o usen, la población de esta audiencia sigue contribuyendo a la población total en la vista **[!UICONTROL Todas las audiencias]** en la sección [Discover y superpone](/help/guide/collaborate/discover.md#compare-audiences). Cambie la configuración a pública o personalizada para utilizar las audiencias en conexiones con los colaboradores.
-* **[!UICONTROL Audiencia personalizada]**. Estas audiencias están disponibles para usarlas en informes de superposición y para compartirlas y activarlas únicamente en conexiones especificadas. Aunque no está disponible para que todos los colaboradores la vean o usen, la población de esta audiencia sigue contribuyendo a la población total en la vista **[!UICONTROL Todas las audiencias]** en la sección [Discover y superpone](/help/guide/collaborate/discover.md).
+Para actualizar el acceso a la conexión de la audiencia, seleccione la opción **[!UICONTROL Editar]** en la sección **[!UICONTROL Acceso a la conexión]**.
+
+![La sección de acceso a la conexión del área de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png)
+
+Aparecerá el cuadro de diálogo **[!UICONTROL Acceso a conexión]**, con tres opciones de acceso a conexión disponibles:
+
+* **[!UICONTROL Audiencia privada]**. Estas audiencias *no* están disponibles para su uso en informes de superposición o para su activación en conexiones con colaboradores. Aunque las audiencias no están disponibles para que los colaboradores las vean o utilicen, la población de las audiencias sigue contribuyendo a la población total en la vista **[!UICONTROL Todas las audiencias]** en la sección [comparar audiencias](/help/guide/collaborate/discover.md#compare-audiences). Cambie la configuración a pública o personalizada para utilizar las audiencias en conexiones con los colaboradores.
+* **[!UICONTROL Público]**. Estas audiencias están disponibles para usarlas en informes de superposición y para activarlas en conexiones con cualquier colaborador.
+* **[!UICONTROL Audiencia personalizada]**. Estas audiencias están disponibles para usarlas en informes de superposición y solo para activarlas en conexiones especificadas. Aunque las audiencias no están disponibles para que los colaboradores las vean o utilicen, la población de las audiencias sigue contribuyendo a la población total en la vista **[!UICONTROL Todas las audiencias]** en la sección [comparar audiencias](/help/guide/collaborate/discover.md#compare-audiences).
+
+Seleccione la opción de acceso a la conexión que desee y, a continuación, seleccione **[!UICONTROL Guardar]** para aplicar los cambios.
+
+![Cuadro de diálogo de acceso a la conexión con las opciones disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
 
 >[!IMPORTANT]
 >
->Independientemente del estado del acceso (público, privado o personalizado), la población de cualquier audiencia contribuye a la población de **[!UICONTROL Todas las audiencias]** en la vista de análisis de superposición de Audience Discovery. <br> ![La audiencia de **Todas las audiencias** generada por el sistema en el análisis de superposición de detección de audiencias incluye audiencias con todos los estados de acceso a la conexión (pública, privada o personalizada).](/help/assets/setup/add-manage-audiences/all-audiences-view.png "La audiencia **Todas las audiencias** generada por el sistema en el análisis de superposición **Detección de audiencias** incluye audiencias con todos los estados de acceso a la conexión (pública, privada, personalizada)."){width="100" zoomable="yes"}
+>Independientemente del estado del acceso (público, privado o personalizado), la población de cualquier audiencia contribuye a la población de **[!UICONTROL Todas las audiencias]** en la sección **[!UICONTROL Comparar audiencias]** dentro de un proyecto.<br>
 
-La disponibilidad de la audiencia para su uso en proyectos con colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar el acceso a la conexión de privado a público, pero no puede volver a cambiar esa configuración cuando un público se ha compartido con los colaboradores.
+La disponibilidad de la audiencia para su uso en proyectos con colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar la conexión de acceso de privada a pública, pero no puede volver a cambiar esa configuración una vez que se activa una audiencia.
 
 ### Visibilidad de los metadatos {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilidad de los metadatos"
->abstract="<p>Indica qué información de metadatos del público es visible para otras organizaciones antes de conectarse con su organización. </p> <p> **Recuento de identidades** controla si su socio puede ver los recuentos de identidades de sus públicos cuando visualiza los informes de superposición en la pestaña de detección. **% de solapamiento de público** controla si los colaboradores pueden descubrir los porcentajes de solapamiento entre sus públicos y los suyos."
+>abstract="<p>Indica cuál de los metadatos de la audiencia es visible para otras organizaciones antes de que se conecten con su organización. </p> <p> **Recuento de identidades** controla si su socio puede ver los recuentos de identidades de sus públicos cuando visualiza los informes de superposición en la pestaña de detección. **% de solapamiento de público** controla si los colaboradores pueden descubrir los porcentajes de solapamiento entre sus públicos y los suyos."
 
 >[!NOTE]
 >
->Si su colaborador tiene todas las audiencias definidas como privadas, la vista **[!UICONTROL Audiencias relevantes]** en las perspectivas de audiencia estará en blanco. [Más información](/help/guide/collaborate/discover.md#relevant-audiences).
+>Si su colaborador tiene todas las audiencias definidas como privadas, la sección **[!UICONTROL Audiencias relevantes]** de un proyecto en el área de trabajo **[!UICONTROL Discover]** estará en blanco. Para obtener más información, lea [Discover](/help/guide/collaborate/discover.md#relevant-audiences). guía.
 
-Indica qué información de los metadatos de audiencia es visible para otras organizaciones antes de conectarse con su organización o en diferentes vistas de proyecto.
+La visibilidad de los metadatos indica la visibilidad de los metadatos de una audiencia para otras organizaciones antes de que se conecten con su organización o en diferentes vistas de proyecto. Para actualizar la visibilidad de los metadatos de la audiencia, seleccione la opción **[!UICONTROL Editar]** en la sección **[!UICONTROL Visibilidad de los metadatos]**.
 
-**[!UICONTROL Mostrar recuento de identidad]**: esta opción controla si tu pareja puede ver los recuentos de identidad de tus audiencias al [ver informes de superposición en la pestaña de detección](/help/guide/collaborate/discover.md#discover-overlaps).
+![La sección de visibilidad de metadatos del espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
 
-![Imágenes en paralelo con la opción Mostrar recuento de identidades no seleccionada y seleccionada.](/help/assets/setup/add-manage-audiences/show-identity-count.png)
+Aparece el cuadro de diálogo **[!UICONTROL Visibilidad de metadatos]**, que le permite configurar las opciones de visibilidad de la audiencia. Hay dos ajustes de visibilidad de metadatos que puede configurar para cada audiencia:
 
-**[!UICONTROL Mostrar superposición de audiencias %]**: cuando se establece en true, los colaboradores pueden [descubrir porcentajes de superposición](/help/guide/collaborate/discover.md#compare-audiences) entre sus audiencias y la audiencia que le pertenece. Por ejemplo, en la grabación siguiente, la audiencia `agora-advertiser-aud3` tiene esta configuración establecida en true y un colaborador puede ver porcentajes de superposición con esa audiencia. La audiencia `agora-advertiser-aud1` tiene esta configuración establecida en false, por lo que el colaborador no puede ver porcentajes de superposición.
+**[!UICONTROL Mostrar recuento de identidades]**: esta opción controla si el colaborador puede ver los recuentos de identidades de las audiencias al [ver informes de superposición en la ficha de detección](/help/guide/collaborate/discover.md#discover-overlaps) dentro de un proyecto.
 
-![Porcentaje de superposición de audiencia para dos audiencias diferentes.](/help/assets/setup/add-manage-audiences/audience-overlap-percentage.gif)
+**[!UICONTROL Mostrar superposición de audiencias %]**: cuando se establece en true, los colaboradores pueden [descubrir porcentajes de superposición](/help/guide/collaborate/discover.md#compare-audiences) entre sus audiencias y las suyas.
+
+![Cuadro de diálogo de visibilidad de metadatos con las opciones disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 
 ## Pasos siguientes
 
-Después de importar audiencias, usa la sección [Conectar](/help/guide/connect/establishing-connections.md) para descubrir editores con los que conectarte y comenzar a colaborar en proyectos.
+Después de importar audiencias, es hora de descubrir editores con los que [conectar](/help/guide/connect/establishing-connections.md) y comenzar a colaborar en proyectos.

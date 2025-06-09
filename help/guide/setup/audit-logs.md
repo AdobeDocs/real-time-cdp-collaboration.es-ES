@@ -2,9 +2,9 @@
 title: Registros de auditoría
 description: Obtenga información sobre cómo utilizar la funcionalidad Registros de auditoría en Real-Time CDP Collaboration para rastrear actividades y cambios de usuarios.
 audience: admin
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Utilice la funcionalidad de registros de auditoría de Real-Time CDP Collaborati
 
 ![Pantalla de información general de alto nivel sobre la funcionalidad de registros de auditoría](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Para obtener información más completa acerca de los registros de auditoría, visite la [Documentación de registros de auditoría de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Para obtener información más completa acerca de los registros de auditoría, visite la [Documentación de registros de auditoría de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Acceder a registros de auditoría
 
@@ -61,7 +61,7 @@ Los registros de auditoría capturan información detallada sobre las actividade
 * **Recurso**: El recurso que se modificó o creó.
 * **Marca de tiempo**: Hora a la que se realizó la acción.
 
-Estos registros crean una pista completa de todas las actividades dentro de la instancia de Real-Time CDP Collaboration, lo que resulta útil para la gobernanza de datos y el cumplimiento de las normativas. Más información sobre [administrar registros de auditoría en la interfaz de usuario](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Estos registros crean una pista completa de todas las actividades dentro de la instancia de Real-Time CDP Collaboration, lo que resulta útil para la gobernanza de datos y el cumplimiento de las normativas. Más información sobre [administrar registros de auditoría en la interfaz de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Filtrar registros de auditoría
 
@@ -74,7 +74,7 @@ La interfaz de usuario de registros de auditoría proporciona varios filtros par
 * **Estado**: El estado de la acción (por ejemplo: permitido, denegado).
 * **Intervalo de fechas**: El intervalo de fechas para el cual desea ver los registros.
 
-Más información sobre [filtrado de registros de auditoría](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+Más información sobre [filtrado de registros de auditoría](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ### Ejemplo de uso
 
@@ -104,7 +104,7 @@ La siguiente tabla proporciona una referencia de todas las categorías y accione
 | **[!UICONTROL Conexión de datos de Collaboration]** | crear, actualizar, eliminar | Administrar conexiones de datos para colaborar en la importación y administración de audiencias, incluida la creación, actualización y eliminación de conexiones de datos. Más información sobre [administrar conexiones de datos](/help/guide/setup/manage-data-connection.md). |
 | **[!UICONTROL Entidad de datos de Collaboration]** | crear, actualizar, eliminar | Administrar entidades de datos para la colaboración, incluida la creación, actualización y eliminación de entidades de datos. Las entidades de datos en este contexto hacen referencia a audiencias. Más información sobre [importación y administración de audiencias](/help/guide/setup/onboard-audiences.md). |
 | **[!UICONTROL Proyecto Collaboration]** | crear, actualizar, eliminar | Administrar proyectos en colaboración, incluida la creación, actualización y eliminación de proyectos. Más información sobre [administrar proyectos](/help/guide/collaborate/manage-projects.md). |
-| **[!UICONTROL Módulo Collaboration]** | crear, actualizar, eliminar | Administre diferentes módulos dentro de los proyectos de colaboración, incluida la creación, actualización y eliminación de varios módulos en la interfaz de usuario. Por ejemplo, la capacidad de [compartir audiencias](/help/guide/collaborate/share.md). |
+| **[!UICONTROL Módulo Collaboration]** | crear, actualizar, eliminar | Administre diferentes módulos dentro de los proyectos de colaboración, incluida la creación, actualización y eliminación de varios módulos en la interfaz de usuario. Por ejemplo, la capacidad de [activar audiencias](/help/guide/collaborate/activate.md). |
 
 {style="table-layout:auto"}
 

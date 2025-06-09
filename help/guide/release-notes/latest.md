@@ -2,11 +2,11 @@
 title: Últimas notas de la versión de Real-Time CDP Collaboration
 description: Siga las últimas versiones de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '392'
 ht-degree: 5%
 
 ---
@@ -26,11 +26,11 @@ Estas notas de la versión abarcan la funcionalidad incluida en Real-Time Custom
 
 ## Marzo de 2025 {#march-2025}
 
-* Al [importar audiencias](/help/guide/setup/onboard-audiences.md) en Real-Time CDP Collaboration, ahora puede establecer una frecuencia de actualización de audiencia de **cada 1 a 6 días** para administrar mejor la [actividad de crédito de Gestión de público](/help/guide/setup/my-activity.md#types-of-activities). [Más información](/help/guide/setup/onboard-audiences.md#schedule). <br> ![Pantalla de programación que muestra diferentes intervalos de frecuencia para actualizar el abono a audiencia.](/help/assets/setup/add-manage-audiences/Step-Schedule-Set-Frequency.png "Pantalla de programación que muestra diferentes intervalos de frecuencia para actualizar la pertenencia a audiencias."){width="250" align="center" zoomable="yes"}
+* Al [importar audiencias](/help/guide/setup/onboard-audiences.md) en Real-Time CDP Collaboration, ahora puede establecer una frecuencia de actualización de audiencia de **cada uno a seis días** para administrar mejor la [actividad de crédito de Gestión de público](/help/guide/setup/my-activity.md#types-of-activities). [Más información](/help/guide/setup/onboard-audiences.md#schedule). <br> ![Pantalla de programación que muestra diferentes intervalos de frecuencia para actualizar el abono a audiencia.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Pantalla de programación que muestra diferentes intervalos de frecuencia para actualizar la pertenencia a audiencias."){width="250" align="center" zoomable="yes"}
 * Al establecer una conexión con un colaborador, ahora puede seleccionar entre **casos de uso** predefinidos. El caso de uso seleccionado determina qué secciones de proyecto y qué funcionalidad del producto están disponibles. [Más información](/help/guide/collaborate/manage-projects.md#project-use-cases).
    * *La medición de campaña* habilita la sección del proyecto **Measure**.
    * *Detección de audiencias* habilita la sección del proyecto **Discover**.
-   * *El uso compartido y la activación de audiencias* habilita las secciones del proyecto **Compartir** y **Activar** *(solo editor)*. <br> ![Casos de uso resaltados en la vista de conexión.](/help/assets/release-notes/2025/use-cases.png "Casos de uso resaltados en la vista de conexión."){width="250" align="center" zoomable="yes"}
+   * *Activación de audiencia* habilita **Activar** secciones de proyecto <br>
 * Ahora puede eliminar conexiones con colaboradores con los que ya no desea trabajar. [Más información](/help/guide/connect/establishing-connections.md#delete-connections).
 
 

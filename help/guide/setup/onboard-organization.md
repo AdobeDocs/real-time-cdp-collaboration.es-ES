@@ -2,41 +2,30 @@
 title: Incorporación y administración de la organización
 description: Aprenda a incorporar y administrar varios aspectos de su organización en Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 19%
+source-wordcount: '861'
+ht-degree: 16%
 
 ---
 
-# Incorporación y administración de la organización
+# Incorporar y administrar su organización
 
 {{limited-availability-release-note}}
 
 Aprenda a incorporar su organización en Real-Time CDP Collaboration y a administrar varios aspectos de su compañía. Esta página describe los pasos para incorporar una organización a Adobe Real-Time CDP Collaboration, incluida la configuración de las claves de coincidencia, las identidades preferidas y más opciones.
 
-![Página de instalación](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
+![Espacio de trabajo de configuración de la organización que muestra su configuración actual.](/help/assets/setup/manage-organization/my-organization.png){zoomable="yes"}
 
 ## Configuración inicial de la organización
 
-Primero debe configurar su organización y los detalles de la organización. Vaya a **[!UICONTROL Configuración]** en el carril izquierdo, seleccione el símbolo **+** en la esquina superior derecha y seleccione **[!UICONTROL Cuenta]**.
+Primero debe configurar su organización y los detalles de la organización. Si esta es su primera organización, se le dirigirá a través del proceso de incorporación inmediatamente, empezando por configurar sus [detalles de cuenta](#set-up-details).
 
->[!TIP]
->
->Después de configurar una cuenta inicial para trabajar con, puede utilizar el mismo flujo de trabajo para configurar cuentas adicionales dentro de la misma organización.
+Para agregar organizaciones adicionales, vaya a **[!UICONTROL Configuración]** en el carril izquierdo y seleccione el icono Agregar (![Agregar icono.](/help/assets/icons/plus.png)) en la esquina superior derecha. A continuación, seleccione **[!UICONTROL Cuenta]**.
 
-![Seleccione la cuenta para agregar una nueva organización a Real-Time CDP Collaboration](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
-
-El flujo de trabajo para configurar su organización incluye las dos páginas siguientes:
-
-* [Configuración de detalles](#set-up-details)
-* [Configurar claves de coincidencia](#set-up-match-keys)
-
->[!IMPORTANT]
->
->Las *claves de coincidencia* que seleccione en el nivel de organización se filtrarán al [nivel de proyecto](/help/guide/collaborate/manage-projects.md) en colaboración entre anunciantes y editores. En el nivel de proyecto, usted puede eliminar cualquier clave de coincidencia, pero *no* puede agregar ninguna clave adicional que no se haya seleccionado en el nivel de organización en esta pantalla.
+![Área de trabajo de configuración con la opción Cuenta resaltada.](/help/assets/setup/manage-organization/add-new-account.png){zoomable="yes"}
 
 ### Configuración de detalles {#set-up-details}
 
@@ -45,18 +34,24 @@ El flujo de trabajo para configurar su organización incluye las dos páginas si
 >title="Correo electrónico de contacto"
 >abstract="Proporcione un correo electrónico basado en roles o en equipos, como `collaboration@yourcompany.com`. No se deben utilizar direcciones de correo electrónico personales o individuales."
 
-![Los detalles y pasos de casos de uso para configurar una organización](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+Para comenzar a incorporar su organización, primero debe configurar los detalles de la organización. Esto requiere que agregue la siguiente información:
 
-1. Añada un **[!UICONTROL nombre de organización]** para su compañía.
-2. Agrega una **[!UICONTROL descripción]** sobre tu compañía.
-3. Seleccione su **[!UICONTROL rol de compañía]**. Puede seleccionar entre **[!UICONTROL Anunciante]** y **[!UICONTROL Publicador]**. Lea el [documento de flujo de trabajo de extremo a extremo](/help/guide/end-to-end-workflow.md) para ver similitudes y pequeñas diferencias en el flujo de trabajo entre los dos tipos de funciones organizativas.
-4. Seleccione el **[!UICONTROL sector]** de su organización. Algunos ejemplos son **[!UICONTROL Retail]**, **[!UICONTROL Telecomunicaciones]** o **[!UICONTROL Servicios financieros]**.
-5. Seleccione la **[!UICONTROL región]** de su organización. En la versión actual del producto, **[!UICONTROL Norteamérica]** es la selección predeterminada preestablecida.
-6. Agregue un **[!UICONTROL correo electrónico de contacto]** para su organización. Debe ser una dirección de correo electrónico basada en el equipo o en la función. No se deben proporcionar direcciones de correo electrónico personales.
-7. Cargue un **[!UICONTROL logotipo]** para su compañía. Actualmente, se admiten imágenes de tipo SVG.
-8. Seleccione una imagen para la imagen del encabezado de la empresa.
+* Añada un **[!UICONTROL nombre de organización]** para su compañía.
+* Agrega una **[!UICONTROL descripción]** sobre tu compañía.
+* Seleccione su **[!UICONTROL rol de compañía]**. Puede seleccionar entre **[!UICONTROL Anunciante]** y **[!UICONTROL Publicador]**. Lea el [documento de flujo de trabajo de extremo a extremo](/help/guide/end-to-end-workflow.md) para ver similitudes y pequeñas diferencias en el flujo de trabajo entre los dos tipos de funciones organizativas.
+* Seleccione el **[!UICONTROL sector]** de su organización. Algunos ejemplos son **[!UICONTROL Retail]**, **[!UICONTROL Telecomunicaciones]** o **[!UICONTROL Servicios financieros]**.
+* Seleccione la **[!UICONTROL región]** de su organización. En la versión actual del producto, **[!UICONTROL Norteamérica]** es la selección predeterminada preestablecida.
+* Agregue un **[!UICONTROL correo electrónico de contacto]** para su organización. Debe ser una dirección de correo electrónico basada en el equipo o en la función. No se deben proporcionar direcciones de correo electrónico personales.
+* Cargue un **[!UICONTROL logotipo]** para su compañía. Actualmente, se admiten imágenes de tipo SVG.
+* Seleccione una imagen para la imagen del encabezado de la empresa.
 
-Cuando esté satisfecho con su selección, use **[!UICONTROL Siguiente]** para continuar a la página siguiente y seleccionar las claves de coincidencia que su organización debería usar.
+>[!NOTE]
+>
+>Aunque puede editar la mayoría de estos detalles en cualquier momento, **[!UICONTROL Role]** y **[!UICONTROL Region]** no se pueden editar después de la configuración inicial.
+
+![Configuración del área de trabajo de la organización con la sección Detalles mostrada.](/help/assets/setup/manage-organization/add-organization-details.png){zoomable="yes"}
+
+Cuando termine, use **[!UICONTROL Siguiente]** para pasar a la página siguiente y seleccionar las claves de coincidencia que desea que use su organización.
 
 ### Configurar claves de coincidencia {#set-up-match-keys}
 
@@ -80,10 +75,9 @@ Cuando esté satisfecho con su selección, use **[!UICONTROL Siguiente]** para c
 >title="ID de socios compatibles"
 >abstract="Los ID de socio asociados con perfiles amplían el alcance a un perfil determinado."
 
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_destinations_activation_matchkeys"
->title="Claves de coincidencia de activación"
->abstract="Las claves de coincidencia de activación se muestran según las claves de coincidencia seleccionadas por su organización."
+>[!IMPORTANT]
+>
+>Las claves de coincidencia que seleccione durante la configuración de la organización determinarán las claves de coincidencia disponibles para las conexiones que cree con otras organizaciones. Aunque puede quitar las claves de coincidencia durante la configuración de la conexión, no puede agregar nuevas claves de coincidencia más adelante. Es importante seleccionar todas las claves de coincidencia que planea utilizar en futuras campañas durante la configuración de la organización.
 
 Las claves de coincidencia, como las direcciones de correo electrónico, los ID de dispositivo o los ID de cliente, ayudan a los anunciantes y editores a trabajar juntos, ya que permiten una sincronización de datos precisa y centrada en la privacidad, lo que permite una segmentación y medición de audiencias más precisas.
 
@@ -91,7 +85,7 @@ Las claves de coincidencia, como las direcciones de correo electrónico, los ID 
 
 Seleccione las claves de coincidencia que desee utilizar para reconciliar a los miembros de las audiencias de editor y anunciante. Incluya cualquier clave de coincidencia con la que pueda trabajar su compañía. Planifique el futuro y seleccione las claves de coincidencia que prevé utilizar en futuras campañas de editor-anunciante. Si necesita seleccionar claves de coincidencia adicionales para su organización, también puede hacerlo más adelante, en el flujo de trabajo [editar organización](#edit-organization).
 
-![Paso de selección de claves coincidentes.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
+![Se muestra la sección Configurar el área de trabajo de la organización con la sección Coincidir claves.](/help/assets/setup/manage-organization/add-organization-match-keys.png){zoomable="yes"}
 
 Seleccione hasta cinco claves de coincidencia que desee utilizar. Posteriormente, al configurar las conexiones, puede quitar las claves de coincidencia no deseadas, pero no puede agregar nuevas.
 
@@ -105,30 +99,21 @@ Las claves de coincidencia disponibles para la primera versión de Real-Time CDP
 
 * Correo electrónico con hash
 
-<!--
-
-not available in the Limited GA release
-
-* Hashed phone
-* IPv4
-
--->
-
 Cuando esté listo, seleccione **[!UICONTROL Completar]** para finalizar el flujo de trabajo de configuración de la organización.
 
 ## Editar organización {#edit-organization}
 
-Después de configurar inicialmente la organización, puede editar en cualquier momento ciertos aspectos y detalles de la organización. Para editar tu organización, selecciona **[!UICONTROL Editar]** en la vista **[!UICONTROL Mi organización]**.
+Después de configurar inicialmente la organización, puede editar en cualquier momento ciertos aspectos y detalles de la organización. Para editar tu organización, selecciona **[!UICONTROL Editar]** en la sección **[!UICONTROL Mi organización]** del área de trabajo **[!UICONTROL Configuración]**.
 
-![Editar control de organización resaltado.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
+![Área de trabajo de instalación con la ficha Mi organización y la opción Editar resaltadas.](/help/assets/setup/manage-organization/edit-organization.png){zoomable="yes"}
 
-En este punto, puede actualizar el nombre de la organización, la descripción, el logotipo y la imagen del perfil de la organización.
+Ahora puede editar los detalles de su organización, excepto la **[!UICONTROL función]** y la **[!UICONTROL región]**.
 
-![Opciones editables para organizaciones.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
+![Cuadro de diálogo Editar detalles de la organización.](/help/assets/setup/manage-organization/editable-options.png){zoomable="yes"}
 
-También puede actualizar las claves de coincidencia seleccionadas inicialmente al incorporar su organización, así como el umbral mínimo de identidades correspondientes a claves de coincidencia para que sean visibles y utilizables en superposiciones de audiencias y otras áreas de producto. Seleccione **[!UICONTROL Editar]** en la ficha **[!UICONTROL Claves de coincidencia]** para agregar las claves de coincidencia adicionales que desee o actualizar los umbrales de identidad.
+También puede actualizar las claves de coincidencia que seleccionó inicialmente al incorporar su organización. Seleccione **[!UICONTROL Editar]** en la sección **[!UICONTROL Claves de coincidencia]** para agregar las claves de coincidencia adicionales que desee.
 
-![Editar claves de coincidencia](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
+![Área de trabajo de instalación con la opción Editar resaltada en la sección Claves de coincidencia de la organización.](/help/assets/setup/manage-organization/edit-match-keys.png){zoomable="yes"}
 
 ## Pasos siguientes
 

@@ -2,13 +2,13 @@
 title: Cruces de identidades
 description: Conozca todo acerca de los pasos transversales de identidad en Real-Time CDP Collaboration, incluyendo cómo traer pasos transversales de identidad de diferentes fuentes y cómo administrar los pasos transversales de identidad
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: dd1386f9371cb40285315d11e07b139d3115e147
+source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '516'
 ht-degree: 22%
 
 ---
@@ -34,7 +34,7 @@ Como primer paso, debe importar pasos transversales de identidad en Real-Time CD
 
 ## Importación de pasos de identidad en Real-Time CDP Collaboration {#import-crosswalk}
 
-Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Cruces de identidad]**, seleccione el símbolo Más **+** y seleccione **[!UICONTROL Cruce de identidad]**
+Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Cruces de identidad]** y seleccione el icono de agregar (![Agregar icono.](/help/assets/icons/plus.png)) y seleccione **[!UICONTROL cruce de identidades]**
 
 ![Grabación de cómo llegar a la pantalla para agregar cruces de identidad](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
