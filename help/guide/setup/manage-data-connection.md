@@ -2,12 +2,12 @@
 title: Administrar conexiones de datos
 description: Obtenga información sobre cómo administrar conexiones de datos, incluidas claves de coincidencia, programación, casos de uso y filtrado de audiencias en Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 16%
+source-wordcount: '598'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +34,10 @@ Para ver las conexiones de datos existentes, vaya a **[!UICONTROL Configuración
 
 Las claves de coincidencia son identificadores que se utilizan para reconciliar miembros entre los públicos de diferentes fuentes de datos. No puede editar las claves de coincidencia seleccionadas inicialmente para la conexión de datos.
 
+>[!IMPORTANT]
+> 
+>Las claves de coincidencia no se pueden editar después de crear la conexión de datos. Para actualizar las claves de coincidencia, debe crear una nueva conexión de datos.
+
 Las claves de coincidencia disponibles incluyen:
 
 - **Correo electrónico con hash**
@@ -45,11 +49,27 @@ Las claves de coincidencia disponibles incluyen:
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Programación"
->abstract="Esta vista muestra las opciones de programación seleccionadas inicialmente para la conexión de datos."
+>abstract="Vea los detalles de programación de la conexión de datos y edite la frecuencia de actualización si es necesario."
 
-No puede editar las opciones de programación seleccionadas inicialmente para la conexión de datos. Para obtener más información acerca de las opciones de programación, vea la [sección de programación](/help/guide/setup/onboard-audiences.md#schedule) en el documento de flujo de trabajo de importación de audiencia.
+Ver y administrar la configuración de programación de las conexiones de datos. La programación determina la frecuencia con la que se actualiza la audiencia.
 
-![Área de trabajo de conexiones de datos con la sección Programación resaltada.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+Después de crear una conexión de datos, puede actualizar su frecuencia de actualización directamente desde la sección **[!UICONTROL Programando]** del área de trabajo de conexión de datos.
+
+>[!NOTE]
+>
+>Cuando se obtienen audiencias de Adobe Experience Platform, estas están disponibles en un plazo de 24 horas tras establecer la conexión de datos. Después de la importación inicial, los datos de audiencia se actualizan según la frecuencia definida.
+
+Para obtener más información sobre la programación, consulte la [sección de programación](/help/guide/setup/onboard-audiences.md#schedule) en la guía para incorporar audiencias.
+
+![Espacio de trabajo de una conexión de datos con la sección Programación resaltada.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+
+#### Editar programación {#edit-scheduling}
+
+Puede editar la frecuencia de una conexión de datos existente para controlar mejor la frecuencia con la que se actualizan las audiencias. Para editar la programación, selecciona **[!UICONTROL Editar]** en la conexión de datos de la tarjeta de programación.
+
+En el cuadro de diálogo **[!UICONTROL Programación]**, seleccione el menú desplegable para actualizar la **[!UICONTROL Frecuencia]**. Configure la frecuencia de actualización para que se ejecute a diario o cada dos a seis días. Cuando termines, selecciona **[!UICONTROL Guardar]** para aplicar los cambios.
+
+![Cuadro de diálogo Programación, que muestra las opciones para establecer la frecuencia y el intervalo de fechas.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
 
 ## Eliminar conexión de datos
 
