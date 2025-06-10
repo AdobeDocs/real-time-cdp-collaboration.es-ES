@@ -2,11 +2,11 @@
 title: Conectar con anunciantes o editores
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c9b96753a9a78bd85002ede3369c5f20eb430548
+source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1401'
 ht-degree: 11%
 
 ---
@@ -84,6 +84,13 @@ Una vez que el colaborador acepta la invitación, puede configurar los ajustes d
 >title="Nombres de anunciantes"
 >abstract="<p>Configuración opcional. Indica el nombre y el ID mediante los cuales el editor conoce al anunciante.</p><p>El nombre del anunciante que añada aquí se rellenará previamente en el paso de creación del proyecto.</p><ul><li>Si el editor configuró varios nombres, seleccione uno de la lista.</li><li>Si solo se ha configurado un nombre, se seleccionará automáticamente de antemano.</li><li>Si no se han configurado nombres, el campo se rellenará previamente con el nombre de cuenta del anunciante de Real-Time CDP Collaboration.</li></ul>"
 >additional-url="https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Crear un proyecto"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_activation"
+>title="Audience Activation"
+>abstract="La activación de audiencia permite seleccionar qué colaborador puede iniciar la activación de audiencia."
+
+<!-- Move and update the above popover when bidirectional is active. -->
 
 Una vez enviada la invitación, puede obtener una vista previa de la configuración de conexión. La invitación debe ser aceptada antes de que pueda finalizar la configuración de la conexión.
 
