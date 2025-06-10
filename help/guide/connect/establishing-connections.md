@@ -2,9 +2,9 @@
 title: Conectar con anunciantes o editores
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: c9b96753a9a78bd85002ede3369c5f20eb430548
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 11%
@@ -119,7 +119,7 @@ Las claves de coincidencia se rellenan previamente con las que seleccionaste al 
 
 +++División de crédito
 
-Utilice la sección de división de crédito para determinar cuál de las dos partes colaboradoras cubrirá los costes de las actividades. Las opciones de división de crédito están determinadas por los casos de uso seleccionados para la conexión. Aunque el caso de uso **[!UICONTROL Medición]** requiere que una parte cubra los costes, el caso de uso **[!UICONTROL Activación de audiencias]** ofrece una opción adicional para que cada parte cubra sus propios costes. Para obtener información sobre el desglose de costos, lea la guía [tipos de actividades de crédito](/help/guide/setup/my-activity.md#types-of-activities).
+Utilice la sección de división de crédito para determinar cuál de las dos partes colaboradoras cubrirá los costes de las actividades. Las opciones de división de crédito están determinadas por los casos de uso seleccionados para la conexión. Aunque el caso de uso **[!UICONTROL Medición]** requiere que una parte cubra los costos, el caso de uso **[!UICONTROL Activación - Coincidencia]** proporciona una opción adicional para que cada parte cubra sus propios costos. Para obtener información sobre el desglose de costos, lea la guía [tipos de actividades de crédito](/help/guide/setup/my-activity.md#types-of-activities).
 
 >[!NOTE]
 >
