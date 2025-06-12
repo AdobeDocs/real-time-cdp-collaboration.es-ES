@@ -2,11 +2,11 @@
 title: Incorporación y administración de la organización
 description: Aprenda a incorporar y administrar varios aspectos de su organización en Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 860138b95abc4d6af94bbbf722cf498463570c1b
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '886'
 ht-degree: 16%
 
 ---
@@ -33,6 +33,13 @@ Para agregar organizaciones adicionales, vaya a **[!UICONTROL Configuración]** 
 >id="rtcdp_collaboration_setup_contact_email"
 >title="Correo electrónico de contacto"
 >abstract="Proporcione un correo electrónico basado en roles o en equipos, como `collaboration@yourcompany.com`. No se deben utilizar direcciones de correo electrónico personales o individuales."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_setup_connect_code"
+>title="Código de conexión"
+>abstract="El código de conexión es un identificador único para su organización. Se utiliza para establecer conexiones con otras organizaciones en Real-Time CDP Collaboration."
+
+<!-- Move the above to new section for invite on this page when its created -->
 
 Para comenzar a incorporar su organización, primero debe configurar los detalles de la organización. Esto requiere que agregue la siguiente información:
 
