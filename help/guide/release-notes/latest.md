@@ -2,11 +2,11 @@
 title: Últimas notas de la versión de Real-Time CDP Collaboration
 description: Siga las últimas versiones de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
-source-git-commit: 691161cdc1f9338a470373988fbc0dee9a5be6db
+source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '683'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ Estas notas de la versión abarcan la funcionalidad incluida en Real-Time Custom
 * Real-Time CDP Collaboration ya está disponible para los clientes de **Australia** y **Nueva Zelanda**. Está disponible automáticamente para los clientes de Real-Time CDP Prime y Ultimate en estas regiones.
 * Real-Time CDP Collaboration ahora ofrece [destinos de autoservicio](../setup/manage-destinations.md) a través de la ficha **[!UICONTROL Mis destinos]** en la sección **[!UICONTROL Configuración]**. Los destinos le permiten activar audiencias en plataformas de terceros, como redes de publicidad o plataformas de administración de datos, para llegar a sus clientes a través de varios canales. Actualmente, solo se admiten destinos de Adobe Experience Platform. Si le interesa configurar un destino diferente, póngase en contacto con su representante de Adobe. Para obtener más información sobre los destinos, lea la guía [descripción general de destinos](../destinations/overview.md).
 
-   * Los destinos también agregan compatibilidad para ver audiencias de Real-Time CDP Collaboration en [Adobe Experience Platform audience portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.).
+   * Los destinos también agregan compatibilidad para ver audiencias de Real-Time CDP Collaboration en [Adobe Experience Platform audience portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences.).
 
 * Ahora puede editar la frecuencia de actualización de audiencia para conexiones de datos existentes en Real-Time CDP Collaboration. Actualmente, puede elegir actualizar las audiencias diariamente o cada dos a seis días. Para obtener más información sobre cómo editar la frecuencia de actualización de la audiencia, lea la guía [administrar conexiones de datos](../setup/manage-data-connection.md#scheduling).
 * Las divisiones de crédito entre colaboradores ahora se establecen para cada caso de uso seleccionado dentro de la conexión. Puede establecer diferentes reglas de consumo de crédito para cada caso de uso para controlar mejor cómo se utilizan los créditos. Para obtener más información acerca de la funcionalidad de división de crédito, lee la guía [configuración de conexión](../connect/establishing-connections.md#connection-settings). Para obtener más información sobre cómo se consumen los créditos, lea la guía [tipos de actividades de crédito](../setup/my-activity.md#types-of-activities). <br> ![Pantalla de configuración de conexión que muestra la funcionalidad de división de crédito.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
@@ -39,7 +39,7 @@ Estas notas de la versión abarcan la funcionalidad incluida en Real-Time Custom
 
 * Al [importar audiencias](/help/guide/setup/onboard-audiences.md) en Real-Time CDP Collaboration, ahora puede establecer una frecuencia de actualización de audiencia de **cada uno a seis días** para administrar mejor la [actividad de crédito de Gestión de público](/help/guide/setup/my-activity.md#types-of-activities). [Más información](/help/guide/setup/onboard-audiences.md#schedule). <br> ![Pantalla de programación que muestra diferentes intervalos de frecuencia para actualizar el abono a audiencia.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Pantalla de programación que muestra diferentes intervalos de frecuencia para actualizar la pertenencia a audiencias."){width="250" align="center" zoomable="yes"}
 * Al establecer una conexión con un colaborador, ahora puede seleccionar entre **casos de uso** predefinidos. El caso de uso seleccionado determina qué secciones de proyecto y qué funcionalidad del producto están disponibles. [Más información](/help/guide/collaborate/manage-projects.md#project-use-cases).
-   * *La medición de campaña* habilita la sección del proyecto **Measure**.
+   * *Medición* habilita la sección del proyecto **Medida**.
    * *Detección de audiencias* habilita la sección del proyecto **Discover**.
    * *Activación de audiencia* habilita **Activar** secciones de proyecto <br>
 * Ahora puede eliminar conexiones con colaboradores con los que ya no desea trabajar. [Más información](/help/guide/connect/establishing-connections.md#delete-connections).
