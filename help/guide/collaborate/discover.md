@@ -2,12 +2,12 @@
 title: Descubra superposiciones y compare audiencias
 description: Descubra las superposiciones entre las audiencias de y de sus colaboradores. Descubra las mejores audiencias para usar en sus campañas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 92702e8dd596dc6249a7240f0e3b57b661905c30
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 11%
+ht-degree: 19%
 
 ---
 
@@ -53,22 +53,22 @@ Una vez cumplidos estos requisitos previos, puede empezar a explorar y comparar 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_your_identity_count"
 >title="Su recuento de identidades"
->abstract="El número de ID únicos dentro de la audiencia seleccionada, en función de las claves de coincidencia que usted y su colaborador acordaron para el proyecto."
+>abstract="El número de ID únicos dentro del público seleccionado, en función de las claves de coincidencia que usted y su colaborador hayan acordado para el proyecto."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_collaborator_identity_count"
 >title="Recuento de identidades del colaborador"
->abstract="El número de ID únicos dentro de la audiencia de su colaborador, según las claves de coincidencia que usted y su colaborador acordaron para el proyecto."
+>abstract="El número de ID únicos dentro del público de su colaborador, según las claves de coincidencia que usted y su colaborador hayan acordado para el proyecto."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_count"
 >title="Recuento de identidades solapadas"
->abstract="El número de ID únicos que están presentes en la audiencia del usuario y la del colaborador, según las claves de coincidencia que el usuario y el colaborador acordaron para el proyecto."
+>abstract="El número de ID únicos que están presentes tanto en el público del usuario como en la del colaborador, según las claves de coincidencia que el usuario y el colaborador hayan acordado para el proyecto."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlapping_identities_percentage"
 >title="Porcentaje de identidades solapadas"
->abstract="Porcentaje de identidades superpuestas entre usted y la audiencia seleccionada del colaborador."
+>abstract="El porcentaje de perfiles que se solapan entre el público seleccionado por usted y el seleccionado por su colaborador."
 
 Utilice la sección de comparación de audiencias para obtener información enriquecida sobre la superposición entre las audiencias de y de su colaborador. Para cambiar la selección de audiencias, usa el selector desplegable en la parte superior de la sección **[!UICONTROL Comparar audiencias]**. Puede seleccionar una o todas las audiencias y una o todas las audiencias de su colaborador para compararlas entre sí.
 
@@ -126,7 +126,7 @@ La sección **[!UICONTROL Audiencias relevantes]** muestra la siguiente informac
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_overlaps_collaborator_audiences"
 >title="Detectar solapamientos con públicos individuales"
->abstract="Obtenga información sobre las superposiciones entre sus audiencias y las audiencias de su colaborador."
+>abstract="Obtenga información sobre las superposiciones entre sus públicos y los de su colaborador."
 
 Descubra superposiciones para obtener información sobre cómo se comparan las audiencias con las de sus colaboradores. De forma predeterminada, esta sección compara todas las audiencias con las de cada colaborador. Utilice el control de paginación situado en la parte inferior de la sección para navegar por las audiencias disponibles.
 

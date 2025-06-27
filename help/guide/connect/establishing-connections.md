@@ -2,12 +2,12 @@
 title: Conectar con anunciantes o editores
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 11%
+ht-degree: 16%
 
 ---
 
@@ -62,17 +62,17 @@ Una vez que el colaborador acepta la invitación, puede configurar los ajustes d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Pago dividido"
->abstract="Esta sección determina quién paga las actividades correspondientes dentro de Real-Time CDP Collaboration."
+>abstract="Esta sección determina quién paga las actividades correspondientes dentro de Real-Time CDP Collaboration. "
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
 >title="Uso compartido de audiencias"
->abstract="Los créditos de activación de audiencia se consumen en función del número de ID coincidentes preparados para la activación."
+>abstract="Los créditos de activación del público se consumen en función del número de ID coincidentes preparados para la activación."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Medición"
->abstract="Ejecute actividades para generar informes y perspectivas del rendimiento de las campañas. Los créditos se consumen en función del número de filas de los informes de campaña de todas las campañas y de la frecuencia de los informes (diariamente, cada tres días o semanalmente)."
+>abstract="Ejecutar actividades para generar informes y análisis sobre el rendimiento de las campañas. Los créditos se consumen en función del número de filas de los informes de campaña de todas las campañas y la frecuencia de los informes (diariamente, cada tres días o semanalmente)."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_legalagreement"
@@ -87,8 +87,8 @@ Una vez que el colaborador acepta la invitación, puede configurar los ajustes d
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_activation"
->title="Audience Activation"
->abstract="La activación de audiencia permite seleccionar qué colaborador puede iniciar la activación de audiencia."
+>title="Activación del público"
+>abstract="La activación del público permite seleccionar qué colaborador puede iniciar la activación del público."
 
 <!-- Move and update the above popover when bidirectional is active. -->
 

@@ -2,12 +2,12 @@
 title: Importar y administrar audiencias
 description: Obtenga información sobre cómo importar y administrar audiencias en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: fda414120decc0c76712616ff85b83febede53e9
 workflow-type: tm+mt
 source-wordcount: '2961'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -95,7 +95,7 @@ A continuación, debe asegurarse de que las acciones de marketing correctas se e
 
 Utilice acciones de marketing para controlar qué datos del público se importarán a Real-Time CDP Collaboration desde Experience Platform. La acción de marketing **Colaboración de datos** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **Ciencia de datos** admite la etiqueta de uso de datos C9.
 
-Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Con la casilla de verificación *habilitada*, cualquier dato marcado con las etiquetas llamadas arriba en Experience Platform se excluye y *no* se incorpora a Real-Time CDP Collaboration.
 * Con la casilla de verificación *deshabilitada*, no hay restricciones en los datos de Experience Platform que se pueden importar a Real-Time CDP Collaboration.
@@ -103,7 +103,7 @@ Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](http
 Obtenga más información sobre las etiquetas de uso de datos en la documentación de Experience Platform:
 
 * [Información general sobre las etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/overview){target="_blank"}
-* [Glosario de etiquetas de uso de datos](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference){target="_blank"}
+* [Glosario de etiquetas de uso de datos](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference){target="_blank"}
 
 Además, debe seleccionar las reglas de consentimiento que se aplicarán a los datos que se importan en Real-Time CDP Collaboration.
 
@@ -204,7 +204,7 @@ Después de seleccionar la fuente de audiencia, elegirá las audiencias específ
 
 ![Espacio de trabajo Agregar audiencias con una lista de audiencias disponibles.](/help/assets/setup/add-manage-audiences/select-audience.png)
 
-### Revisar
+### Revisión
 
 Revise todas las configuraciones y ajustes de antes de finalizar la adición de audiencias. Asegúrese de que todos los detalles sean correctos y, a continuación, seleccione **[!UICONTROL Completar]** para finalizar la creación de la conexión de datos.
 
@@ -280,7 +280,7 @@ A continuación, puede actualizar las secciones siguientes en el espacio de trab
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identidades"
->abstract="Una vista desglosada de las identidades que componen esta audiencia, así como un recuento total de perfiles con las identidades respectivas."
+>abstract="Obtenga una vista desglosada de las identidades que componen este público, así como un recuento total de los perfiles con las identidades respectivas."
 
 La sección **[!UICONTROL Identidades]** indica el número de perfiles presentes en la audiencia con cualquiera de las identidades seleccionadas al importar la audiencia. La sección también contiene un desglose de identidades para que pueda saber qué identidades conforman la mayor parte de la población de audiencia.
 
@@ -308,7 +308,7 @@ Aparecerá el cuadro de diálogo **[!UICONTROL Categorías]**, que le permitirá
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Acceso a la conexión"
->abstract="<p>Los públicos pueden ser de tres tipos: públicos, privados y personalizados.</p><p> Su disponibilidad para usarlos en proyectos con los colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar la conexión de acceso de privada a pública, pero no puede volver a cambiar esa configuración una vez que se activa una audiencia con colaboradores.</p>"
+>abstract="<p>Los públicos pueden ser de tres tipos: públicos, privados y personalizados.</p><p> Su disponibilidad para usarlos en proyectos con los colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar el acceso a la conexión de privado a público, pero no puede volver a cambiar esa configuración cuando un público se haya compartido con los colaboradores.</p>"
 
 La disponibilidad de una audiencia para su uso en proyectos con colaboradores difiere según la configuración de acceso a la conexión. En la sección **[!UICONTROL Acceso a la conexión]**, puede seleccionar si la audiencia debe ser privada o utilizable y detectable en las conexiones.
 
@@ -337,7 +337,7 @@ La disponibilidad de la audiencia para su uso en proyectos con colaboradores dif
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilidad de los metadatos"
->abstract="<p>Indica cuál de los metadatos de la audiencia es visible para otras organizaciones antes de que se conecten con su organización. </p> <p> **Recuento de identidades** controla si su socio puede ver los recuentos de identidades de sus públicos cuando visualiza los informes de superposición en la pestaña de detección. **% de solapamiento de público** controla si los colaboradores pueden descubrir los porcentajes de solapamiento entre sus públicos y los suyos."
+>abstract="<p>Indica qué información de metadatos del público es visible para otras organizaciones antes de conectarse con la suya. </p> <p> **Recuento de identidades** controla si su socio puede ver los recuentos de identidades de sus públicos cuando visualiza los informes de superposición en la pestaña de detección. **% de solapamiento de público** controla si los colaboradores pueden descubrir los porcentajes de solapamiento entre sus públicos y los suyos."
 
 >[!NOTE]
 >
