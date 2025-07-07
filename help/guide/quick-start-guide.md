@@ -1,17 +1,18 @@
 ---
 title: Inicio rápido de la incorporación de Real-Time CDP Collaboration
-description: Obtenga información sobre cómo incorporar su organización en Real-Time CDP Collaboration, incluida la configuración de funciones y organizaciones, el aprovisionamiento de audiencias, la activación y la medición. Esta guía ayuda a los anunciantes y editores a configurar las opciones de colaboración y a empezar a utilizar audiencias compartidas de forma segura y eficaz.
+description: Obtenga información sobre cómo incorporar su organización en Real-Time CDP Collaboration, incluida la configuración de funciones y organizaciones, el abastecimiento de audiencias, la activación y la medición. Esta guía ayuda a los anunciantes y editores a configurar las opciones de colaboración y a empezar a utilizar audiencias compartidas de forma segura y eficaz.
 audience: admin, publisher, advertiser
-source-git-commit: 4435788917dd82cb127525e054f7f09803e1dcdf
+exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
+source-git-commit: 5b17bcfbab02e8d24009a875ddea15cbd49c1506
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
 
 # Inicio rápido de la incorporación de Real-Time CDP Collaboration
 
-Empiece a usar Real-Time Customer Data Platform (CDP) Collaboration configurando su organización, aprovisionando audiencias y habilitando la activación y medición centradas en la privacidad.
+Comience a usar Real-Time CDP Collaboration configurando su organización, obteniendo audiencias y habilitando la activación y medición centradas en la privacidad.
 
 ## Requisitos previos
 
@@ -41,7 +42,7 @@ Las funciones de acceso de su organización determinan lo que los usuarios puede
 
 Vea este vídeo para aprender a asignar acceso y permisos de producto para Collaboration mediante la interfaz de usuario de Admin Console y Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452233/?learn=on&enablevpops&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Paso 2: Configuración de la organización de Real-Time CDP Collaboration {#set-up-your-organization}
 
@@ -73,7 +74,7 @@ Defina el papel de su organización en Collaboration, proporcione recursos de pr
 
 - **Configurar claves de coincidencia**: seleccione los identificadores utilizados para la coincidencia de audiencias (actualmente, el correo electrónico con hash es la única clave de coincidencia compatible).
 
-Una vez creada la organización y configuradas las claves de marca y de coincidencia, la organización está lista para empezar a aprovisionar audiencias y activar datos.
+Una vez creada la organización y configuradas las claves de marca y coincidencia, la organización está lista para empezar a obtener audiencias y activar datos.
 
 Para obtener más información acerca de la configuración inicial de la organización, incluido cómo definir funciones, cargar recursos de promoción de la marca y configurar claves de coincidencia, consulte el [documento de configuración inicial de la organización](./setup/onboard-organization.md#initial-organization-setup){target="_blank"}.
 
@@ -83,7 +84,7 @@ Vea un tutorial paso a paso sobre la configuración del anunciante, incluida la 
 
 ## Paso 3: Audiencias de Source (desde Experience Platform o una fuente de nube) {#source-audiences}
 
-Elija uno o ambos de los siguientes almacenes de datos para las audiencias de origen. Utilice la interfaz de usuario de Collaboration o coordínese con Adobe para aprovisionar audiencias en un formato que preserve la privacidad.
+Elija uno o ambos de los siguientes almacenes de datos para las audiencias de origen. Utilice la interfaz de usuario de Collaboration o coordínese con Adobe para crear audiencias en un formato que preserve la privacidad.
 
 ### Opción A: Source de Experience Platform
 
@@ -99,7 +100,7 @@ Para configurar una fuente de nube (por ejemplo, [!DNL AWS S3] o [!DNL Snowflake
 >
 >Todas las audiencias del archivo cargado tienen un origen completo en este momento. El acceso a organizaciones asociadas específicas se proporciona por separado a través de la interfaz de usuario de Collaboration.
 
-### Aprovisionar audiencias
+### Configuración de audiencias
 
 Configure cómo se preparan, comparan y controlan las audiencias para su uso en conexiones.
 
@@ -117,8 +118,8 @@ Configure cómo se preparan, comparan y controlan las audiencias para su uso en 
 >
 >**Número máximo de audiencias por rol de colaborador:**
 >
->- **Anunciantes** pueden aprovisionar hasta 25 audiencias.
->- **Los editores** pueden aprovisionar hasta 250 audiencias (cada una con un mínimo de 5.000 ID).
+>- **Anunciantes** pueden obtener hasta 25 audiencias.
+>- **Los editores** pueden obtener hasta 250 audiencias (cada una con un mínimo de 5.000 ID).
 
 >[!IMPORTANT]
 >
@@ -134,7 +135,7 @@ Para ver una descripción general completa de cómo hacer referencia a audiencia
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-También puede ver el documento sobre [hacer que las audiencias estén disponibles en Real-Time CDP Collaboration](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+También puede ver el documento sobre [hacer que las audiencias estén disponibles en Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ## Paso 4: Activar audiencias (en Experience Platform o en un destino de nube) {#activate-audiences}
 
@@ -146,7 +147,7 @@ Utilice la interfaz de usuario de Collaboration para activar audiencias en la in
 
 ### Opción A: Activar en Experience Platform
 
-Complete los siguientes pasos descritos en la guía [Configuración de Adobe Experience Platform como destino](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Complete los siguientes pasos descritos en la guía [Configuración de Adobe Experience Platform como destino](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Crear un destino**: use la interfaz de usuario para configurar un destino de Experience Platform (nivel de zona protegida).
 - **Asignar claves de coincidencia** - Seleccione el identificador (por ejemplo, `hashedEmail`).
@@ -237,11 +238,17 @@ Después de la activación, compruebe que las audiencias se hayan entregado o es
 
 Una vez completada la configuración y el aprovisionamiento de datos, su organización ya está lista para conectarse con sus colaboradores enviando o aceptando invitaciones y enviando la configuración del proyecto para su aprobación. Este proceso de conexión implica enviar o recibir invitaciones, revisar y enviar la configuración de conexión (como casos de uso y consumo de crédito) y confirmar la relación.
 
-Utilice el área de trabajo **[!UICONTROL Connect]** del menú de navegación de la izquierda de la interfaz de usuario de Collaboration para examinar los editores disponibles (actualmente no se pueden examinar los anunciantes). Para obtener una descripción general de este flujo, consulte la [Guía de conexión con anunciantes o editores](./connect/establishing-connections.md){target="_blank"}. Para obtener una descripción general visual del proceso de conexión, incluidos los colaboradores de exploración y la administración de la configuración de conexión, vea el vídeo [configuración de cuenta del anunciante](https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Como anunciante, usa el espacio de trabajo **[!UICONTROL Connect]** del menú de navegación de la izquierda de la interfaz de usuario de Collaboration para buscar editores disponibles.
+
+>[!NOTE]
+>
+>Actualmente, solo los anunciantes pueden examinar a los editores. Los editores no pueden examinar ni iniciar conexiones con anunciantes.
+
+Para obtener una descripción general de este flujo, consulte la [Guía de conexión con anunciantes o editores](./connect/establishing-connections.md){target="_blank"}. Para obtener una descripción general visual del proceso de conexión, incluidos los colaboradores de exploración y la administración de la configuración de conexión, vea el vídeo [configuración de cuenta del anunciante](https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Pasos siguientes
 
-Ahora ha completado la incorporación y ha configurado su organización para una colaboración segura. A continuación, explore los siguientes recursos para comprender mejor la activación, la medición y la gobernanza de datos:
+Ahora ha completado la configuración inicial y ha configurado su organización para una colaboración segura. A continuación, explore los siguientes recursos para comprender mejor la activación, la medición y la gobernanza de datos:
 
 - [Documentación del flujo de trabajo de activación de audiencia](./collaborate/activate.md)
 - [Casos de uso de medición](./collaborate/measure.md)
