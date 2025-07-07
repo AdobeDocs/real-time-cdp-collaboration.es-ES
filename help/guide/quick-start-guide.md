@@ -135,7 +135,7 @@ Para ver una descripción general completa de cómo hacer referencia a audiencia
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-También puede ver el documento sobre [hacer que las audiencias estén disponibles en Real-Time CDP Collaboration](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+También puede ver el documento sobre [hacer que las audiencias estén disponibles en Real-Time CDP Collaboration](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
 
 ## Paso 4: Activar audiencias (en Experience Platform o en un destino de nube) {#activate-audiences}
 
@@ -147,7 +147,7 @@ Utilice la interfaz de usuario de Collaboration para activar audiencias en la in
 
 ### Opción A: Activar en Experience Platform
 
-Complete los siguientes pasos descritos en la guía [Configuración de Adobe Experience Platform como destino](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
+Complete los siguientes pasos descritos en la guía [Configuración de Adobe Experience Platform como destino](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/destinations/experience-platform).
 
 - **Crear un destino**: use la interfaz de usuario para configurar un destino de Experience Platform (nivel de zona protegida).
 - **Asignar claves de coincidencia** - Seleccione el identificador (por ejemplo, `hashedEmail`).
