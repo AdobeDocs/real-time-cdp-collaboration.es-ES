@@ -45,7 +45,7 @@ Las funciones de acceso de su organización determinan lo que los usuarios puede
 
 Vea este vídeo para aprender a asignar acceso y permisos de producto para Collaboration mediante Admin Console y Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452233/?learn=on&enablevpops&captions=spa)
 
 ## Paso 2: Configurar su cuenta de Collaboration {#set-up-your-account}
 
