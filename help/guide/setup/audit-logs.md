@@ -2,7 +2,7 @@
 title: Registros de auditoría
 description: Obtenga información sobre cómo utilizar la funcionalidad Registros de auditoría en Real-Time CDP Collaboration para rastrear actividades y cambios de usuarios.
 audience: admin
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
@@ -23,7 +23,7 @@ Utilice la funcionalidad de registros de auditoría de Collaboration para rastre
 
 ![Pantalla de información general de alto nivel sobre la funcionalidad de registros de auditoría.](/help/assets/setup/audit-logs/audit-logs-overview.png)
 
-Para obtener información más completa acerca de los registros de auditoría, visite la [documentación sobre los registros de auditoría de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
+Para obtener información más completa acerca de los registros de auditoría, visite la [documentación sobre los registros de auditoría de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview){target="_blank"}.
 
 ## Acceder a registros de auditoría
 
@@ -62,7 +62,7 @@ Los registros de auditoría capturan información detallada sobre las actividade
 * **Acción**: la acción específica realizada, como crear o eliminar.
 * **Usuario**: La dirección de correo electrónico del usuario que realizó la acción.
 
-Estos registros crean una pista completa de todas las actividades dentro de la instancia de Collaboration, lo que resulta útil para la gobernanza de datos y el cumplimiento de las normativas. Más información sobre [administrar registros de auditoría en la interfaz de usuario](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
+Estos registros crean una pista completa de todas las actividades dentro de la instancia de Collaboration, lo que resulta útil para la gobernanza de datos y el cumplimiento de las normativas. Más información sobre [administrar registros de auditoría en la interfaz de usuario](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#managing-audit-logs-in-the-ui).
 
 ### Filtrar registros de auditoría {#filter-audit-logs}
 
@@ -75,7 +75,7 @@ La interfaz de usuario de registros de auditoría proporciona varios filtros par
 * **Estado**: El estado de la acción, como permitir o denegar.
 * **Intervalo de fechas**: El intervalo de fechas para el cual desea ver los registros.
 
-Más información sobre [filtrado de registros de auditoría](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
+Más información sobre [filtrado de registros de auditoría](https://experienceleague.adobe.com/es/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview#filter-audit-logs).
 
 ## Ventajas
 
