@@ -2,11 +2,11 @@
 title: Rendimiento de medida
 description: Mida el rendimiento de las campañas en diferentes canales. Aprenda a utilizar e interpretar varios informes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '631'
 ht-degree: 18%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 18%
 >
 >El área de trabajo **[!UICONTROL Measure]** solo está disponible si el caso de uso **Measurement** se habilitó [durante el proceso de conexión](../connect/establishing-connections.md#connection-settings). Para obtener más información sobre los casos de uso, consulte la guía [administrar proyectos](./manage-projects.md#project-use-cases).
 
-Obtenga información sobre los informes disponibles en Real-Time CDP Collaboration y comprenda cómo medir y analizar el rendimiento de sus campañas de marketing en varios canales.
+Obtenga información sobre los informes disponibles en Adobe Real-Time CDP Collaboration y comprenda cómo medir y analizar el rendimiento de sus campañas de marketing en varios canales.
 
 ## Requisitos previos
 
-Antes de poder acceder a los informes de medición en Real-Time CDP Collaboration, ya ha hecho lo siguiente:
+Antes de poder acceder a los informes de medición en Collaboration, ya ha hecho lo siguiente:
 
 * [Se conectó](/help/guide/connect/establishing-connections.md) con un anunciante o editor deseado con el caso de uso de **Medición** habilitado y comenzó a colaborar en [proyectos](/help/guide/collaborate/manage-projects.md)
-* Ejecute una campaña y [cargó datos de medición](/help/guide/setup/onboard-measurement-data.md) en Real-Time CDP Collaboration.
+* Ejecute una campaña y [cargó datos de medición](/help/guide/setup/onboard-measurement-data.md) en Collaboration.
 
 <!--
 
@@ -105,7 +105,7 @@ Comprenda qué medio está generando impresiones para su creativo. Esto puede ay
 
 ![Impresiones por ubicación.](/help/assets/collaborate/measure/impressions-by-placement.png)
 
-## Pasos siguientes
+## Próximos pasos
 
 ![Detectar, activar y medir anunciantes.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
 

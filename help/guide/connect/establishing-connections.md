@@ -2,12 +2,12 @@
 title: Conectar con anunciantes o editores
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 3615d969ff6e0ff95304a02346845909f3f8258c
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 16%
+source-wordcount: '1400'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 16%
 
 {{limited-availability-release-note}}
 
-Para que los colaboradores (normalmente un anunciante y un editor) puedan trabajar juntos en las campañas, deben establecer una conexión. Esta conexión les permite activar audiencias, crear proyectos y ejecutar informes sobre el rendimiento de la campaña.
+Para que los colaboradores puedan trabajar juntos en las campañas, deben establecer una conexión. Esta conexión les permite activar audiencias, crear proyectos y ejecutar informes sobre el rendimiento de la campaña.
 
 ## Flujo de trabajo de alto nivel
 
@@ -33,15 +33,15 @@ Una vez completados los elementos anteriores, los colaboradores pueden [crear un
 
 >[!IMPORTANT]
 >
->Una vez establecida la conexión entre dos colaboradores, la configuración de conexión ya no se puede revisar.
+>Una vez establecida la conexión entre dos colaboradores, la configuración de conexión no se puede revisar.
 
 ## Enviar invitación {#send-invite}
 
-Para configurar una conexión, selecciona **[!UICONTROL Conectar]** al examinar el inventario de editores en la pantalla Detectar editores.
+Para configurar una conexión, selecciona **[!UICONTROL Conectar]** al examinar el inventario de editores en el área de trabajo de **[!UICONTROL Detectar editores]**.
 
 ![Panel de conexión con la opción Conectar resaltada en un editor específico.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
-Una vez enviada la invitación, puede obtener una vista previa de la configuración de conexión, pero no editarla. Ver invitaciones pendientes en la ficha **[!UICONTROL Mis conexiones]**. El estado de la conexión aparece como **[!UICONTROL Invitación enviada]**.
+Una vez enviada la invitación, puede obtener una vista previa de la configuración de conexión, pero no editarla. Ver invitaciones pendientes se muestra en la ficha **[!UICONTROL Mis conexiones]**. El estado de la conexión aparece como **[!UICONTROL Invitación enviada]**.
 
 ![Se ha enviado una invitación pendiente al editor que aparece en la vista Mis conexiones.](/help/assets/connect/establish-connection/pending-invite-sent.png){zoomable="yes"}
 
@@ -62,7 +62,7 @@ Una vez que el colaborador acepta la invitación, puede configurar los ajustes d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="Pago dividido"
->abstract="Esta sección determina quién paga las actividades correspondientes dentro de Real-Time CDP Collaboration. "
+>abstract="Esta sección determina quién paga las actividades correspondientes dentro de Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
@@ -82,7 +82,7 @@ Una vez que el colaborador acepta la invitación, puede configurar los ajustes d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
 >title="Nombres de anunciantes"
->abstract="<p>Configuración opcional. Indica el nombre y el ID mediante los cuales el editor conoce al anunciante.</p><p>El nombre del anunciante que añada aquí se rellenará previamente en el paso de creación del proyecto.</p><ul><li>Si el editor configuró varios nombres, seleccione uno de la lista.</li><li>Si solo se ha configurado un nombre, se seleccionará automáticamente de antemano.</li><li>Si no se han configurado nombres, el campo se rellenará previamente con el nombre de cuenta del anunciante de Real-Time CDP Collaboration.</li></ul>"
+>abstract="<p>Configuración opcional. Indica el nombre y el ID mediante los cuales el editor conoce al anunciante.</p><p>El nombre del anunciante que añada aquí se rellenará previamente en el paso de creación del proyecto.</p><ul><li>Si el editor configuró varios nombres, seleccione uno de la lista.</li><li>Si solo se ha configurado un nombre, se seleccionará automáticamente de antemano.</li><li>Si no se configuran nombres, el campo se rellena previamente con el nombre de cuenta del anunciante de Collaboration.</li></ul>"
 >additional-url="https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/collaborate/manage-projects#create-project" text="Crear un proyecto"
 
 >[!CONTEXTUALHELP]
@@ -95,6 +95,8 @@ Una vez que el colaborador acepta la invitación, puede configurar los ajustes d
 Una vez enviada la invitación, puede obtener una vista previa de la configuración de conexión. La invitación debe ser aceptada antes de que pueda finalizar la configuración de la conexión.
 
 ![Vista de configuración de conexión en estado de vista previa.](/help/assets/connect/establish-connection/preview-connection-settings.png){zoomable="yes"}
+
+<!-- The sections below will be updated in B2B and have not been addressed yet. -->
 
 ### Configuración de conexión del anunciante {#advertiser-connection-settings}
 
@@ -118,7 +120,7 @@ Los casos de uso se rellenan previamente con todas las opciones disponibles. Par
 
 +++Claves coincidentes
 
-Las claves de coincidencia se rellenan previamente con las que seleccionaste al [configurar tu organización](/help/guide/setup/onboard-organization.md#set-up-match-keys). Puede desactivar cualquier clave de coincidencia que no desee utilizar, pero no puede añadir claves de coincidencia que no se seleccionaron durante la configuración de la organización.
+Las claves de coincidencia se rellenan previamente con las que seleccionaste al [configurar tu organización](/help/guide/setup/onboard-account.md#set-up-match-keys). Puede desactivar cualquier clave de coincidencia que no desee utilizar, pero no puede añadir claves de coincidencia que no se seleccionaron durante la configuración de la organización.
 
 ![La configuración de la clave Match en el área de trabajo de configuración de conexión.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
 
@@ -177,9 +179,13 @@ Así funciona la selección de nombre del anunciante al crear un proyecto:
 
 Si está satisfecho con la configuración de conexión propuesta, seleccione **[!UICONTROL Aceptar]** para establecer la conexión. Si desea solicitar cambios en la configuración de conexión, seleccione **[!UICONTROL Rechazar]**. A continuación, el colaborador puede revisar la configuración de conexión y reenviarla para su revisión.
 
+<!-- The end of the sections needing updates still. -->
+
 ## Eliminación de conexiones {#delete-connections}
 
-Puede eliminar cualquier conexión con colaboradores con los que no desee seguir trabajando. Para eliminar las conexiones existentes, ve a **[!UICONTROL Connect]**. Los anunciantes deberían navegar a **[!UICONTROL Mis conexiones]**. Seleccione **[!UICONTROL Ver conexión]** en la tarjeta de conexión para abrir la conexión que desea eliminar.
+Puede eliminar cualquier conexión con colaboradores con los que no desee seguir trabajando. Para eliminar las conexiones existentes, ve a **[!UICONTROL Connect]**. Como editor, se mostrará la conexión existente. Como anunciante, deberías ir a **[!UICONTROL Mis conexiones]**.
+
+Seleccione **[!UICONTROL Ver conexión]** en la tarjeta de conexión que desee eliminar.
 
 ![La opción Ver conexión resaltada en la vista Mis conexiones.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
 
@@ -195,6 +201,6 @@ Aparecerá un cuadro de diálogo de confirmación en el que se le pedirá que co
 >
 >Una vez eliminada la conexión, ya no estará conectado con el colaborador y todos los proyectos existentes que formen parte de la colaboración se eliminarán de forma permanente y no se recuperarán.
 
-## Pasos siguientes
+## Próximos pasos
 
 Después de establecer una conexión con su colaborador, usted y su colaborador ahora pueden [crear proyectos](/help/guide/collaborate/manage-projects.md#create-project).

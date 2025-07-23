@@ -2,11 +2,11 @@
 title: Administrar conexiones de datos
 description: Obtenga información sobre cómo administrar conexiones de datos, incluidas claves de coincidencia, programación, casos de uso y filtrado de audiencias en Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: b28bb5037c25f630059e6e8bc375ce28e0967ac7
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '597'
 ht-degree: 12%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 ## Información general
 
-Utilice conexiones de datos en Real-Time CDP Collaboration para importar audiencias de varias fuentes. Obtenga información sobre cómo administrar las claves de coincidencia y programar las importaciones de datos para las conexiones de datos existentes. Además, podrá filtrar audiencias por atributos diferentes para obtener perspectivas más granulares.
+Utilice conexiones de datos en Real-Time CDP Collaboration para obtener audiencias de varias plataformas. Obtenga información sobre cómo administrar las claves de coincidencia y programar la actualización de datos para las conexiones de datos existentes. Además, podrá filtrar audiencias por atributos diferentes para obtener perspectivas más granulares.
 
 ## Ver conexiones de datos
 
@@ -59,7 +59,7 @@ Después de crear una conexión de datos, puede actualizar su frecuencia de actu
 >
 >Cuando se obtienen audiencias de Adobe Experience Platform, estas están disponibles en un plazo de 24 horas tras establecer la conexión de datos. Después de la importación inicial, los datos de audiencia se actualizan según la frecuencia definida.
 
-Para obtener más información sobre la programación, consulte la [sección de programación](/help/guide/setup/onboard-audiences.md#schedule) en la guía para incorporar audiencias.
+Para obtener más información sobre la programación, consulte la [sección de programación](/help/guide/setup/onboard-audiences.md#schedule) en la guía para configurar audiencias.
 
 ![Espacio de trabajo de una conexión de datos con la sección Programación resaltada.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
@@ -69,11 +69,11 @@ Puede editar la frecuencia de una conexión de datos existente para controlar me
 
 En el cuadro de diálogo **[!UICONTROL Programación]**, seleccione el menú desplegable para actualizar la **[!UICONTROL Frecuencia]**. Configure la frecuencia de actualización para que se ejecute a diario o cada dos a seis días. Cuando termines, selecciona **[!UICONTROL Guardar]** para aplicar los cambios.
 
-![Cuadro de diálogo Programación, que muestra las opciones para establecer la frecuencia y el intervalo de fechas.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes" alt="The Scheduling dialog with editable fields for frequency."}
+![Cuadro de diálogo Programación, que muestra las opciones para establecer la frecuencia y el intervalo de fechas.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## Eliminar conexión de datos
 
-Al eliminar una conexión de datos, se eliminarán todas las audiencias subyacentes, la configuración asociada y el uso en toda la plataforma. Esta acción no se puede deshacer.
+Al eliminar una conexión de datos, se eliminarán todas las audiencias subyacentes, la configuración asociada y el uso en Collaboration. Esta acción no se puede deshacer.
 
 Para eliminar una conexión de datos existente, seleccione el icono Eliminar (![Eliminar icono](/help/assets/common/delete.svg)) en el área de trabajo de una conexión de datos individual.
 
@@ -89,6 +89,6 @@ En la parte inferior del espacio de trabajo se muestra una lista de audiencias a
 
 ![Espacio de trabajo de conexiones de datos con las audiencias resaltadas.](/help/assets/setup/manage-data-connection/view-data-connection-manage-audiences.png){zoomable="yes"}
 
-## Pasos siguientes
+## Próximos pasos
 
 Después de administrar las conexiones de datos, puede [descubrir superposiciones](/help/guide/collaborate/discover.md) entre sus audiencias y las audiencias que su colaborador ha hecho reconocibles.

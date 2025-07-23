@@ -2,11 +2,11 @@
 title: Creación y administración de proyectos
 description: Obtenga información sobre cómo crear y administrar proyectos en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '428'
 ht-degree: 9%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 {{limited-availability-release-note}}
 
-Los proyectos son la pieza central del flujo de trabajo en Real-Time CDP Collaboration. Después de conectar con los colaboradores, cree un proyecto para ejecutar cálculos de superposición de audiencias y descubrir audiencias relevantes para las campañas.
+Los proyectos son la pieza central del flujo de trabajo en Adobe Real-Time CDP Collaboration. Después de conectar con los colaboradores, cree un proyecto para ejecutar cálculos de superposición de audiencias y descubrir audiencias relevantes para las campañas.
 
 >[!TIP]
 >
@@ -28,6 +28,8 @@ Puede utilizar filtros para ver únicamente los proyectos que ha iniciado con ci
 ![Vista filtrada de proyectos con un solo colaborador.](/help/assets/collaborate/manage-view-projects/filtered-project-view.png){zoomable="yes"}
 
 ## Crear proyecto {#create-project}
+
+Para crear un proyecto, primero debe [establecer una conexión](/help/guide/connect/establishing-connections.md) con un colaborador. Una vez establecida la conexión, puede crear un proyecto con ese colaborador.
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_projects_advertisername"
@@ -62,4 +64,4 @@ La descripción general del proyecto muestra los casos de uso seleccionados dura
 | --- | --- |
 | Medición de campañas | Este caso de uso concede acceso a la sección [Measure](/help/guide/collaborate/measure.md) y a todas las funcionalidades disponibles. |
 | Descubrimiento de públicos | Este caso de uso concede acceso a la sección [Discover](/help/guide/collaborate/discover.md) y a todas las funcionalidades disponibles. |
-| Audience Activation | Este caso de uso concede acceso a la sección [Activar](/help/guide/collaborate/activate.md) y a todas las funcionalidades disponibles. |
+| Activación del público | Este caso de uso concede acceso a la sección [Activar](/help/guide/collaborate/activate.md) y a todas las funcionalidades disponibles. |
