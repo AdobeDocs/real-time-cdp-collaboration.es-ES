@@ -2,11 +2,11 @@
 title: Cruces de identidades
 description: Conozca todo acerca de los pasos transversales de identidad en Real-Time CDP Collaboration, incluyendo cómo traer pasos transversales de identidad de diferentes fuentes y cómo administrar los pasos transversales de identidad
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: fda414120decc0c76712616ff85b83febede53e9
+source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 22%
@@ -20,11 +20,6 @@ ht-degree: 22%
 Conozca todo acerca de los cruces de identidad en Real-Time CDP Collaboration, incluyendo cómo traer cruces de identidad desde diferentes fuentes, y cómo administrar los cruces de identidad.
 
 Los pasos cruzados de identidad facilitan la vinculación segura y compatible con la privacidad de las identidades de los clientes en varios conjuntos de datos y plataformas. Al utilizar identificadores hash, Real-Time CDP Collaboration garantiza que los usuarios puedan sincronizar y reconciliar identidades sin exponer información de identificación personal (PII). Esto permite obtener una vista unificada del cliente para mejorar la colaboración y las iniciativas de marketing segmentadas.
-
-<!--
-In Real-Time CDP Collaboration, use identity crosswalks alongside your audiences by [TODO] insert material here. 
--->
-
 
 Como primer paso, debe importar pasos transversales de identidad en Real-Time CDP Collaboration. Para importar cruces de identidad en Real-Time CDP Collaboration, lea la siguiente sección:
 
@@ -71,10 +66,10 @@ Cualquiera de los encabezados de columna del cruce seleccionado puede servir com
 
 Seleccione la clave de unión que desee para la tabla de cruce y seleccione **[!UICONTROL Siguiente]** para continuar con el paso siguiente.
 
-### Revisar
+### Revisión
 
 Revise cualquiera de las selecciones de las pantallas anteriores. Cuando esté satisfecho con la selección, seleccione **[!UICONTROL Siguiente]** para completar el flujo de trabajo.
 
-## Pasos siguientes
+## Próximos pasos
 
 Después de aprender a importar pasos de identidad en Real-Time CDP, puede ver todos los pasos de identidad que ha agregado hasta ahora a Real-Time CDP Collaboration. Ahora también puede utilizar los pasos de identidad que ha importado al importar audiencias en Real-Time CDP Collaboration.

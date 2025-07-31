@@ -2,11 +2,11 @@
 title: Configuración y administración de destinos
 description: Obtenga información sobre cómo configurar y administrar destinos en Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Los destinos son integraciones que se utilizan para enviar audiencias de destino a plataformas externas. Estas integraciones le permiten activar audiencias en varios canales y plataformas de marketing para utilizarlas en campañas y participación de clientes.
 
-Actualmente, los destinos solo están disponibles para los editores de Real-Time CDP Collaboration. Los editores pueden configurar destinos para activar audiencias en plataformas externas, como Adobe Experience Platform, para usarlas en campañas. Los anunciantes pueden [enviar audiencias dentro de un proyecto](../collaborate/activate.md), que se envían al destino configurado del editor.
+Los colaboradores pueden configurar destinos para enviar audiencias a plataformas externas, como Adobe Experience Platform, para usarlas en campañas. Los colaboradores pueden [activar audiencias dentro de un proyecto](../collaborate/activate.md), que se envían al destino configurado de su conexión. La activación puede realizarla el colaborador en función de la configuración de activación de audiencia [configurada en la conexión](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 ![La ficha Mis destinos del área de trabajo de instalación muestra destinos de Adobe Experience Platform activos.](/help/assets/setup/manage-destinations/my-destinations-overview.png)
 
@@ -41,7 +41,7 @@ El proceso de configuración de destinos depende del destino que esté configura
 
 ## Eliminar destinos {#delete-destinations}
 
-Al eliminar un destino, se elimina de la organización, las audiencias enviadas anteriormente del destino y se evita que las audiencias futuras se envíen a ese destino.
+Al eliminar un destino, se elimina de la cuenta, se eliminan del destino las audiencias enviadas anteriormente y se impide que se envíen audiencias futuras a ese destino.
 
 Para eliminar un destino, vaya a la ficha **[!UICONTROL Mis destinos]** en la sección **[!UICONTROL Configuración]**. Seleccione la opción **[!UICONTROL Delete]** para el destino que desee eliminar.
 
@@ -53,4 +53,4 @@ Aparecerá un cuadro de diálogo de confirmación, en el que puede confirmar que
 
 ## Próximos pasos
 
-Una vez configurado el destino, puede empezar a colaborar con los anunciantes para [activar audiencias de destino](../collaborate/activate.md) en sus proyectos.
+Una vez configurado el destino, puede empezar a colaborar en sus conexiones para [activar audiencias de destino](../collaborate/activate.md) en sus proyectos.

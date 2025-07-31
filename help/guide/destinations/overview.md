@@ -2,11 +2,11 @@
 title: Resumen de destinos
 description: Obtenga información sobre los destinos en Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 5cbbf5c4-4caa-40da-97be-690d95c1201c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 4ef7f8c7c27935f0e5b3620da63e7129f2714b37
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '328'
 ht-degree: 6%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 6%
 
 Los destinos son integraciones que se utilizan para enviar audiencias de destino a plataformas externas. Estas integraciones le permiten activar audiencias en varios canales y plataformas de marketing para utilizarlas en campañas y participación de clientes.
 
-Actualmente, los destinos solo están disponibles para los editores de Adobe Real-Time CDP Collaboration. Los editores pueden configurar destinos para enviar audiencias a plataformas externas, como Adobe Experience Platform, para usarlas en campañas. Los anunciantes pueden [activar audiencias dentro de un proyecto](../collaborate/activate.md), que se enviarán al destino configurado del editor.
+Los colaboradores pueden configurar destinos para enviar audiencias a plataformas externas, como Adobe Experience Platform, para usarlas en campañas. Los colaboradores pueden [activar audiencias dentro de un proyecto](../collaborate/activate.md), que se envían al destino configurado de su conexión. La activación puede realizarla el colaborador en función de la configuración de activación de audiencia [configurada en la conexión](/help/guide/connect/establishing-connections.md#configure-connection-settings).
 
 >[!IMPORTANT]
 >
->Actualmente, cuando los anunciantes activan audiencias en el proyecto, se envían automáticamente al destino configurado del editor. Como editor, **debe** configurar un destino *antes* de que su colaborador active una audiencia. Si no se ha configurado ningún destino, la audiencia se le enviará y será visible en la ficha **[!UICONTROL Activar]** dentro de un proyecto, pero no se activará.
+>Actualmente, cuando los colaboradores activan audiencias dentro de un proyecto, se envían automáticamente al destino configurado de su conexión. Usted **debe** configurar un destino antes de que su colaborador pueda activar audiencias dentro de un proyecto.
 
 ## Configuración de destinos {#configure-destinations}
 

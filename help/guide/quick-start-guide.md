@@ -1,19 +1,19 @@
 ---
 title: Guía de inicio rápido de Real-Time CDP Collaboration
-description: Obtenga información sobre cómo incorporar su organización en Real-Time CDP Collaboration, incluida la configuración de funciones y organizaciones, el abastecimiento de audiencias, la activación y la medición. Esta guía ayuda a los anunciantes y editores a configurar las opciones de colaboración y a empezar a utilizar audiencias compartidas de forma segura y eficaz.
+description: Obtenga información sobre cómo incorporar su organización en Real-Time CDP Collaboration, incluida la configuración de funciones y organizaciones, el abastecimiento de audiencias, la activación y la medición. Esta guía ayuda a los colaboradores a configurar las opciones de conexión para empezar a utilizar sus audiencias de forma segura y eficaz.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1408'
 ht-degree: 0%
 
 ---
 
 # Guía de inicio rápido de Real-Time CDP Collaboration
 
-
+{{limited-availability-release-note}}
 
 Comience a usar Real-Time CDP Collaboration configurando su organización, obteniendo audiencias y habilitando la activación y medición centradas en la privacidad.
 
@@ -31,10 +31,6 @@ Antes de empezar, asegúrese de que dispone de lo siguiente:
 
 ## Paso 1: completar la configuración basada en funciones {#complete-role-based-setup}
 
->[!NOTE]
->
->Este paso se aplica tanto a los anunciantes como a los editores.
-
 Las funciones de acceso de su organización determinan lo que los usuarios pueden ver y hacer en Collaboration. Antes de continuar, asegúrese de que los permisos basados en funciones están correctamente configurados para garantizar el acceso y la visibilidad adecuados en la plataforma.
 
 **Recursos:**
@@ -45,13 +41,9 @@ Las funciones de acceso de su organización determinan lo que los usuarios puede
 
 Vea este vídeo para aprender a asignar acceso y permisos de producto para Collaboration mediante Admin Console y Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452233/?learn=on&enablevpops&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Paso 2: Configurar su cuenta de Collaboration {#set-up-your-account}
-
->[!NOTE]
->
->Este paso se aplica tanto a los anunciantes como a los editores.
 
 Para poder crear audiencias de origen, debe configurar la cuenta en Collaboration. Esto determina cómo aparece y a qué se puede acceder en la interfaz.
 
@@ -63,7 +55,7 @@ Defina la función de su cuenta en Collaboration, proporcione recursos de promoc
 >
 >Puede crear una o varias cuentas (como anunciante y editor) durante la configuración. Algunos campos, como los recursos de personalización de marca y el correo electrónico de contacto, se pueden actualizar más adelante en el área de trabajo **[!UICONTROL Configuración]**.
 
-- **Asignar un rol**: determina si su cuenta es como anunciante o editor. Su función define qué capacidades tiene en Collaboration. Para obtener más información sobre cómo afectan las funciones al flujo de trabajo de colaboración, consulte la [guía completa sobre el flujo de trabajo](./end-to-end-workflow.md).
+- **Asignar un rol** - Determina si su cuenta es un anunciante o un editor. Su función define qué capacidades tiene en Collaboration. Para obtener más información sobre cómo afectan las funciones al flujo de trabajo de colaboración, consulte la guía [funciones](./overview/roles.md).
 - **Recursos de promoción de la marca** - Agregue lo siguiente a su cuenta:
    - Nombre de cuenta (máximo 100 caracteres)
    - Descripción (máximo de 1000 caracteres)
@@ -125,7 +117,7 @@ Para ver una introducción completa sobre cómo crear audiencias con Collaborati
 
 >[!VIDEO](https://video.tv.adobe.com/v/3452217/?learn=on&enablevpops)
 
-También puede ver el documento sobre [audiencias de abastecimiento en Collaboration](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#import-audiences).
+También puede ver el documento sobre [audiencias de abastecimiento en Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences).
 
 ### Opción B: Source desde Snowflake o Amazon S3
 
@@ -138,10 +130,6 @@ Para configurar una fuente de nube (por ejemplo, [!DNL AWS S3] o [!DNL Snowflake
 >Todas las audiencias del archivo cargado tienen un origen completo en este momento. La configuración de [visibilidad de la audiencia](/help/guide/setup/onboard-audiences.md#metadata-visibility) determina si los colaboradores pueden ver la audiencia y se administra mediante la interfaz de usuario de Collaboration.
 
 ## Paso 4: Activar audiencias (en Experience Platform o en un destino de nube) {#activate-audiences}
-
->[!NOTE]
->
->Este paso se aplica tanto a los anunciantes como a los editores.
 
 A continuación, active las audiencias en su instancia de Experience Platform o en un destino de nube.
 
@@ -224,13 +212,13 @@ Use this workflow to generate campaign summary insights based on advertiser-supp
 
 Una vez completada la configuración, su organización ya está lista para conectarse con los colaboradores enviando o aceptando invitaciones y enviando la configuración del proyecto para su aprobación. Este proceso de conexión implica enviar o recibir invitaciones, revisar y enviar la configuración de conexión (como casos de uso y consumo de crédito) y confirmar la conexión.
 
-Como anunciante, usa el espacio de trabajo **[!UICONTROL Connect]** del menú de navegación de la izquierda para buscar editores disponibles.
+Como anunciante, usa el espacio de trabajo **[!UICONTROL Connect]** del menú de navegación de la izquierda para buscar editores disponibles. Alternativamente, los colaboradores pueden conectarse entre sí directamente a través de [invitaciones de conexión privada](./connect/establishing-connections.md#private-connection-invite){target="_blank"}.
 
 >[!NOTE]
 >
 >Actualmente, solo los anunciantes pueden examinar a los editores. Los editores no pueden examinar ni iniciar conexiones con anunciantes.
 
-Para obtener una descripción general de este flujo, consulte la [guía de conexión con anunciantes o editores](./connect/establishing-connections.md){target="_blank"}. Para obtener una descripción general visual del proceso de conexión, incluidos los colaboradores de exploración y la administración de la configuración de conexión, vea el vídeo [configuración de cuenta del anunciante](https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
+Para obtener una descripción general de este flujo, consulte la [guía de establecimiento de conexiones](./connect/establishing-connections.md){target="_blank"}. Para obtener una descripción general visual del proceso de conexión, incluidos los colaboradores de exploración y la administración de la configuración de conexión, vea el vídeo [configuración de cuenta del anunciante](https://experienceleague.adobe.com/es/docs/platform-learn/tutorials/collaboration/connect-with-publishers){target="_blank"}.
 
 ## Próximos pasos
 
