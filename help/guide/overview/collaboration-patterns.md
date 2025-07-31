@@ -2,7 +2,7 @@
 title: Los patrones de colaboración en Adobe Real-Time CDP Collaboration.
 description: Comprender los dos patrones de colaboración en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 1bb3bec20b5e43d5c3a0c7182af74f4203f3c1cd
 workflow-type: tm+mt
 source-wordcount: '287'

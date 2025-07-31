@@ -2,7 +2,7 @@
 title: Descubra superposiciones y compare audiencias
 description: Descubra las superposiciones entre las audiencias de y de sus colaboradores. Descubra las mejores audiencias para usar en sus campañas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt

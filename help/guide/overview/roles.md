@@ -2,7 +2,7 @@
 title: Las funciones de colaborador en Adobe Real-Time CDP Collaboration.
 description: Comprensión de las dos funciones de cuenta en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
 source-wordcount: '287'

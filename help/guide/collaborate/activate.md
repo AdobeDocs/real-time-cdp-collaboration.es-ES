@@ -2,7 +2,7 @@
 title: Activar públicos
 description: Obtenga información sobre cómo activar audiencias en Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
