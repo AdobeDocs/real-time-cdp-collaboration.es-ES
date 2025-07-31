@@ -2,12 +2,12 @@
 title: Source y administración de audiencias
 description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
 source-wordcount: '2897'
-ht-degree: 15%
+ht-degree: 18%
 
 ---
 
@@ -90,7 +90,7 @@ A continuación, debe asegurarse de que las acciones de marketing correctas se e
 
 Utilice acciones de marketing para controlar qué datos de audiencia introducir en Collaboration desde Experience Platform. La acción de marketing **[!UICONTROL Colaboración de datos]** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
 
-Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Si la casilla de verificación está ***habilitada***, se excluirán todos los datos etiquetados en Experience Platform como se describió anteriormente y **no** se incluirán en Collaboration.
 * Con la casilla de verificación ***deshabilitada***, no hay restricciones en los datos procedentes de Experience Platform.
@@ -119,7 +119,7 @@ A continuación, proporcione un nombre y una descripción para la conexión de d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_source_fields"
 >title="Campos de origen"
->abstract="Los campos de Source son áreas de nombres y atributos de identidad de la implementación de Experience Platform. Puede asignarlas a campos de destino definidos en Collaboration."
+>abstract="Los campos de origen son espacios de nombres de identidad y atributos de la implementación de Experience Platform. Puede asignarlos a los campos de destino definidos en Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
@@ -129,7 +129,7 @@ A continuación, proporcione un nombre y una descripción para la conexión de d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
 >title="Aplicar transformación"
->abstract="Al obtener *campos sin hash*, utilice esta opción para que Collaboration aplique el hash y transforme los campos sin formato en campos con hash."
+>abstract="Al importar campos *sin hash* desde su origen, utilice esta opción para que Collaboration aplique el hash y transforme los campos sin formato en campos con hash."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_identity_namespaces"
@@ -331,7 +331,7 @@ La disponibilidad de la audiencia para su uso en proyectos con colaboradores dif
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilidad de los metadatos"
->abstract="<p>Indica cuál de los metadatos de la audiencia es visible para otros colaboradores antes de que se conecten con usted o dentro de las vistas de proyecto.</p> <p> **Recuento de identidades** controla si tu colaborador puede ver los recuentos de identidades de tus audiencias cuando visualiza los informes de superposición en la pestaña de detección. **% de solapamiento de público** controla si los colaboradores pueden descubrir los porcentajes de solapamiento entre sus públicos y los suyos."
+>abstract="<p>Indica qué metadatos del público son visibles para otros colaboradores antes de que se conecten con usted o dentro de las vistas del proyecto.</p> <p> **Recuento de identidades** controla si su colaborador puede ver los recuentos de identidades de sus públicos cuando visualiza los informes de superposición en la pestaña de detección. **% de solapamiento de público** controla si los colaboradores pueden descubrir los porcentajes de solapamiento entre sus públicos y los suyos."
 
 >[!NOTE]
 >

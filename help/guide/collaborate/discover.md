@@ -2,12 +2,12 @@
 title: Descubra superposiciones y compare audiencias
 description: Descubra las superposiciones entre las audiencias de y de sus colaboradores. Descubra las mejores audiencias para usar en sus campañas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -95,7 +95,7 @@ En la sección de comparación de audiencias, puede ver las siguientes métricas
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_relevant_audiences"
 >title="Públicos relevantes"
->abstract="En función de los porcentajes de superposición, estas audiencias pueden ser adecuadas para su campaña. <br><br>: <b>el recuento de identidades</b> es el tamaño de audiencia del colaborador. <br><br> <b>Identidades superpuestas</b> representa la superposición entre la audiencia recomendada y todas sus audiencias. <br><br> <b>Superposición %</b> representa el número de identidades superpuestas dividido por el tamaño de <i>todas</i> sus audiencias."
+>abstract="En funció de los porcentajes de solapamiento, estos públicos pueden ser adecuados para su campaña. <br><br> El <b>El recuento de identidades</b> es el tamaño de público del colaborador. <br><br> <b>Identidades solapadas</b> representa el solapamiento entre el público recomendado y todos los públicos. <br><br> El <b>% de solapamiento</b> representa el número de identidades solapadas dividido por el tamaño de <i>todos</i> los públicos."
 
 La sección **[!UICONTROL Audiencias relevantes]** de la pestaña **[!UICONTROL Descubrir]** proporciona una lista revisada de las cinco audiencias principales en función del porcentaje de superposición entre la audiencia de su colaborador y todas sus audiencias. Esta función le ayuda a identificar rápidamente las audiencias con la mayor superposición, lo que le permite segmentar sus campañas de forma más eficaz. Cambie entre las audiencias relevantes mediante los selectores de página en la parte superior derecha de la sección.
 

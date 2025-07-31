@@ -2,12 +2,12 @@
 title: Configuración y administración de la cuenta
 description: Obtenga información sobre cómo configurar y administrar varios aspectos de su cuenta en Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 13%
+ht-degree: 18%
 
 ---
 
@@ -32,12 +32,12 @@ Para agregar organizaciones adicionales, vaya a **[!UICONTROL Configuración]** 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_contact_email"
 >title="Correo electrónico de contacto"
->abstract="Proporcione un correo electrónico basado en roles o equipo, como **collaboration@yourcompany.com**. No se deben utilizar direcciones de correo electrónico personales o individuales."
+>abstract="Proporcione un correo electrónico basado en funciones o en equipos, como **collaboration@yourcompany.com**. No se deben utilizar direcciones de correo electrónico personales o individuales."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_setup_connect_code"
 >title="Código de conexión"
->abstract="El código de conexión es un identificador único para su cuenta de. Se utiliza para establecer conexiones con otros colaboradores en Real-Time CDP Collaboration."
+>abstract="El código de conexión es un identificador único de su cuenta. Se utiliza para establecer conexiones con otras organizaciones en Real-Time CDP Collaboration."
 
 <!-- Move the above popover to new section for invite on this page when its created -->
 
