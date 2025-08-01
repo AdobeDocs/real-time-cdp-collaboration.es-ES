@@ -1,12 +1,12 @@
 ---
 title: Flujo de trabajo de extremo a extremo
-description: Comprender el flujo de trabajo de extremo a extremo del uso de Real-Time CDP Collaboration como anunciante o editor
+description: Comprenda el flujo de trabajo completo del uso de Real-Time CDP Collaboration en función de su patrón de colaboración.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
+source-git-commit: 8745d6d8da389b552af3da6612bf693230dfb538
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -15,38 +15,48 @@ ht-degree: 0%
 
 {{limited-availability-release-note}}
 
-Adobe Real-Time Customer Data Platform (CDP) Collaboration permite a los anunciantes y editores colaborar en campañas de una manera centrada en la privacidad. Lea esta página para comprender el flujo de trabajo y sacar el máximo partido al producto, como anunciante o editor.
+En Adobe Real-Time CDP Collaboration, el flujo de trabajo completo varía en función del patrón de colaboración que elija. El flujo de trabajo describe los pasos necesarios para configurar y ejecutar un proyecto de colaboración, desde la creación de cuentas y el abastecimiento de audiencias hasta la formación de conexiones y la creación de proyectos. Comprender este flujo de trabajo es esencial para aprovechar de forma eficaz las capacidades de la plataforma con el fin de lograr sus objetivos de marketing.
 
-## Flujo de trabajo completo del anunciante {#advertiser}
+## Introducción
 
-Como anunciante, comienza [incorporando tu empresa](/help/guide/setup/onboard-account.md) en Real-Time CDP Collaboration. Use la [página de configuración](/help/guide/setup/setup-overview.md) para enviar y, a continuación, editar la configuración de su empresa, agregar las claves de coincidencia preferidas con las que trabajará y decidir qué datos incluir. En la primera versión, el producto le permite [importar audiencias](/help/guide/setup/onboard-audiences.md) solamente desde Adobe Experience Platform.
+Antes de empezar, asegúrese de tener una comprensión sólida de estos conceptos clave:
 
-![Detectar, activar y medir anunciantes.](/help/assets/end-to-end-workflow/discover-activate-measure.png)
+- **patrones de Collaboration**: estos patrones definen cómo trabajan juntos los colaboradores. Hay dos patrones distintos: [anunciante a editor](./collaboration-patterns.md#advertiser-to-publisher) y [marca a marca](./collaboration-patterns.md#brand-to-brand).
+- **Funciones de cuenta**: Las funciones de cuenta determinan las capacidades dentro de la plataforma. Deben coincidir con los objetivos, la marca y las metas de su organización. Hay dos funciones de cuenta: [anunciante](./roles.md#advertiser) y [publicador](./roles.md#publisher).
+- **Casos de uso**: Los casos de uso definen las formas de aprovechar Collaboration para lograr sus objetivos de marketing. Hay tres casos de uso de colaboración: [Discover](./use-cases.md#discover), [Activate](./use-cases.md#activate) y [Measure](./use-cases.md#measure).
 
-Utilice la ficha [descubrir para buscar editores](/help/guide/connect/discover-publishers.md) con los que desee trabajar para las campañas. Póngase en contacto con el editor y comente los términos de colaboración fuera del producto. Una vez acordado un conjunto de términos, [puede enviar una invitación de conexión](/help/guide/connect/establishing-connections.md) y proponer una configuración de colaboración para conectarse con el editor.
+En esta guía se utilizan tres simuladores de colaborador para ilustrar el flujo de trabajo de extremo a extremo:
 
-Una vez que el editor acepta la solicitud de conexión, es hora de explorar las audiencias superpuestas entre su organización y las suyas. Configure un proyecto para una campaña y [ejecute informes de superposición](/help/guide/collaborate/discover.md) a fin de descubrir las mejores audiencias para su próxima campaña de publicidad, según el caso de uso de colaboración: segmentación, supresión y otros.
+- **[!UICONTROL Luma]**: Una marca de ropa deportiva. Es un anunciante que quiere llegar a audiencias específicas a través de campañas de marketing dirigidas.
+- **[!UICONTROL Tubo de TV]**: Un proveedor de transmisión digital. Es un editor que proporciona datos de audiencia para que los utilicen los anunciantes.
+- **[!UICONTROL Ropa Fit]**: Otra marca de ropa deportiva. Es el segundo anunciante que desea colaborar para compartir datos de audiencia y perspectivas para mejorar los esfuerzos de marketing.
 
-Una vez que descubra las audiencias ideales, es hora de [activarlas](/help/guide/collaborate/activate.md).
+## Flujo de trabajo de anunciante a editor {#advertiser-to-publisher-workflow}
 
-El último paso del bucle de colaboración es [measurement](/help/guide/collaborate/measure.md). Para medir o conocer los resultados de su empresa, cargue datos de medición como registros de publicidad y, a continuación, ejecute los informes proporcionados en el programa para comprender el rendimiento de sus audiencias.
+[!UICONTROL Luma], una empresa minorista deportiva, quiere establecer una conexión con [!UICONTROL TV Tube], un proveedor de streaming digital, para llegar a audiencias específicas a través de campañas de marketing dirigidas.
 
-## Flujo de trabajo completo de Publisher {#publisher}
+Para empezar, [!UICONTROL Luma] necesita [crear una cuenta](../setup/onboard-account.md) con la función de anunciante, mientras que [!UICONTROL TV Tube] crea una cuenta con la función de publicador.
 
-Como editor, comience por [incorporar su compañía](/help/guide/setup/onboard-account.md) en Real-Time CDP Collaboration. Use la [página de configuración](/help/guide/setup/setup-overview.md) para editar las distintas configuraciones de la empresa.
+Después de establecer sus cuentas, tanto [!UICONTROL Luma] como [!UICONTROL TV Tube] deben [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). Solo [!UICONTROL TV Tube] activará audiencias para campañas de marketing, por lo que necesitan [configurar un destino](../setup/manage-destinations.md).
 
-Decida qué datos de audiencia importar y qué audiencias hacer reconocibles y visibles para los anunciantes que buscan conectarse con usted en el área de **[!UICONTROL Connect]** del producto.
+Una vez que ambos colaboradores tengan sus cuentas configuradas, están listos para [formar una conexión](../connect/establishing-connections.md) dentro de la plataforma. [!UICONTROL Luma] usa la función [Discover publishers](../connect/discover-publishers.md) para encontrar [!UICONTROL TV Tube] e iniciar una solicitud de conexión. Después de que [!UICONTROL TV Tube] acepte la solicitud de conexión, [!UICONTROL Luma] configura la configuración de conexión para definir cómo se realiza la colaboración. [!UICONTROL TV Tube] acepta la solicitud de conexión para establecer un vínculo seguro entre las dos marcas.
 
-Al importar audiencias en Real-Time CDP Collaboration, asegúrese de etiquetar y categorizar las audiencias. Real-Time CDP Collaboration sigue la [taxonomía IAB](https://www.iab.com/guidelines/content-taxonomy/){target="_blank"} establecida para categorizar audiencias.
+Una vez establecida la conexión, [!UICONTROL Luma] [crea un proyecto](../collaborate/manage-projects.md) para iniciar su colaboración con [!UICONTROL TV Tube]. Durante la configuración del proyecto, eligen los casos de uso de colaboración que mejor se ajustan a sus objetivos: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md) y [Measure](../collaborate/measure.md).
 
-Decida con qué anunciantes desea trabajar y póngase en contacto con el anunciante para discutir los términos de colaboración fuera del producto. Una vez acordado un conjunto de términos, espere a que el anunciante extienda una invitación de conexión formal para conectarse con usted. Por lo general, también debe monitorizar las solicitudes de conexión pendientes de las marcas de anunciante que buscan trabajar con usted en las campañas. Revise la configuración de conexión propuesta por su posible colaborador y acuérdela o cámbiela antes de iniciar la colaboración.
+[!UICONTROL Luma] aprovecha el caso de uso [Discover](../collaborate/discover.md) para obtener información sobre los datos de audiencia de [!UICONTROL TV Tube]. Una vez que [!UICONTROL Luma] ha identificado los segmentos de audiencia objetivo, [activan](../collaborate/activate.md) estas audiencias.
 
-Después de aceptar su solicitud de conexión, es hora de explorar las audiencias superpuestas entre usted y su colaborador. El anunciante configurará un proyecto para una campaña y ejecutará informes de superposición entre sus audiencias y las suyas, en función de sus objetivos deseados: prospección, supresión y mucho más.
+Después de activar las audiencias, [!UICONTROL TV Tube] ejecuta campañas de marketing dirigidas y carga datos en [Measure](../collaborate/measure.md) para evaluar la eficacia de su campaña.
 
-Una vez que el anunciante descubre las audiencias ideales a las que dirigirse para una campaña y se las envía, puede activarlas y poner en marcha la campaña.
+## Flujo de trabajo de marca a marca {#brand-to-brand-workflow}
 
-El último paso del bucle de colaboración es la medición. Para saber cómo han funcionado sus campañas, como paso final, cargue datos de medición como registros de publicidad y, a continuación, ejecute los informes proporcionados en el programa para comprender el rendimiento de las audiencias.
+[!UICONTROL Fit Apparel], una marca de ropa deportiva, quiere colaborar con [!UICONTROL Luma], otra marca de ropa deportiva, para compartir datos de audiencia y perspectivas con el fin de mejorar los esfuerzos de marketing.
 
-## Próximos pasos
+Después de establecer sus cuentas, tanto [!UICONTROL Fit Apparel] como [!UICONTROL Luma] necesitan [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). Tanto [!UICONTROL Fit Apparel] como [!UICONTROL Luma] activarán audiencias para las campañas de marketing, por lo que ambos deberán [configurar un destino](../setup/manage-destinations.md).
 
-Después de comprender el flujo de trabajo de extremo a extremo de alto nivel en función de la función de la compañía, lea acerca de [casos de uso de ejemplo](/help/guide/overview/use-cases.md) admitidos en el producto.
+Después de obtener sus audiencias, [!UICONTROL Fit Apparel] y [!UICONTROL Luma] [forman una conexión](../connect/establishing-connections.md) dentro de la plataforma para compartir datos de audiencia de forma segura. Para ello, deben utilizar la característica [invitación a la conexión privada](../connect/establishing-connections.md#private-connection-invite). [!UICONTROL Luma] comparte su código de conexión con [!UICONTROL Fit Apparel], que lo usa para iniciar una solicitud de conexión. Después de que [!UICONTROL Luma] acepte la solicitud de conexión, [!UICONTROL Fit Apparel] configura las opciones de conexión para definir cómo colaborarán. En la configuración, [!UICONTROL Ajustar ropa] especifica que ambos colaboradores pueden activar audiencias para campañas de marketing. Para completar la conexión, [!UICONTROL Luma] acepta la solicitud para establecer un vínculo seguro entre las dos marcas.
+
+Una vez establecida la conexión, [!UICONTROL Fit Apparel] [crea un proyecto](../collaborate/manage-projects.md) para iniciar su colaboración con [!UICONTROL Luma]. Durante la configuración del proyecto, eligen los casos de uso de colaboración que mejor se ajustan a sus objetivos: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md) y [Measure](../collaborate/measure.md).
+
+[!UICONTROL Fit Apparel] y [!UICONTROL Luma] pueden usar el caso de uso [Discover](../collaborate/discover.md) para obtener información sobre los datos de audiencia de cada uno. Una vez que han identificado segmentos de audiencia valiosos, [activan](../collaborate/activate.md) las audiencias que han elegido para las campañas de marketing.
+
+Finalmente, después de ejecutar sus campañas, ambas marcas cargan datos en [Measure](../collaborate/measure.md) para evaluar los resultados y la efectividad de su colaboración.
