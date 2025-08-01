@@ -2,9 +2,9 @@
 title: Establecimiento de conexiones
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c159bbcdc5f84abc4c591c5256192d117ec51102
+source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
 source-wordcount: '3213'
 ht-degree: 7%
@@ -37,10 +37,10 @@ En el patrón de anunciante a editor, un anunciante descubre un publicador con e
 Para establecer una conexión entre un anunciante y un editor, se deben seguir los siguientes pasos:
 
 1. [Descubrir editores](#discover-publishers): El anunciante identifica editores potenciales con los que colaborar.
-2. [Enviar invitación](#send-invite): El anunciante envía una invitación de conexión al editor seleccionado.
-3. [Aceptar invitación](#accept-invite): El editor revisa y acepta la invitación.
-4. [Configurar opciones de conexión](#configure-connection-settings): el anunciante configura las opciones de conexión y las envía al editor para que las revise.
-5. [Confirmar configuración de conexión](#establish-connection): el editor revisa la configuración de conexión y la acepta o la rechaza. Si se acepta, se establece la conexión. Si se rechaza, el publicador puede proporcionar comentarios sobre las revisiones fuera del producto. El anunciante puede revisar la configuración y reenviarla para su revisión.
+1. [Enviar invitación](#send-invite): El anunciante envía una invitación de conexión al editor seleccionado.
+1. [Aceptar invitación](#accept-invite): El editor revisa y acepta la invitación.
+1. [Configurar opciones de conexión](#configure-connection-settings): el anunciante configura las opciones de conexión y las envía al editor para que las revise.
+1. [Confirmar configuración de conexión](#establish-connection): el editor revisa la configuración de conexión y la acepta o la rechaza. Si se acepta, se establece la conexión. Si se rechaza, el publicador puede proporcionar comentarios sobre las revisiones fuera del producto. El anunciante puede revisar la configuración y reenviarla para su revisión.
 
 Una vez aceptada la configuración de conexión, se establece la conexión y los colaboradores están listos para [crear un proyecto](/help/guide/collaborate/manage-projects.md#create-project) para comenzar a colaborar en las campañas.
 
@@ -65,14 +65,14 @@ Para empezar, un colaborador envía una invitación de conexión privada a otro 
 El proceso de conexión entre dos marcas implica varios pasos. Antes de que comience el proceso de conexión, se deben cumplir algunos requisitos previos:
 
 1. Dos marcas se comunican fuera del producto para discutir la posible conexión.
-2. Las marcas [crean cuentas](/help/guide/setup/onboard-account.md) en Collaboration si aún no lo han hecho, asegurándose de seleccionar el tipo de rol apropiado (anunciante o editor).
+1. Las marcas [crean cuentas](/help/guide/setup/onboard-account.md) en Collaboration si aún no lo han hecho, asegurándose de seleccionar el tipo de rol apropiado (anunciante o editor).
 
-Una vez cumplidos los requisitos previos, puede comenzar el proceso de conexión. Los siguientes pasos describen el proceso:
+   Una vez cumplidos los requisitos previos, puede comenzar el proceso de conexión. Los siguientes pasos describen el proceso:
 
 1. [Enviar invitación a una conexión privada](#send-private-connection-invite): Un colaborador envía una invitación a otra conexión privada.
-2. [Aceptar invitación a conexión privada](#accept-private-connection-invite): El destinatario revisa y acepta la invitación a conexión privada.
-3. [Configurar opciones de conexión](#configure-connection-settings): El propietario configura las opciones de conexión y las envía al destinatario para que las revise y las acepte.
-4. [Confirmar configuración de conexión](#establish-connection): El destinatario revisa la configuración de conexión y la acepta o la rechaza.
+1. [Aceptar invitación a conexión privada](#accept-private-connection-invite): El destinatario revisa y acepta la invitación a conexión privada.
+1. [Configurar opciones de conexión](#configure-connection-settings): El propietario configura las opciones de conexión y las envía al destinatario para que las revise y las acepte.
+1. [Confirmar configuración de conexión](#establish-connection): El destinatario revisa la configuración de conexión y la acepta o la rechaza.
 
 Una vez aceptada la configuración de conexión, se establece la conexión y los colaboradores están listos para [crear un proyecto](/help/guide/collaborate/manage-projects.md#create-project) para comenzar a colaborar en las campañas.
 
@@ -310,8 +310,8 @@ Cuando termines, selecciona **[!UICONTROL Guardar]** para guardar los cambios.
 Al crear un proyecto, el nombre del anunciante se rellena previamente en función de la siguiente configuración establecida durante la conexión    :
 
 1. **Sin conjunto de nombres de anunciante**: Si no se agregan nombres de anunciante, Collaboration usa de manera predeterminada el nombre del anunciante como nombre del anunciante.
-2. **Un conjunto de nombres de anunciante**: Si se agrega un solo nombre de anunciante, Collaboration lo usará automáticamente como nombre de anunciante para el proyecto.
-3. **Conjunto de varios nombres de anunciante**: Si se agrega más de un nombre de anunciante, usted o su colaborador pueden seleccionar cualquiera de los nombres proporcionados al crear el proyecto.
+1. **Un conjunto de nombres de anunciante**: Si se agrega un solo nombre de anunciante, Collaboration lo usará automáticamente como nombre de anunciante para el proyecto.
+1. **Conjunto de varios nombres de anunciante**: Si se agrega más de un nombre de anunciante, usted o su colaborador pueden seleccionar cualquiera de los nombres proporcionados al crear el proyecto.
 
 >[!NOTE]
 >
