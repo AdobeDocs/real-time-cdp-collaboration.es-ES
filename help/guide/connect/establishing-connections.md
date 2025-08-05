@@ -2,7 +2,7 @@
 title: Establecimiento de conexiones
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
 workflow-type: tm+mt
@@ -186,7 +186,7 @@ Aparecerá el área de trabajo de configuración de conexión, que le permitirá
 
 <!-- FIX THE ABOVE SCREENSHOT TO INCLUDE ADV NAMES, AS WELL AS THE ONES BELOW -->
 
-#### Configuración de la conexión {#connection-settings}
+#### Configuración de conexión {#connection-settings}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_usecases"
@@ -200,7 +200,7 @@ Aparecerá el área de trabajo de configuración de conexión, que le permitirá
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
->title="Pago dividido"
+>title="División de crédito"
 >abstract="Esta sección determina quién paga las actividades correspondientes dentro de Collaboration. "
 
 >[!CONTEXTUALHELP]

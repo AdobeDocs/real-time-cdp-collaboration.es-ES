@@ -2,7 +2,7 @@
 title: Configuración y administración de la cuenta
 description: Obtenga información sobre cómo configurar y administrar varios aspectos de su cuenta en Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
 workflow-type: tm+mt
@@ -67,7 +67,7 @@ Para comenzar a configurar la cuenta, primero debe configurar los detalles de la
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="ID de personas propios"
->abstract="Los ID de personas propios, como las direcciones de correo electrónico con hash o los números de teléfono, están conectados directamente a un perfil individual. Los ID admitidos actualmente son correos electrónicos con hash y números de teléfono."
+>abstract="Los ID de personas propios, como las direcciones de correo electrónico o los números de teléfono con hash, están conectados directamente a un perfil individual. Los ID admitidos actualmente son correos electrónicos y números de teléfono con hash."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"

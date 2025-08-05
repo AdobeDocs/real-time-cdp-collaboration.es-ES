@@ -2,7 +2,7 @@
 title: Administrar conexiones de datos
 description: Obtenga información sobre cómo administrar conexiones de datos, incluidas claves de coincidencia, programación, casos de uso y filtrado de audiencias en Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
 workflow-type: tm+mt
@@ -30,7 +30,7 @@ Para ver las conexiones de datos existentes, vaya a **[!UICONTROL Configuración
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="Claves de coincidencia"
->abstract="Las claves de coincidencia determinan cómo se compararán los datos de diferentes fuentes. Elija las claves de coincidencia más relevantes para sus casos de uso y directrices de privacidad."
+>abstract="Las claves de coincidencia determinan cómo coincidirán los datos de diferentes fuentes. Elija las claves de coincidencia más relevantes para sus casos de uso y directrices de privacidad."
 
 Las claves de coincidencia son identificadores que se utilizan para reconciliar miembros entre los públicos de diferentes fuentes de datos. No puede editar las claves de coincidencia seleccionadas inicialmente para la conexión de datos.
 
