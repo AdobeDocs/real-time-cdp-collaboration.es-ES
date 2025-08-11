@@ -2,12 +2,12 @@
 title: Source y administración de audiencias
 description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
 workflow-type: tm+mt
-source-wordcount: '2897'
-ht-degree: 18%
+source-wordcount: '2985'
+ht-degree: 17%
 
 ---
 
@@ -90,7 +90,7 @@ A continuación, debe asegurarse de que las acciones de marketing correctas se e
 
 Utilice acciones de marketing para controlar qué datos de audiencia introducir en Collaboration desde Experience Platform. La acción de marketing **[!UICONTROL Colaboración de datos]** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
 
-Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Si la casilla de verificación está ***habilitada***, se excluirán todos los datos etiquetados en Experience Platform como se describió anteriormente y **no** se incluirán en Collaboration.
 * Con la casilla de verificación ***deshabilitada***, no hay restricciones en los datos procedentes de Experience Platform.
@@ -331,7 +331,7 @@ La disponibilidad de la audiencia para su uso en proyectos con colaboradores dif
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilidad de los metadatos"
->abstract="<p>Indica qué metadatos del público son visibles para otros colaboradores antes de que se conecten con usted o dentro de las vistas del proyecto.</p> <p> **Recuento de identidades** controla si su colaborador puede ver los recuentos de identidades de sus públicos cuando visualiza los informes de superposición en la pestaña de detección. **% de solapamiento de público** controla si los colaboradores pueden descubrir los porcentajes de solapamiento entre sus públicos y los suyos."
+>abstract="<p>Indica qué metadatos del público son visibles para otros colaboradores antes de que se conecten con usted o dentro de las vistas del proyecto.</p> <p> **Recuento de identidades** controla si tu colaborador puede ver los recuentos de identidades de tus audiencias cuando visualiza los informes de superposición en la pestaña de detección.</p><p> **% de solapamiento de público** controla si los colaboradores pueden descubrir los porcentajes de solapamiento entre sus públicos y los suyos.</p><p> **[!UICONTROL Índice de audiencia]** controla si los colaboradores pueden ver el índice de audiencia dentro de un proyecto. Esta funcionalidad solo está disponible cuando tiene tres o más audiencias activas.</p> <br> Para que la configuración de visibilidad de metadatos surta efecto, la audiencia debe establecerse en pública o personalizada."
 
 >[!NOTE]
 >
@@ -346,6 +346,12 @@ Aparece el cuadro de diálogo **[!UICONTROL Visibilidad de metadatos]**, que le 
 **[!UICONTROL Mostrar recuento de identidades]**: esta opción controla si el colaborador puede ver los recuentos de identidades de las audiencias al [ver informes de superposición en la ficha de detección](/help/guide/collaborate/discover.md#discover-overlaps) dentro de un proyecto.
 
 **[!UICONTROL Mostrar superposición de audiencias %]**: esta opción controla si los colaboradores pueden [descubrir porcentajes de superposición](/help/guide/collaborate/discover.md#compare-audiences) entre sus audiencias y las suyas.
+
+**[!UICONTROL Índice de audiencia]**: cuando se establece en true, los colaboradores pueden ver [índice de audiencia](/help/guide/collaborate/discover.md#audience-index-score) dentro de un proyecto. Esta funcionalidad solo está disponible cuando tiene tres o más audiencias activas.
+
+>[!NOTE]
+>
+>Para que la configuración de visibilidad de los metadatos surta efecto, la audiencia debe configurarse como pública o personalizada.
 
 ![Cuadro de diálogo de visibilidad de metadatos con las opciones disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
 

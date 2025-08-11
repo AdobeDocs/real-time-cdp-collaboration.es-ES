@@ -2,12 +2,12 @@
 title: Descubra superposiciones y compare audiencias
 description: Descubra las superposiciones entre las audiencias de y de sus colaboradores. Descubra las mejores audiencias para usar en sus campañas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 20%
+source-wordcount: '2068'
+ht-degree: 12%
 
 ---
 
@@ -82,13 +82,16 @@ En la sección de comparación de audiencias, puede ver las siguientes métricas
 | **[!UICONTROL Recuento de identidades]** (su colaborador) | El número de ID únicos dentro de la audiencia de su colaborador. |
 | **[!UICONTROL Identidades superpuestas]** | El número de ID únicos que están presentes en la audiencia del usuario y en la del colaborador. |
 | **[!UICONTROL Superposición %]** | El porcentaje de perfiles que se solapan entre el público seleccionado por usted y el seleccionado por su colaborador. |
+| **[!UICONTROL Índice de audiencia]** | Una puntuación que indica la intensidad con la que una audiencia se relaciona con otra en función de los recuentos y superposiciones de audiencias subyacentes. Para obtener más información sobre el significado de las puntuaciones, lea la sección [puntuación del índice de audiencia](#audience-index-score). Las puntuaciones del índice de audiencia no están disponibles al compararlas con la línea de base de su colaborador (todas las audiencias). |
 | **[!UICONTROL Desglose de identidades por clave de coincidencia]** | El desglose de identidades para cada clave de coincidencia elegida en el proyecto, en función de las audiencias seleccionadas para cada colaborador. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Es posible que la cifra de porcentaje de superposición no siempre esté disponible para todas las audiencias. La visibilidad del indicador de porcentaje de superposición depende de la configuración que el colaborador elija para una audiencia en la [sección de visibilidad de metadatos](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+>Es posible que la cifra de porcentaje de superposición y la puntuación del índice de audiencia no estén siempre disponibles para todas las audiencias. La visibilidad del porcentaje de superposición y la puntuación del índice de audiencia depende de la configuración que el colaborador elija para una audiencia en la [sección de visibilidad de metadatos](/help/guide/setup/onboard-audiences.md#metadata-visibility).
+
+Si su colaborador no ha activado el índice de audiencia ni el porcentaje de superposición, la audiencia no tendrá disponibles datos de comparación.
 
 ## Públicos relevantes {#relevant-audiences}
 
@@ -103,19 +106,22 @@ La sección **[!UICONTROL Audiencias relevantes]** de la pestaña **[!UICONTROL 
 
 >[!NOTE]
 >
->La visibilidad de las audiencias del colaborador depende de la configuración que el colaborador elija para una audiencia en la [sección de visibilidad de metadatos](/help/guide/setup/onboard-audiences.md#metadata-visibility). Si el colaborador ha establecido todas las audiencias como privadas, esta sección no mostrará ninguna audiencia.
+>La visibilidad de las audiencias del colaborador depende de la configuración que el colaborador elija para una audiencia en la [sección de acceso a la conexión](/help/guide/setup/onboard-audiences.md#connection-access) y en la [sección de visibilidad de metadatos](/help/guide/setup/onboard-audiences.md#metadata-visibility). Si el colaborador ha establecido todas las audiencias como privadas, esta sección no mostrará ninguna audiencia.
 
 La sección **[!UICONTROL Audiencias relevantes]** muestra la siguiente información para cada audiencia recomendada:
 
 | Métrica | Descripción |
 |---------|----------|
-| **[!UICONTROL Recuento de identidades]** | Nombre ID únicos dentro de la audiencia. |
+| **[!UICONTROL Recuento de identidades]** | El número de ID únicos dentro de la audiencia. |
 | **[!UICONTROL Identidades superpuestas]** | El número de ID únicos que se superponen entre la audiencia recomendada y todas las audiencias. |
 | **[!UICONTROL Superposición %]** | El porcentaje de identidades superpuestas entre la audiencia recomendada y todas las audiencias. |
+| **[!UICONTROL Índice de audiencia]** | Una puntuación que indica la intensidad con la que una audiencia se relaciona con otra en función de los recuentos y superposiciones de audiencias subyacentes. Para obtener más información sobre el significado de las puntuaciones, lea la sección [puntuación del índice de audiencia](#audience-index-score). |
 | **[!UICONTROL Categorías de audiencia]** | Las categorías que el colaborador ha asignado a la audiencia. |
 | **[!UICONTROL Claves coincidentes]** | Las claves de coincidencia que el colaborador seleccionó para la audiencia. |
 
 {style="table-layout:auto"}
+
+Si la puntuación del índice de audiencia está habilitada para cualquiera de las audiencias de su colaborador, las audiencias relevantes se basarán en la puntuación del índice de audiencia y no se incluirán las audiencias en las que no se haya habilitado el índice de audiencia. Las audiencias relevantes basadas en la puntuación del índice de audiencia se ordenan de modo que se muestre primero la puntuación de índice más alta. Si el índice de audiencia no está habilitado para ninguna de las audiencias de su colaborador, las audiencias relevantes se basarán en el porcentaje de superposición.
 
 ## Detecctar solapamientos {#discover-overlaps}
 
@@ -130,7 +136,9 @@ Descubra superposiciones para obtener información sobre cómo se comparan las a
 
 >[!NOTE]
 >
->La visibilidad de las audiencias del colaborador depende de la configuración que el colaborador elija para una audiencia en la [sección de visibilidad de metadatos](/help/guide/setup/onboard-audiences.md#metadata-visibility). Si el colaborador ha establecido todas las audiencias como privadas, esta sección no mostrará ninguna audiencia.
+>La visibilidad de las audiencias del colaborador depende de la configuración que el colaborador elija para una audiencia en la [sección de acceso a la conexión](/help/guide/setup/onboard-audiences.md#connection-access) y en la [sección de visibilidad de metadatos](/help/guide/setup/onboard-audiences.md#metadata-visibility). Si el colaborador ha establecido todas las audiencias como privadas, esta sección no mostrará ninguna audiencia.
+
+Si el colaborador no ha activado el índice de audiencia o el porcentaje de superposición, la audiencia no se muestra.
 
 Para cambiar tu selección de audiencia, selecciona **[!UICONTROL Cambiar audiencia]**.
 
@@ -147,10 +155,54 @@ Una vez que haya seleccionado las audiencias que desee, la sección **[!UICONTRO
 | **[!UICONTROL Recuento de identidades]** | El número de ID únicos dentro de la audiencia. |
 | **[!UICONTROL Identidades superpuestas]** | El número de ID únicos que se superponen entre la audiencia recomendada y todas las audiencias. |
 | **[!UICONTROL Superposición %]** | El porcentaje de identidades superpuestas entre la audiencia recomendada y todas las audiencias. |
+| **[!UICONTROL Índice de audiencia]** | Una puntuación que indica la intensidad con la que una audiencia se relaciona con otra en función de los recuentos y superposiciones de audiencias subyacentes. Para obtener más información sobre el significado de las puntuaciones, lea la sección [puntuación del índice de audiencia](#audience-index-score). |
 | **[!UICONTROL Categorías de audiencia]** | Las categorías que el colaborador ha asignado a la audiencia. |
 | **[!UICONTROL Claves coincidentes]** | Las claves de coincidencia que el colaborador seleccionó para la audiencia. |
 
 {style="table-layout:auto"}
+
+## Puntuación del índice de audiencia {#audience-index-score}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_discover_audience_index_score"
+>title="Puntuación del índice de audiencia"
+>abstract="Las puntuaciones del índice de audiencia son una métrica con matices que muestra en qué medida una audiencia se relaciona con otra en función de los recuentos de audiencias subyacentes y las superposiciones. La puntuación del índice sin procesar se traduce en bandas de relevancia, que categorizan las puntuaciones del índice de audiencia de muy baja a muy alta. Esto le permite evaluar rápidamente la solidez de la relación entre la audiencia y la audiencia del colaborador."
+
+Las puntuaciones del índice de audiencia son una métrica con matices que muestra en qué medida una audiencia se relaciona con otra en función de los recuentos de audiencias subyacentes y las superposiciones. Esto le ayuda a contextualizar las perspectivas de audiencia e identificar audiencias de alto potencial para la prospección y la segmentación de campañas.
+
+La puntuación del índice se calcula mediante la fórmula siguiente:
+
+![Fórmula para calcular la puntuación de índice.](/help/assets/collaborate/discover/index-score-formula.png)
+
+Imaginen que un fabricante de automóviles quiere hacer una campaña publicitaria con un gran editor de CTV para un nuevo modelo de SUV. El fabricante de automóviles tiene datos sobre quién posee actualmente un modelo similar y quiere utilizarlo para encontrar perspectivas adicionales para convertirlos en clientes. El fabricante de automóviles mira a las audiencias del editor de CTV para encontrar una audiencia relevante que coincida estrechamente con los actuales propietarios de SUV.
+
+![El anunciante del coche frente a las audiencias del editor de CTV.](/help/assets/collaborate/discover/audience-index-score-example.png)
+
+Se realizan cálculos de puntuación del índice que se pueden utilizar para determinar el éxito probable de la campaña:
+
+| Audiencia del editor de CTV | Fórmula | Puntuación de índice (i) | Interpretación |
+|------------------------|-------------|----------------|----------------|
+| Línea base (todas las audiencias) | ((1,3 M / 1,3 M) / (50 M / 50 M)) * 100 | 100 | Sirve como línea de base con la que se comparan las demás audiencias de su colaborador. |
+| Observadores de atracones | ((500 k / 1,3 M) / (20 M / 50 M)) * 100 | 96 | Al segmentar esta audiencia, tiene un 4 % menos de probabilidades de llegar a los propietarios de todoterrenos en comparación con la línea de base. |
+| Amantes de la comedia | ((200 k / 1,3 M) / (6 M / 50 M)) * 100 | 128 | Al segmentar esta audiencia, tiene un 28 % más de probabilidades de llegar a los propietarios de todoterrenos en comparación con la línea de base. |
+| Hombres 25-34 | ((700 k / 1,3 M) / (12 M / 50 M)) * 100 | 224 | Al segmentar esta audiencia, tiene un 124 % más de probabilidades de llegar a los propietarios de todoterrenos en comparación con la línea de base. |
+| Entusiastas de la tecnología | ((500 k / 1,3 M) / (8 M / 50 M)) * 100 | 240 | Al segmentar esta audiencia, tiene un 140 % más de probabilidades de llegar a los propietarios de todoterrenos en comparación con la línea de base. |
+
+Para comprender mejor cómo afectarán las puntuaciones del índice a la campaña, se proporcionan bandas de relevancia junto con las puntuaciones.
+
+### Bandas de relevancia {#audience-index-relevance-bands}
+
+Para facilitar la comparación entre distintas audiencias y campañas, Collaboration convierte las puntuaciones de índice en bandas de relevancia (de muy baja a muy alta). Esto le permite evaluar rápidamente la solidez de la relación entre la audiencia y la audiencia del colaborador.
+
+| Puntuación de índice (i) | Banda de relevancia | Descripción |
+|---------|----------|-----------|
+| i &lt; 60 | Muy baja | La superposición es mucho menos frecuente en la audiencia de destino que en la de destino, lo que indica una relación muy débil. Es mucho menos probable que los clientes que utilizan esta audiencia lleguen a su audiencia objetivo. |
+| 60 &lt; i &lt; 80 | Bajo | La superposición es algo menos prevalente en la audiencia de destino en comparación con la audiencia, lo que sugiere una relación débil. Es menos probable que los clientes que utilizan esta audiencia lleguen a su audiencia objetivo. |
+| 80 &lt; i &lt; 120 | Medio | La superposición tiene la misma prevalencia en la audiencia de destino que en la audiencia, lo que indica una relación típica. Los clientes que utilizan esta audiencia tienen una probabilidad media de llegar a su audiencia objetivo. |
+| 120 &lt; i &lt; 140 | Alto | La superposición es más frecuente en la audiencia de destino que en la de destino, lo que muestra una fuerte relación. Es más probable que los clientes que utilizan esta audiencia lleguen a su audiencia objetivo. |
+| i > 140 | Muy alta | La superposición es mucho más frecuente en la audiencia de destino que en la de destino, lo que refleja una relación muy sólida. Es mucho más probable que los clientes que utilizan esta audiencia lleguen a su audiencia objetivo. |
+
+Dentro de la sección Discover superposiciones, la puntuación del índice de audiencia mostrará la banda de relevancia junto a la puntuación. La puntuación estará codificada por colores para indicar la banda de relevancia, lo que facilita la identificación de la fuerza de la relación de un vistazo. Las bandas de muy baja y baja relevancia se muestran en naranja, bandas de relevancia media en negro y bandas de relevancia alta y muy alta en verde.
 
 ## Próximos pasos
 
