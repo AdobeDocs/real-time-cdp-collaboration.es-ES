@@ -2,9 +2,9 @@
 title: Descubra superposiciones y compare audiencias
 description: Descubra las superposiciones entre las audiencias de y de sus colaboradores. Descubra las mejores audiencias para usar en sus campañas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 76ad3357aa4cd02dbc0616e5d8bd03b03683b7fd
+source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 12%
@@ -188,6 +188,8 @@ Se realizan cálculos de puntuación del índice que se pueden utilizar para det
 | Hombres 25-34 | ((700 k / 1,3 M) / (12 M / 50 M)) * 100 | 224 | Al segmentar esta audiencia, tiene un 124 % más de probabilidades de llegar a los propietarios de todoterrenos en comparación con la línea de base. |
 | Entusiastas de la tecnología | ((500 k / 1,3 M) / (8 M / 50 M)) * 100 | 240 | Al segmentar esta audiencia, tiene un 140 % más de probabilidades de llegar a los propietarios de todoterrenos en comparación con la línea de base. |
 
+{style="table-layout:auto"}
+
 Para comprender mejor cómo afectarán las puntuaciones del índice a la campaña, se proporcionan bandas de relevancia junto con las puntuaciones.
 
 ### Bandas de relevancia {#audience-index-relevance-bands}
@@ -201,6 +203,8 @@ Para facilitar la comparación entre distintas audiencias y campañas, Collabora
 | 80 &lt; i &lt; 120 | Medio | La superposición tiene la misma prevalencia en la audiencia de destino que en la audiencia, lo que indica una relación típica. Los clientes que utilizan esta audiencia tienen una probabilidad media de llegar a su audiencia objetivo. |
 | 120 &lt; i &lt; 140 | Alto | La superposición es más frecuente en la audiencia de destino que en la de destino, lo que muestra una fuerte relación. Es más probable que los clientes que utilizan esta audiencia lleguen a su audiencia objetivo. |
 | i > 140 | Muy alta | La superposición es mucho más frecuente en la audiencia de destino que en la de destino, lo que refleja una relación muy sólida. Es mucho más probable que los clientes que utilizan esta audiencia lleguen a su audiencia objetivo. |
+
+{style="table-layout:auto"}
 
 Dentro de la sección Discover superposiciones, la puntuación del índice de audiencia mostrará la banda de relevancia junto a la puntuación. La puntuación estará codificada por colores para indicar la banda de relevancia, lo que facilita la identificación de la fuerza de la relación de un vistazo. Las bandas de muy baja y baja relevancia se muestran en naranja, bandas de relevancia media en negro y bandas de relevancia alta y muy alta en verde.
 
