@@ -2,12 +2,12 @@
 title: Descubra superposiciones y compare audiencias
 description: Descubra las superposiciones entre las audiencias de y de sus colaboradores. Descubra las mejores audiencias para usar en sus campañas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -161,14 +161,14 @@ Una vez que haya seleccionado las audiencias que desee, la sección **[!UICONTRO
 
 {style="table-layout:auto"}
 
-## Puntuación del índice de audiencia {#audience-index-score}
+## Puntuación del índice de público {#audience-index-score}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_discover_audience_index_score"
->title="Puntuación del índice de audiencia"
->abstract="Las puntuaciones del índice de audiencia son una métrica con matices que muestra en qué medida una audiencia se relaciona con otra en función de los recuentos de audiencias subyacentes y las superposiciones. La puntuación del índice sin procesar se traduce en bandas de relevancia, que categorizan las puntuaciones del índice de audiencia de muy baja a muy alta. Esto le permite evaluar rápidamente la solidez de la relación entre la audiencia y la audiencia del colaborador."
+>title="Puntuación del índice de público"
+>abstract="Las puntuaciones del índice de público son una métrica matizada que muestra en qué medida un público se relaciona con otro en función de los recuentos y solapamientos subyacentes de público. La puntuación del índice sin procesar se traduce en bandas de relevancia, que categorizan las puntuaciones del índice de público de muy baja a muy alta. Esto le permite evaluar rápidamente la solidez de la relación entre su público y el del colaborador."
 
-Las puntuaciones del índice de audiencia son una métrica con matices que muestra en qué medida una audiencia se relaciona con otra en función de los recuentos de audiencias subyacentes y las superposiciones. Esto le ayuda a contextualizar las perspectivas de audiencia e identificar audiencias de alto potencial para la prospección y la segmentación de campañas.
+Las puntuaciones del índice de público son una métrica matizada que muestra en qué medida un público se relaciona con otro en función de los recuentos y solapamientos subyacentes de público. Esto le ayuda a contextualizar las perspectivas de audiencia e identificar audiencias de alto potencial para la prospección y la segmentación de campañas.
 
 La puntuación del índice se calcula mediante la fórmula siguiente:
 
@@ -194,7 +194,7 @@ Para comprender mejor cómo afectarán las puntuaciones del índice a la campañ
 
 ### Bandas de relevancia {#audience-index-relevance-bands}
 
-Para facilitar la comparación entre distintas audiencias y campañas, Collaboration convierte las puntuaciones de índice en bandas de relevancia (de muy baja a muy alta). Esto le permite evaluar rápidamente la solidez de la relación entre la audiencia y la audiencia del colaborador.
+Para facilitar la comparación entre distintas audiencias y campañas, Collaboration convierte las puntuaciones de índice en bandas de relevancia (de muy baja a muy alta). Esto le permite evaluar rápidamente la solidez de la relación entre su público y el del colaborador.
 
 | Puntuación de índice (i) | Banda de relevancia | Descripción |
 |---------|----------|-----------|
