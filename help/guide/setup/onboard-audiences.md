@@ -2,12 +2,12 @@
 title: Source y administración de audiencias
 description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 2f2a128f1591ac864d2ebef09c58ecc93bed8d98
+source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
 workflow-type: tm+mt
-source-wordcount: '2985'
-ht-degree: 19%
+source-wordcount: '3277'
+ht-degree: 15%
 
 ---
 
@@ -16,16 +16,6 @@ ht-degree: 19%
 {{limited-availability-release-note}}
 
 Las audiencias son grupos específicos de usuarios o clientes segmentados según varios atributos. Esto permite a los colaboradores colaborar en marketing segmentado y experiencias personalizadas para lograr campañas publicitarias más eficaces. Esta guía explica cómo crear audiencias en Real-Time CDP Collaboration, ver el panel de audiencias y administrar audiencias individuales.
-
->[!BEGINSHADEBOX]
-
-Lo que encontrará en esta página de documentación:
-
-* [Audiencias de Source en Collaboration](#source-audiences)
-* [Panel de control de vista de públicos](#view-audiences-dashboard)
-* [Ver audiencias individuales](#view-individual-audiences)
-
->[!ENDSHADEBOX]
 
 ## Audiencias de Source en Collaboration {#source-audiences}
 
@@ -90,7 +80,7 @@ A continuación, debe asegurarse de que las acciones de marketing correctas se e
 
 Utilice acciones de marketing para controlar qué datos de audiencia introducir en Collaboration desde Experience Platform. La acción de marketing **[!UICONTROL Colaboración de datos]** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
 
-Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Si la casilla de verificación está ***habilitada***, se excluirán todos los datos etiquetados en Experience Platform como se describió anteriormente y **no** se incluirán en Collaboration.
 * Con la casilla de verificación ***deshabilitada***, no hay restricciones en los datos procedentes de Experience Platform.
@@ -214,10 +204,13 @@ Revise todas las configuraciones y ajustes de antes de finalizar la adición de 
 
 Después de obtener audiencias, el área de trabajo **[!UICONTROL Mis audiencias]** muestra todas las audiencias que provienen actualmente de Collaboration.
 
+![Área de trabajo Mis audiencias que muestra todas las audiencias de origen.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
+
 Cada audiencia contiene una descripción general de la siguiente información:
 
 | Elemento | Descripción |
 |----------|---------|
+| **[!UICONTROL Nombre]** | Nombre de la audiencia. |
 | **[!UICONTROL Identidades]** | Indica el número de identidades presentes en esta audiencia. Tenga en cuenta que si el mismo perfil tiene dos o más identidades y estas identidades se utilizan como claves de coincidencia en el proyecto, el perfil aparecerá dos veces en el recuento. |
 | **[!UICONTROL Estado]** | Indica si la audiencia está activa y si se puede utilizar en proyectos. El estado **[!UICONTROL Pendiente]** indica que la audiencia se ha originado recientemente y que las identidades aún no se han rellenado. Las audiencias de origen se rellenarán con perfiles después de la actualización inicial, que generalmente se produce dentro de las 24 horas siguientes a la configuración de la conexión de datos. |
 | **[!UICONTROL Source]** | Indica el origen de la audiencia. En la versión actual de Collaboration, Experience Platform es la única fuente compatible. |
@@ -225,8 +218,6 @@ Cada audiencia contiene una descripción general de la siguiente información:
 | **[!UICONTROL Acceso a la conexión]** | Define si la audiencia es pública o privada. Las audiencias públicas se pueden descubrir en los informes de superposición y se pueden activar dentro de un proyecto. |
 | **[!UICONTROL Creado]** | Indica cuándo se originó la audiencia inicialmente en Collaboration. |
 | **[!UICONTROL Última actualización]** | Indica la última fecha y hora en que la audiencia se actualizó en Collaboration. Esto no hace referencia a la última actualización de la audiencia, sino a la última modificación de la configuración o los metadatos de la audiencia. |
-
-![Área de trabajo de Mi audiencia que muestra todas las audiencias de origen.](/help/assets/setup/add-manage-audiences/audiences-workspace.png)
 
 Para realizar acciones rápidas en una audiencia, seleccione los puntos suspensivos **...** junto al nombre de la audiencia. Las opciones disponibles son las siguientes:
 
@@ -237,7 +228,7 @@ Para realizar acciones rápidas en una audiencia, seleccione los puntos suspensi
 
 ## Ver audiencias individuales {#view-individual-audiences}
 
-Para ver más información y editar las configuraciones de una audiencia individual, selecciona la audiencia en el espacio de trabajo **[!UICONTROL Mis audiencias]**. El espacio de trabajo de audiencia muestra información detallada sobre la audiencia seleccionada, incluidos detalles, identidades, categorías, acceso a conexiones y configuración de visibilidad de metadatos.
+Para ver y actualizar la información de una audiencia individual, seleccione la audiencia en el área de trabajo **[!UICONTROL Mis audiencias]**. El espacio de trabajo de audiencia muestra información detallada sobre la audiencia seleccionada, incluidos detalles, identidades, categorías, acceso a conexiones y configuración de visibilidad de metadatos.
 
 ### Detalles de público
 
@@ -255,32 +246,22 @@ Se muestra la siguiente información para cada audiencia individual:
 
 ![Espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details.png)
 
-Además, los siguientes controles están disponibles en el espacio de trabajo de audiencia:
-
-* **[!UICONTROL Eliminar]**: elimine la audiencia de su conexión de datos.
-* **[!UICONTROL Editar]**: edite el nombre o la descripción de la audiencia.
-
-![Espacio de trabajo de una audiencia individual con la opción Editar y eliminar resaltada.](/help/assets/setup/add-manage-audiences/audience-details-edit-delete.png)
-
-A continuación, puede actualizar las secciones siguientes en el espacio de trabajo de la audiencia:
-
-* [Identidades](#identities)
-* [Categorías](#categories)
-* [Acceso a la conexión](#connection-access)
-* [Visibilidad de los metadatos](#metadata-visibility)
-
-### Identidades {#identities}
+#### Identidades {#identities}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_identities"
 >title="Identidades"
->abstract="Obtenga una vista desglosada de las identidades que componen este público, así como un recuento total de los perfiles con las identidades respectivas."
+>abstract="Una vista desglosada de las identidades que componen esta audiencia separadas por una clave de coincidencia."
 
-La sección **[!UICONTROL Identidades]** indica el número de perfiles presentes en la audiencia con cualquiera de las identidades seleccionadas al obtener la audiencia. La sección también contiene un desglose de identidades para que pueda saber qué identidades conforman la mayor parte de la población de audiencia.
+La sección **[!UICONTROL Identidades]** indica la cantidad de identidades presentes en la audiencia. La sección también contiene un desglose de identidades por clave de coincidencia para ayudarle a comprender la composición de la audiencia.
 
 ![La sección Identidades del espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
 
-### Categorías {#categories}
+Al pasar el ratón por encima de las secciones individuales del desglose de claves de coincidencia, se proporciona un recuento de identidad preciso para la clave correspondiente.
+
+![La sección Identidades del espacio de trabajo de una audiencia individual con un desglose de clave de coincidencia.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+
+#### Categorías {#categories}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_categories"
@@ -297,14 +278,14 @@ Aparecerá el cuadro de diálogo **[!UICONTROL Categorías]**, que le permitirá
 
 ![Cuadro de diálogo Categorías con las categorías disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
 
-### Acceso a la conexión {#connection-access}
+#### Acceso a la conexión {#connection-access}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_connection_access"
 >title="Acceso a la conexión"
->abstract="<p>Los públicos pueden ser de tres tipos: públicos, privados y personalizados.</p><p> Su disponibilidad para usarlos en proyectos con los colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar el acceso a la conexión de privado a público, pero no puede volver a cambiar esa configuración cuando un público se haya compartido con los colaboradores.</p>"
+>abstract="<p>Los públicos pueden ser de tres tipos: públicos, privados y personalizados.</p><p> Su disponibilidad para usarlas en proyectos con colaboradores difiere según la configuración de acceso a la conexión.</p>"
 
-La disponibilidad de una audiencia para su uso en proyectos con colaboradores difiere según la configuración de acceso a la conexión. En la sección **[!UICONTROL Acceso a la conexión]**, puede seleccionar si la audiencia debe ser privada o pública. Las audiencias públicas se pueden utilizar y detectar en conexiones.
+La disponibilidad de una audiencia para su uso en proyectos con colaboradores difiere según la configuración de acceso a la conexión. En la sección **[!UICONTROL Acceso a la conexión]**, puede seleccionar si la audiencia debe ser privada, pública o solo disponible para conexiones específicas. Las audiencias públicas se pueden utilizar y detectar en conexiones.
 
 Para actualizar el acceso a la conexión de la audiencia, seleccione la opción **[!UICONTROL Editar]** en la sección **[!UICONTROL Acceso a la conexión]**.
 
@@ -324,9 +305,9 @@ Seleccione la opción de acceso a la conexión que desee y, a continuación, sel
 >
 >Independientemente del estado del acceso (público, privado o personalizado), la población de cualquier audiencia contribuye a la población de **[!UICONTROL Todas las audiencias]** en la sección **[!UICONTROL Comparar audiencias]** dentro de un proyecto.
 
-La disponibilidad de la audiencia para su uso en proyectos con colaboradores difiere según la configuración de acceso a la conexión. Siempre puede cambiar la conexión de acceso de privada a pública, pero no puede volver a cambiar esa configuración una vez que se activa una audiencia.
+La disponibilidad de la audiencia para su uso en proyectos con colaboradores difiere según la configuración de acceso a la conexión.
 
-### Visibilidad de los metadatos {#metadata-visibility}
+#### Visibilidad de los metadatos {#metadata-visibility}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
@@ -339,7 +320,7 @@ La disponibilidad de la audiencia para su uso en proyectos con colaboradores dif
 
 La visibilidad de los metadatos indica la visibilidad de los metadatos de una audiencia para otros colaboradores antes de que se conecten con usted o en diferentes vistas de proyecto. Para actualizar la visibilidad de los metadatos de la audiencia, seleccione la opción **[!UICONTROL Editar]** en la sección **[!UICONTROL Visibilidad de los metadatos]**.
 
-![La sección de visibilidad de metadatos del espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-metadata.png)
+![La sección de visibilidad de metadatos del espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
 
 Aparece el cuadro de diálogo **[!UICONTROL Visibilidad de metadatos]**, que le permite configurar las opciones de visibilidad de la audiencia. Hay dos ajustes de visibilidad de metadatos que puede configurar para cada audiencia:
 
@@ -354,6 +335,52 @@ Aparece el cuadro de diálogo **[!UICONTROL Visibilidad de metadatos]**, que le 
 >Para que la configuración de visibilidad de los metadatos surta efecto, la audiencia debe configurarse como pública o personalizada.
 
 ![Cuadro de diálogo de visibilidad de metadatos con las opciones disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+## Editar varias audiencias {#edit-audiences}
+
+Desde el panel de audiencias, puede editar varias audiencias a la vez. Para ello, seleccione las audiencias que desee editar seleccionando los cuadros junto a sus nombres. Una vez seleccionadas las audiencias, puede realizar acciones con las opciones disponibles en el menú de edición.
+
+![Área de trabajo Mis audiencias con dos audiencias seleccionadas y el menú de edición resaltado.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit.png)
+
+### Visibilidad de metadatos de edición masiva {#bulk-edit-metadata-visibility}
+
+Con las audiencias seleccionadas en el panel de audiencias, seleccione **[!UICONTROL Editar visibilidad de metadatos]** en el menú de edición.
+
+![Área de trabajo de Mis audiencias con la opción Editar visibilidad de metadatos resaltada.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-metadata.png)
+
+Aparece el cuadro de diálogo **[!UICONTROL Visibilidad de metadatos]**, que le permite configurar las opciones de visibilidad de las audiencias seleccionadas. De forma predeterminada, no se selecciona ninguna de las opciones. Elige las opciones que deseas aplicar a todas las audiencias seleccionadas y luego selecciona **[!UICONTROL Guardar]**.
+
+![Cuadro de diálogo de visibilidad de metadatos con las opciones disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+
+### Acceso a conexión de edición masiva {#bulk-edit-connection-access}
+
+Con las audiencias seleccionadas en el panel de audiencias, seleccione **[!UICONTROL Editar acceso a conexión]** del menú de edición.
+
+![Área de trabajo de Mis audiencias con la opción de acceso Editar conexión resaltada.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-connection-access.png)
+
+Aparecerá el cuadro de diálogo **[!UICONTROL Acceso a la conexión]**, que le permitirá configurar los ajustes de acceso para las audiencias seleccionadas. De manera predeterminada, se seleccionará la opción **[!UICONTROL Audiencia privada]**. Elige las opciones que deseas aplicar a todas las audiencias seleccionadas y luego selecciona **[!UICONTROL Guardar]**.
+
+![Cuadro de diálogo de acceso a la conexión con las opciones disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+
+### Edición masiva de nombres y descripciones de audiencias {#bulk-edit-audience-names-descriptions}
+
+Con las audiencias seleccionadas en el panel de audiencias, seleccione **[!UICONTROL Editar nombre y descripción]** en el menú de edición.
+
+![Área de trabajo de Mis audiencias con la opción Editar nombre y descripción resaltada.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description.png)
+
+Aparecerá el cuadro de diálogo **[!UICONTROL Nombre y descripción]**, que le permitirá configurar el nombre y la descripción de cada audiencia seleccionada. De forma predeterminada, se muestran los nombres y las descripciones actuales de cada audiencia. Realice los cambios y seleccione **[!UICONTROL Guardar]**.
+
+![Cuadro de diálogo Nombre y descripción con las opciones disponibles mostradas.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-name-description-dialog.png)
+
+### Editar categorías de forma masiva {#bulk-edit-categories}
+
+Con las audiencias seleccionadas en el panel de audiencias, seleccione **[!UICONTROL Editar categorías]** en el menú de edición.
+
+![Área de trabajo Mis audiencias con la opción Editar categorías resaltada.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories.png)
+
+Aparece el cuadro de diálogo **[!UICONTROL Categorías]**, que le permite configurar las categorías para cada audiencia seleccionada. De forma predeterminada, no se seleccionará ninguna categoría. Para seleccionar una categoría, primero seleccione la categoría principal y luego seleccione las subcategorías que desee incluir. Realice los cambios y seleccione **[!UICONTROL Guardar]**.
+
+![Cuadro de diálogo Categorías con las opciones disponibles mostradas.](/help/assets/setup/add-manage-audiences/audiences-bulk-edit-categories-dialog.png)
 
 ## Próximos pasos
 
