@@ -2,11 +2,11 @@
 title: Establecimiento de conexiones
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: d460cb12b43b6c250a5fb491c1efc223c53abb23
+source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3112'
 ht-degree: 7%
 
 ---
@@ -184,8 +184,6 @@ Aparecerá el área de trabajo de configuración de conexión, que le permitirá
 
 ![Espacio de trabajo de configuración de conexión.](/help/assets/connect/establish-connection/connection-set-up.png){zoomable="yes"}
 
-<!-- FIX THE ABOVE SCREENSHOT TO INCLUDE ADV NAMES, AS WELL AS THE ONES BELOW -->
-
 #### Configuración de conexión {#connection-settings}
 
 >[!CONTEXTUALHELP]
@@ -205,18 +203,13 @@ Aparecerá el área de trabajo de configuración de conexión, que le permitirá
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
->title="Uso compartido de audiencias"
+>title="Uso compartido de públicos"
 >abstract="Los créditos de activación del público se consumen en función del número de ID coincidentes preparados para la activación."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_measurement"
 >title="Medición"
 >abstract="Ejecutar actividades para generar informes y análisis sobre el rendimiento de las campañas. Los créditos se consumen en función del número de filas de los informes de campaña de todas las campañas y la frecuencia de los informes (diariamente, cada tres días o semanalmente)."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_connection_settings_legalagreement"
->title="Acuerdo legal"
->abstract="Compruebe que existe un acuerdo de uso compartido de datos entre las dos partes."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_advertisername"
@@ -231,7 +224,7 @@ Aparecerá el área de trabajo de configuración de conexión, que le permitirá
 
 Puede configurar las siguientes opciones de conexión:
 
-+++Activación de audiencia
++++Activación del público
 
 >[!IMPORTANT]
 >
@@ -259,7 +252,7 @@ Para personalizar los casos de uso, seleccione **[!UICONTROL Editar]** en la sec
 
 +++
 
-+++Claves coincidentes
++++Claves de coincidencia
 
 Las claves de coincidencia se rellenan automáticamente con las que seleccionaste al [configurar tu cuenta](/help/guide/setup/onboard-account.md#set-up-match-keys). Puede desactivar cualquier clave de coincidencia que no desee utilizar, pero no puede agregar claves de coincidencia que no se seleccionaron durante la configuración de la cuenta.
 
@@ -283,15 +276,7 @@ Para configurar la división de crédito, seleccione **[!UICONTROL Editar]** en 
 
 +++
 
-+++Acuerdos
-
-Debe reconocer que existe un acuerdo legal entre usted y su colaborador. Este acuerdo describe los términos de uso compartido y colaboración de datos. Puede seleccionar la casilla de verificación **[!UICONTROL Confirmar y confirmar]** para confirmar que existe dicho acuerdo.
-
-![La sección Acuerdo legal se resalta y se confirma en el área de trabajo de conexión.](/help/assets/connect/establish-connection/legal-agreement.png){zoomable="yes"}
-
-+++
-
-+++Nombres del anunciante
++++Nombres de anunciantes
 
 >[!NOTE]
 >
@@ -310,8 +295,8 @@ Cuando termines, selecciona **[!UICONTROL Guardar]** para guardar los cambios.
 Al crear un proyecto, el nombre del anunciante se rellena previamente en función de la siguiente configuración establecida durante la conexión    :
 
 1. **Sin conjunto de nombres de anunciante**: Si no se agregan nombres de anunciante, Collaboration usa de manera predeterminada el nombre del anunciante como nombre del anunciante.
-1. **Un conjunto de nombres de anunciante**: Si se agrega un solo nombre de anunciante, Collaboration lo usará automáticamente como nombre de anunciante para el proyecto.
-1. **Conjunto de varios nombres de anunciante**: Si se agrega más de un nombre de anunciante, usted o su colaborador pueden seleccionar cualquiera de los nombres proporcionados al crear el proyecto.
+2. **Un conjunto de nombres de anunciante**: Si se agrega un solo nombre de anunciante, Collaboration lo usará automáticamente como nombre de anunciante para el proyecto.
+3. **Conjunto de varios nombres de anunciante**: Si se agrega más de un nombre de anunciante, usted o su colaborador pueden seleccionar cualquiera de los nombres proporcionados al crear el proyecto.
 
 >[!NOTE]
 >
@@ -331,9 +316,7 @@ A continuación, el destinatario debe revisar la configuración de conexión pro
 
 Revise la configuración que ha propuesto el colaborador. Puede aceptar o rechazar la configuración de conexión. Si rechaza la configuración de conexión, deberá comunicarse con el colaborador acerca de los cambios que desee realizar fuera del producto. La información de contacto del colaborador se muestra en la sección **[!UICONTROL Contacto]** del área de trabajo de configuración de conexión. El propietario puede revisar la configuración de conexión y reenviarla para su revisión.
 
-Si está satisfecho con la configuración de conexión propuesta, debe reconocer que existe un acuerdo legal entre usted y el colaborador. Seleccione la casilla de verificación **[!UICONTROL Confirmar y confirmar]** para confirmar que existe dicho acuerdo.
-
-![La sección Acuerdo legal resaltada en el área de trabajo de configuración de conexión.](/help/assets/connect/establish-connection/legal-agreement-review.png){zoomable="yes"}
+![Espacio de trabajo de configuración de conexión con la opción Aceptar y rechazar resaltada.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
 Además, si es un editor que se conecta con un anunciante, ahora puede agregar nombres de anunciantes en la configuración de conexión. Para obtener más información sobre este proceso, consulte la sección [configuración de conexión](#connection-settings).
 
