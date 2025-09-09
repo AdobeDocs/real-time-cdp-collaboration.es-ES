@@ -2,11 +2,11 @@
 title: Guía de inicio rápido de Real-Time CDP Collaboration
 description: Obtenga información sobre cómo incorporar su organización en Real-Time CDP Collaboration, incluida la configuración de funciones y organizaciones, el abastecimiento de audiencias, la activación y la medición. Esta guía ayuda a los colaboradores a configurar las opciones de conexión para empezar a utilizar sus audiencias de forma segura y eficaz.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: ac8db9f5a3879d548d8dc3818ad20fc602b31e7c
+source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1394'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Antes de empezar, asegúrese de que dispone de lo siguiente:
 - [Acceso aprovisionado para usuarios finales](./permissions/manage-user-access.md).
 - [Roles creados para su organización y asignados a usuarios](./permissions/manage-roles.md).
 - Acceso a recursos de promoción de la marca, como el nombre, el logotipo y el banner de su organización.
-- Una [estrategia de clave de coincidencia definida](./setup/onboard-account.md#set-up-match-keys) (actualmente, el correo electrónico con hash es la única clave de coincidencia admitida).
+- Una [estrategia de clave de coincidencia definida](./setup/onboard-account.md#set-up-match-keys)
 - (Opcional) Acceso a una fuente en la nube compatible (Amazon S3 o Snowflake) si no utiliza Experience Platform para la gestión de público.
 
 ## Paso 1: completar la configuración basada en funciones {#complete-role-based-setup}
@@ -41,7 +41,7 @@ Las funciones de acceso de su organización determinan lo que los usuarios puede
 
 Vea este vídeo para aprender a asignar acceso y permisos de producto para Collaboration mediante Admin Console y Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452233/?learn=on&enablevpops&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Paso 2: Configurar su cuenta de Collaboration {#set-up-your-account}
 
@@ -66,7 +66,7 @@ Defina la función de su cuenta en Collaboration, proporcione recursos de promoc
 >Si va a crear una cuenta de publicador y desea que sea visible públicamente en el catálogo de conexiones de Collaboration, póngase en contacto con el representante de la cuenta de Adobe. Las cuentas de Publisher requieren un banner de marca personalizado (JPG 2688x1536); este archivo se puede compartir directamente con el representante.
 
 - **Correo electrónico de contacto**: proporcione un correo electrónico empresarial para que lo utilicen los colaboradores después de establecer una conexión.
-- **Configurar claves de coincidencia**: seleccione los identificadores utilizados para la coincidencia de audiencias (actualmente, el correo electrónico con hash es la única clave de coincidencia compatible).
+- **Configurar claves de coincidencia**: seleccione los identificadores utilizados para la coincidencia de audiencias.
 
 Para obtener más información sobre la configuración inicial de la cuenta, incluido cómo definir funciones, cargar recursos de promoción de la marca y configurar claves de coincidencia, consulte la guía [configuración inicial de la cuenta](./setup/onboard-account.md#initial-account-setup){target="_blank"}.
 
@@ -107,7 +107,8 @@ Configure cómo se preparan, comparan y controlan las audiencias para su uso en 
 >
 >**Requisitos de clave de coincidencia:**
 >
->Todas las claves de coincidencia deben estar **recortadas**, **en minúsculas** y **con hash SHA256**.\
+>Todas las claves de coincidencia deben estar **recortadas**, **en minúsculas**
+>>Las claves de coincidencia con hash deben ser **SHA256-hashed**.\
 >Si proporciona valores hash con caracteres en mayúsculas, Collaboration los convierte automáticamente a minúsculas.\
 >Si su origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** para aplicar el hash. Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
 >

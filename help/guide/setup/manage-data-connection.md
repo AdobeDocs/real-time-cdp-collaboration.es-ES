@@ -2,12 +2,12 @@
 title: Administrar conexiones de datos
 description: Obtenga información sobre cómo administrar conexiones de datos, incluidas claves de coincidencia, programación, casos de uso y filtrado de audiencias en Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: c76259c1a5a684e69e4b5ac8bfdecc9026fe0939
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 12%
+source-wordcount: '602'
+ht-degree: 7%
 
 ---
 
@@ -30,17 +30,9 @@ Para ver las conexiones de datos existentes, vaya a **[!UICONTROL Configuración
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_matchkeys"
 >title="Claves de coincidencia"
->abstract="Las claves de coincidencia determinan cómo coincidirán los datos de diferentes fuentes. Elija las claves de coincidencia más relevantes para sus casos de uso y directrices de privacidad."
+>abstract="Las claves de coincidencia determinan cómo coincidirán los datos de diferentes fuentes. Las claves de coincidencia que se muestran a continuación son los campos de destino a los que asignó los campos de origen."
 
-Las claves de coincidencia son identificadores que se utilizan para reconciliar miembros entre los públicos de diferentes fuentes de datos. No puede editar las claves de coincidencia seleccionadas inicialmente para la conexión de datos.
-
->[!IMPORTANT]
-> 
->Las claves de coincidencia no se pueden editar después de crear la conexión de datos. Para actualizar las claves de coincidencia, debe crear una nueva conexión de datos.
-
-Las claves de coincidencia disponibles incluyen:
-
-- **Correo electrónico con hash**
+Las claves de coincidencia son los campos de destino a los que [asignó los campos de origen](./onboard-audiences.md#map-fields). No puede editar las claves de coincidencia seleccionadas inicialmente para la conexión de datos. Para actualizar las claves de coincidencia, debe crear una nueva conexión de datos. Para obtener más información sobre cómo funcionan las claves de coincidencia, consulte la guía [claves de coincidencia](./onboard-account.md#set-up-match-keys).
 
 ![Espacio de trabajo de conexiones de datos con la sección Claves de coincidencia resaltada.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
@@ -57,7 +49,7 @@ Después de crear una conexión de datos, puede actualizar su frecuencia de actu
 
 >[!NOTE]
 >
->Cuando se obtienen audiencias de Adobe Experience Platform, estas están disponibles en un plazo de 24 horas tras establecer la conexión de datos. Después de la importación inicial, los datos de audiencia se actualizan según la frecuencia definida.
+>Cuando se obtienen audiencias de Adobe Experience Platform, estas están disponibles en un plazo de 24 horas tras establecer la conexión de datos. Después del abastecimiento inicial, los datos de audiencia se actualizan según la frecuencia definida.
 
 Para obtener más información sobre la programación, consulte la [sección de programación](/help/guide/setup/onboard-audiences.md#schedule) en la guía para configurar audiencias.
 
@@ -66,6 +58,8 @@ Para obtener más información sobre la programación, consulte la [sección de 
 #### Editar programación {#edit-scheduling}
 
 Puede editar la frecuencia de una conexión de datos existente para controlar mejor la frecuencia con la que se actualizan las audiencias. Para editar la programación, selecciona **[!UICONTROL Editar]** en la conexión de datos de la tarjeta de programación.
+
+La programación afectará a todas las audiencias procedentes de la conexión de datos.
 
 En el cuadro de diálogo **[!UICONTROL Programación]**, seleccione el menú desplegable para actualizar la **[!UICONTROL Frecuencia]**. Configure la frecuencia de actualización para que se ejecute a diario o cada dos a seis días. Cuando termines, selecciona **[!UICONTROL Guardar]** para aplicar los cambios.
 

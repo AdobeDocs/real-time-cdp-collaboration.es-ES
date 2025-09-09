@@ -2,12 +2,12 @@
 title: Establecimiento de conexiones
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: ed8bd9a9e0843e2974e5a7093b2b39b03ca7f5b7
+source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 7%
+source-wordcount: '3230'
+ht-degree: 6%
 
 ---
 
@@ -194,7 +194,8 @@ Aparecerá el área de trabajo de configuración de conexión, que le permitirá
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Claves de coincidencia"
->abstract="Las claves de coincidencia se rellenan previamente con las seleccionadas en el nivel de organización. Puede desactivar cualquier clave de coincidencia que no desee utilizar en esta conexión."
+>abstract="Las claves de coincidencia se rellenan previamente con claves de coincidencia comunes que usted y su colaborador han seleccionado en el nivel de cuenta. Puede desactivar cualquier clave de coincidencia que no desee utilizar en esta conexión."
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Claves de coincidencia de cuenta"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -224,7 +225,7 @@ Aparecerá el área de trabajo de configuración de conexión, que le permitirá
 
 Puede configurar las siguientes opciones de conexión:
 
-+++Activación del público
+##### Activación del público {#audience-activation}
 
 >[!IMPORTANT]
 >
@@ -240,9 +241,7 @@ Cuando termines, selecciona **[!UICONTROL Guardar]** para guardar los cambios.
 
 ![Cuadro de diálogo de activación de Audiencia con la opción Guardar en el área de trabajo de configuración de conexión.](/help/assets/connect/establish-connection/audience-activation-confirm.png){zoomable="yes"}
 
-+++
-
-+++Casos de uso
+##### Casos de uso {#use-cases}
 
 Los casos de uso se rellenan automáticamente con todas las opciones disponibles. Los casos de uso seleccionados determinan qué vistas y opciones están disponibles en sus proyectos. Para obtener más información, lea la guía [casos de uso del proyecto](/help/guide/collaborate/manage-projects.md#project-use-cases).
 
@@ -250,19 +249,23 @@ Para personalizar los casos de uso, seleccione **[!UICONTROL Editar]** en la sec
 
 ![La configuración de casos de uso en el área de trabajo de configuración de conexión.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
-+++
+##### Claves de coincidencia {#match-keys}
 
-+++Claves de coincidencia
+Las claves de coincidencia se rellenan automáticamente con las claves de coincidencia comunes que usted y su colaborador seleccionaron al [configurar sus cuentas](/help/guide/setup/onboard-account.md#set-up-match-keys). Solo aparecerán las claves de coincidencia que usted y el colaborador seleccionado **y** tengan en común.
 
-Las claves de coincidencia se rellenan automáticamente con las que seleccionaste al [configurar tu cuenta](/help/guide/setup/onboard-account.md#set-up-match-keys). Puede desactivar cualquier clave de coincidencia que no desee utilizar, pero no puede agregar claves de coincidencia que no se seleccionaron durante la configuración de la cuenta.
+![Área de trabajo de configuración de conexión con la sección Claves de coincidencia resaltada que muestra las claves de coincidencia comunes.](/help/assets/connect/establish-connection/auto-populated-match-keys.png){zoomable="yes"}
+
+Cuando el propietario de la conexión está configurando la configuración de conexión, puede [editar las claves de coincidencia de la cuenta](../setup/onboard-account.md#edit-match-keys) para incluir claves de coincidencia adicionales. Después de activar más claves de coincidencia en la configuración de la cuenta, dichas claves de coincidencia estarán disponibles para activarse en la configuración de conexión si su colaborador también las ha seleccionado. Las claves de coincidencia agregadas una vez iniciado el proceso de conexión no se rellenarán automáticamente y deben activarse manualmente.
 
 Para personalizar las claves de coincidencia, seleccione **[!UICONTROL Editar]** en la sección **[!UICONTROL Claves de coincidencia]** y desactive las claves de coincidencia que no desee usar en esta conexión. Cuando termines, selecciona **[!UICONTROL Guardar]** para guardar los cambios.
 
-![La configuración de la clave Match en el área de trabajo de configuración de conexión.](/help/assets/connect/establish-connection/match-keys.png){zoomable="yes"}
+![Se abre el área de trabajo de configuración de conexión con el cuadro de diálogo de sección Claves de coincidencia que muestra una clave de coincidencia desactivada.](/help/assets/connect/establish-connection/additional-match-key-selected.png){zoomable="yes"}
 
-+++
+>[!IMPORTANT]
+>
+>Una vez que el colaborador haya aceptado la configuración de conexión, las claves de coincidencia se bloquearán y no se podrán cambiar.
 
-+++División de crédito
+##### División de crédito {#credit-split}
 
 Utilice la sección de división de crédito para determinar cuál de las dos partes colaboradoras cubrirá los costes de las actividades. Las opciones de división de crédito están determinadas por los casos de uso seleccionados para la conexión. Aunque el caso de uso **[!UICONTROL Medición]** requiere que una parte cubra los costos, el caso de uso **[!UICONTROL Activación - Coincidencia]** proporciona una opción adicional para que cada parte cubra sus propios costos. Para obtener información sobre el desglose de costos, lea la guía [tipos de actividades de crédito](/help/guide/setup/my-activity.md#types-of-activities).
 
@@ -274,9 +277,7 @@ Para configurar la división de crédito, seleccione **[!UICONTROL Editar]** en 
 
 ![Cuadro de diálogo de división de crédito con opciones en el área de trabajo de configuración de conexión.](/help/assets/connect/establish-connection/credit-split.png){zoomable="yes"}
 
-+++
-
-+++Nombres de anunciantes
+##### Nombres de anunciantes {#advertiser-names}
 
 >[!NOTE]
 >
@@ -303,8 +304,6 @@ Al crear un proyecto, el nombre del anunciante se rellena previamente en funció
 > Una vez enviada la configuración de conexión, ya no puede añadir ni editar nombres de anunciantes.
 
 ![Se ha completado el área de trabajo de configuración de conexión con la sección Nombres de anunciantes.](/help/assets/connect/establish-connection/add-advertiser-names.png)
-
-+++
 
 Una vez que haya realizado sus selecciones, seleccione **[!UICONTROL Enviar]** para enviar la configuración sugerida al destinatario para que la revise.
 

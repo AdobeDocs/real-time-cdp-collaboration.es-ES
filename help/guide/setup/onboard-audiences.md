@@ -2,12 +2,12 @@
 title: Source y administración de audiencias
 description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: 4f1582b489d99e9e8257c3808ec5863dbc74ef7a
+source-git-commit: 425bcb6b8069dfca17838d05b6a91250293c8308
 workflow-type: tm+mt
-source-wordcount: '3277'
-ht-degree: 15%
+source-wordcount: '3508'
+ht-degree: 12%
 
 ---
 
@@ -27,24 +27,24 @@ Para poder activar audiencias con colaboradores y ejecutar cálculos de superpos
 
 En la ficha **[!UICONTROL Mis audiencias]** del área de trabajo **[!UICONTROL Configuración]**, seleccione el icono Agregar (![Agregar icono.](/help/assets/icons/plus.png)) y luego seleccione **[!UICONTROL Audiencia]**. Si esta es su primera audiencia, también puede seleccionar la opción **[!UICONTROL Agregar]**.
 
-![Área de trabajo de Mis audiencias con la opción Agregar y las opciones de Audiencias resaltadas.](/help/assets/setup/add-manage-audiences/add-audiences.png)
+![Área de trabajo de Mis audiencias con la opción Agregar y las opciones de Audiencias resaltadas.](/help/assets/setup/add-manage-audiences/add-audiences.png){zoomable="yes"}
 
 ### Seleccionar conexión de datos {#select-data-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Acción de marketing"
->abstract="<p>Utilice acciones de marketing para controlar qué datos del público se importarán a Real-Time CDP Collaboration desde Experience Platform. La acción de marketing <strong>Colaboración de datos</strong> admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing <strong>Ciencia de datos</strong> admite la etiqueta de uso de datos C9.</p> <p> <ul><li> Con la casilla de verificación <em>habilitada</em>, cualquier dato marcado con las etiquetas llamadas arriba en Experience Platform se excluye y <strong>no</strong> se incorpora a Real-Time CDP Collaboration.</li><li> Con la casilla de verificación <em>deshabilitada</em>, no hay restricciones en los datos de Experience Platform que se pueden importar a Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Utilice acciones de marketing para controlar qué datos del público se importarán a Real-Time CDP Collaboration desde Experience Platform. La acción de marketing <strong>Colaboración de datos</strong> admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing <strong>Ciencia de datos</strong> admite la etiqueta de uso de datos C9.</p> <p> <ul><li> Con la casilla de verificación <em>habilitada</em>, cualquier dato marcado con las etiquetas llamadas arriba en Experience Platform se excluye y <strong>no</strong> se incorpora a Real-Time CDP Collaboration.</li><li> Con la casilla de verificación <em>deshabilitada</em>, no hay restricciones en los datos de Experience Platform que pueden obtenerse en Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=es" text="Información general sobre las etiquetas de uso de datos"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es" text="Glosario de etiquetas de uso de datos"
 
 >[!IMPORTANT]
 >
->Después de establecer en la primera conexión de datos e importar la primera audiencia, puede importar varias audiencias desde la conexión de datos existente. Al agregar audiencias adicionales, empezará desde el paso [seleccionar audiencia](#select-audiences), ya que la conexión de datos ya se ha establecido.
+>Después de establecer en la primera conexión de datos y obtener la primera audiencia, puede obtener varias audiencias a partir de la conexión de datos existente. Al agregar audiencias adicionales, empezará desde el paso [seleccionar audiencia](#select-audiences), ya que la conexión de datos ya se ha establecido.
 
 Una conexión de datos es la fuente de datos desde la que se obtienen las audiencias. Actualmente, la única conexión de datos admitida es Adobe Experience Platform.
 
-Cualquier configuración, como la programación, que configure para la conexión de datos se aplica a todas las audiencias procedentes de esta conexión de datos.
+Cualquier configuración que configure para la conexión de datos se aplicará a todas las audiencias procedentes de esta conexión de datos.
 
 >[!TIP]
 >
@@ -52,7 +52,7 @@ Cualquier configuración, como la programación, que configure para la conexión
 
 Para empezar a agregar su conexión de datos, seleccione **[!UICONTROL Agregar una nueva conexión de datos]** y, a continuación, seleccione **[!UICONTROL Siguiente]**.
 
-![Espacio de trabajo Agregar audiencias con la opción Agregar una nueva conexión de datos resaltada.](/help/assets/setup/add-manage-audiences/add-data-connection.png)
+![Espacio de trabajo Agregar audiencias con la opción Agregar una nueva conexión de datos resaltada.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 #### Seleccionar fuente de datos
 
@@ -66,13 +66,13 @@ A continuación, elegirá el origen de la conexión de datos. Las fuentes dispon
 
 Seleccione su fuente de datos y luego seleccione **[!UICONTROL Siguiente]**.
 
-![Espacio de trabajo Agregar audiencias con la opción Adobe Experience Platform resaltada.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png)
+![Espacio de trabajo Agregar audiencias con la opción Adobe Experience Platform resaltada.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
 #### Selección de zona protegida
 
-Después de seleccionar la fuente de datos, debe seleccionar la zona protegida que incluye las audiencias que desea utilizar en Collaboration. Seleccione la zona protegida de la lista de zonas protegidas disponibles y, a continuación, seleccione **[!UICONTROL Siguiente]**
+Después de seleccionar la fuente de datos, debe seleccionar la zona protegida que incluye las audiencias que desea utilizar para Collaboration. Seleccione la zona protegida de la lista de zonas protegidas disponibles y, a continuación, seleccione **[!UICONTROL Siguiente]**
 
-![Espacio de trabajo Agregar audiencias con una zona protegida seleccionada.](/help/assets/setup/add-manage-audiences/select-sandbox.png)
+![Espacio de trabajo Agregar audiencias con una zona protegida seleccionada.](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
 
 #### Política de gobernanza y acciones de cumplimiento {#governance-policy-and-enforcement-actions}
 
@@ -80,7 +80,7 @@ A continuación, debe asegurarse de que las acciones de marketing correctas se e
 
 Utilice acciones de marketing para controlar qué datos de audiencia introducir en Collaboration desde Experience Platform. La acción de marketing **[!UICONTROL Colaboración de datos]** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
 
-Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Si la casilla de verificación está ***habilitada***, se excluirán todos los datos etiquetados en Experience Platform como se describió anteriormente y **no** se incluirán en Collaboration.
 * Con la casilla de verificación ***deshabilitada***, no hay restricciones en los datos procedentes de Experience Platform.
@@ -92,17 +92,17 @@ Obtenga más información sobre las etiquetas de uso de datos en la documentaci�
 
 Además, debe seleccionar las reglas de consentimiento que se aplicarán a los datos que se obtienen en Collaboration.
 
-![Espacio de trabajo Agregar audiencias en la sección Directiva de administración y acciones de cumplimiento.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png)
+![Espacio de trabajo Agregar audiencias en la sección Directiva de administración y acciones de cumplimiento.](/help/assets/setup/add-manage-audiences/data-collaboration-consent.png){zoomable="yes"}
 
 Una vez que haya seleccionado las acciones de marketing y las reglas de consentimiento, seleccione **[!UICONTROL Siguiente]** para continuar con el paso siguiente. Aparecerá un cuadro de diálogo de confirmación en el que se le pedirá que acepte los términos. Seleccione la casilla de verificación y, a continuación, seleccione **[!UICONTROL Aceptar]** para confirmar.
 
-![Cuadro de diálogo Directiva de gobernanza y acciones de aplicación con la casilla de verificación y la opción Aceptar resaltadas.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png)
+![Cuadro de diálogo Directiva de gobernanza y acciones de aplicación con la casilla de verificación y la opción Aceptar resaltadas.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
 ### Proporcionar detalles
 
 A continuación, proporcione un nombre y una descripción para la conexión de datos. Esta información le ayudará a identificar la conexión de datos más adelante.
 
-![El área de trabajo Agregar audiencias tiene la opción de proporcionar un nombre y una descripción.](/help/assets/setup/add-manage-audiences/data-connection-details.png)
+![El área de trabajo Agregar audiencias tiene la opción de proporcionar un nombre y una descripción.](/help/assets/setup/add-manage-audiences/data-connection-details.png){zoomable="yes"}
 
 ### Asignar campos {#map-fields}
 
@@ -114,7 +114,7 @@ A continuación, proporcione un nombre y una descripción para la conexión de d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Campos de destino"
->abstract="Actualmente, los correos electrónicos con hash son las únicas claves de coincidencia admitidas."
+>abstract="Los campos de destino son las claves de coincidencia seleccionadas durante la configuración de la cuenta. De forma predeterminada, todas las claves de coincidencia seleccionadas están disponibles."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -130,42 +130,54 @@ A continuación, proporcione un nombre y una descripción para la conexión de d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_profile_attributes"
 >title="Atributos de perfil"
->abstract="Seleccione atributos del esquema de unión para la clase de perfil en Experience Platform. Esta vista muestra los atributos que están presentes en el esquema de unión y pertenecen a la clase de perfil individual XDM."
+>abstract="Seleccione atributos del esquema de unión para la clase Profile en Experience Platform. Esta vista muestra los atributos que están presentes en el esquema de unión y pertenecen a la clase XDM Individual Profile."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es" text="Esquema de unión en Experience Platform"
 
-A continuación, seleccione los campos de origen para asignarlos a los campos de destino en Collaboration.
+A continuación, seleccione los campos de origen para asignarlos a los campos de destino en Collaboration. Los campos de destino disponibles se basarán en las claves de coincidencia seleccionadas durante la configuración de la cuenta.
 
-![Espacio de trabajo Agregar audiencias con la opción de asignar campos de origen a campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png)
+>[!IMPORTANT]
+>
+>Actualmente, no se pueden editar conexiones de datos para incluir nuevos campos de asignación. Si agrega nuevas claves de coincidencia a su cuenta después de crear la conexión de datos, deberá crear una nueva conexión de datos para asignarla a ellas.
+
+![Espacio de trabajo Agregar audiencias con la opción de asignar campos de origen a campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
 >[!TIP]
 >
->Puede asignar varios campos de origen al mismo campo de destino. Por ejemplo, si tiene direcciones de correo electrónico en dos campos distintos en Experience Platform, puede asignar cada uno de ellos al campo de destino **[!UICONTROL Correo electrónico con hash]** como dos filas independientes.
+>Puede asignar varios campos de origen al mismo campo de destino. Por ejemplo, si tiene direcciones de correo electrónico en dos campos distintos en Experience Platform, puede asignar cada uno de ellos al campo de destino **[!UICONTROL Correo electrónico con hash]** como dos filas independientes. Utilice la opción **[!UICONTROL Agregar campo]** para agregar filas de asignación adicionales.
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Así es como existen las identidades en la plataforma desde la que obtiene datos. Los campos de Source se asignan a los campos de destino definidos en Collaboration.
+**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
 
-**[!UICONTROL Campos de destino]** indican cómo se hace referencia a las identidades en Collaboration. Actualmente, los correos electrónicos con hash son las únicas claves de coincidencia admitidas.
+Los campos de Source se asignan a los campos de destino definidos en Collaboration.
 
-Utilice la opción **[!UICONTROL Aplicar transformación]** al importar *campos sin hash* desde su origen. En este caso, Collaboration aplica el hash y transforma los campos. El algoritmo hash utilizado por Adobe es SHA256.
+**[!UICONTROL Campos de destino]** indican cómo se hace referencia a las identidades en Collaboration. Los campos de destino son las claves de coincidencia seleccionadas durante la configuración de la cuenta. De forma predeterminada, todas las claves de coincidencia seleccionadas están disponibles.
+
+Utilice la opción **[!UICONTROL Aplicar transformación]** cuando esté suministrando *campos sin hash* a campos con hash. Collaboration aplicará el hash y transformará los campos. El algoritmo hash utilizado por Adobe es SHA256.
 
 >[!ENDSHADEBOX]
 
-Seleccione el campo de origen vacío junto al campo de destino. Aparecerá el cuadro de diálogo **[!UICONTROL Seleccionar campo de origen]**. Seleccione entre las opciones **[!UICONTROL Áreas de nombres de identidad]** y **[!UICONTROL Atributos de perfil]** para encontrar el campo de origen deseado y, a continuación, seleccione el campo en la lista. También puede utilizar la opción de búsqueda para encontrar el campo deseado.
+Para empezar a asignar campos, seleccione el campo de origen vacío junto al campo de destino. Aparecerá el cuadro de diálogo **[!UICONTROL Seleccionar campo de origen]**. Seleccione entre las opciones **[!UICONTROL Áreas de nombres de identidad]** y **[!UICONTROL Atributos de perfil]** para encontrar el campo de origen deseado y, a continuación, seleccione el campo en la lista. También puede utilizar la opción de búsqueda para encontrar el campo deseado.
 
-![Cuadro de diálogo Seleccionar campo de origen con las opciones de correo electrónico mostradas.](/help/assets/setup/add-manage-audiences/select-source-field.png)
+![Cuadro de diálogo Seleccionar campo de origen con las opciones de correo electrónico mostradas.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-Para administrar varios campos de correo electrónico, asigne el campo de origen de correo electrónico sin hash con **[!UICONTROL Aplicar transformación]**.
+Para controlar el abastecimiento de un campo sin hash a un campo de destino con hash, use la opción **[!UICONTROL Aplicar transformación]**. Por ejemplo, para agregar un segundo campo de correo electrónico, seleccione la opción **[!UICONTROL Agregar campo]** a para agregar una nueva fila y, a continuación, seleccione **[!UICONTROL Correo electrónico con hash]** para el campo de destino. Seleccione un campo de origen de correo electrónico sin hash y luego seleccione **[!UICONTROL Aplicar transformación]**.
 
-![Espacio de trabajo Agregar audiencias con los campos de origen de correo electrónico asignados al campo de destino, con la opción Aplicar transformación activada para uno.](/help/assets/setup/add-manage-audiences/apply-transformation.png)
+![Espacio de trabajo Agregar audiencias con los campos de origen de correo electrónico asignados al campo de destino, con la opción Aplicar transformación activada para uno.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-Siga agregando pares de asignación según sea necesario y, a continuación, seleccione **[!UICONTROL Siguiente]**.
+Siga agregando pares de asignación para cada campo de destino. Si no desea utilizar una clave de coincidencia, puede eliminarla mediante el icono Eliminar (![icono Eliminar](/help/assets/icons/delete.png)) situado junto al campo. Si se elimina la clave de coincidencia, no podrá utilizarla al obtener audiencias de la conexión.
+
+![Espacio de trabajo Agregar audiencias con la opción Eliminar al lado de un campo de destino resaltado.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+
+Cuando haya terminado de asignar campos, seleccione **[!UICONTROL Siguiente]** para continuar.
+
+![Espacio de trabajo Agregar audiencias con los campos de asignación rellenados y la opción Siguiente resaltada.](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
 
 ### Programación {#schedule}
 
 A continuación, programe cuándo comenzar y terminar de rellenar las audiencias. La audiencia se actualizará según esta programación.
 
-![Espacio de trabajo Agregar audiencia con las opciones de programación mostradas.](/help/assets/setup/add-manage-audiences/audience-scheduling.png)
+![Espacio de trabajo Agregar audiencia con las opciones de programación mostradas.](/help/assets/setup/add-manage-audiences/audience-scheduling.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -173,11 +185,11 @@ A continuación, programe cuándo comenzar y terminar de rellenar las audiencias
 
 Seleccione la frecuencia de actualización de la audiencia en el menú desplegable **[!UICONTROL Frecuencia]**.
 
-![Espacio de trabajo de programación Agregar audiencias con la lista desplegable Frecuencia abierta.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png)
+![Espacio de trabajo de programación Agregar audiencias con la lista desplegable Frecuencia abierta.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
 
 A continuación, seleccione **[!UICONTROL Intervalo de fecha]**. La fecha de inicio es la fecha en la que la audiencia empezará a rellenarse con perfiles y la fecha de finalización es cuando la audiencia dejará de actualizarse.
 
-![Espacio de trabajo de programación Agregar audiencias con la opción Intervalo de fechas mostrada.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png)
+![Espacio de trabajo de programación Agregar audiencias con la opción Intervalo de fechas mostrada.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -185,15 +197,15 @@ A continuación, seleccione **[!UICONTROL Intervalo de fecha]**. La fecha de ini
 
 ### Seleccionar públicos {#select-audiences}
 
-Después de seleccionar la fuente de audiencia, elegirá las audiencias específicas que desea incluir. Utilice las opciones de búsqueda y filtro para encontrar las audiencias relevantes de la fuente de datos. Seleccione las audiencias que desee y luego seleccione **[!UICONTROL Siguiente]**.
+Después de seleccionar la fuente de audiencia, elegirá las audiencias específicas que desea incluir. Utilice las opciones de búsqueda y filtro para encontrar las audiencias relevantes de su conexión de datos. Seleccione las audiencias que desee y luego seleccione **[!UICONTROL Siguiente]**.
 
-![Espacio de trabajo Agregar audiencias con una lista de audiencias disponibles.](/help/assets/setup/add-manage-audiences/select-audience.png)
+![Espacio de trabajo Agregar audiencias con una lista de audiencias disponibles.](/help/assets/setup/add-manage-audiences/select-audience.png){zoomable="yes"}
 
-### Revisión
+### Revisar
 
 Revise todas las configuraciones y ajustes de antes de finalizar la adición de audiencias. Asegúrese de que todos los detalles sean correctos y, a continuación, seleccione **[!UICONTROL Completar]** para finalizar la creación de la conexión de datos.
 
-![Espacio de trabajo Agregar audiencias con todas las configuraciones seleccionadas mostradas.](/help/assets/setup/add-manage-audiences/review-connection.png)
+![Espacio de trabajo Agregar audiencias con todas las configuraciones seleccionadas mostradas.](/help/assets/setup/add-manage-audiences/review-connection.png){zoomable="yes"}
 
 ## Panel de control de vista de públicos {#view-audiences-dashboard}
 
@@ -219,12 +231,14 @@ Cada audiencia contiene una descripción general de la siguiente información:
 | **[!UICONTROL Creado]** | Indica cuándo se originó la audiencia inicialmente en Collaboration. |
 | **[!UICONTROL Última actualización]** | Indica la última fecha y hora en que la audiencia se actualizó en Collaboration. Esto no hace referencia a la última actualización de la audiencia, sino a la última modificación de la configuración o los metadatos de la audiencia. |
 
+![Área de trabajo de Mi audiencia que muestra todas las audiencias de origen.](/help/assets/setup/add-manage-audiences/audiences-workspace.png){zoomable="yes"}
+
 Para realizar acciones rápidas en una audiencia, seleccione los puntos suspensivos **...** junto al nombre de la audiencia. Las opciones disponibles son las siguientes:
 
 * **[!UICONTROL Editar categorías]** le permite agregar diferentes etiquetas de categoría a la audiencia. Para obtener más información, consulte la sección [categorías](#categories) a continuación.
 * **[!UICONTROL Eliminar]** eliminará la audiencia de la conexión de datos.
 
-![Área de trabajo Mis audiencias con el menú de los tres puntos abierto y las opciones Editar categorías y Eliminar resaltadas.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png)
+![Área de trabajo Mis audiencias con el menú de los tres puntos abierto y las opciones Editar categorías y Eliminar resaltadas.](/help/assets/setup/add-manage-audiences/audiences-ellipsis-menu.png){zoomable="yes"}
 
 ## Ver audiencias individuales {#view-individual-audiences}
 
@@ -244,7 +258,7 @@ Se muestra la siguiente información para cada audiencia individual:
 | **[!UICONTROL Creado]** | Indica cuándo se originó la audiencia inicialmente en Collaboration. |
 | **[!UICONTROL Creado por]** | Indica el usuario que originó la audiencia en Collaboration. |
 
-![Espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details.png)
+![Espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details.png){zoomable="yes"}
 
 #### Identidades {#identities}
 
@@ -255,7 +269,7 @@ Se muestra la siguiente información para cada audiencia individual:
 
 La sección **[!UICONTROL Identidades]** indica la cantidad de identidades presentes en la audiencia. La sección también contiene un desglose de identidades por clave de coincidencia para ayudarle a comprender la composición de la audiencia.
 
-![La sección Identidades del espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-identities.png)
+![La sección Identidades del espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-identities.png){zoomable="yes"}
 
 Al pasar el ratón por encima de las secciones individuales del desglose de claves de coincidencia, se proporciona un recuento de identidad preciso para la clave correspondiente.
 
@@ -272,11 +286,11 @@ Para facilitar la organización, el filtrado y la recuperación de audiencias, p
 
 Para agregar categorías, seleccione la opción **[!UICONTROL Editar]** en la sección **[!UICONTROL Categorías]**.
 
-![La sección Categorías del espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-categories.png)
+![La sección Categorías del espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-categories.png){zoomable="yes"}
 
 Aparecerá el cuadro de diálogo **[!UICONTROL Categorías]**, que le permitirá seleccionar las categorías que desee agregar a la audiencia. Para seleccionar una categoría individual, marque la casilla que hay junto al nombre de la categoría.
 
-![Cuadro de diálogo Categorías con las categorías disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png)
+![Cuadro de diálogo Categorías con las categorías disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-categories-select.png){zoomable="yes"}
 
 #### Acceso a la conexión {#connection-access}
 
@@ -289,7 +303,7 @@ La disponibilidad de una audiencia para su uso en proyectos con colaboradores di
 
 Para actualizar el acceso a la conexión de la audiencia, seleccione la opción **[!UICONTROL Editar]** en la sección **[!UICONTROL Acceso a la conexión]**.
 
-![La sección de acceso a la conexión del área de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png)
+![La sección de acceso a la conexión del área de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-connection-access.png){zoomable="yes"}
 
 Aparecerá el cuadro de diálogo **[!UICONTROL Acceso a conexión]**, con tres opciones de acceso a conexión disponibles:
 
@@ -299,7 +313,7 @@ Aparecerá el cuadro de diálogo **[!UICONTROL Acceso a conexión]**, con tres o
 
 Seleccione la opción de acceso a la conexión que desee y, a continuación, seleccione **[!UICONTROL Guardar]** para aplicar los cambios.
 
-![Cuadro de diálogo de acceso a la conexión con las opciones disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png)
+![Cuadro de diálogo de acceso a la conexión con las opciones disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-connection-access-dialog.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
@@ -320,7 +334,7 @@ La disponibilidad de la audiencia para su uso en proyectos con colaboradores dif
 
 La visibilidad de los metadatos indica la visibilidad de los metadatos de una audiencia para otros colaboradores antes de que se conecten con usted o en diferentes vistas de proyecto. Para actualizar la visibilidad de los metadatos de la audiencia, seleccione la opción **[!UICONTROL Editar]** en la sección **[!UICONTROL Visibilidad de los metadatos]**.
 
-![La sección de visibilidad de metadatos del espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png)
+![La sección de visibilidad de metadatos del espacio de trabajo de una audiencia individual.](/help/assets/setup/add-manage-audiences/audience-details-metadata-visibility.png){zoomable="yes"}
 
 Aparece el cuadro de diálogo **[!UICONTROL Visibilidad de metadatos]**, que le permite configurar las opciones de visibilidad de la audiencia. Hay dos ajustes de visibilidad de metadatos que puede configurar para cada audiencia:
 
@@ -334,7 +348,7 @@ Aparece el cuadro de diálogo **[!UICONTROL Visibilidad de metadatos]**, que le 
 >
 >Para que la configuración de visibilidad de los metadatos surta efecto, la audiencia debe configurarse como pública o personalizada.
 
-![Cuadro de diálogo de visibilidad de metadatos con las opciones disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png)
+![Cuadro de diálogo de visibilidad de metadatos con las opciones disponibles mostradas.](/help/assets/setup/add-manage-audiences/audience-details-metadata-dialog.png){zoomable="yes"}
 
 ## Editar varias audiencias {#edit-audiences}
 

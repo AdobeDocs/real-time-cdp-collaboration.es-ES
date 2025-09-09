@@ -2,9 +2,9 @@
 title: Descubra superposiciones y compare audiencias
 description: Descubra las superposiciones entre las audiencias de y de sus colaboradores. Descubra las mejores audiencias para usar en sus campañas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 7fef1c490c2b980fa823c9ec75ba158568b11988
+source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
 workflow-type: tm+mt
 source-wordcount: '2068'
 ht-degree: 17%
@@ -197,7 +197,7 @@ Para comprender mejor cómo afectarán las puntuaciones del índice a la campañ
 Para facilitar la comparación entre distintas audiencias y campañas, Collaboration convierte las puntuaciones de índice en bandas de relevancia (de muy baja a muy alta). Esto le permite evaluar rápidamente la solidez de la relación entre su público y el del colaborador.
 
 | Puntuación de índice (i) | Banda de relevancia | Descripción |
-|---------|----------|-----------|
+|---------------|----------|-----------|
 | i &lt; 60 | Muy baja | La superposición es mucho menos frecuente en la audiencia de destino que en la de destino, lo que indica una relación muy débil. Es mucho menos probable que los clientes que utilizan esta audiencia lleguen a su audiencia objetivo. |
 | 60 &lt; i &lt; 80 | Bajo | La superposición es algo menos prevalente en la audiencia de destino en comparación con la audiencia, lo que sugiere una relación débil. Es menos probable que los clientes que utilizan esta audiencia lleguen a su audiencia objetivo. |
 | 80 &lt; i &lt; 120 | Medio | La superposición tiene la misma prevalencia en la audiencia de destino que en la audiencia, lo que indica una relación típica. Los clientes que utilizan esta audiencia tienen una probabilidad media de llegar a su audiencia objetivo. |
