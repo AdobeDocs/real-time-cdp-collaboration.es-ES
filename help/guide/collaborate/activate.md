@@ -2,11 +2,11 @@
 title: Activar públicos
 description: Obtenga información sobre cómo activar audiencias en Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1003'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,10 @@ Se abre el flujo de trabajo activar audiencias, donde puede seleccionar la audie
 En **[!UICONTROL Examinar audiencias]**, puede ver **[!UICONTROL Recuento de identidades]**, **[!UICONTROL Identidades superpuestas]** y **[!UICONTROL Superposición %]** para cada audiencia.
 
 ![Cuadro de diálogo Examinar audiencias que muestra las audiencias disponibles.](/help/assets/collaborate/activate/browse-audiences.png)
+
+>[!IMPORTANT]
+>
+>Al activar audiencias en las que se utilizan varias claves de coincidencia, si una (o más) clave de coincidencia no se superpone, no se contabiliza la audiencia o cae por debajo del umbral, toda la activación falla. Asegúrese de que las audiencias se superpongan lo suficiente y cumplan el umbral mínimo de 1000 ID en todas las claves de coincidencia antes de activarlas.
 
 Seleccione la audiencia que desea activar en las campañas y luego seleccione **[!UICONTROL Guardar]**. La audiencia ahora se muestra y puede ver **[!UICONTROL Recuento de identidades]**, **[!UICONTROL identidades superpuestas]** y **[!UICONTROL Superposición %]** para la audiencia seleccionada.
 

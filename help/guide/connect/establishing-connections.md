@@ -2,11 +2,11 @@
 title: Establecimiento de conexiones
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: fcf755d5108f1f957808ead6b7022e3b9f6398b1
+source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
 workflow-type: tm+mt
-source-wordcount: '3230'
+source-wordcount: '3280'
 ht-degree: 6%
 
 ---
@@ -195,7 +195,7 @@ Aparecerá el área de trabajo de configuración de conexión, que le permitirá
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Claves de coincidencia"
 >abstract="Las claves de coincidencia se rellenan previamente con claves de coincidencia comunes que usted y su colaborador han seleccionado en el nivel de cuenta. Puede desactivar cualquier clave de coincidencia que no desee utilizar en esta conexión."
->additional-url="https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Claves de coincidencia de cuenta"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Claves de coincidencia de cuenta"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
@@ -250,6 +250,10 @@ Para personalizar los casos de uso, seleccione **[!UICONTROL Editar]** en la sec
 ![La configuración de casos de uso en el área de trabajo de configuración de conexión.](/help/assets/connect/establish-connection/view-use-cases.png){zoomable="yes"}
 
 ##### Claves de coincidencia {#match-keys}
+
+>[!IMPORTANT]
+>
+>Al activar audiencias en las que se utilizan varias claves de coincidencia, si una (o más) clave de coincidencia no se superpone, no se contabiliza la audiencia o cae por debajo del umbral, toda la activación falla. Asegúrese de que las audiencias se superpongan lo suficiente y cumplan el umbral mínimo de 1000 ID en todas las claves de coincidencia antes de activarlas.
 
 Las claves de coincidencia se rellenan automáticamente con las claves de coincidencia comunes que usted y su colaborador seleccionaron al [configurar sus cuentas](/help/guide/setup/onboard-account.md#set-up-match-keys). Solo aparecerán las claves de coincidencia que usted y el colaborador seleccionado **y** tengan en común.
 
