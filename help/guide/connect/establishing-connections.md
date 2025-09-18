@@ -2,24 +2,52 @@
 title: Establecimiento de conexiones
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
 workflow-type: tm+mt
-source-wordcount: '3280'
+source-wordcount: '3400'
 ht-degree: 6%
 
 ---
 
-# Establecimiento de conexiones
+# Establecimiento de conexiones {#establishing-connections}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_compare_audiences"
+>title="Comparar públicos"
+>abstract="Compare su audiencia con todos los consumidores a los que llegan sus anuncios de Amazon."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_relevant_audiences"
+>title="Públicos relevantes"
+>abstract="Segmentos de segmentación de Amazon en los que la audiencia tiene la mayor superposición teniendo en cuenta solo las impresiones de DSP (estos segmentos solo pueden segmentarse en DSP)."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_resolved_ids"
+>title="ID resueltos"
+>abstract="El número de ID que la resolución de identidad de Amazon pudo resolver con sus datos de audiencia."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
+>title="ID superpuestos y expuestos"
+>abstract="Representa el número de &quot;ID resueltos&quot; de la audiencia cargada que también se han expuesto a un anuncio a través de Amazon Ads."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_overlap_percentage"
+>title="% de solapamiento"
+>abstract="La proporción de &quot;ID resueltos&quot; que se han expuesto a un anuncio a través de Amazon Ads."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_amc_discover_amazon_breakdown"
+>title="Desglose por Amazon y producto"
+>abstract="Desglose de los &quot;ID superpuestos y expuestos&quot; alcanzados por el producto patrocinado por Amazon Ads o por Amazon Ads DSP."
 
 {{limited-availability-release-note}}
 
 Para que los colaboradores puedan trabajar juntos en las campañas, deben establecer una conexión. Esta conexión les permite activar audiencias, crear proyectos y ejecutar informes sobre el rendimiento de la campaña.
 
 Las conexiones se establecen en función del patrón de colaboración elegido. Collaboration admite dos patrones de colaboración clave: de anunciante a editor y de marca a marca. Para obtener más información sobre estos patrones, consulte la guía [casos de uso](/help/guide/overview/use-cases.md).
-
-<!-- REPLACE THE LINK ABOVE WITH THE CORRECT LINK AFTER PAGE IS ESTABLISHED -->
 
 Para aprender a establecer una conexión, lea la sección siguiente que corresponde a su patrón de colaboración:
 
@@ -195,7 +223,7 @@ Aparecerá el área de trabajo de configuración de conexión, que le permitirá
 >id="rtcdp_collaboration_connection_settings_matchkeys"
 >title="Claves de coincidencia"
 >abstract="Las claves de coincidencia se rellenan previamente con claves de coincidencia comunes que usted y su colaborador han seleccionado en el nivel de cuenta. Puede desactivar cualquier clave de coincidencia que no desee utilizar en esta conexión."
->additional-url="https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Claves de coincidencia de cuenta"
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-account#set-up-match-keys" text="Claves de coincidencia de cuenta"
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
