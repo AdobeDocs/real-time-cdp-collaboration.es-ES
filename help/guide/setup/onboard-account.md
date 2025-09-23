@@ -2,12 +2,12 @@
 title: Configuración y administración de la cuenta
 description: Obtenga información sobre cómo configurar y administrar varios aspectos de su cuenta en Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -61,22 +61,22 @@ Para comenzar a configurar la cuenta, primero debe configurar los detalles de la
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Claves de coincidencia"
->abstract="Las claves de coincidencia son identificadores utilizados para reconciliar perfiles de audiencia de diferentes fuentes de datos. Incluya cualquier clave de coincidencia con la que pueda trabajar su marca."
+>abstract="Las claves de coincidencia son identificadores que se utilizan para reconciliar perfiles de públicos de diferentes fuentes de datos. Incluya cualquier clave de coincidencia con la que pueda trabajar su marca."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
 >title="ID de personas propios"
->abstract="Los ID de personas de origen, como direcciones de correo electrónico con hash, números de teléfono con hash o ID de CRM, están conectados directamente a un perfil individual."
+>abstract="Los ID de personas propios, como las direcciones de correo electrónico, los números de teléfono con hash, o los ID de CRM, están conectados directamente a un perfil individual. "
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="ID de dispositivos propios"
->abstract="Los ID de dispositivos de origen, como ECID o direcciones IP, se conectan directamente a los dispositivos, que pueden compartirse entre varias personas. IPv4 es el único ID de dispositivo propio compatible actualmente."
+>abstract="Los ID de dispositivos propios, como las direcciones ECID o IP, se conectan directamente a los dispositivos, que pueden compartirse entre varias personas. IPv4 es el único ID de dispositivo propio compatible actualmente."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="ID de socios compatibles"
->abstract="Los ID de socio son identificadores proporcionados por socios externos para la reconciliación de audiencias. Los ID de socio no están conectados directamente a un perfil individual."
+>abstract="Los ID de socio son identificadores proporcionados por socios externos para la reconciliación de públicos. Los ID de socio no están conectados directamente a un perfil individual."
 
 ![Claves de coincidencia admitidas.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
@@ -115,7 +115,7 @@ Los ID de dispositivos de origen son identificadores conectados a un dispositivo
 
 ##### ID de socios
 
-Los ID de socio son identificadores proporcionados por socios externos para la reconciliación de audiencias. Los ID admitidos actualmente son:
+Los ID de socio son identificadores proporcionados por socios externos para la reconciliación de públicos. Los ID admitidos actualmente son:
 
 * **[!UICONTROL Id. Adfixus]**
 
