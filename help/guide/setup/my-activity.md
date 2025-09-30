@@ -2,16 +2,21 @@
 title: Rastree su actividad de consumo de crédito
 description: Obtenga información sobre cómo rastrear la actividad de consumo de crédito de su organización en Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b24d63e7-60f4-4cdb-ab1b-77c284543486
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+source-git-commit: 4fc9b4e814f7392e1dfdb5847b7189d7d6e21702
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 5%
+source-wordcount: '556'
+ht-degree: 6%
 
 ---
 
-# Rastree su actividad de consumo de crédito
+# Rastree su actividad de consumo de crédito {#track-credit-consumption-activity}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_my_activity"
+>title="Más información"
+>abstract=""
 
 {{limited-availability-release-note}}
 
@@ -66,6 +71,6 @@ La columna **[!UICONTROL Actividad]** muestra diferentes tipos de operaciones qu
 
 Para administrar de forma eficaz el consumo de crédito:
 
-1. **Comprenda** el consumo de crédito asociado con cada actividad. Consulte la [descripción del producto de Collaboration](https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} para ver una tabla de créditos utilizados por actividad.
+1. **Comprenda** el consumo de crédito asociado con cada actividad. Consulte la [descripción del producto de Collaboration](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html){target=_blank} para ver una tabla de créditos utilizados por actividad.
 2. **Supervisar con regularidad**: compruebe su panel de actividades con frecuencia para comprender los patrones de uso.
 3. **Rastrear por conexión**: use el nombre de la conexión para identificar qué conexiones consumen la mayor cantidad de créditos.

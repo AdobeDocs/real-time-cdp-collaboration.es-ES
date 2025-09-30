@@ -2,12 +2,12 @@
 title: Configuración y administración de la cuenta
 description: Obtenga información sobre cómo configurar y administrar varios aspectos de su cuenta en Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: f6ba5bb484f296fe5610901bd7b2e542fb9287b0
+source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 13%
+source-wordcount: '1363'
+ht-degree: 14%
 
 ---
 
@@ -62,6 +62,11 @@ Para comenzar a configurar la cuenta, primero debe configurar los detalles de la
 >id="rtcdp_collaboration_organization_onboarding_matchkeys"
 >title="Claves de coincidencia"
 >abstract="Las claves de coincidencia son identificadores que se utilizan para reconciliar perfiles de públicos de diferentes fuentes de datos. Incluya cualquier clave de coincidencia con la que pueda trabajar su marca."
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_organization_setup_match_keys"
+>title="claves de coincidencia"
+>abstract=""
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
