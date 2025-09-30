@@ -2,12 +2,12 @@
 title: Establecimiento de conexiones
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 899b6c2a0111ccaebbaf2818772e1d743d6de914
+source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
 workflow-type: tm+mt
 source-wordcount: '3400'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="ID superpuestos y expuestos"
+>title="Superposición de ID expuestos a publicidad"
 >abstract="Representa el número de &quot;ID resueltos&quot; de la audiencia cargada que también se han expuesto a un anuncio a través de Amazon Ads."
 
 >[!CONTEXTUALHELP]
@@ -40,7 +40,7 @@ ht-degree: 6%
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Desglose por Amazon y producto"
+>title="Desglose por producto de publicidad de Amazon"
 >abstract="Desglose de los &quot;ID superpuestos y expuestos&quot; alcanzados por el producto patrocinado por Amazon Ads o por Amazon Ads DSP."
 
 {{limited-availability-release-note}}
@@ -58,13 +58,13 @@ Para aprender a establecer una conexión, lea la sección siguiente que correspo
 
 ![Diagrama de alto nivel del proceso de conexión anunciante-editor.](/help/assets/connect/establish-connection/advertiser-publisher-flow.png){zoomable="yes"}
 
-En el patrón de anunciante a editor, un anunciante descubre un publicador con el que desea trabajar a través del área de trabajo de **[!UICONTROL Discover publicadores]** y envía una invitación de conexión. A continuación, el editor revisa la invitación y la acepta, lo que permite al anunciante proponer la configuración de conexión. Una vez que el editor acepta la configuración de conexión, esta se establece y ambos colaboradores pueden empezar a trabajar juntos en los proyectos.
+En el patrón de anunciante a editor, un anunciante descubre un publicador con el que desea trabajar a través del área de trabajo de **[!UICONTROL Discover colaboradores]** y envía una invitación de conexión. A continuación, el editor revisa la invitación y la acepta, lo que permite al anunciante proponer la configuración de conexión. Una vez que el editor acepta la configuración de conexión, esta se establece y ambos colaboradores pueden empezar a trabajar juntos en los proyectos.
 
 ### Información general de alto nivel
 
 Para establecer una conexión entre un anunciante y un editor, se deben seguir los siguientes pasos:
 
-1. [Descubrir editores](#discover-publishers): El anunciante identifica editores potenciales con los que colaborar.
+1. [Descubrir editores](#discover-collaborators): El anunciante identifica posibles colaboradores con los que trabajar.
 1. [Enviar invitación](#send-invite): El anunciante envía una invitación de conexión al editor seleccionado.
 1. [Aceptar invitación](#accept-invite): El editor revisa y acepta la invitación.
 1. [Configurar opciones de conexión](#configure-connection-settings): el anunciante configura las opciones de conexión y las envía al editor para que las revise.
@@ -108,25 +108,25 @@ Una vez aceptada la configuración de conexión, se establece la conexión y los
 
 El área de trabajo **[!UICONTROL Connect]** es donde puedes administrar tus conexiones con los colaboradores, enviar invitaciones de conexión y donde los anunciantes pueden examinar el directorio del editor. El espacio de trabajo de se divide en dos pestañas principales:
 
-### Descubrir editores {#discover-publishers}
+### Descubrir colaboradores {#discover-collaborators}
 
 >[!IMPORTANT]
 >
->Solo los anunciantes pueden descubrir editores mediante el espacio de trabajo **[!UICONTROL Discover publishers]**. Para obtener más información sobre cómo conectar con colaboradores independientemente de su función, lea la sección [conexión de marca a marca](#brand-to-brand-connection).
+>Solo los anunciantes pueden descubrir editores mediante el espacio de trabajo **[!UICONTROL Discover colaboradores]**. Para obtener más información sobre cómo conectar con colaboradores independientemente de su función, lea la sección [conexión de marca a marca](#brand-to-brand-connection).
 
-Para descubrir editores, ve al espacio de trabajo de **[!UICONTROL Discover publishers]** en la pestaña **[!UICONTROL Connect]**. Aquí puede examinar la lista de editores disponibles mediante los controles de paginación situados en la parte inferior del espacio de trabajo. Para obtener más información sobre el área de trabajo de **[!UICONTROL Discover publishers]**, consulte la guía [Discover publishers](/help/guide/connect/discover-publishers.md).
+Para descubrir editores, ve al espacio de trabajo de **[!UICONTROL Discover colaboradores]** en la ficha **[!UICONTROL Conectar]**. Aquí puede examinar la lista de editores disponibles mediante los controles de paginación situados en la parte inferior del espacio de trabajo. Para obtener más información sobre el área de trabajo de **[!UICONTROL Discover colaboradores]**, consulte la guía [Discover colaboradores](/help/guide/connect/discover-collaborators.md).
 
-![El área de trabajo de Discover publishers muestra una lista de editores disponibles.](/help/assets/connect/establish-connection/discover-publishers.png){zoomable="yes"}
+![El área de trabajo de colaboradores de Discover muestra una lista de editores disponibles.](/help/assets/connect/establish-connection/discover-collaborators.png){zoomable="yes"}
 
 ### Enviar invitación {#send-invite}
 
 >[!IMPORTANT]
 >
->En esta sección se describe el proceso por el que los anunciantes envían invitaciones de conexión a los editores a través del espacio de trabajo **[!UICONTROL Discover publishers]**. Para obtener información sobre cómo formar conexiones entre marcas independientemente de sus funciones, lea la sección [conexión de marca a marca](#brand-to-brand-connection) o visite la sección [invitación de conexión privada](#private-connection-invite).
+>En esta sección se describe el proceso por el que los anunciantes envían invitaciones de conexión a los editores a través del área de trabajo de **[!UICONTROL Discover colaboradores]**. Para obtener información sobre cómo formar conexiones entre marcas independientemente de sus funciones, lea la sección [conexión de marca a marca](#brand-to-brand-connection) o visite la sección [invitación de conexión privada](#private-connection-invite).
 
 Una vez que haya identificado un editor con el que desee colaborar, seleccione la opción **[!UICONTROL Conectar]** en la tarjeta de editor. Esta acción inicia el proceso de conexión.
 
-![La opción Conectar resaltada en un editor específico del área de trabajo de Discover publishers.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
+![La opción Conectar resaltada en un editor específico del área de trabajo de colaboradores de Discover.](/help/assets/connect/establish-connection/connect-selection.png){zoomable="yes"}
 
 Aparece un cuadro de diálogo que le solicita que envíe una invitación de conexión al editor. Seleccione **[!UICONTROL Enviar invitación]** para continuar.
 

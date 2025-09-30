@@ -2,11 +2,11 @@
 title: Descubra superposiciones y compare audiencias
 description: Descubra las superposiciones entre las audiencias de y de sus colaboradores. Descubra las mejores audiencias para usar en sus campañas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 75e76a43de75a7b1c84bdd79cb4a072855ba02df
+source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
 workflow-type: tm+mt
-source-wordcount: '2068'
+source-wordcount: '2069'
 ht-degree: 17%
 
 ---
@@ -83,7 +83,7 @@ En la sección de comparación de audiencias, puede ver las siguientes métricas
 | **[!UICONTROL Identidades superpuestas]** | El número de ID únicos que están presentes en la audiencia del usuario y en la del colaborador. |
 | **[!UICONTROL Superposición %]** | El porcentaje de perfiles que se solapan entre el público seleccionado por usted y el seleccionado por su colaborador. |
 | **[!UICONTROL Índice de audiencia]** | Una puntuación que indica la intensidad con la que una audiencia se relaciona con otra en función de los recuentos y superposiciones de audiencias subyacentes. Para obtener más información sobre el significado de las puntuaciones, lea la sección [puntuación del índice de audiencia](#audience-index-score). Las puntuaciones del índice de audiencia no están disponibles al compararlas con la línea de base de su colaborador (todas las audiencias). |
-| **[!UICONTROL Desglose de identidades por clave de coincidencia]** | El desglose de identidades para cada clave de coincidencia elegida en el proyecto, en función de las audiencias seleccionadas para cada colaborador. |
+| **[!UICONTROL Desglose de identidades por clave de coincidencia]** | El desglose de identidades coincide con cada clave de coincidencia elegida en el proyecto, en función de las audiencias seleccionadas para cada colaborador. |
 
 {style="table-layout:auto"}
 
