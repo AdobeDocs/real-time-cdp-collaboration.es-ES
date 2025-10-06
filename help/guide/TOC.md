@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration permite un uso compartido de datos y una colaboración seguros y sin problemas entre anunciantes y editores, lo que facilita perspectivas de audiencia en tiempo real y estrategias de marketing personalizadas.
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: db2eb6d124fd05523ad65872bcd12078b9809ddc
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 35%
+source-wordcount: '139'
+ht-degree: 38%
 
 ---
 
@@ -30,13 +30,22 @@ ht-degree: 35%
    * [Adición y administración de datos de medición](./setup/onboard-measurement-data.md)
    * [Registros de auditoría](./setup/audit-logs.md)
 * Establecimiento de conexiones {#connect}
+   * [Overview.md](./connect/overview.md)
    * [Descubrir colaboradores](./connect/discover-collaborators.md)
-   * [Establecimiento de conexiones](./connect/establishing-connections.md)
+   * [Establecimiento de conexiones de colaborador](./connect/establishing-connections.md)
+   * [Administrar conexiones](./connect/manage-connections.md)
+   * Conexiones de la plataforma Advertising {#ad-platform-connections}
+      * [Información general](./connect/advertising-platforms/overview.md)
+      * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Colaborar {#collaborate}
+   * [Información general](./collaborate/overview.md)
    * [Administrar proyectos](./collaborate/manage-projects.md)
-   * [Descubrir](./collaborate/discover.md)
-   * [Activar](./collaborate/activate.md)
-   * [Medida](./collaborate/measure.md)
+   * Conexiones de Collaborator {#collaborator-connections}
+      * [Descubrir](./collaborate/discover.md)
+      * [Activar](./collaborate/activate.md)
+      * [Medida](./collaborate/measure.md)
+   * Conexiones de la plataforma Advertising {#ad-platform-connections}
+      * [Amazon Marketing Cloud](./collaborate/advertising-platforms/amc.md)
 * Destinos {#destinations}
    * [Información general](./destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)

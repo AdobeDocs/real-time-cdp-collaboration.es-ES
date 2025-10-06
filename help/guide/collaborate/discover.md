@@ -2,11 +2,11 @@
 title: Descubra superposiciones y compare audiencias
 description: Descubra las superposiciones entre las audiencias de y de sus colaboradores. Descubra las mejores audiencias para usar en sus campañas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
-source-git-commit: 3dd37dff0be104894cdfe42503b60056b25018e3
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2107'
 ht-degree: 17%
 
 ---
@@ -42,6 +42,10 @@ Para empezar a usar la ficha **[!UICONTROL Discover]** en el proyecto, debes ten
 * [Creó un proyecto](/help/guide/collaborate/manage-projects.md) entre usted y un colaborador
 
 Una vez cumplidos estos requisitos previos, puede empezar a explorar y comparar las superposiciones entre usted y las audiencias de su colaborador.
+
+>[!NOTE]
+>
+>El área de trabajo **[!UICONTROL Discover]** no es relevante para colaboraciones con plataformas publicitarias. Actualmente, Amazon Marketing Cloud es la única plataforma de publicidad disponible en Real-Time CDP Collaboration. Para obtener más información sobre el área de trabajo [!DNL AMC] **[!UICONTROL Discover]**, lea la guía de [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md).
 
 ## Comparar públicos {#compare-audiences}
 

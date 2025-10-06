@@ -2,10 +2,11 @@
 title: Los patrones de colaboración en Adobe Real-Time CDP Collaboration.
 description: Comprender los dos patrones de colaboración en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1bb3bec20b5e43d5c3a0c7182af74f4203f3c1cd
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
+source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Los patrones de Collaboration en Adobe Real-Time CDP Collaboration son modelos q
 
 Para obtener más información sobre las diferencias entre anunciantes y editores, lea la guía [roles](/help/guide/overview/roles.md).
 
-## De anunciante a editor
+## De anunciante a editor {#advertiser-to-publisher}
 
 En el patrón de colaboración entre anunciante y editor, los anunciantes pretenden segmentar y medir las audiencias en relación con los editores. Este patrón permite a los anunciantes aprovechar las audiencias del editor para mejorar sus capacidades de segmentación, mientras que los editores pueden proporcionar información valiosa sobre el comportamiento y las preferencias de la audiencia. Los anunciantes pueden optimizar sus campañas llegando a la audiencia adecuada en el momento adecuado, mientras que los editores obtienen acceso a los datos del anunciante, lo que les ayuda a comprender mejor a sus audiencias para mejorar sus ofertas de contenido.
 
@@ -26,7 +27,7 @@ En el patrón de colaboración entre anunciante y editor, los anunciantes preten
 
 Para obtener más información sobre cómo los anunciantes y los editores colaboran en este patrón, lee la guía de [flujo de trabajo de extremo a extremo](/help/guide/overview/end-to-end-workflow.md).
 
-## De marca a marca
+## De marca a marca {#brand-to-brand}
 
 >[!NOTE]
 >
@@ -37,3 +38,11 @@ El patrón de colaboración de marca a marca permite que las marcas colaboren di
 ![Ejemplo de colaboración de marca a marca.](/help/assets/overview/brand-to-brand.png)
 
 Para obtener más información sobre cómo las marcas colaboran en este patrón, lee la guía de [flujo de trabajo de extremo a extremo](/help/guide/overview/end-to-end-workflow.md).
+
+## Plataforma de anunciante a publicidad {#advertiser-to-advertising-platform}
+
+El patrón de colaboración entre anunciante y plataforma de publicidad permite a los anunciantes conectarse con plataformas de publicidad de terceros, como [!DNL Amazon Marketing Cloud] ([!DNL AMC]), para mejorar sus capacidades de marketing. Este patrón permite a los anunciantes aprovechar las herramientas de resolución de identidades y segmentación de la plataforma para ampliar el impacto de sus datos. Al integrarse con plataformas de publicidad, los anunciantes pueden ofrecer perspectivas de rendimiento precisas entre audiencias, lo que les permite optimizar el gasto, mejorar la relevancia e impulsar resultados comerciales mensurables.
+
+![Ejemplo de colaboración entre anunciante y plataforma de publicidad.](/help/assets/overview/advertiser-to-advertising-platform.png)
+
+Para obtener más información sobre cómo los anunciantes colaboran con las plataformas publicitarias en este patrón, lee la guía de [flujo de trabajo de extremo a extremo](/help/guide/overview/end-to-end-workflow.md).

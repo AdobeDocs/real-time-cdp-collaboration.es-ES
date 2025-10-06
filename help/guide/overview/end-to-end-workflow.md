@@ -2,11 +2,11 @@
 title: Flujo de trabajo de extremo a extremo
 description: Comprenda el flujo de trabajo completo del uso de Real-Time CDP Collaboration en función de su patrón de colaboración.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
-source-git-commit: 36f43d9d34ce7851a1c7093e0891f9c87e56387c
+source-git-commit: 5c08738cdc8e1e208203ee1f9a1cf1891b5b07cb
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -60,3 +60,15 @@ Una vez establecida la conexión, [!UICONTROL Fit Apparel] [crea un proyecto](..
 [!UICONTROL Fit Apparel] y [!UICONTROL Luma] pueden usar el caso de uso [Discover](../collaborate/discover.md) para obtener información sobre los datos de audiencia de cada uno. Una vez que han identificado segmentos de audiencia valiosos, [activan](../collaborate/activate.md) las audiencias que han elegido para las campañas de marketing.
 
 Finalmente, después de ejecutar sus campañas, ambas marcas cargan datos en [Measure](../collaborate/measure.md) para evaluar los resultados y la efectividad de su colaboración.
+
+## Flujo de trabajo de plataforma de anunciante a publicidad {#advertiser-to-advertising-platform-workflow}
+
+[!UICONTROL Luma], una empresa minorista deportiva, desea conectarse con [!DNL Amazon Marketing Cloud] ([!DNL AMC]) para mejorar sus capacidades de marketing mediante el uso de las herramientas de segmentación y resolución de identidades de [!DNL AMC]. Luma ya tiene una cuenta [!DNL Amazon Advertising] activa y se ha aprobado el uso de [!DNL AMC].
+
+Para empezar, [!UICONTROL Luma] necesita [crear una cuenta](../setup/onboard-account.md) con la función de anunciante. Después de establecer su cuenta, [!UICONTROL Luma] debe [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). Dado que [!UICONTROL Luma] activará audiencias para las campañas de marketing, deben [configurar un destino](../setup/manage-destinations.md).
+
+Una vez que [!UICONTROL Luma] haya configurado su cuenta, estarán listos para [formar una conexión](../connect/establishing-connections.md) con [!DNL AMC] dentro de la plataforma. [!UICONTROL Luma] usa la función [Discover collaborative](../connect/discover-collaborators.md) para encontrar [!UICONTROL Amazon Marketing Cloud] e [iniciar una solicitud de conexión](../connect/advertising-platforms/amc.md). Después de autenticar y autorizar la conexión mediante la página de inicio de sesión de [!DNL Amazon], se establece la conexión con [!DNL AMC].
+
+Una vez establecida la conexión, [!UICONTROL Luma] [crea un proyecto](../collaborate/manage-projects.md) para iniciar su colaboración con [!DNL AMC]. Los ajustes de conexión, incluidos los casos de uso, están preconfigurados según la plataforma de publicidad. Para [!DNL AMC], el caso de uso disponible es [Discover](../collaborate/advertising-platforms/amc.md#discover).
+
+[!UICONTROL Luma] aprovecha el caso de uso [Discover](../collaborate/advertising-platforms/amc.md#discover) para obtener información y datos de audiencia de [!DNL AMC]. Con estas perspectivas, [!UICONTROL Luma] puede optimizar sus estrategias de marketing y mejorar la eficacia de la campaña.

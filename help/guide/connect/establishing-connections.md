@@ -1,47 +1,17 @@
 ---
-title: Establecimiento de conexiones
+title: Establecimiento de conexiones con colaboradores
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: c176db9354936fd5e64a2b4f012d99be8ddcf16b
+source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 10%
+source-wordcount: '2812'
+ht-degree: 8%
 
 ---
 
-# Establecimiento de conexiones {#establishing-connections}
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_compare_audiences"
->title="Comparar públicos"
->abstract="Compare su público con todos los consumidores a los que llegan sus anuncios de Amazon."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_relevant_audiences"
->title="Públicos relevantes"
->abstract="Segmentos a los que se dirige Amazon en los que su público tiene el mayor solapamiento teniendo en cuenta solo las impresiones de DSP (estos segmentos solo se pueden dirigir en DSP)."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_resolved_ids"
->title="ID resueltos"
->abstract="El número de ID que la resolución de identidad de Amazon pudo resolver con los datos de su público."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
->title="ID expuestos a anuncios solapados"
->abstract="Representa el número de &#39;ID resueltos&#39; del público cargado que también se han expuesto en un anuncio a través de Amazon Ads."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_overlap_percentage"
->title="% de solapamiento"
->abstract="La proporción de &#39;ID resueltos&#39; que se han expuesto a un anuncio a través de Amazon Ads."
-
->[!CONTEXTUALHELP]
->id="rtcdp_collaboration_amc_discover_amazon_breakdown"
->title="Desglose por producto publicitario de Amazon"
->abstract="Desglose de los “ID expuestos a anuncios solapados” a través de Amazon Ads Sponsor Product o Amazon Ads DSP."
+# Establecimiento de conexiones con colaboradores {#establishing-connections}
 
 {{limited-availability-release-note}}
 
@@ -78,31 +48,7 @@ Una vez aceptada la configuración de conexión, se establece la conexión y los
 
 >[!TIP]
 >
->El término **brand** se usa para referirse a una compañía o marca fuera de Collaboration. El término **colaborador** hace referencia a cualquier cuenta que pueda formar una conexión en Collaboration, independientemente de si es un anunciante o un editor.
-
-En el patrón de marca a marca, dos marcas que se han comunicado fuera del producto pueden conectarse directamente en Collaboration mediante una [invitación de conexión privada](#private-connection-invite). Una marca puede ser un anunciante o un editor. Este patrón es especialmente útil para marcas que pueden no ajustarse al modelo tradicional de anunciante-editor, como dos anunciantes o dos editores.
-
-Para empezar, un colaborador envía una invitación de conexión privada a otro colaborador. El destinatario revisa la invitación y la acepta, lo que permite al propietario proponer la configuración de conexión. Una vez que el destinatario acepta la configuración de conexión, esta se establece y ambos colaboradores pueden empezar a trabajar juntos en los proyectos.
-
-### Información general de alto nivel
-
->[!TIP]
->
->Al discutir el proceso de conexión, habrá una distinción entre **propietario** y **destinatario**. El propietario es el colaborador que inicia la conexión enviando la invitación, mientras que el destinatario es el colaborador que recibe y revisa la invitación.
-
-El proceso de conexión entre dos marcas implica varios pasos. Antes de que comience el proceso de conexión, se deben cumplir algunos requisitos previos:
-
-1. Dos marcas se comunican fuera del producto para discutir la posible conexión.
-1. Las marcas [crean cuentas](/help/guide/setup/onboard-account.md) en Collaboration si aún no lo han hecho, asegurándose de seleccionar el tipo de rol apropiado (anunciante o editor).
-
-   Una vez cumplidos los requisitos previos, puede comenzar el proceso de conexión. Los siguientes pasos describen el proceso:
-
-1. [Enviar invitación a una conexión privada](#send-private-connection-invite): Un colaborador envía una invitación a otra conexión privada.
-1. [Aceptar invitación a conexión privada](#accept-private-connection-invite): El destinatario revisa y acepta la invitación a conexión privada.
-1. [Configurar opciones de conexión](#configure-connection-settings): El propietario configura las opciones de conexión y las envía al destinatario para que las revise y las acepte.
-1. [Confirmar configuración de conexión](#establish-connection): El destinatario revisa la configuración de conexión y la acepta o la rechaza.
-
-Una vez aceptada la configuración de conexión, se establece la conexión y los colaboradores están listos para [crear un proyecto](/help/guide/collaborate/manage-projects.md#create-project) para comenzar a colaborar en las campañas.
+>Esta guía explica el proceso de conexión para los patrones de colaboración entre anunciante y editor y entre marcas. Para obtener más información sobre cómo conectar con plataformas publicitarias, consulte la sección [conexión de anunciante a plataforma de publicidad](/help/guide/connect/overview.md#advertiser-to-advertising-platform-connection) en la guía [descripción general de las conexiones](/help/guide/connect/overview.md).
 
 ## Conectar {#connect}
 
@@ -356,26 +302,6 @@ Además, si es un editor que se conecta con un anunciante, ahora puede agregar n
 > Una vez que haya aceptado la configuración de conexión, ya no podrá agregar ni editar nombres de anunciantes.
 
 A continuación, seleccione **[!UICONTROL Aceptar]** para continuar con la conexión. El estado de la conexión cambiará a **[!UICONTROL Activa]** y ahora podrá empezar a colaborar en proyectos.
-
-## Eliminación de conexiones {#delete-connections}
-
-Puede eliminar cualquier conexión con colaboradores con los que no desee seguir trabajando. Para eliminar las conexiones existentes, ve a **[!UICONTROL Connect]**. Como editor, se mostrará la conexión existente. Como anunciante, deberías ir a **[!UICONTROL Mis conexiones]**.
-
-Seleccione **[!UICONTROL Ver conexión]** en la tarjeta de conexión que desee eliminar.
-
-![La opción Ver conexión resaltada en la vista Mis conexiones.](/help/assets/connect/establish-connection/delete-view-connection.png){zoomable="yes"}
-
-Seleccione el icono de eliminación ![eliminar icono](/help/assets/common/delete.svg) en el área de trabajo de conexión para eliminar la conexión.
-
-![Icono de eliminación resaltado en el área de trabajo de conexión.](/help/assets/connect/establish-connection/delete-option.png){zoomable="yes"}
-
-Aparecerá un cuadro de diálogo de confirmación en el que se le pedirá que confirme la eliminación de la conexión. Seleccione **[!UICONTROL Eliminar]** para confirmar la eliminación.
-
-![Cuadro de diálogo de confirmación para eliminar una conexión.](/help/assets/connect/establish-connection/delete-confirmation-dialog.png){zoomable="yes"}
-
->[!WARNING]
->
->Una vez eliminada la conexión, todos los proyectos existentes en la colaboración se eliminarán de forma permanente y no se recuperarán. La solicitud de conexión permanecerá en un estado pendiente, pero la conexión y sus configuraciones dejarán de estar activas. Deberá restablecer la conexión si desea volver a conectarse con el colaborador.
 
 ## Próximos pasos
 
