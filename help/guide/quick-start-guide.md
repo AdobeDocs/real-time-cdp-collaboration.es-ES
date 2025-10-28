@@ -108,7 +108,7 @@ Configure cómo se preparan, comparan y controlan las audiencias para su uso en 
 >**Requisitos de clave de coincidencia:**
 >
 >Todas las claves de coincidencia deben estar **recortadas**, **en minúsculas**
->>Las claves de coincidencia con hash deben ser **SHA256-hashed**.\
+>&#x200B;>Las claves de coincidencia con hash deben ser **SHA256-hashed**.\
 >Si proporciona valores hash con caracteres en mayúsculas, Collaboration los convierte automáticamente a minúsculas.\
 >Si su origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** para aplicar el hash. Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
 >
