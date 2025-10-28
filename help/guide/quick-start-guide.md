@@ -2,9 +2,9 @@
 title: Guía de inicio rápido de Real-Time CDP Collaboration
 description: Obtenga información sobre cómo incorporar su organización en Real-Time CDP Collaboration, incluida la configuración de funciones y organizaciones, el abastecimiento de audiencias, la activación y la medición. Esta guía ayuda a los colaboradores a configurar las opciones de conexión para empezar a utilizar sus audiencias de forma segura y eficaz.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: 849bae30b4e617a6c49f68b2baedc0ab8a822854
+source-git-commit: 9355535e067afeedff33f5c6468bc6fcb1f58e08
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Las funciones de acceso de su organización determinan lo que los usuarios puede
 
 Vea este vídeo para aprender a asignar acceso y permisos de producto para Collaboration mediante Admin Console y Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452233/?learn=on&enablevpops&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Paso 2: Configurar su cuenta de Collaboration {#set-up-your-account}
 
@@ -108,7 +108,7 @@ Configure cómo se preparan, comparan y controlan las audiencias para su uso en 
 >**Requisitos de clave de coincidencia:**
 >
 >Todas las claves de coincidencia deben estar **recortadas**, **en minúsculas**
->&#x200B;>Las claves de coincidencia con hash deben ser **SHA256-hashed**.\
+>>Las claves de coincidencia con hash deben ser **SHA256-hashed**.\
 >Si proporciona valores hash con caracteres en mayúsculas, Collaboration los convierte automáticamente a minúsculas.\
 >Si su origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** para aplicar el hash. Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
 >
@@ -122,7 +122,15 @@ También puede ver el documento sobre [audiencias de abastecimiento en Collabora
 
 ### Opción B: Source desde Snowflake o Amazon S3
 
-Para configurar una fuente de nube (por ejemplo, [!DNL AWS S3] o [!DNL Snowflake]), prepare los datos de audiencia con la siguiente [especificación de audiencia PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.0.pdf). Una vez finalizado, o si tiene alguna pregunta, póngase en contacto con el representante de su cuenta de Adobe para finalizar la configuración. Este método no es de autoservicio y requiere la asistencia de Adobe.
+Para configurar una fuente de nube (por ejemplo, [!DNL AWS S3] o [!DNL Snowflake]), prepare los datos de audiencia con la siguiente [especificación de audiencia PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1.pdf). Una vez finalizado, o si tiene alguna pregunta, póngase en contacto con el representante de su cuenta de Adobe para finalizar la configuración. Este método no es de autoservicio y requiere la asistencia de Adobe.
+
+<!-- Add in the below in final draft: 
+
+To configure a cloud source, such as [!DNL Snowflake] or [!DNL AWS S3], prepare your audience data using the [Audience Specification PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Onboarding_Spec_v1.1)
+
+[!DNL AWS S3] can now be configured as a self-service source. For setup instructions, see the [AWS S3 sourcing guide](./setup/configure-aws-s3-audience-sourcing.md)
+
+If you are using [!DNL Snowflake], or other cloud service provider, contact your Adobe account representative to finalize the setup. -->
 
 >[!IMPORTANT]
 >
