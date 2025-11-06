@@ -188,7 +188,7 @@ En la vista de cuadrícula o en la vista de tabla, seleccione un elemento de fil
 
 Utilice esta vista para confirmar los ajustes de configuración de audiencia y visibilidad antes de utilizar la audiencia en proyectos de colaboración.
 
-Consulte la [documentación del panel de vista de audiencias](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para obtener más información.
+Consulte la [documentación del panel de vista de audiencias](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para obtener más información.
 
 ## Visualización de la conexión de datos de S3 {#view-s3-connection}
 
