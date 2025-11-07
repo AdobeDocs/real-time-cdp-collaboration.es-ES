@@ -1,9 +1,7 @@
 ---
 title: Configurar  [!DNL Amazon S3] para el Abastecimiento de audiencias
 description: Aprenda a configurar y conectar su almacenamiento de  [!DNL Amazon S3]  como fuente de datos de autoservicio para introducir datos de audiencia en Real-Time CDP Collaboration.
-hide: true
-hidefromtoc: true
-source-git-commit: 4f223890dabb4897c9e9264655ff9217e323dc91
+source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 0%
@@ -188,7 +186,7 @@ En la vista de cuadrícula o en la vista de tabla, seleccione un elemento de fil
 
 Utilice esta vista para confirmar los ajustes de configuración de audiencia y visibilidad antes de utilizar la audiencia en proyectos de colaboración.
 
-Consulte la [documentación del panel de vista de audiencias](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para obtener más información.
+Consulte la [documentación del panel de vista de audiencias](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para obtener más información.
 
 ## Visualización de la conexión de datos de S3 {#view-s3-connection}
 
