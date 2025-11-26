@@ -1,10 +1,10 @@
 ---
 title: Configurar  [!DNL Amazon S3] para el Abastecimiento de audiencias
 description: Aprenda a configurar y conectar su almacenamiento de  [!DNL Amazon S3]  como fuente de datos de autoservicio para introducir datos de audiencia en Real-Time CDP Collaboration.
-source-git-commit: 05fd7ec466ba2b20264490bbbfadc9bb6d361bc8
+source-git-commit: 7a2bfb524d77d42690f3abe848a59aae5b16b667
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 0%
+source-wordcount: '1583'
+ht-degree: 1%
 
 ---
 
@@ -64,6 +64,12 @@ Seleccione **[!UICONTROL Amazon S3]** como conexión de datos, seguido de **[!UI
 
 ### Revisar requisitos de archivos de audiencia {#review-audience-requirements}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications"
+>title="Preparar los datos para la incorporación"
+>abstract="Lea la guía de especificación de fuentes de audiencias para aprender a dar formato y estructurar los datos de audiencia de Amazon S3 para Collaboration."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulte la guía"
+
 Aparecerá un cuadro de diálogo que explica cómo se deben estructurar los archivos de audiencia. Use el vínculo a **[[!UICONTROL Especificación de fuentes de audiencia]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.1.pdf)** para aprender a dar formato y estructurar los datos de audiencia de [!DNL Amazon S3] para que Collaboration los lea correctamente.
 
 >[!IMPORTANT]
@@ -87,6 +93,11 @@ Las consideraciones clave incluyen:
 >id="rtcdp_collaboration_sources_s3_folderpath"
 >title="Formato de ruta de carpeta"
 >abstract="Escriba la ruta de la carpeta (prefijo) dentro del bloque [!DNL Amazon S3] donde se almacenan los archivos de audiencia.<br><ul><li>No inicie las rutas con una barra diagonal (/).</li><li>Incluya una barra diagonal al final de la ruta.</li><ul><br>Ejemplo válido: `base/path/`<br>Ejemplo no válido: `/base/path`"
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sharing_amazon_s3"
+>title="Añadir audiencia para Amazon S3"
+>abstract="Para conectar su almacenamiento de Amazon S3, autorice al usuario de servicio de Adobe a recuperar sus datos de audiencia para procesarlos. Siga los pasos descritos en Experience League para conceder acceso a Adobe a su almacenamiento de Amazon S3."
 
 A continuación, proporcione sus credenciales de [!DNL Amazon S3] para conectar su compartimento de S3 a Collaboration.
 
@@ -186,7 +197,7 @@ En la vista de cuadrícula o en la vista de tabla, seleccione un elemento de fil
 
 Utilice esta vista para confirmar los ajustes de configuración de audiencia y visibilidad antes de utilizar la audiencia en proyectos de colaboración.
 
-Consulte la [documentación del panel de vista de audiencias](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para obtener más información.
+Consulte la [documentación del panel de vista de audiencias](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard) para obtener más información.
 
 ## Visualización de la conexión de datos de S3 {#view-s3-connection}
 
