@@ -1,10 +1,10 @@
 ---
 title: Configuración de permisos de AWS para el abastecimiento de audiencias
 description: Aprenda a configurar los permisos de AWS Identity and Access Management (IAM) para conceder a Adobe acceso seguro de solo lectura a su  [!DNL Amazon S3] bloque para el abastecimiento de audiencias en Real-Time CDP Collaboration.
-source-git-commit: 4f223890dabb4897c9e9264655ff9217e323dc91
+source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 0%
+source-wordcount: '650'
+ht-degree: 1%
 
 ---
 
@@ -94,6 +94,7 @@ En [!DNL Step 1] del flujo de trabajo [!DNL Create role], en la sección **[!DNL
 |---------|-------------------|
 | América del Norte | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-va6-role` |
 | Australia | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-aus3-role` |
+| EMEA | `arn:aws:iam::590183896800:role/rtcdp-collab-prod-deu1-role` |
 
 Un ejemplo de directiva de confianza:
 
