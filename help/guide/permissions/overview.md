@@ -2,9 +2,9 @@
 title: Información general de control de acceso
 description: Obtenga información sobre cómo obtener acceso a Adobe Real-Time Customer Data Platform (CDP) Collaboration.
 audience: admin
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: af48f5ea-8258-42a6-a39e-f4a4ca5b4a69
-source-git-commit: 608706d00124372ac59209478ab551a3a6ce0226
+source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 2%
@@ -28,14 +28,14 @@ Para configurar el control de acceso a Collaboration, **debe** tener privilegios
 En estas guías se describe la configuración del acceso para administradores del sistema, administradores de productos y usuarios finales. Consulte la tabla siguiente para comprender la diferencia clave entre las funciones.
 
 | Función | Descripción |
-| --- | --- | 
+| --- | --- |
 | Administrador del sistema | El superusuario de la organización. Pueden realizar todas las tareas administrativas en Admin Console y tienen permisos para delegar funciones administrativas a otros usuarios. |
 | Administrador de productos | Administra los productos asignados a ellos y todas las funciones administrativas asociadas, como agregar usuarios a organizaciones, agregar o eliminar usuarios de perfiles de productos y agregar o eliminar otros administradores de productos de un producto. |
 | Usuario final | Los usuarios de su organización que utilizan los productos. |
 
 {style="table-layout:auto"}
 
-Para obtener más información sobre las funciones administrativas, visite el [Centro de ayuda de Adobe](https://helpx.adobe.com/es/enterprise/using/admin-roles.html).
+Para obtener más información sobre las funciones administrativas, visite el [Centro de ayuda de Adobe](https://helpx.adobe.com/enterprise/using/admin-roles.html).
 
 >[!TIP]
 >
@@ -65,7 +65,7 @@ Consulte el gráfico siguiente para determinar quién es necesario para configur
 > Un superusuario hace referencia al nivel más alto de acceso que obtiene el administrador del sistema. Un superusuario puede realizar todas las tareas administrativas y la funcionalidad del usuario. Un administrador del sistema no tiene la funcionalidad del producto lista para usar y debe concederse el acceso adecuado, como se muestra en el gráfico siguiente.
 
 | Ejemplo de uso | Función requerida | Por dónde empezar |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Superusuario sin acceso a producto de Experience Platform existente. | Un administrador del sistema. | [Configurar el acceso de administrador de productos](./manage-user-access.md#admin-access) |
 | Superusuario para un administrador de sistema de Experience Platform existente **con** acceso a la interfaz de usuario de Experience Platform. | Un administrador del sistema. | [Configurar el acceso a Collaboration](./manage-user-access.md#RTCDP-collab-access) |
 | Superusuario para un administrador de sistema de Experience Platform existente **sin** acceso a la interfaz de usuario de Experience Platform. | Un administrador del sistema. | [Configurar el acceso de administrador de productos](./manage-user-access.md#admin-access) |
