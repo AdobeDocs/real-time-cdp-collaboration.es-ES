@@ -2,9 +2,9 @@
 title: Configuración y administración de la cuenta
 description: Obtenga información sobre cómo configurar y administrar varios aspectos de su cuenta en Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
+source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 14%
@@ -100,7 +100,7 @@ Collaboration admite tres tipos de claves de coincidencia: ID de personas de ori
 * Las claves de coincidencia deben estar **recortadas**, **en minúsculas**
 * Las claves de coincidencia con hash deben ser **SHA256-hashed**.
 * Si proporciona valores hash con caracteres en mayúsculas, Collaboration los convierte automáticamente a minúsculas.
-* Si el origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** durante la configuración de la conexión de datos [para aplicar el hash. &#x200B;](./manage-data-connection.md#match-keys) Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
+* Si el origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** durante la configuración de la conexión de datos [para aplicar el hash. ](./manage-data-connection.md#match-keys) Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
 
 ##### ID de personas propios
 
@@ -122,15 +122,15 @@ Los ID de dispositivos de origen son identificadores conectados a un dispositivo
 
 Los ID de socio son identificadores proporcionados por socios externos para la reconciliación de públicos. Los ID admitidos actualmente son:
 
-* **[!UICONTROL Id. Adfixus]**
+* **[!UICONTROL ID de AdFixus]**
 
 >[!NOTE]
 >
->La integración de Adobe con [!DNL Adfixus] asigna los [!UICONTROL identificadores de archivo adjunto] únicos para cada cuenta a un formato común codificado en Adobe. Estas asignaciones se utilizan para identificar superposiciones entre colaboradores. Al activar audiencias con **[!UICONTROL Id. de prefijo]**, se usan los identificadores originales. El formato con codificación Adobe nunca abandona Collaboration.
+>La integración de Adobe con [!DNL AdFixus] asigna los [!UICONTROL ID de AdFixus] únicos para cada cuenta a un formato común codificado en Adobe. Estas asignaciones se utilizan para identificar superposiciones entre colaboradores. Al activar audiencias con **[!UICONTROL AdFixus ID]**, se usan los ID originales. El formato con codificación Adobe nunca abandona Collaboration.
 
-Al seleccionar **[!UICONTROL ID de prefijo]**, deberá proporcionar el ID correspondiente de su socio externo en la sección **[!UICONTROL Credenciales de cuenta]**. Esta opción solo estará disponible *después de que* active **[!UICONTROL Adfixus ID]**. Introduzca su ID de Adfixus en el campo **[!UICONTROL ID de cuenta]**, asegurándose de comprobar el valor para comprobar su precisión.
+Al seleccionar **[!UICONTROL ID de AdFixus]**, deberá proporcionar el ID correspondiente de su socio externo en la sección **[!UICONTROL Credenciales de cuenta]**. Esta opción solo estará disponible *después de que* active **[!UICONTROL AdFixus ID]**. Escriba su ID de AdFixus en el campo **[!UICONTROL ID de cuenta]**, para asegurarse de comprobar la precisión del valor.
 
-![El cuadro de diálogo Coincidir claves con el identificador de Adfixus está activado y la sección Credenciales de cuenta resaltada.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+![El cuadro de diálogo Coincidir claves con el identificador de AdFixus activado y la sección Credenciales de cuenta resaltada.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
 Una vez que haya seleccionado todas las claves de coincidencia deseadas, seleccione **[!UICONTROL Completar]** para finalizar el flujo de trabajo de configuración de la cuenta.
 
@@ -164,11 +164,11 @@ Seleccione **[!UICONTROL Editar]** en la sección **[!UICONTROL Claves de coinci
 
 ![Área de trabajo de instalación con la opción Editar resaltada en la sección Claves de coincidencia de la cuenta.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-Aparecerá el cuadro de diálogo **[!UICONTROL Claves de coincidencia]**. Activa y desactiva cualquier clave de coincidencia, o actualiza tu **[!UICONTROL ID de cuenta]** para tus [!UICONTROL ID de Adfixus] y, a continuación, selecciona **[!UICONTROL Guardar]** para confirmar los cambios.
+Aparecerá el cuadro de diálogo **[!UICONTROL Claves de coincidencia]**. Activa y desactiva cualquier clave de coincidencia, o actualiza tu **[!UICONTROL ID de cuenta]** para tus [!UICONTROL ID de AdFixus] y, a continuación, selecciona **[!UICONTROL Guardar]** para confirmar los cambios.
 
 >[!IMPORTANT]
 >
->Si cambia su [!UICONTROL Id. de Adfixus], no se almacenará en déclencheur una actualización de [boceto de datos](../glossary.md#sketches) para las conexiones de datos existentes mediante la clave de coincidencia. Una vez que se hayan esbozado los datos, cualquier cambio en su [!UICONTROL ID de Adfixus] no se reflejará hasta que se actualice la próxima audiencia según la configuración de [programación de conexión de datos](./manage-data-connection.md#scheduling). Si necesita realizar cambios antes de la próxima actualización, puede eliminar y volver a crear la conexión de datos.
+>Cambiar tu [!UICONTROL ID de AdFixus] no almacenará en déclencheur una actualización de [boceto de datos](../glossary.md#sketches) para tus conexiones de datos existentes usando la clave de coincidencia. Una vez que se hayan esbozado los datos, cualquier cambio en su [!UICONTROL ID de AdFixus] no se reflejará hasta que la próxima audiencia se actualice siguiendo la configuración de [programación de conexión de datos](./manage-data-connection.md#scheduling). Si necesita realizar cambios antes de la próxima actualización, puede eliminar y volver a crear la conexión de datos.
 
 ![Cuadro de diálogo Coincidir claves con la opción Guardar resaltada.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
