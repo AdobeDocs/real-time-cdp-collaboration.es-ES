@@ -2,12 +2,12 @@
 title: Configuración y administración de la cuenta
 description: Obtenga información sobre cómo configurar y administrar varios aspectos de su cuenta en Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: c9e2e8607dde87c4a36b131ed434195ef77730e6
+source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 14%
+source-wordcount: '1373'
+ht-degree: 11%
 
 ---
 
@@ -76,7 +76,7 @@ Para comenzar a configurar la cuenta, primero debe configurar los detalles de la
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
 >title="ID de dispositivos propios"
->abstract="Los ID de dispositivos propios, como las direcciones ECID o IP, se conectan directamente a los dispositivos, que pueden compartirse entre varias personas. IPv4 es el único ID de dispositivo propio compatible actualmente."
+>abstract="Los ID de dispositivos de origen, como ECID o direcciones IP, se conectan directamente a dispositivos que pueden compartirse entre varias personas."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
@@ -100,7 +100,7 @@ Collaboration admite tres tipos de claves de coincidencia: ID de personas de ori
 * Las claves de coincidencia deben estar **recortadas**, **en minúsculas**
 * Las claves de coincidencia con hash deben ser **SHA256-hashed**.
 * Si proporciona valores hash con caracteres en mayúsculas, Collaboration los convierte automáticamente a minúsculas.
-* Si el origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** durante la configuración de la conexión de datos [para aplicar el hash. &#x200B;](./manage-data-connection.md#match-keys) Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
+* Si el origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** durante la configuración de la conexión de datos [para aplicar el hash. ](./manage-data-connection.md#match-keys) Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
 
 ##### ID de personas propios
 
@@ -117,6 +117,8 @@ Los ID de personas de origen están conectados directamente a un perfil individu
 Los ID de dispositivos de origen son identificadores conectados a un dispositivo específico. Los ID admitidos actualmente son:
 
 * **[!UICONTROL IPv4 con hash]**: Direcciones IPv4 con hash
+* **[!UICONTROL IDFA]**: El identificador para anunciantes (IDFA) usado en dispositivos iOS de Apple
+* **[!UICONTROL GAID]**: ID de anunciante de Google utilizado en dispositivos Android
 
 ##### ID de socios
 
