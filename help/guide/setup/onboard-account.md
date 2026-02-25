@@ -2,11 +2,11 @@
 title: Configuración y administración de la cuenta
 description: Obtenga información sobre cómo configurar y administrar varios aspectos de su cuenta en Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
-source-git-commit: 873af5b0ef5e4e0c937c540de4697ec314624669
+source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1359'
 ht-degree: 11%
 
 ---
@@ -100,7 +100,7 @@ Collaboration admite tres tipos de claves de coincidencia: ID de personas de ori
 * Las claves de coincidencia deben estar **recortadas**, **en minúsculas**
 * Las claves de coincidencia con hash deben ser **SHA256-hashed**.
 * Si proporciona valores hash con caracteres en mayúsculas, Collaboration los convierte automáticamente a minúsculas.
-* Si el origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** durante la configuración de la conexión de datos [para aplicar el hash. &#x200B;](./manage-data-connection.md#match-keys) Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
+* Si el origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** durante la configuración de la conexión de datos [para aplicar el hash. ](./manage-data-connection.md#match-keys) Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
 
 ##### ID de personas propios
 
@@ -156,23 +156,25 @@ Ahora puede editar los detalles de su cuenta. Actualice los campos que desee cam
 
 ### Editar claves de coincidencia {#edit-match-keys}
 
->[!IMPORTANT]
->
->La edición de las claves de coincidencia no afectará a las conexiones existentes. Una vez establecida una conexión, se corrigen las claves de coincidencia seleccionadas durante la configuración de la conexión. Es importante que seleccione **todas** las claves de coincidencia que planea usar en futuras campañas durante la configuración de la cuenta.
-
 También puede actualizar las claves de coincidencia que seleccionó inicialmente al crear su cuenta. Estas claves de coincidencia determinarán las claves de coincidencia disponibles para conexiones futuras.
 
 Seleccione **[!UICONTROL Editar]** en la sección **[!UICONTROL Claves de coincidencia]**.
 
 ![Área de trabajo de instalación con la opción Editar resaltada en la sección Claves de coincidencia de la cuenta.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-Aparecerá el cuadro de diálogo **[!UICONTROL Claves de coincidencia]**. Activa y desactiva cualquier clave de coincidencia, o actualiza tu **[!UICONTROL ID de cuenta]** para tus [!UICONTROL ID de AdFixus] y, a continuación, selecciona **[!UICONTROL Guardar]** para confirmar los cambios.
+Aparecerá el cuadro de diálogo **[!UICONTROL Claves de coincidencia]**. Active las claves de coincidencia o actualice su **[!UICONTROL ID de cuenta]** para sus [!UICONTROL ID de AdFixus] y, a continuación, seleccione **[!UICONTROL Guardar]** para confirmar los cambios.
 
 >[!IMPORTANT]
 >
 >Cambiar tu [!UICONTROL ID de AdFixus] no almacenará en déclencheur una actualización de [boceto de datos](../glossary.md#sketches) para tus conexiones de datos existentes usando la clave de coincidencia. Una vez que se hayan esbozado los datos, cualquier cambio en su [!UICONTROL ID de AdFixus] no se reflejará hasta que la próxima audiencia se actualice siguiendo la configuración de [programación de conexión de datos](./manage-data-connection.md#scheduling). Si necesita realizar cambios antes de la próxima actualización, puede eliminar y volver a crear la conexión de datos.
+>
+>En este momento, las claves de coincidencia no se pueden eliminar una vez añadidas a la cuenta.
 
 ![Cuadro de diálogo Coincidir claves con la opción Guardar resaltada.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+
+Un cuadro de diálogo de éxito confirma que las claves de coincidencia de su cuenta se han actualizado correctamente.
+
+![Se ha actualizado correctamente un cuadro de diálogo correcto que confirma que las claves de coincidencia de la cuenta.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## Próximos pasos
 
