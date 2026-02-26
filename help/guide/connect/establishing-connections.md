@@ -2,7 +2,7 @@
 title: Establecimiento de conexiones con colaboradores
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
@@ -227,7 +227,7 @@ Para personalizar los casos de uso, seleccione **[!UICONTROL Editar]** en la sec
 
 >[!IMPORTANT]
 >
->Al activar audiencias en las que se utilizan varias claves de coincidencia, si una (o más) clave de coincidencia no se superpone, no se contabiliza la audiencia o cae por debajo del umbral, toda la activación falla. Asegúrese de que las audiencias se superpongan lo suficiente y cumplan el umbral mínimo de 1000 ID en todas las claves de coincidencia antes de activarlas.
+>Al activar audiencias en las que se utilizan varias claves de coincidencia, si una (o más) clave de coincidencia no se superpone, no hay recuentos de público o cae por debajo del umbral, toda la activación falla. Asegúrese de que las audiencias se superpongan lo suficiente y cumplan el umbral mínimo de 1000 ID en todas las claves de coincidencia antes de activarlas.
 
 Las claves de coincidencia se rellenan automáticamente con las claves de coincidencia comunes que usted y su colaborador seleccionaron al [configurar sus cuentas](/help/guide/setup/onboard-account.md#set-up-match-keys). Solo aparecerán las claves de coincidencia que usted y el colaborador seleccionado **y** tengan en común.
 

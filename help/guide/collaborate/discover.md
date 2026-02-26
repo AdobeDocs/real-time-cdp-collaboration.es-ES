@@ -2,7 +2,7 @@
 title: Descubra superposiciones y compare audiencias
 description: Descubra las superposiciones entre las audiencias de y de sus colaboradores. Descubra las mejores audiencias para usar en sus campañas.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 38c42ad3-9d01-4d09-b80e-37fb51cbf42b
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
@@ -86,7 +86,7 @@ En la sección de comparación de audiencias, puede ver las siguientes métricas
 | **[!UICONTROL Recuento de identidades]** (su colaborador) | El número de ID únicos dentro de la audiencia de su colaborador. |
 | **[!UICONTROL Identidades superpuestas]** | El número de ID únicos que están presentes en la audiencia del usuario y en la del colaborador. |
 | **[!UICONTROL Superposición %]** | El porcentaje de perfiles que se solapan entre el público seleccionado por usted y el seleccionado por su colaborador. |
-| **[!UICONTROL Índice de audiencia]** | Una puntuación que indica la intensidad con la que una audiencia se relaciona con otra en función de los recuentos y superposiciones de audiencias subyacentes. Para obtener más información sobre el significado de las puntuaciones, lea la sección [puntuación del índice de audiencia](#audience-index-score). Las puntuaciones del índice de audiencia no están disponibles al compararlas con la línea de base de su colaborador (todas las audiencias). |
+| **[!UICONTROL Índice de audiencia]** | Una puntuación que indica la intensidad con la que una audiencia se relaciona con otra en función de los recuentos de público y superposiciones subyacentes. Para obtener más información sobre el significado de las puntuaciones, lea la sección [puntuación del índice de audiencia](#audience-index-score). Las puntuaciones del índice de audiencia no están disponibles al compararlas con la línea de base de su colaborador (todas las audiencias). |
 | **[!UICONTROL Desglose de identidades por clave de coincidencia]** | El desglose de identidades coincide con cada clave de coincidencia elegida en el proyecto, en función de las audiencias seleccionadas para cada colaborador. |
 
 {style="table-layout:auto"}
@@ -119,7 +119,7 @@ La sección **[!UICONTROL Audiencias relevantes]** muestra la siguiente informac
 | **[!UICONTROL Recuento de identidades]** | El número de ID únicos dentro de la audiencia. |
 | **[!UICONTROL Identidades superpuestas]** | El número de ID únicos que se superponen entre la audiencia recomendada y todas las audiencias. |
 | **[!UICONTROL Superposición %]** | El porcentaje de identidades superpuestas entre la audiencia recomendada y todas las audiencias. |
-| **[!UICONTROL Índice de audiencia]** | Una puntuación que indica la intensidad con la que una audiencia se relaciona con otra en función de los recuentos y superposiciones de audiencias subyacentes. Para obtener más información sobre el significado de las puntuaciones, lea la sección [puntuación del índice de audiencia](#audience-index-score). |
+| **[!UICONTROL Índice de audiencia]** | Una puntuación que indica la intensidad con la que una audiencia se relaciona con otra en función de los recuentos de público y superposiciones subyacentes. Para obtener más información sobre el significado de las puntuaciones, lea la sección [puntuación del índice de audiencia](#audience-index-score). |
 | **[!UICONTROL Categorías de audiencia]** | Las categorías que el colaborador ha asignado a la audiencia. |
 | **[!UICONTROL Claves coincidentes]** | Las claves de coincidencia que el colaborador seleccionó para la audiencia. |
 
@@ -159,7 +159,7 @@ Una vez que haya seleccionado las audiencias que desee, la sección **[!UICONTRO
 | **[!UICONTROL Recuento de identidades]** | El número de ID únicos dentro de la audiencia. |
 | **[!UICONTROL Identidades superpuestas]** | El número de ID únicos que se superponen entre la audiencia recomendada y todas las audiencias. |
 | **[!UICONTROL Superposición %]** | El porcentaje de identidades superpuestas entre la audiencia recomendada y todas las audiencias. |
-| **[!UICONTROL Índice de audiencia]** | Una puntuación que indica la intensidad con la que una audiencia se relaciona con otra en función de los recuentos y superposiciones de audiencias subyacentes. Para obtener más información sobre el significado de las puntuaciones, lea la sección [puntuación del índice de audiencia](#audience-index-score). |
+| **[!UICONTROL Índice de audiencia]** | Una puntuación que indica la intensidad con la que una audiencia se relaciona con otra en función de los recuentos de público y superposiciones subyacentes. Para obtener más información sobre el significado de las puntuaciones, lea la sección [puntuación del índice de audiencia](#audience-index-score). |
 | **[!UICONTROL Categorías de audiencia]** | Las categorías que el colaborador ha asignado a la audiencia. |
 | **[!UICONTROL Claves coincidentes]** | Las claves de coincidencia que el colaborador seleccionó para la audiencia. |
 
