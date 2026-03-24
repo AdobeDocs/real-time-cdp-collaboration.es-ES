@@ -4,7 +4,7 @@ description: Aprende a crear e interpretar informes de medida para las campañas
 audience: advertiser
 keywords: AMC, Marketing Cloud de Amazon, informes de medición, resumen de campaña, atribución, colaboración de CDP en tiempo real
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hidefromtoc: true
 hide: true
 exl-id: d1b0ca65-344d-4df0-9e07-222c79f1cdb7
