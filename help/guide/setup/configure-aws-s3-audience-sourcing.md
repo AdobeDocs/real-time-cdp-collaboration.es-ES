@@ -53,13 +53,13 @@ Si esta es su primera audiencia, también puede seleccionar la opción **[!UICON
 
 ![](../../assets/setup/add-manage-audiences/add-audiences.png)
 
-********
+**&#x200B;**&#x200B;**&#x200B;**
 
 ![](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
 ### [!DNL Amazon S3] {#select-aws-s3}
 
-********
+**&#x200B;**&#x200B;**&#x200B;**
 
 ![[!DNL Amazon S3]](../../assets/setup/aws-audience-sourcing/select-s3-data-connection.png)
 
@@ -71,11 +71,11 @@ Si esta es su primera audiencia, también puede seleccionar la opción **[!UICON
 >abstract="Lea la guía de especificación de fuentes de públicos para aprender a dar formato y estructurar los datos de público de Amazon S3 para Collaboration."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulte la guía"
 
-**[](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**[!DNL Amazon S3]
+**[&#128279;](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**&#x200B;[!DNL Amazon S3]
 
 >[!IMPORTANT]
 >
->[!DNL Amazon S3][!DNL Amazon S3]
+>[!DNL Amazon S3]&#x200B;[!DNL Amazon S3]
 
 Your audience files must comply with the Audience Sourcing Specification. The match keys are automatically mapped based on the required format.
 
@@ -83,7 +83,7 @@ Key considerations include:
 
 * `|`
 * If uploading multiple files, ensure all files contain identical columns.
-* `AUDIENCE_ID``HASHED_EMAIL_SHA_256``HASHED_PHONE_SHA_256``HASHED_IPV4_SHA_256``CRM_ID``LOYALTY_ID``ADFIXUS_ID`
+* `AUDIENCE_ID` `HASHED_EMAIL_SHA_256` `HASHED_PHONE_SHA_256` `HASHED_IPV4_SHA_256` `CRM_ID` `LOYALTY_ID` `ADFIXUS_ID`
 * Data refreshes occur every 1–6 days based on your selection during the sourcing setup in Collaboration.
 
 ![](../../assets/setup/aws-audience-sourcing/prepare-data-sourcing-dialog.png)
@@ -102,7 +102,7 @@ Key considerations include:
 
 [!DNL Amazon S3]
 
-**[](./configure-aws-permissions-audience-sourcing.md)**[!DNL Amazon S3]
+**[&#128279;](./configure-aws-permissions-audience-sourcing.md)**&#x200B;[!DNL Amazon S3]
 
 * Función IAM
 * S3 Bucket Name
@@ -112,7 +112,7 @@ Key considerations include:
 
 ### Confirm consent acknowledgment {#confirm-consent}
 
-****
+**&#x200B;**
 
 ![](../../assets/setup/aws-audience-sourcing/consent-optout-acknowledgment.png)
 
@@ -122,34 +122,34 @@ After connecting, the system validates your credentials and displays one of the 
 
 | Estado | Mensaje | Descripción |
 |---| ---|---|
-| **Correcto** | **** | [!DNL Amazon S3] |
-| **Fallido** | **** | Please review your credentials and try again. |
-| **** | **** | [!DNL Amazon S3] |
-| **** | **** | The audience data doesn&#39;t match the expected structure. Please ensure your files comply with the Audience Sourcing Specifications. |
-| **** | **** | Please confirm that your audience files exist in the specified folder path and that the path is accessible. |
-| **** | **** | Inténtelo de nuevo.  |
+| **Correcto** | **&#x200B;**&#x200B;| [!DNL Amazon S3] |
+| **Fallido** | **&#x200B;**&#x200B;| Please review your credentials and try again. |
+| **&#x200B;**&#x200B;| **&#x200B;**&#x200B;| [!DNL Amazon S3] |
+| **&#x200B;**&#x200B;| **&#x200B;**&#x200B;| The audience data doesn&#39;t match the expected structure. Please ensure your files comply with the Audience Sourcing Specifications. |
+| **&#x200B;**&#x200B;| **&#x200B;**&#x200B;| Please confirm that your audience files exist in the specified folder path and that the path is accessible. |
+| **&#x200B;**&#x200B;| **&#x200B;**&#x200B;| Inténtelo de nuevo.  |
 
 
 ### Provide connection details {#provide-connection-details}
 
 Enter a descriptive name and optional description for your S3 data connection. Input your values into the following UI fields:
 
-* ****
-* ****
+* **&#x200B;**
+* **&#x200B;**
 
 ![](../../assets/setup/aws-audience-sourcing/s3-connection-name-description.png)
 
 ### Review auto-mapped identity fields {#auto-mapped-fields}
 
-****
+**&#x200B;**
 
-****
+**&#x200B;**
 
 ![](../../assets/setup/aws-audience-sourcing/s3-field-mapping-auto-mapped.png)
 
 ### Schedule refresh frequency and date range {#schedule-refresh}
 
-****
+**&#x200B;**
 
 >[!IMPORTANT]
 >
@@ -161,12 +161,12 @@ Enter a descriptive name and optional description for your S3 data connection. I
 
 Finally, review your configuration settings in the summary screen. This view contains a summary of the following sections:
 
-* ****
-* ****
-* ****`HASHED_EMAIL`
-* ****
+* **&#x200B;**
+* **&#x200B;**
+* **&#x200B;**`HASHED_EMAIL`
+* **&#x200B;**
 
-****
+**&#x200B;**
 
 ![](../../assets/setup/aws-audience-sourcing/s3-connection-review-summary.png)
 
@@ -174,7 +174,7 @@ A dialog confirmation appears stating that the data connection was created succe
 
 ## Review sourced audiences {#review-sourced-audiences}
 
-[!DNL Amazon S3]****
+[!DNL Amazon S3]&#x200B;**&#x200B;**
 
 If audience sourcing is in progress, a banner appears at the top of the screen. Individual audiences appear only after sourcing completes.
 
@@ -184,21 +184,21 @@ Once the S3 audiences are sourced, your list of available audiences are provided
 
 >[!TIP]
 >
->****
+>**&#x200B;**
 
 ![](../../assets/setup/aws-audience-sourcing/s3-audiences-list-view.png)
 
-****
+**&#x200B;**
 
-****************
+**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
 
 Use this view to confirm audience configuration and visibility settings before using the audience in collaboration projects.
 
-[](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)
+[&#128279;](https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/setup/onboard-audiences#view-audiences-dashboard)
 
 ## View your S3 data connection {#view-s3-connection}
 
-[!DNL Amazon S3]****
+[!DNL Amazon S3]&#x200B;**&#x200B;**
 
 Your S3 data connection includes the same functionality and details as other audience data connections, except that you cannot add or edit audiences directly from this view.
 
@@ -212,4 +212,4 @@ Your S3 data connection includes the same functionality and details as other aud
 
 [!DNL Amazon S3]
 
-****[](./onboard-audiences.md)
+**&#x200B;**&#x200B;[&#128279;](./onboard-audiences.md)

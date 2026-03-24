@@ -21,9 +21,9 @@ Learn how to set up your account in Real-Time CDP Collaboration to prepare for c
 
 ## Set up your account {#set-up-account}
 
-[](#set-up-details)
+[&#128279;](#set-up-details)
 
-****![](/help/assets/icons/plus.png)****
+**&#x200B;**![](/help/assets/icons/plus.png)**&#x200B;**
 
 ![](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
@@ -41,18 +41,18 @@ Learn how to set up your account in Real-Time CDP Collaboration to prepare for c
 
 To begin configuring your account, you must first set up the account details. This requires you to add the following information:
 
-* ****
-* ****
-* ************[](/help/guide/overview/roles.md)
-* ****************
-* ****
-* ****
-* ****
+* **&#x200B;**
+* **&#x200B;**
+* **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;[&#128279;](/help/guide/overview/roles.md)
+* **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
+* **&#x200B;**
+* **&#x200B;**
+* **&#x200B;**
 * Select an image for your account header picture.
 
 >[!NOTE]
 >
->********
+>**&#x200B;**&#x200B;**&#x200B;**
 
 ![](/help/assets/setup/manage-account/add-account-details.png){zoomable="yes"}
 
@@ -87,54 +87,54 @@ To begin configuring your account, you must first set up the account details. Th
 
 >[!IMPORTANT]
 >
->[](../connect/establishing-connections.md#connection-settings)****
+>[&#128279;](../connect/establishing-connections.md#connection-settings)**&#x200B;**
 
-[](./onboard-audiences.md#map-fields)
+[&#128279;](./onboard-audiences.md#map-fields)
 
-[](#edit-account)
+[&#128279;](#edit-account)
 
 #### Claves de coincidencia admitidas {#supported-match-keys}
 
 Collaboration supports three types of match keys: first-party people IDs, first-party device IDs, and partner IDs. All match keys must meet the following requirements:
 
-* ********
-* ****
+* **&#x200B;**&#x200B;**&#x200B;**
+* **&#x200B;**
 * If you provide hashed values that use uppercase characters, Collaboration automatically converts them to lowercase.
-* ********[](./manage-data-connection.md#match-keys)
+* **&#x200B;**&#x200B;**&#x200B;**&#x200B;[&#128279;](./manage-data-connection.md#match-keys)
 
 ##### ID de personas propios
 
 First-party people IDs are directly connected to an individual profile. Currently supported IDs are:
 
-* ****
-* ****
-* ****
-* ****
+* **&#x200B;**
+* **&#x200B;**
+* **&#x200B;**
+* **&#x200B;**
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### ID de dispositivos propios
 
 First-party device IDs are identifiers connected to a specific device. Currently supported IDs are:
 
-* ****
-* ****
-* ****
+* **&#x200B;**
+* **&#x200B;**
+* **&#x200B;**
 
 ##### ID de socios
 
 Los ID de socio son identificadores proporcionados por socios externos para la reconciliación de públicos. 
 
-* ****
+* **&#x200B;**
 
 >[!NOTE]
 >
->[!DNL AdFixus]****
+>[!DNL AdFixus]&#x200B;**&#x200B;**
 
-******************
+**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
 
 ![](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
-****
+**&#x200B;**
 
 ![](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
@@ -144,13 +144,13 @@ After setting up your account, you can edit the details and match keys at anytim
 
 ### Editar detalles {#edit-details}
 
-****
+**&#x200B;**
 
-************
+**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
 
 ![](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-****
+**&#x200B;**
 
 ![](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
@@ -158,15 +158,15 @@ After setting up your account, you can edit the details and match keys at anytim
 
 You can also update the match keys that you initially selected when creating your account. These match keys will determine the match keys available to future connections.
 
-********
+**&#x200B;**&#x200B;**&#x200B;**
 
 ![](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-************
+**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
 
 >[!IMPORTANT]
 >
->[](../glossary.md#sketches)[](./manage-data-connection.md#scheduling)
+>[&#128279;](../glossary.md#sketches) [&#128279;](./manage-data-connection.md#scheduling)
 >
 >At this time, match keys cannot be removed once added to your account.
 
@@ -178,4 +178,4 @@ A success dialog confirms that your account&#39;s match keys are updated success
 
 ## Próximos pasos
 
-[](/help/guide/setup/onboard-audiences.md)
+[&#128279;](/help/guide/setup/onboard-audiences.md)
