@@ -2,11 +2,12 @@
 title: Configurar  [!DNL Snowflake] para el Abastecimiento de audiencias
 description: Aprenda a configurar y conectar su  [!DNL Snowflake Secure Data Share] fuente de datos de autoservicio para ingerir datos de audiencia en Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 517a28afc83b0e1b4a9e64fa53eb90e0ad5541e9
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
+source-git-commit: 19a516b472b1ddde68990f98b57667dd302f1fbc
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 2%
+source-wordcount: '1229'
+ht-degree: 3%
 
 ---
 
@@ -54,6 +55,12 @@ A continuación, selecciona **[!UICONTROL Snowflake]** como conexión de datos, 
 ![La pantalla de selección de conexión de datos con [!DNL Snowflake] está disponible como opción seleccionable.](../../assets/setup/snowflake-audience-sourcing/select-snowflake-data-connection.png)
 
 ### Revisar archivo de audiencia {#review-audience-file}
+
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_specifications_snowflake"
+>title="Preparar los datos para la incorporación"
+>abstract="Lea la guía de especificación del abastecimiento de audiencias para aprender a dar formato y estructurar los datos de audiencia de Snowflake para Collaboration."
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulte la guía"
 
 Aparecerá un cuadro de diálogo en el que se explicarán los requisitos de [!DNL Snowflake Share] y del archivo de audiencia [!DNL Snowflake] para poder iniciar el abastecimiento. Asegúrese de que su [!DNL Snowflake Share] se haya creado con el nombre de recurso compartido, el identificador de cuenta, el esquema y la vista correctos. Para confirmar que los datos de audiencias tienen el formato y la estructura correctos para su uso en Collaboration, consulte la guía **[[!UICONTROL Especificación de fuentes de audiencias]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)**.
 
