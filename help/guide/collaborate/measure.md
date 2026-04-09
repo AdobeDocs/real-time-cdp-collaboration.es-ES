@@ -2,12 +2,12 @@
 title: Rendimiento de medida
 description: Mida el rendimiento de las campañas en diferentes canales. Aprenda a utilizar e interpretar varios informes.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: c92b263e-1f96-49f1-841a-ef2e97a4cb9a
-source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
+source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 7%
+source-wordcount: '2612'
+ht-degree: 6%
 
 ---
 
@@ -239,3 +239,81 @@ Finalmente, revisa tu configuración y selecciona **[!UICONTROL Crear]** para pr
 Una vez que esté disponible, podrá ver el informe en cualquier momento en la ficha **[!UICONTROL Measure]** del área de trabajo del proyecto.
 
 ![La pantalla Crear informe de medición muestra la información y la opción Crear resaltada.](/help/assets/collaborate/measure/attribution-review.png)
+
+## Editar informe de medición {#edit-measurement-report}
+
+>[!IMPORTANT]
+>
+>Puede editar la configuración de un informe de medición únicamente si está programado para ejecutarse en el futuro. No se puede cambiar la configuración de los informes que ya se han ejecutado.
+
+Actualice la configuración de un informe de medición para asegurarse de que el informe proporcione el análisis correcto de la campaña en un período específico y se ejecute en una fecha deseada.
+
+Para empezar, vaya al espacio de trabajo del informe de medición que desee actualizar. Seleccione el icono de edición (![Editar icono](/help/assets/icons/edit.png)) junto al icono de eliminación.
+
+![Área de trabajo del informe de medición con el icono Editar resaltado.](/help/assets/collaborate/measure/edit-report.png)
+
+>[!TIP]
+>
+>En la pestaña **[!UICONTROL Measure]**, vaya a la sección del informe que desee editar. Seleccione el icono de edición (![Editar icono](/help/assets/icons/edit.png)) junto a **[!UICONTROL Ver informe completo]** para actualizar su configuración.
+>![La ficha Medida resalta el icono Editar dentro de una sección del informe.](/help/assets/collaborate/measure/measure-tab-edit-report.png)
+
+El cuadro de diálogo **[!UICONTROL Editar informe de medición]** aparece con la configuración actual del informe en las secciones siguientes:
+
+* [**Detalles de facturación**](#billing-details): Muestra información sobre los créditos al ejecutar informes de medición. No se requiere ninguna configuración.
+* [**Detalles de la campaña**](#campaign-details): muestra la configuración del anunciante, el identificador de campaña, el período de informe y un nombre de informe descriptivo.
+* [**Detalles del informe**](#report-details): muestra la configuración del tipo de informe, la fecha de ejecución del informe y las opciones de configuración específicas para los informes de atribución.
+
+![Cuadro de diálogo Editar informe de medición que muestra la configuración actual en las secciones Detalles de facturación, Detalles de campaña y Detalles del informe.](/help/assets/collaborate/measure/edit-measurement-report-dialog.png)
+
+### Editar detalles de la campaña {#edit-campaign-details}
+
+En el cuadro de diálogo **[!UICONTROL Editar informe de medición]**, use los menús desplegables **[!UICONTROL ID del anunciante (nombre)]** e **[!UICONTROL ID de campaña]** para editar el anunciante y el ID de campaña de su informe.
+
+![Se abre el cuadro de diálogo Editar informe de medición que resalta el menú desplegable ID de campaña.](/help/assets/collaborate/measure/edit-campaign-id.png)
+
+A continuación, seleccione **[!UICONTROL Intervalo de fechas del informe]** y use el calendario para cambiar las fechas de inicio y finalización del informe.
+
+![Cuadro de diálogo Editar informe de medición que resalta el calendario del intervalo de fechas del informe abierto.](/help/assets/collaborate/measure/edit-report-date-range.png)
+
+Introduzca un nombre de informe descriptivo actualizado para capturar los cambios recientes. Esto le ayudará a reconocer y buscar este informe en el futuro.
+
+![Cuadro de diálogo Editar informe de medición que resalta el nombre descriptivo del informe actualizado.](/help/assets/collaborate/measure/edit-friendly-report-name.png)
+
+### Editar detalles del informe {#edit-report-details}
+
+Para programar el informe para una fecha diferente, vaya a la sección **[!UICONTROL Detalles del informe]**. Seleccione la opción de fecha de ejecución actual y, a continuación, utilice el calendario para elegir la fecha preferida.
+
+![Cuadro de diálogo Editar informe de medición que resalta el calendario de fechas de ejecución del informe.](/help/assets/collaborate/measure/edit-report-run-date.png)
+
+Como anunciante, tiene la opción de seleccionar o quitar el tipo de informe **[!UICONTROL Atribución]**, además de **[!UICONTROL Resumen de campaña]**. Si elige **[!UICONTROL Atribución]**, su informe de atribución incluye métricas de resumen de campaña estándar y perspectivas de atribución detalladas. Para obtener más información sobre los tipos de informe **Resumen de campaña** y **Atribución**, consulte la sección [Crear informe de medición](#create-measurement-report).
+
+>[!IMPORTANT]
+>
+>Si usted es **publicador**, el tipo de informe predeterminado es **[!UICONTROL Resumen de campaña]** y no se puede cambiar en este momento.
+
+* Si elige **[!UICONTROL Atribución]** como tipo de informe, debe llenar los campos obligatorios en la sección **[!UICONTROL Atribución]**. Para obtener instrucciones de configuración, consulte la sección [detalles del informe de atribución](#report-details-attribution).
+* Si ha configurado anteriormente los ajustes de atribución al crear el informe, puede elegir editar la ventana retrospectiva (medida en días) y seleccionar sobre qué eventos de conversión informar.
+
+Para actualizar la ventana retrospectiva **[!UICONTROL en días]**, escriba un valor numérico o ajústelo con las opciones de incremento o disminución. A continuación, seleccione los eventos de conversión sobre los que desee crear un informe. Puede elegir hasta **3** conversiones de la lista disponible.
+
+![Cuadro de diálogo Editar informe de medición que resalta los eventos de conversión actualizados.](/help/assets/collaborate/measure/edit-conversion-events.png)
+
+Una vez que finalice, revisa las actualizaciones y selecciona **[!UICONTROL Editar]** para aplicar los cambios.
+
+![Cuadro de diálogo Editar informe de medición con la opción Editar resaltada.](/help/assets/collaborate/measure/edit-report-confirm.png)
+
+Un cuadro de diálogo de confirmación confirma que el informe se ha guardado correctamente.
+
+## Eliminar informe de medición {#delete-measurement-report}
+
+Al eliminar un informe de medición en Collaboration, se elimina del sistema de forma permanente. Esta acción no se puede deshacer. Para ello, seleccione el informe que desee eliminar en la ficha **[!UICONTROL Measure]**.
+
+En el área de trabajo del informe de medición, seleccione el icono Eliminar (![Icono Eliminar](/help/assets/common/delete.svg)).
+
+![Área de trabajo del informe de medición con el icono Eliminar resaltado.](/help/assets/collaborate/measure/delete-report.png)
+
+Aparecerá el cuadro de diálogo **[!UICONTROL Eliminar informe]**, que le pedirá que confirme la eliminación. Seleccione **[!UICONTROL Eliminar]**.
+
+![Cuadro de diálogo Eliminar informe con la opción Eliminar resaltada.](/help/assets/collaborate/measure/delete-report-confirm.png)
+
+Un cuadro de diálogo de confirmación confirma que el informe se eliminó correctamente.
