@@ -2,12 +2,12 @@
 title: Creación y administración de proyectos
 description: Obtenga información sobre cómo crear y administrar proyectos en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
-source-git-commit: 99443e1270a8a52a44dc7d0258c5bee7e4017db6
+source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 19%
+source-wordcount: '680'
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ Los proyectos son la pieza central del flujo de trabajo en Adobe Real-Time CDP C
 >
 >Los proyectos deben asociarse generalmente a una sola campaña.
 
-![El panel Colaborar muestra todos los proyectos actuales.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
+![Panel de colaboración que muestra todos los proyectos actuales.](/help/assets/collaborate/manage-view-projects/projects-overview-page.png){zoomable="yes"}
 
 Puede utilizar filtros para ver únicamente los proyectos que ha iniciado con ciertos colaboradores, como se muestra a continuación:
 
@@ -45,18 +45,45 @@ Vaya a **[!UICONTROL Colaborar]** y luego a **[!UICONTROL Mis proyectos]**. Si e
 
 ![Seleccione el símbolo más o cree un proyecto para configurar un nuevo proyecto.](/help/assets/collaborate/manage-view-projects/create-project.png){zoomable="yes"}
 
-Aparecerá el cuadro de diálogo **[!UICONTROL Crear proyecto]**. Seleccione el **[!UICONTROL colaborador]** con el que está creando el proyecto mediante la lista desplegable. Si es un editor y establece nombres de anunciantes durante la configuración de la conexión, puede seleccionar el **[!UICONTROL nombre del anunciante]**.
+Aparecerá el cuadro de diálogo **[!UICONTROL Crear proyecto]**. Seleccione el **[!UICONTROL colaborador]** con el que está creando el proyecto a través de la lista desplegable. Si eres editor y estableces nombres de anunciante durante la configuración de la conexión, puedes seleccionar **[!UICONTROL Nombre del anunciante]**.
 
 >[!NOTE]
 >
-> Si ha configurado un solo nombre de anunciante en la configuración de conexión, aparecerá de forma predeterminada. Si no se ha configurado ningún nombre de anunciante, el **[!UICONTROL nombre]** del anunciante se preseleccionará como **[!UICONTROL nombre del anunciante]**.
+> Si ha configurado un solo nombre de anunciante en la configuración de conexión, aparecerá de forma predeterminada. Si no se configuró ningún nombre de anunciante, el **[!UICONTROL Nombre]** del anunciante se preseleccionará como **[!UICONTROL Nombre del anunciante]**.
 
 ![Cuadro de diálogo Crear proyecto con el colaborador seleccionado y el nombre del anunciante resaltado.](/help/assets/collaborate/manage-view-projects/create-project-advertiser-names.png){zoomable="yes"}
 
-A continuación, añada un **[!UICONTROL nombre del proyecto]** y **[!UICONTROL descripción]** para su proyecto. A continuación, seleccione una imagen para representar el proyecto. Esta imagen ayuda a distinguir el proyecto en la página de información general del proyecto. Una vez finalizado, seleccione **[!UICONTROL Crear]** para crear el proyecto.
+A continuación, agrega un **[!UICONTROL nombre de proyecto]** y **[!UICONTROL Descripción]** para tu proyecto. A continuación, seleccione una imagen para representar el proyecto. Esta imagen ayuda a distinguir el proyecto en la página de información general del proyecto. Una vez que hayas terminado, selecciona **[!UICONTROL Crear]** para crear el proyecto.
 
 ![Opciones requeridas para configurar un nuevo proyecto](/help/assets/collaborate/manage-view-projects/create-project-required-info.png){zoomable="yes"}
 
 Ahora puede ver el nuevo proyecto, sus detalles y las secciones disponibles en función de los casos de uso seleccionados durante la configuración de la conexión.
 
-![Espacio de trabajo de información general del proyecto.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
+![Espacio de trabajo de descripción general del proyecto.](/help/assets/collaborate/manage-view-projects/project-overview.png){zoomable="yes"}
+
+## Administrar ID de campaña {#manage-campaign-id}
+
+Un **identificador de campaña** vincula el proyecto con una campaña específica y es necesario para [generar informes de medición](./measure.md#create-measurement-report). Puede añadir varios ID de campaña a un proyecto si ejecuta varias campañas con el mismo colaborador. Todas estas campañas están disponibles para su selección en los informes.
+
+- **Publicadores**: escriba o actualice los identificadores de campaña y los nombres asociados en la interfaz de usuario de Collaboration antes de ejecutar los informes.
+- **Anunciantes**: Solicite a su colaborador (editor) que agregue los identificadores de campaña según sea necesario.
+
+Para agregar o actualizar las ID de campaña, vaya al área de trabajo **[!UICONTROL Colaborar]** y, a continuación, seleccione **[!UICONTROL Ver]** en la tarjeta de proyecto correspondiente.
+
+![Área de trabajo de colaboración que resalta la opción Ver en una tarjeta de proyecto.](/help/assets/collaborate/manage-view-projects/view-project.png){zoomable="yes"}
+
+El área de trabajo **[!UICONTROL Información general del proyecto]** correspondiente aparece con una sección **[!UICONTROL Nombre e ID de campaña]** que enumera todas las campañas vinculadas al proyecto. Si aún no ha agregado una campaña, seleccione **[!UICONTROL Agregar]**. Si ya hay campañas presentes, selecciona **[!UICONTROL Editar]** para actualizar los detalles o agregar más.
+
+![Área de trabajo de información general del proyecto que muestra la sección ID de campaña y nombre con la opción Editar resaltada.](/help/assets/collaborate/manage-view-projects/edit-campaign-id.png){zoomable="yes"}
+
+En el cuadro de diálogo **[!UICONTROL Nombre e ID de campaña]**, seleccione **[!UICONTROL Agregar ID de campaña]** para agregar una nueva fila donde pueda introducir los detalles de la campaña.
+
+![El cuadro de diálogo ID de campaña y nombre muestra la fila de campaña vacía después de seleccionar la opción Agregar ID de campaña.](/help/assets/collaborate/manage-view-projects/add-campaign-row.png){zoomable="yes"}
+
+Proporcione el **[!UICONTROL ID de campaña]** y **[!UICONTROL nombre de campaña]**, y luego seleccione **[!UICONTROL Guardar]**.
+
+![El cuadro de diálogo ID. y nombre de campaña que muestra los detalles de la nueva campaña y la opción Guardar resaltada.](/help/assets/collaborate/manage-view-projects/save-campaign-id.png){zoomable="yes"}
+
+Compruebe la sección **[!UICONTROL Nombre e ID de campaña]** para ver sus campañas más recientes y los cambios recientes. Ahora puede utilizar los nuevos ID de campaña para generar informes de medición.
+
+![Área de trabajo de información general del proyecto que muestra la sección de nombre e ID de campaña actualizada.](/help/assets/collaborate/manage-view-projects/view-updated-campaigns.png){zoomable="yes"}
