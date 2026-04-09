@@ -2,7 +2,7 @@
 title: Administrar conexiones de datos de medición
 description: Obtenga información sobre cómo administrar conexiones de datos de medición, incluidos detalles y claves de coincidencia en Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 494277f421606eda62b74c254f1fdd29b22e3473
 workflow-type: tm+mt
 source-wordcount: '1338'
