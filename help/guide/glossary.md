@@ -2,14 +2,13 @@
 title: Glosario
 description: Comprender la terminología clave de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
-source-git-commit: b52fd181d80d5a70331571f7a4cbe3e5a7ec1d7c
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 3%
+source-wordcount: '837'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +34,7 @@ El almacenamiento en la nube es una solución de computación en la nube que per
 
 Una solicitud de conexión es una solicitud formal enviada de una organización a otra para establecer una conexión de uso compartido de datos. Una vez aceptado, permite a las dos partes colaborar y compartir datos de audiencia de forma segura.
 
-### Configuración de la conexión
+### Configuración de conexión
 
 Una vez aceptada una solicitud de conexión, el iniciador de dicha solicitud envía la configuración de conexión al colaborador para su aprobación. Esta configuración de conexión rige la forma en que los colaboradores trabajan juntos en los proyectos e incluye las claves de coincidencia que se van a utilizar, la propiedad de facturación, etc.
 
@@ -103,7 +102,7 @@ Una superposición (o superposición de audiencias) se refiere a los segmentos d
 
 Un proyecto en Adobe Real-Time CDP Collaboration es un espacio de trabajo en el que los usuarios pueden colaborar en tareas específicas de integración de datos y segmentación de audiencia. Los proyectos ayudan a organizar y administrar los esfuerzos de intercambio de datos, lo que hace que la colaboración sea más eficiente y ágil.
 
-### Audiencia pública
+### Público general
 
 En el contexto de los proyectos, se trata de una audiencia que el colaborador puede descubrir. Las audiencias pueden ser privadas, personalizadas o públicas. Las audiencias privadas no se pueden detectar en ningún otro colaborador. Solo ciertos colaboradores pueden descubrir audiencias personalizadas, y todos los colaboradores pueden descubrir audiencias públicas.
 
