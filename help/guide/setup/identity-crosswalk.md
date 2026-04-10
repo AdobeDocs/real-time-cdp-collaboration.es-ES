@@ -3,13 +3,12 @@ title: Cruces de identidades
 description: Conozca todo acerca de los pasos transversales de identidad en Real-Time CDP Collaboration, incluyendo cómo traer pasos transversales de identidad de diferentes fuentes y cómo administrar los pasos transversales de identidad
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-hidefromtoc: true
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
-source-git-commit: 41e7b0511a2d3fd882bb37f233112f1d3c572668
+source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 22%
+source-wordcount: '546'
+ht-degree: 24%
 
 ---
 
@@ -29,7 +28,7 @@ Como primer paso, debe importar pasos transversales de identidad en Real-Time CD
 
 ## Importación de pasos de identidad en Real-Time CDP Collaboration {#import-crosswalk}
 
-Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Cruces de identidad]** y seleccione el icono de agregar (![Agregar icono.](/help/assets/icons/plus.png)) y seleccione **[!UICONTROL cruce de identidades]**
+Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Cruces de identidad]**, seleccione el icono Agregar (![Agregar icono.](/help/assets/icons/plus.png)) y seleccione **[!UICONTROL Cruce de identidad]**
 
 ![Grabación de cómo llegar a la pantalla para agregar cruces de identidad](/help/assets/setup/identity-crosswalks/import-identity-crosswalk.gif)
 
@@ -66,7 +65,7 @@ Cualquiera de los encabezados de columna del cruce seleccionado puede servir com
 
 Seleccione la clave de unión que desee para la tabla de cruce y seleccione **[!UICONTROL Siguiente]** para continuar con el paso siguiente.
 
-### Revisión
+### Revisar
 
 Revise cualquiera de las selecciones de las pantallas anteriores. Cuando esté satisfecho con la selección, seleccione **[!UICONTROL Siguiente]** para completar el flujo de trabajo.
 
