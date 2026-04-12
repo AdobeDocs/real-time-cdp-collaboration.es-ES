@@ -2,7 +2,7 @@
 title: Creación y administración de proyectos
 description: Obtenga información sobre cómo crear y administrar proyectos en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: ae492846-bc0a-4422-86ca-577bcc1fa60c
 source-git-commit: 0cf888e36ffc4730fc8de4d8adccae0e0fc2caa8
 workflow-type: tm+mt
