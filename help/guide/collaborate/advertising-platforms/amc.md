@@ -2,11 +2,12 @@
 title: Amazon Marketing Cloud
 description: Obtenga información acerca de la colaboración con Amazon Marketing Cloud en Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 57b847c25edbf88f4708bda74be41fe6141472a7
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
+source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 20%
+source-wordcount: '665'
+ht-degree: 22%
 
 ---
 
@@ -56,7 +57,7 @@ En la sección **[!UICONTROL Discover]**, puedes comparar tu audiencia AMC con t
 
 >[!IMPORTANT]
 >
->Los datos de audiencias se procesan a partir de las audiencias cargadas en su cuenta de [!DNL Amazon Ads]. Para obtener información sobre cómo enviar y usar la función Destinos de Experience Platform para enviar tus audiencias a tu cuenta de [!DNL Amazon Ads], lee la guía de conexión de [Amazon Ads](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
+>Los datos de audiencias se procesan a partir de las audiencias cargadas en su cuenta de [!DNL Amazon Ads]. Para obtener información sobre cómo enviar y usar la función Destinos de Experience Platform para enviar tus audiencias a tu cuenta de [!DNL Amazon Ads], lee la guía de conexión de [Amazon Ads](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
 
 ![Sección Discover en un proyecto con Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 

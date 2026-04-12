@@ -2,12 +2,12 @@
 title: Configuración de Adobe Experience Platform como destino
 description: Obtenga información sobre cómo configurar y administrar Adobe Experience Platform como destino en Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 11%
+source-wordcount: '1534'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 {{limited-availability-release-note}}
 
-Configure este destino para activar audiencias de su proyecto a Adobe Experience Platform. La activación de audiencias en Adobe Experience Platform le permite aprovechar las capacidades de la plataforma para la segmentación de audiencias, el análisis y la activación en varios canales de marketing. Para obtener más información sobre Adobe Experience Platform, consulte la [descripción general de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/home){target="_blank"}.
+Configure este destino para activar audiencias de su proyecto a Adobe Experience Platform. La activación de audiencias en Adobe Experience Platform le permite aprovechar las capacidades de la plataforma para la segmentación de audiencias, el análisis y la activación en varios canales de marketing. Para obtener más información sobre Adobe Experience Platform, consulte la [descripción general de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!WARNING]
 >
@@ -79,7 +79,7 @@ Para asignar cada clave de coincidencia a un área de nombres de destino, selecc
 
 >[!IMPORTANT]
 >
->Las claves de coincidencia con hash deben asignarse a un área de nombres de destino que admita valores con hash. Por ejemplo, la clave de coincidencia **[!UICONTROL Correo electrónico con hash]** debe asignarse al área de nombres de identidad **[!UICONTROL Correo electrónico(SHA256, en minúsculas)]** en Adobe Experience Platform. No puede asignar la clave de coincidencia **[!UICONTROL Hash email]** al área de nombres de identidad **[!UICONTROL Email]**, ya que este área de nombres no admite valores hash.
+>Las claves de coincidencia con hash deben asignarse a un espacio de nombres de destino que admita valores con hash. Por ejemplo, la clave de coincidencia **[!UICONTROL Correo electrónico con hash]** debe asignarse al área de nombres de identidad **[!UICONTROL Correo electrónico(SHA256, en minúsculas)]** en Adobe Experience Platform. No puede asignar la clave de coincidencia **[!UICONTROL Hash email]** al área de nombres de identidad **[!UICONTROL Email]**, ya que este área de nombres no admite valores hash.
 
 ![Cuadro de diálogo Seleccionar campo de origen con la opción Seleccionar resaltada..](/help/assets/destinations/adobe-experience-platform/select-target-namespace.png)
 
@@ -150,4 +150,4 @@ Ahora que ha configurado Adobe Experience Platform como destino, puede ver las a
 
 ![El portal de audiencia con Real-Time CDP Collaboration como origen en las opciones de filtro.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Para obtener más información sobre Audience Portal, consulte la guía [Información general de Audience Portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
+Para obtener más información sobre Audience Portal, consulte la guía [Información general de Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
