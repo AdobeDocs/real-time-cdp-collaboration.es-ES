@@ -1,31 +1,31 @@
 ---
-title: Configure and manage your account
-description: Learn how to configure and manage various aspects of your account in Real-Time CDP Collaboration
+title: Configuración y administración de la cuenta
+description: Obtenga información sobre cómo configurar y administrar varios aspectos de su cuenta en Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 source-git-commit: be7078b16d8126a80cced0a3a8328b465b6ec245
 workflow-type: tm+mt
 source-wordcount: '1393'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
-# Configure and manage your account
+# Configuración y administración de la cuenta
 
 {{limited-availability-release-note}}
 
-Learn how to set up your account in Real-Time CDP Collaboration to prepare for connections with other collaborators. This guide covers the initial setup of your account, including adding account details, selecting match keys, and managing your account&#39;s settings.
+Obtenga información sobre cómo configurar su cuenta en Real-Time CDP Collaboration para prepararse para conexiones con otros colaboradores. Esta guía trata sobre la configuración inicial de su cuenta, incluyendo la adición de detalles de la cuenta, la selección de claves de coincidencia y la administración de la configuración de su cuenta.
 
-![](/help/assets/setup/manage-account/my-account.png){zoomable="yes"}
+![Espacio de trabajo de instalación que muestra una cuenta configurada.](/help/assets/setup/manage-account/my-account.png){zoomable="yes"}
 
-## Set up your account {#set-up-account}
+## Configurar su cuenta {#set-up-account}
 
-[&#128279;](#set-up-details)
+Cuando acceda por primera vez a Collaboration, se le pedirá que configure su cuenta. Este es un proceso único que le permite configurar los detalles de la cuenta y las claves de coincidencia. Si esta es la primera cuenta de su organización, se le dirigirá a través del proceso de incorporación inmediatamente, empezando por configurar sus [detalles de cuenta](#set-up-details).
 
-**&#x200B;**![](/help/assets/icons/plus.png)**&#x200B;**
+Para agregar organizaciones adicionales, vaya a **[!UICONTROL Configuración]** en el carril izquierdo y seleccione el icono Agregar (![Agregar icono.](/help/assets/icons/plus.png)) en la esquina superior derecha. A continuación, seleccione **[!UICONTROL Cuenta]**.
 
-![](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
+![Área de trabajo de configuración con la ficha Mi cuenta y la opción Cuenta resaltadas.](/help/assets/setup/manage-account/add-new-account.png){zoomable="yes"}
 
 ### Configuración de detalles {#set-up-details}
 
@@ -39,22 +39,22 @@ Learn how to set up your account in Real-Time CDP Collaboration to prepare for c
 >title="Código de conexión"
 >abstract="El código de conexión es un identificador único de su cuenta. Se utiliza para establecer conexiones con otras organizaciones en Real-Time CDP Collaboration."
 
-To begin configuring your account, you must first set up the account details. This requires you to add the following information:
+Para comenzar a configurar la cuenta, primero debe configurar los detalles de la cuenta. Esto requiere que agregue la siguiente información:
 
-* **&#x200B;**
-* **&#x200B;**
-* **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;[&#128279;](/help/guide/overview/roles.md)
-* **&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
-* **&#x200B;**
-* **&#x200B;**
-* **&#x200B;**
-* Select an image for your account header picture.
+* Agregue un **[!UICONTROL nombre de cuenta]** que represente claramente su marca.
+* Agrega una **[!UICONTROL descripción]** sobre tu marca. Esto es opcional, pero ayuda a otros colaboradores a comprender mejor su marca.
+* Seleccione su **[!UICONTROL rol]**. Puede seleccionar entre **[!UICONTROL Anunciante]** y **[!UICONTROL Publicador]**. Lea la guía [funciones](/help/guide/overview/roles.md) para ver similitudes y pequeñas diferencias en el flujo de trabajo entre los dos tipos de funciones de cuenta.
+* Seleccione el **[!UICONTROL sector]** de su cuenta. Algunos ejemplos son **[!UICONTROL Retail]**, **[!UICONTROL Telecomunicaciones]** o **[!UICONTROL Servicios financieros]**.
+* La **[!UICONTROL región]** se establece automáticamente en función de tu cuenta de Adobe Experience Cloud. Esto no se puede cambiar en ningún momento.
+* Agrega un **[!UICONTROL correo electrónico de contacto]** a tu cuenta. Debe ser una dirección de correo electrónico basada en el equipo o en la función. No se deben proporcionar direcciones de correo electrónico personales.
+* Sube un **[!UICONTROL logotipo]** para tu cuenta. Actualmente, se admiten imágenes de tipo SVG. Esto es opcional, pero cargar un logotipo ayuda a representar visualmente su marca en la interfaz de Collaboration
+* Seleccione una imagen para la imagen del encabezado de la cuenta.
 
 >[!NOTE]
 >
->**&#x200B;**&#x200B;**&#x200B;**
+>Aunque puede editar la mayoría de estos detalles en cualquier momento, la **[!UICONTROL función]** no se puede editar después de la configuración inicial. Cuando termine, use **[!UICONTROL Siguiente]** para pasar a la página siguiente y seleccionar las claves de coincidencia que desea que use su organización.
 
-![](/help/assets/setup/manage-account/add-account-details.png){zoomable="yes"}
+![Área de trabajo de configuración de cuenta con la sección Detalles mostrada y la opción Siguiente resaltada.](/help/assets/setup/manage-account/add-account-details.png){zoomable="yes"}
 
 ### Configurar claves de coincidencia {#set-up-match-keys}
 
@@ -83,99 +83,99 @@ To begin configuring your account, you must first set up the account details. Th
 >title="ID de socios compatibles"
 >abstract="Los ID de socio son identificadores proporcionados por socios externos para la reconciliación de públicos. Los ID de socio no están conectados directamente a un perfil individual."
 
-![](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
+![Claves de coincidencia admitidas.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->[&#128279;](../connect/establishing-connections.md#connection-settings)**&#x200B;**
+>Las claves de coincidencia que seleccione durante la configuración de la cuenta determinarán las claves de coincidencia disponibles en las conexiones. Aunque puede [eliminar las claves de coincidencia no deseadas](../connect/establishing-connections.md#connection-settings) durante la configuración de la conexión, las claves de coincidencia no se pueden agregar después de establecer una conexión. Es importante que seleccione **todas** las claves de coincidencia que planea usar en futuras campañas durante la configuración de la cuenta.
 
-[&#128279;](./onboard-audiences.md#map-fields)
+Las claves de coincidencia ayudan a los colaboradores a trabajar juntos ya que permiten una sincronización de datos precisa y centrada en la privacidad, lo que permite una segmentación y medición de audiencias más precisas. Las claves de coincidencia seleccionadas durante la configuración de la cuenta determinarán qué claves de coincidencia están disponibles en conexiones futuras. También se usan para [asignar campos](./onboard-audiences.md#map-fields) desde la conexión de datos a los campos de destino en Collaboration al obtener audiencias.
 
-[&#128279;](#edit-account)
+Seleccione las claves de coincidencia que desee utilizar para reconciliar perfiles de audiencia. Planifique el futuro e incluya cualquier clave de coincidencia con la que pueda trabajar y anticipar su uso en campañas futuras. Si necesita seleccionar claves de coincidencia adicionales para su cuenta más adelante, puede hacerlo en el flujo de trabajo [editar cuenta](#edit-account). Sin embargo, las claves de coincidencia agregadas después de la configuración inicial no estarán disponibles para su uso en conexiones existentes.
 
 #### Claves de coincidencia admitidas {#supported-match-keys}
 
-Collaboration supports three types of match keys: first-party people IDs, first-party device IDs, and partner IDs. All match keys must meet the following requirements:
+Collaboration admite tres tipos de claves de coincidencia: ID de personas de origen, ID de dispositivos de origen e ID de socios. Todas las claves de coincidencia deben cumplir los siguientes requisitos:
 
-* **&#x200B;**&#x200B;**&#x200B;**
-* **&#x200B;**
-* If you provide hashed values that use uppercase characters, Collaboration automatically converts them to lowercase.
-* **&#x200B;**&#x200B;**&#x200B;**&#x200B;[&#128279;](./manage-data-connection.md#match-keys)
+* Las claves de coincidencia deben estar **recortadas**, **en minúsculas**
+* Las claves de coincidencia con hash deben ser **SHA256-hashed**.
+* Si proporciona valores hash con caracteres en mayúsculas, Collaboration los convierte automáticamente a minúsculas.
+* Si el origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** durante la configuración de la conexión de datos [para aplicar el hash. &#x200B;](./manage-data-connection.md#match-keys)Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
 
 ##### ID de personas propios
 
-First-party people IDs are directly connected to an individual profile. Currently supported IDs are:
+Los ID de personas de origen están conectados directamente a un perfil individual. Los ID admitidos actualmente son:
 
-* **&#x200B;**
-* **&#x200B;**
-* **&#x200B;**
-* **&#x200B;**
+* **[!UICONTROL Correo electrónico con hash]**
+* **[!UICONTROL Teléfono con hash]**
+* **[!UICONTROL ID de CRM]**
+* **[!UICONTROL ID de fidelización]**
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### ID de dispositivos propios
 
-First-party device IDs are identifiers connected to a specific device. Currently supported IDs are:
+Los ID de dispositivos de origen son identificadores conectados a un dispositivo específico. Los ID admitidos actualmente son:
 
-* **&#x200B;**
-* **&#x200B;**
-* **&#x200B;**
+* **[!UICONTROL IPv4 con hash]**: Direcciones IPv4 con hash
+* **[!UICONTROL IDFA]**: El identificador para anunciantes (IDFA) usado en dispositivos iOS de Apple
+* **[!UICONTROL GAID]**: ID de anunciante de Google utilizado en dispositivos Android
 
 ##### ID de socios
 
-Los ID de socio son identificadores proporcionados por socios externos para la reconciliación de públicos. 
+Los ID de socio son identificadores proporcionados por socios externos para la reconciliación de públicos. Los ID admitidos actualmente son:
 
-* **&#x200B;**
+* **[!UICONTROL ID de AdFixus]**
 
 >[!NOTE]
 >
->[!DNL AdFixus]&#x200B;**&#x200B;**
+>La integración de Adobe con [!DNL AdFixus] asigna los [!UICONTROL ID de AdFixus] únicos para cada cuenta a un formato común codificado en Adobe. Estas asignaciones se utilizan para identificar superposiciones entre colaboradores. Al activar audiencias con **[!UICONTROL AdFixus ID]**, se usan los ID originales. El formato con codificación Adobe nunca abandona Collaboration.
 
-**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
+Al seleccionar **[!UICONTROL ID de AdFixus]**, deberá proporcionar el ID correspondiente de su socio externo en la sección **[!UICONTROL Credenciales de cuenta]**. Esta opción solo estará disponible *después de que* active **[!UICONTROL AdFixus ID]**. Escriba su ID de AdFixus en el campo **[!UICONTROL ID de cuenta]**, para asegurarse de comprobar la precisión del valor.
 
-![](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
+![El cuadro de diálogo Coincidir claves con el identificador de AdFixus activado y la sección Credenciales de cuenta resaltada.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
 
-**&#x200B;**
+Una vez que haya seleccionado todas las claves de coincidencia deseadas, seleccione **[!UICONTROL Completar]** para finalizar el flujo de trabajo de configuración de la cuenta.
 
-![](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
+![Área de trabajo Configurar cuenta con la sección Claves de coincidencia mostrada.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
-## Edit account {#edit-account}
+## Editar cuenta {#edit-account}
 
-After setting up your account, you can edit the details and match keys at anytime.
+Después de configurar la cuenta, puede editar los detalles y las claves de coincidencia en cualquier momento.
 
 ### Editar detalles {#edit-details}
 
-**&#x200B;**
+Puede editar la mayoría de los detalles de su cuenta en cualquier momento, excepto la **[!UICONTROL Función]**. La región se establece automáticamente en función de su cuenta de Adobe Experience Cloud y no se puede cambiar.
 
-**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
+Para editar tu cuenta, selecciona **[!UICONTROL Editar]** en la sección **[!UICONTROL Mi cuenta]** del área de trabajo **[!UICONTROL Configurar]**.
 
-![](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
+![Área de trabajo de instalación con la ficha Mi cuenta y la opción Editar resaltadas.](/help/assets/setup/manage-account/edit-account.png){zoomable="yes"}
 
-**&#x200B;**
+Ahora puede editar los detalles de su cuenta. Actualice los campos que desee cambiar y, a continuación, seleccione **[!UICONTROL Guardar]** para confirmar los cambios.
 
-![](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
+![Cuadro de diálogo Editar detalles de la cuenta.](/help/assets/setup/manage-account/editable-options.png){zoomable="yes"}
 
 ### Editar claves de coincidencia {#edit-match-keys}
 
-You can also update the match keys that you initially selected when creating your account. These match keys will determine the match keys available to future connections.
+También puede actualizar las claves de coincidencia que seleccionó inicialmente al crear su cuenta. Estas claves de coincidencia determinarán las claves de coincidencia disponibles para conexiones futuras.
 
-**&#x200B;**&#x200B;**&#x200B;**
+Seleccione **[!UICONTROL Editar]** en la sección **[!UICONTROL Claves de coincidencia]**.
 
-![](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
+![Área de trabajo de instalación con la opción Editar resaltada en la sección Claves de coincidencia de la cuenta.](/help/assets/setup/manage-account/edit-match-keys.png){zoomable="yes"}
 
-**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
+Aparecerá el cuadro de diálogo **[!UICONTROL Claves de coincidencia]**. Active las claves de coincidencia o actualice su **[!UICONTROL ID de cuenta]** para sus [!UICONTROL ID de AdFixus] y, a continuación, seleccione **[!UICONTROL Guardar]** para confirmar los cambios.
 
 >[!IMPORTANT]
 >
->[&#128279;](../glossary.md#sketches) [&#128279;](./manage-data-connection.md#scheduling)
+>Cambiar tu [!UICONTROL ID de AdFixus] no almacenará en déclencheur una actualización de [boceto de datos](../glossary.md#sketches) para tus conexiones de datos existentes usando la clave de coincidencia. Una vez que se hayan esbozado los datos, cualquier cambio en su [!UICONTROL ID de AdFixus] no se reflejará hasta que la próxima audiencia se actualice siguiendo la configuración de [programación de conexión de datos](./manage-data-connection.md#scheduling). Si necesita realizar cambios antes de la próxima actualización, puede eliminar y volver a crear la conexión de datos.
 >
->At this time, match keys cannot be removed once added to your account.
+>En este momento, las claves de coincidencia no se pueden eliminar una vez añadidas a la cuenta.
 
-![](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
+![Cuadro de diálogo Coincidir claves con la opción Guardar resaltada.](/help/assets/setup/manage-account/match-key-dialog.png){zoomable="yes"}
 
-A success dialog confirms that your account&#39;s match keys are updated successfully.
+Un cuadro de diálogo de éxito confirma que las claves de coincidencia de su cuenta se han actualizado correctamente.
 
-![](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
+![Se ha actualizado correctamente un cuadro de diálogo correcto que confirma que las claves de coincidencia de la cuenta.](/help/assets/setup/manage-account/match-key-updated-successfully.png){zoomable="yes"}
 
 ## Próximos pasos
 
-[&#128279;](/help/guide/setup/onboard-audiences.md)
+Una vez configuradas las cuentas, está listo para [originar audiencias](/help/guide/setup/onboard-audiences.md) en Real-Time CDP Collaboration.

@@ -6,8 +6,8 @@ badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 source-git-commit: 2cd03a98228e1e379396360942227ddbcab8f6ca
 workflow-type: tm+mt
-source-wordcount: '2812'
-ht-degree: 8%
+source-wordcount: '2881'
+ht-degree: 9%
 
 ---
 
@@ -174,7 +174,7 @@ Aparecerá el área de trabajo de configuración de conexión, que le permitirá
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit"
 >title="División de crédito"
->abstract="Esta sección determina quién paga las actividades correspondientes dentro de Collaboration. "
+>abstract="Esta sección determina quién paga las actividades correspondientes dentro de Collaboration."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_connection_settings_creditsplit_audiencesharing"
