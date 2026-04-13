@@ -2,12 +2,12 @@
 title: Los patrones de colaboración en Adobe Real-Time CDP Collaboration.
 description: Comprender los dos patrones de colaboración en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 31729675-cdd8-4569-9195-1d9a61d68d30
-source-git-commit: 9a4a7acf3f4e42667889b40c6a052aaf83c06758
+source-git-commit: 7efd33179b4f4e6751853f6c513bdded63c23ee7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '664'
+ht-degree: 2%
 
 ---
 
@@ -46,3 +46,27 @@ El patrón de colaboración entre anunciante y plataforma de publicidad permite 
 ![Ejemplo de colaboración entre anunciante y plataforma de publicidad.](/help/assets/overview/advertiser-to-advertising-platform.png)
 
 Para obtener más información sobre cómo los anunciantes colaboran con las plataformas publicitarias en este patrón, lee la guía de [flujo de trabajo de extremo a extremo](/help/guide/overview/end-to-end-workflow.md).
+
+## Socio de anunciante a datos {#advertiser-to-data-partner}
+
+El patrón de socio de datos a anunciante permite a las marcas colaborar directamente con proveedores de datos de terceros para enriquecer los perfiles de los clientes, crear audiencias más precisas y acceder a poblaciones de clientes potenciales para su adquisición. Este patrón incorpora flujos de trabajo de datos tradicionalmente externos en un entorno único seguro para la privacidad, en el que los datos de origen y de terceros se pueden combinar sin requerir el movimiento de datos sin procesar.
+
+![Ejemplo de colaboración entre anunciante y socio de datos.](/help/assets/overview/advertiser-to-data-partner.png)
+
+Para obtener más información sobre cómo los anunciantes y los socios de datos colaboran en este patrón, lee la guía de [flujo de trabajo de extremo a extremo](/help/guide/overview/end-to-end-workflow.md#advertiser-to-data-partner-workflow).
+
+## De agencia a editor {#agency-to-publisher}
+
+El patrón de agencia a editor permite a las agencias de medios colaborar directamente con los editores para planificar, activar y medir campañas mediante perspectivas de audiencia compartidas. Las agencias actúan como intermediarios y aprovechan los datos del anunciante (con permiso) para identificar superposiciones y ejecutar estrategias de medios con socios editores.
+
+![Ejemplo de colaboración entre agencias y editores.](/help/assets/overview/agency-to-publisher.png)
+
+Para obtener más información sobre cómo las agencias y los editores colaboran en este patrón, lee la guía de [flujo de trabajo de extremo a extremo](/help/guide/overview/end-to-end-workflow.md#agency-to-publisher-workflow).
+
+## Plataforma de anunciante a agencia {#advertiser-to-agency-platform}
+
+El patrón de plataforma de anunciante a agencia permite a las marcas colaborar con sus agencias de medios en un entorno seguro para la privacidad, lo que permite a los anunciantes enviar y recibir datos con su agencia sin requerir transferencias de datos directas. Este patrón admite la planificación de campañas, la creación de audiencias y la activación, a la vez que mantiene el control del anunciante sobre el uso de datos.
+
+![Ejemplo de colaboración entre plataformas de anunciante a agencia.](/help/assets/overview/advertiser-to-agency-platform.png)
+
+Para obtener más información sobre cómo los anunciantes y las plataformas de agencias colaboran en este patrón, lee la guía de [flujo de trabajo de extremo a extremo](/help/guide/overview/end-to-end-workflow.md#advertiser-to-agency-platform-workflow).
