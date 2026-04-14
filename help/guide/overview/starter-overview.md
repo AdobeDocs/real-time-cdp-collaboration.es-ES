@@ -5,7 +5,7 @@ audience: publisher, advertiser, invited users to Real-Time CDP Collaboration St
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: 61545ee26359d06191a55d0d96103dc41852cc3a
+source-git-commit: bd2227e8eaac82a30566df1299f4cd3ca2cbe60b
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 6%
