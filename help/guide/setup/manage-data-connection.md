@@ -2,7 +2,7 @@
 title: Administrar conexiones de datos
 description: Obtenga información sobre cómo administrar conexiones de datos, incluidas claves de coincidencia, programación, casos de uso y filtrado de audiencias en Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
 workflow-type: tm+mt
