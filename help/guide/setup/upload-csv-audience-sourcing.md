@@ -1,9 +1,10 @@
 ---
 title: Cargar archivo CSV para el abastecimiento de audiencias
 description: Obtenga información sobre cómo cargar el archivo CSV como fuente de datos de autoservicio para introducir datos de audiencia en Real-Time CDP Collaboration.
-source-git-commit: 96d3f87cedcfde73ce01c2b53c0b2ce4365fd277
+exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
+source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ Esta guía proporciona los pasos para cargar un archivo CSV en la interfaz de us
 
 ## Información general {#overview}
 
-La carga de archivos CSV es un método para obtener datos de audiencia de origen para proyectos de colaboración. Esta es una alternativa a [conectar tu AWS S3 bucket](./configure-aws-s3-audience-sourcing.md) o [obtener audiencias de Experience Platform](./onboard-audiences.md).
+La carga de archivos CSV es un método para obtener datos de audiencia de origen para proyectos de colaboración. Esta es una alternativa a [conectar tu AWS S3 bucket](./configure-aws-s3-audience-sourcing.md), [conectar Google Cloud Storage](./configure-gcs-audience-sourcing.md) o [obtener audiencias de Experience Platform](./onboard-audiences.md).
 
 Siga este flujo de trabajo para cargar un archivo CSV que contenga los datos de audiencia en el origen y administrar audiencias de origen en Collaboration. Puede asignar campos de identidad para la activación y el análisis de superposición. Una vez que se carga y procesa el archivo, la audiencia de origen queda disponible en el área de trabajo de **[!UICONTROL Mis audiencias]**, donde puede revisar, activar y administrar sus proyectos de colaboración.
 
@@ -34,7 +35,7 @@ Antes de cargar archivos CSV para el abastecimiento de audiencias, asegúrese de
 
 ## Cargar un archivo CSV {#upload-csv-file}
 
-En la ficha **[!UICONTROL Mis audiencias]** del área de trabajo **[!UICONTROL Configuración]**, seleccione el icono Agregar (![Agregar icono.](/help/assets/icons/plus.png)) y luego seleccione **[!UICONTROL Audiencia]**.
+En la ficha **[!UICONTROL Mis audiencias]** del área de trabajo **[!UICONTROL Configuración]**, seleccione el icono de agregar (![Agregar icono.](/help/assets/icons/plus.png)) y luego seleccione **[!UICONTROL Audiencia]**.
 
 Si esta es su primera audiencia, también puede seleccionar la opción **[!UICONTROL Agregar]**.
 

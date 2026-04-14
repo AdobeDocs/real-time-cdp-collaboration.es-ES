@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo crear y administrar audiencias en 
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
-source-git-commit: c535412589a5004cde6147e6800c05f3b5f7bb27
+source-git-commit: 1c00bacce3a612c9907fb6932ce9089ff29780e0
 workflow-type: tm+mt
-source-wordcount: '3636'
+source-wordcount: '3680'
 ht-degree: 18%
 
 ---
@@ -42,9 +42,11 @@ En la ficha **[!UICONTROL Mis audiencias]** del área de trabajo **[!UICONTROL C
 >
 >Después de establecer en la primera conexión de datos y obtener la primera audiencia, puede obtener varias audiencias a partir de la conexión de datos existente. Al agregar audiencias adicionales, empezará desde el paso [seleccionar audiencia](#select-audiences), ya que la conexión de datos ya se ha establecido.
 
-Una conexión de datos es la fuente de datos desde la que se obtienen las audiencias. Actualmente, la única conexión de datos admitida es Adobe Experience Platform.
+Una conexión de datos es la fuente desde la que se introducen audiencias en Collaboration. Los orígenes admitidos son Adobe Experience Platform, carga de archivo CSV, [!DNL Amazon S3], [!DNL Snowflake] y [!DNL Google Cloud Storage], cada uno con su propio flujo de trabajo.
 
-Cualquier configuración que configure para la conexión de datos se aplicará a todas las audiencias procedentes de esta conexión de datos.
+Las secciones siguientes describen cómo seleccionar **Adobe Experience Platform** y completar los pasos específicos de Experience Platform (simulación de pruebas, administración y consentimiento). Si elige CSV, [!DNL Amazon S3], [!DNL Snowflake] o [!DNL Google Cloud Storage], use la guía vinculada en [Seleccionar origen de datos](#select-data-source) para esa opción.
+
+Cualquier configuración que establezca para una conexión de datos de Experience Platform se aplicará a todas las audiencias procedentes de esa conexión.
 
 >[!TIP]
 >
@@ -62,7 +64,7 @@ A continuación, elegirá el origen de la conexión de datos. Las fuentes dispon
 * **Archivo CSV**: cargue un archivo CSV que contenga los datos de su audiencia para una ingesta de datos rápida y directa. Consulte la guía [Cargar archivo CSV para fuentes de audiencia](./upload-csv-audience-sourcing.md) para empezar.
 * **Amazon Web Service**: conéctese a su almacenamiento de Amazon S3 para obtener datos de audiencia directamente de sus bloques de S3. Consulte la guía [Configuración de AWS S3 para el abastecimiento de audiencias](./configure-aws-s3-audience-sourcing.md) para obtener instrucciones paso a paso.
 * **Snowflake**: usa tu almacén de datos de Snowflake para extraer datos de audiencias sin problemas. Consulte la guía [Configurar [!DNL Snowflake] para el abastecimiento de audiencias](./configure-snowflake-audience-sourcing.md).
-* **Google Cloud Platform** (versión futura): conéctese a su almacenamiento de Google Cloud para obtener datos de audiencia directamente de sus bloques de GCS.
+* **Almacenamiento en la nube de Google**: conéctese a los bloques de GCS para obtener datos de audiencia. Consulte la guía [Configurar GCS para fuentes de audiencia](./configure-gcs-audience-sourcing.md) para obtener instrucciones paso a paso.
 
 Seleccione su fuente de datos y luego seleccione **[!UICONTROL Siguiente]**.
 
