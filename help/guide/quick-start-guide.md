@@ -2,11 +2,11 @@
 title: Guía de inicio rápido y configuración de Real-Time CDP Collaboration
 description: Obtenga información sobre cómo configurar Real-Time CDP Collaboration, configurar funciones y cuentas, públicos de origen, activar datos y conectarse con socios de forma segura.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 68e5095e-ece5-4f64-9056-10f3b216cf0c
-source-git-commit: a937773267f42f254b45c14a0fd2f5f1d3b32b8b
+source-git-commit: 156135fdad5f176cedb91c05c07d9bc0e1903557
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1417'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ Antes de empezar, asegúrese de que dispone de lo siguiente:
 - [Roles creados para su organización y asignados a usuarios](./permissions/manage-roles.md).
 - Acceso a recursos de promoción de la marca, como el nombre, el logotipo y el banner de su organización.
 - Una [estrategia de clave de coincidencia definida](./setup/onboard-account.md#set-up-match-keys)
-- (Opcional) Acceso a una fuente en la nube compatible (Amazon S3 o Snowflake) si no utiliza Experience Platform para la gestión de público.
+- (Opcional) Acceso a una fuente en la nube compatible (Amazon S3, Google Cloud Storage o Snowflake) si no utiliza Experience Platform para la gestión de público.
 
 ## Paso 1: completar la configuración basada en funciones {#complete-role-based-setup}
 
@@ -41,7 +41,7 @@ Las funciones de acceso de su organización determinan lo que los usuarios puede
 
 Vea este vídeo para aprender a asignar acceso y permisos de producto para Collaboration mediante Admin Console y Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452233/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
 
 ## Paso 2: Configurar su cuenta de Collaboration {#set-up-your-account}
 
@@ -120,13 +120,13 @@ Para ver una introducción completa sobre cómo crear audiencias con Collaborati
 
 También puede ver el documento sobre [audiencias de abastecimiento en Collaboration](./setup/onboard-audiences.md#source-and-manage-audiences).
 
-### Opción B: Source desde Snowflake o Amazon S3
+### Opción B: Source desde Snowflake, Amazon S3 o Google Cloud Storage
 
-Para configurar una fuente de nube, como [!DNL Snowflake] o [!DNL Amazon S3], prepare los datos de audiencia con la [especificación de audiencia PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)
+Para configurar una fuente de nube, como [!DNL Snowflake], [!DNL Amazon S3] o [!DNL Google Cloud Storage], prepare los datos de audiencia con la [especificación de audiencia PDF](../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf)
 
-Puede configurar [!DNL Amazon S3] como origen de datos de autoservicio. Para obtener instrucciones de configuración, consulte la [guía de fuentes de Amazon S3](./setup/configure-aws-s3-audience-sourcing.md)
+Puede configurar [!DNL Amazon S3], [!DNL Google Cloud Storage] o [!DNL Snowflake] como orígenes de datos de autoservicio. Para obtener instrucciones de configuración, consulte la [guía de abastecimiento de Amazon S3](./setup/configure-aws-s3-audience-sourcing.md), la [guía de abastecimiento de GCS](./setup/configure-gcs-audience-sourcing.md) o la [guía de abastecimiento de Snowflake](./setup/configure-snowflake-audience-sourcing.md).
 
-Si usa [!DNL Snowflake] u otro proveedor de servicios en la nube, póngase en contacto con el representante de su cuenta de Adobe para finalizar la instalación.
+Para otros proveedores de servicios en la nube, póngase en contacto con el representante de su cuenta de Adobe para finalizar la configuración.
 
 >[!IMPORTANT]
 >

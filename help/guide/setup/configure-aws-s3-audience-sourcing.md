@@ -2,9 +2,9 @@
 title: Configurar  [!DNL Amazon S3] para el Abastecimiento de audiencias
 description: Aprenda a configurar y conectar su almacenamiento de  [!DNL Amazon S3]  como fuente de datos de autoservicio para introducir datos de audiencia en Real-Time CDP Collaboration.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 43134d6f334ee500834a6451bdf1a8f7372f8d10
+source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1622'
 ht-degree: 8%
 
 ---
@@ -215,5 +215,7 @@ La conexión de datos de S3 incluye la misma funcionalidad y detalles que otras 
 ## Próximos pasos {#next-steps}
 
 Ahora ha configurado y conectado correctamente su almacenamiento de [!DNL Amazon S3] como origen de datos en Collaboration. Al completar este flujo de trabajo, habilitó el abastecimiento seguro de datos de audiencia de origen para la activación y el análisis de superposición.
+
+Para usar [!DNL Google Cloud Storage] en su lugar, consulte [Configurar GCS para el abastecimiento de audiencias](./configure-gcs-audience-sourcing.md).
 
 Una vez finalizado el abastecimiento, las audiencias aparecerán en el área de trabajo **[!UICONTROL Mis audiencias]**, listas para la colaboración y la activación. Para obtener opciones de administración detalladas, consulte la [documentación de origen y administración de audiencias](./onboard-audiences.md).
