@@ -3,9 +3,9 @@ title: Configurar  [!DNL Google Cloud Storage] para el Abastecimiento de audienc
 description: Aprenda a conectar un contenedor  [!DNL Google Cloud Storage] como fuente de audiencia de autoservicio en Real-Time CDP Collaboration, incluidos los requisitos previos, la autenticación, la asignación de campos, la programación y la validación.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 1875ac192fc36f62a4f4a4f12163d2a2cf28486f
+source-git-commit: 2f1a40f60d244bda70d6e36a653cb46885c424ac
 workflow-type: tm+mt
-source-wordcount: '2501'
+source-wordcount: '2855'
 ht-degree: 2%
 
 ---
@@ -31,15 +31,9 @@ Algunos pasos de esta sección requieren la acción de un administrador de [!DNL
 
 ### Acceso y permisos de GCS {#gcs-access-permissions}
 
-<!-- [LINK REQUIRED: Once the GCS permissions and roles guide is published, replace this NOTE with a direct link to that guide and remove the placeholder instructions below.] -->
-
->[!NOTE]
->
->Aún no se ha publicado una guía dedicada que cubre los roles específicos de IAM [!DNL Google Cloud], la configuración de cuenta de servicio y los permisos de nivel de contenedor necesarios para esta integración. Hasta que esa guía esté disponible, colabore con el administrador de [!DNL Google Cloud] para confirmar que Adobe tiene los permisos necesarios para autenticarse en el bloque y leer los archivos de audiencia.
-
 Antes de continuar, confirme lo siguiente con su administrador de [!DNL Google Cloud]:
 
-* Se han concedido a Adobe los permisos necesarios para autenticarse en el bloque GCS y leer archivos de audiencia.
+* Se han concedido a Adobe los permisos necesarios para autenticarse en el bloque GCS y leer archivos de audiencia. Para obtener instrucciones paso a paso, consulte la [sección de configuración de permisos](#setup-gcs-permissions).
 * El abastecimiento de audiencia [!DNL Google Cloud Storage] está disponible en su región. La disponibilidad varía según la región (NA, EMEA, ANZ). Si el abastecimiento de GCS aún no está disponible en su región, póngase en contacto con su representante de cuentas de Adobe para confirmar una cronología.
 
 ### Preparación de los datos de audiencia {#prepare-audience-data}
@@ -236,6 +230,69 @@ Utilice esta sección para resolver los problemas que se producen después de es
 
 * Confirme que los archivos actualizados en el bloque cumplen con los requisitos de campo y estructura de columna de la [especificación de fuentes de audiencia](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
 * Asegúrese de que todos los archivos de la ruta de carpeta configurada utilicen estructuras de columna idénticas. Los archivos de formato mixto en la misma ruta pueden provocar errores de abastecimiento parciales.
+
+## Configurar permisos de [!DNL Google Cloud Storage] {#setup-gcs-permissions}
+
+[!DNL Google Cloud Storage] ofrece una forma segura y escalable de almacenar datos y obtener acceso a ellos en la nube. Para permitir que Adobe lea desde los bloques de GCS, debe configurar los permisos de Identity and Access Management (IAM) y el acceso a la cuenta de servicio adecuados en su cuenta de [!DNL Google Cloud].
+
+### Recopilar información de [!DNL Google Service Account] de Adobe {#collect-account-information}
+
+Para empezar, observe el [!DNL Google Service Account] para Adobe que coincide con su región. Necesitará esta información para conceder acceso a Adobe en pasos posteriores.
+
+| Región | [!DNL Google Service Account] |
+| ------------- | --------------- |
+| América del Norte | `kk9930000@va3-22da.iam.gserviceaccount.com` |
+| EMEA | `kze830000@sfc-eufrankfurt-1-g4a.iam.gserviceaccount.com` |
+| Australia | `knhv20000@sfc-au-1-nla.iam.gserviceaccount.com` |
+
+{style="table-layout:auto"}
+
+### Configuración del rol de IAM {#setup-iam-role}
+
+>[!IMPORTANT]
+>
+>Debe tener privilegios de **Administrador de cuenta** en su cuenta de [!DNL Google Cloud] para completar esta configuración. Si no tiene estos privilegios, póngase en contacto con el administrador antes de continuar.
+
+Siga los pasos a continuación para crear una función IAM personalizada con los permisos necesarios y asignarla a la cuenta de servicio de Adobe. Esto garantiza que Adobe tenga acceso seguro a los datos de audiencia de GCS.
+
+#### Crear función de IAM {#create-iam-role}
+
+En primer lugar, cree una función IAM personalizada en el proyecto [!DNL Google Cloud] con los permisos necesarios para asignarla a Adobe.
+
+En la página **[!DNL IAM & Admin]** de la [[!DNL Google Cloud] consola](https://console.cloud.google.com), vaya a **[!DNL Roles]** y seleccione **[!DNL Create role]**. Rellene la información necesaria, como el título y el ID de la nueva función.
+
+A continuación, agregue los siguientes permisos a la función:
+
+| Permiso | Objetivo |
+| ------------- | --------------- |
+| `storage.buckets.get` | Leer metadatos de bloque. |
+| `storage.objects.get` | Leer datos y metadatos de objetos. |
+| `storage.objects.list` | Enumerar objetos en un bloque. |
+
+{style="table-layout:auto"}
+
+Para obtener más información sobre los permisos, consulte [Permisos de GCS IAM](https://cloud.google.com/storage/docs/access-control/iam-permissions). Para obtener instrucciones paso a paso, vea [cómo crear funciones personalizadas](https://docs.cloud.google.com/iam/docs/creating-custom-roles).
+
+#### Asignar la función IAM a Adobe {#assign-role}
+
+A continuación, abra la página [**[!DNL Buckets]**](https://console.cloud.google.com/storage/browser) en [!DNL Google Cloud Console] y seleccione el contenedor que contiene los datos de audiencia.
+
+Vaya a la ficha **[!DNL Permissions]**, elija **[!DNL View by principals]** y, a continuación, seleccione **[!DNL Grant access]**.
+
+En el cuadro de diálogo **[!DNL Add principals]**, agregue la [cuenta del servicio Adobe Google](#collect-account-information) como principal y asigne el rol IAM personalizado que creó anteriormente. Seleccione **[!DNL Save]** para confirmar la instalación.
+
+Adobe ahora tiene acceso seguro a sus datos de audiencia en el bloque GCS seleccionado. Revise [requisitos previos](#prerequisites) adicionales según sea necesario o proceda a [comenzar a obtener audiencias de GCS en Collaboration](#configure-gcs-connection).
+
+#### Recopilar detalles de [!DNL Google Cloud Storage] {#collect-gcs-details}
+
+Finalmente, reúna los detalles de su cubo GCS como se muestra en la tabla siguiente. Necesitará esta información para configurar la conexión entre su GCS y Collaboration.
+
+| Campo | Descripción | Ejemplo |
+|------ |------------ |-------- |
+| [!DNL Bucket] | El nombre exacto del bloque [!DNL Google Cloud Storage] que contiene los archivos de audiencia. | `customer-data-bucket` |
+| [!DNL Path] | El prefijo de ruta dentro del bloque en el que se almacenan los archivos de audiencia. Debe finalizar con `/` para leer todos los archivos. | `sourcing/testdata/path1/` |
+
+{style="table-layout:auto"}
 
 ## Próximos pasos {#next-steps}
 
