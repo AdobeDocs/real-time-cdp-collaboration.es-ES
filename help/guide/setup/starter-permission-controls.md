@@ -2,7 +2,7 @@
 title: 'Configurar controles de permisos para la incorporación de Collaboration [!DNL Starter] '
 description: Obtenga información sobre cómo configurar permisos para Adobe Real-Time CDP Collaboration [!DNL Starter] usando los permisos de Adobe Experience Cloud.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 4e50b6cc-58f7-4a0c-8b6d-f5aa4f092e9f
 source-git-commit: 147fd5847bc5074e4b4f8a05a9a1c3afc089be56
 workflow-type: tm+mt
@@ -58,7 +58,7 @@ Aparecerá el cuadro de diálogo **[!UICONTROL Agregar roles]** con una tabla de
 
 {style="table-layout:auto"}
 
-Para obtener información detallada sobre una función específica y sus permisos, consulte la guía [Administrar permisos para una función](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions).
+Para obtener información detallada sobre una función específica y sus permisos, consulte la guía [Administrar permisos para una función](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions).
 
 Revise la información y seleccione las funciones que desee asignar a su cuenta. Cuando termine, seleccione **[!UICONTROL Guardar]**.
 
