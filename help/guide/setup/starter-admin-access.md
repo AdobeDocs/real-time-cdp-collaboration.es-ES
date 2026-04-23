@@ -19,7 +19,7 @@ Como el primer usuario de su organización en acceder a Adobe Experience Platfor
 
 Antes de continuar, asegúrese de lo siguiente:
 
-* Ha aceptado la invitación de su socio de Collaboration con licencia. Para obtener más información acerca de los requisitos de invitación, consulte la [descripción general de Collaboration [!DNL Starter] 2}.](../overview/starter-overview.md#prerequisites)
+* Ha aceptado la invitación de su socio de Collaboration con licencia. Para obtener más información acerca de los requisitos de invitación, consulte la [descripción general de Collaboration [!DNL Starter] 2&rbrace;.](../overview/starter-overview.md#prerequisites)
 * Revisó y firmó los términos y condiciones de Collaboration.
 * Se ha recibido el correo electrónico de bienvenida de Adobe y se ha completado la creación de la cuenta por primera vez.
 
