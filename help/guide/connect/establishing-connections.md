@@ -2,11 +2,11 @@
 title: Establecimiento de conexiones con colaboradores
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
-source-git-commit: 27fdbdf7e70ba83b323e1057ab614585aa7d0045
+source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3398'
 ht-degree: 8%
 
 ---
@@ -293,50 +293,56 @@ A continuación, el destinatario debe revisar la configuración de conexión pro
 
 ![Se resaltó el área de trabajo Mis conexiones con la opción Revisar configuración de conexión.](/help/assets/connect/establish-connection/review-connection-settings.png){zoomable="yes"}
 
-Revise la configuración que ha propuesto el colaborador. Puede aceptar o rechazar la configuración de conexión. Si rechaza la configuración de conexión, deberá comunicarse con el colaborador acerca de los cambios que desee realizar fuera del producto. La información de contacto del colaborador se muestra en la sección **[!UICONTROL Contacto]** del área de trabajo de configuración de conexión. The owner can then revise the connection settings and resend them for review.
+Revise la configuración que ha propuesto el colaborador. Puede aceptar o rechazar la configuración de conexión. Si rechaza la configuración de conexión, deberá comunicarse con el colaborador acerca de los cambios que desee realizar fuera del producto. La información de contacto del colaborador se muestra en la sección **[!UICONTROL Contacto]** del área de trabajo de configuración de conexión. El propietario puede revisar la configuración de conexión y reenviarla para su revisión.
 
-![The connection settings workspace with the Accept and Reject option highlighted.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
+![Espacio de trabajo de configuración de conexión con la opción Aceptar y rechazar resaltada.](/help/assets/connect/establish-connection/accept-connection-settings.png){zoomable="yes"}
 
-Additionally, if you&#39;re a publisher connecting with an advertiser, you can now add advertiser names in the connection settings. To learn more about this process, see the [connection settings](#connection-settings) section.
+Además, si es un editor que se conecta con un anunciante, ahora puede agregar nombres de anunciantes en la configuración de conexión. Para obtener más información sobre este proceso, consulte la sección [configuración de conexión](#connection-settings).
 
 >[!NOTE]
 >
-> Once you&#39;ve accepted the connection settings, you are no longer able to add or edit advertiser names.
+> Una vez que haya aceptado la configuración de conexión, ya no podrá agregar ni editar nombres de anunciantes.
 
-Next, select **[!UICONTROL Accept]** to proceed with the connection. The connection status will change to **[!UICONTROL Active]**, and you can now start collaborating on projects.
+A continuación, seleccione **[!UICONTROL Aceptar]** para continuar con la conexión. El estado de la conexión cambiará a **[!UICONTROL Activa]** y ahora podrá empezar a colaborar en proyectos.
 
 ## Invitar a un colaborador {#invite-collaborator}
 
-Follow the steps below to invite your partner to join Real-Time CDP Collaboration [!DNL Starter]. If you want more details about Collaboration [!DNL Starter] and a step-by-step overview of the process, refer to the [[!DNL Starter] overview documentation](../overview/starter-overview.md).
+Siga los pasos a continuación para invitar a su socio a unirse a Real-Time CDP Collaboration [!DNL Starter]. Si desea obtener más detalles acerca de Collaboration [!DNL Starter] y una descripción general paso a paso del proceso, consulte la [[!DNL Starter] documentación general](../overview/starter-overview.md).
 
-Before initiating the invitation process, collect the following information from your collaborator:
+Antes de iniciar el proceso de invitación, recopile la siguiente información de su colaborador:
 
 | Campo | Descripción |
 |-------|-------------|
-| Company | The collaborator&#39;s company name. |
-| Nombre | The full name of the person you are inviting. |
-| Dirección de correo electrónico | The email address that the collaborator uses to access Real-Time CDP Collaboration [!DNL Starter]. |
-| Título | The main contact&#39;s job title. |
+| Compañía | El nombre de la empresa del colaborador. |
+| Nombre | El nombre completo de la persona a la que invita. |
+| Dirección de correo electrónico | La dirección de correo electrónico que usa el colaborador para obtener acceso a Real-Time CDP Collaboration [!DNL Starter]. |
+| Título | El puesto del contacto principal. |
 
 {style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
->By inviting another collaborator, you acknowledge that you are responsible for any charges incurred through their activities. Learn more about [credit usage and consumption in Collaboration Starter](../setup/starter-credit-usage.md)
+>Al invitar a otro colaborador, usted reconoce que es responsable de cualquier cargo incurrido a través de sus actividades. Obtenga más información sobre [uso y consumo de crédito en Collaboration Starter](../setup/starter-credit-usage.md)
 
-### Send an invitation {#send-invitation}
+### Enviar una invitación {#send-invitation}
 
-Invite your partner organization to join Collaboration [!DNL Starter] directly through the user interface.
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_starter_invite_collaborator"
+>title="Invitar a un colaborador"
+>abstract="Complete este formulario para invitar a su organización asociada a Collaboration Starter. El invitado recibirá un correo electrónico de invitación y debe utilizar la dirección de correo electrónico especificada para completar el registro."
+>additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Más información sobre Collaboration Starter"
 
-To begin, navigate to the **[!UICONTROL Connect]** workspace and select the plus icon (![plus icon](/help/assets/icons/plus.png)) in the upper right corner. Then, select **[!UICONTROL Invite a collaborator]**.
+Invite a su organización asociada a unirse a Collaboration [!DNL Starter] directamente a través de la interfaz de usuario.
 
-![The Connect workspace with the plus icon and the Invite a collaborator option highlighted.](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
+Para empezar, ve al área de trabajo **[!UICONTROL Connect]** y selecciona el icono de signo más (![icono de signo más](/help/assets/icons/plus.png)) en la esquina superior derecha. A continuación, seleccione **[!UICONTROL Invitar a un colaborador]**.
 
-The **[!UICONTROL Invite a collaborator]** dialog appears, prompting you to enter the information of the invited collaborator. Fill in the required fields for [!UICONTROL Company name], [!UICONTROL First name], [!UICONTROL Last name], and [!UICONTROL Email].
+![Se resaltaron el área de trabajo Conectar con el icono más y la opción Invitar a un colaborador.](/help/assets/connect/establish-connection/invite-collaborator/invite-collaborator.png){zoomable="yes"}
+
+Aparecerá el cuadro de diálogo **[!UICONTROL Invitar a un colaborador]**, en el que se le pedirá que especifique la información del colaborador invitado. Rellene los campos obligatorios para [!UICONTROL Nombre de la compañía], [!UICONTROL Nombre], [!UICONTROL Apellidos] y [!UICONTROL Correo electrónico].
 
 >[!IMPORTANT]
 >
->Invitations are **tied to the email address provided**. Asegúrese de que la dirección de correo electrónico sea precisa, ya que el usuario invitado debe utilizar ese correo electrónico exacto para aceptar la invitación y acceder al producto.
+>Las invitaciones están **vinculadas a la dirección de correo electrónico proporcionada**. Asegúrese de que la dirección de correo electrónico sea precisa, ya que el usuario invitado debe utilizar ese correo electrónico exacto para aceptar la invitación y acceder al producto.
 
 A continuación, utilice el menú desplegable para elegir la función adecuada para su socio. Consulte la [documentación de funciones de cuenta](../overview/roles.md) para obtener detalles sobre los tipos de funciones disponibles en Collaboration.
 

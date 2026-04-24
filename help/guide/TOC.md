@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration permite un uso compartido de datos y una colaboración seguros y sin problemas entre anunciantes y editores, lo que facilita perspectivas de audiencia en tiempo real y estrategias de marketing personalizadas.
-source-git-commit: 8d3b7ac316826b6a31d4d6b2f831ea8c2adb8daf
+source-git-commit: 60d33488987bba5f04d30cc5128a5df007887c86
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 22%
+source-wordcount: '209'
+ht-degree: 28%
 
 ---
 
@@ -47,23 +47,23 @@ ht-degree: 22%
    * [Establecimiento de conexiones de colaborador](./connect/establishing-connections.md)
    * [Administrar conexiones](./connect/manage-connections.md)
    * Conexiones de la plataforma Advertising {#ad-platform-connections}
-      * [Información general](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/connect/ad-platform-connections/overview)
+      * [Información general](/help/guide/connect/advertising-platforms/overview.md)
       * [Amazon Marketing Cloud](./connect/advertising-platforms/amc.md)
 * Colaborar {#collaborate}
-   * [Información general](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/collaborate/overview)
+   * [Información general](/help/guide/collaborate/overview.md)
    * [Administrar proyectos](./collaborate/manage-projects.md)
    * Conexiones de Collaborator {#collaborator-connections}
       * [Descubrir](./collaborate/discover.md)
       * [Activar](./collaborate/activate.md)
       * [Medida](./collaborate/measure.md)
    * Conexiones de la plataforma Advertising {#ad-platform-connections}
-      * [Amazon Marketing Cloud](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/collaborate/ad-platform-connections/amc)
+      * [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md)
       * {hide-from-toc}[Crear informes de medición AMC](./collaborate/advertising-platforms/amc-measure.md)
 * Destinos {#destinations}
-   * [Información general](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/destinations/overview)
+   * [Información general](/help/guide/destinations/overview.md)
    * [Adobe Experience Platform](./destinations/experience-platform.md)
 * Permisos {#permissions}
-   * [Información general](https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/permissions/overview)
+   * [Información general](/help/guide/permissions/overview.md)
    * [Administrar el acceso de usuario](./permissions/manage-user-access.md)
    * [Administrar funciones](./permissions/manage-roles.md)
 * Referencia {#reference}
