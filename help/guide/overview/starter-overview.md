@@ -4,7 +4,7 @@ description: Descubra cómo Adobe Real-Time CDP Collaboration Starter le ayuda a
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: 3d29985d88e6370b4a0e8cd3d56358e85bb91e06
+source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
@@ -36,7 +36,7 @@ Para iniciar la invitación, proporcione la siguiente información a su socio co
 * Función (Anunciante/Publicador): Anunciante
 * Industria
 
-Después de recibir y aceptar la invitación, su organización debe revisar y firmar un pedido de ventas sin costo con Adobe para tener acceso a Collaboration [!DNL Starter]. Para obtener más información sobre el proceso de invitación, consulte la guía [invitar a un colaborador a Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator-to-starter).
+Después de recibir y aceptar la invitación, su organización debe revisar y firmar un pedido de ventas sin costo con Adobe para tener acceso a Collaboration [!DNL Starter]. Para obtener más información sobre el proceso de invitación, consulte la guía [invitar a un colaborador a Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator).
 
 ## Mecanismos de protección {#guardrails}
 
