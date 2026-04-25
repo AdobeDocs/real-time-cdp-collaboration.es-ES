@@ -2,7 +2,7 @@
 title: Establecimiento de conexiones con colaboradores
 description: Después de descubrir colaboradores potenciales, aprenda a establecer conexiones y a comenzar a colaborar en proyectos.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3fed93f7-1854-440c-802e-6b47e82918c9
 TQID: https://experienceleague.adobe.com/N9tz3RPzEWdG-SEplHk5Vt6L3g2NkV03JO7PlGllPMk
 product_v2:
@@ -339,7 +339,7 @@ Antes de iniciar el proceso de invitación, recopile la siguiente información d
 >id="rtcdp_collaboration_starter_invite_collaborator"
 >title="Invitar a un colaborador"
 >abstract="Complete este formulario para invitar a su organización asociada a Collaboration Starter. El invitado recibirá un correo electrónico de invitación y debe utilizar la dirección de correo electrónico especificada para completar el registro."
->additional-url="https://experienceleague.adobe.com/en/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Más información sobre Collaboration Starter"
+>additional-url="https://experienceleague.adobe.com/es/docs/real-time-cdp-collaboration/using/overview/starter-overview" text="Más información sobre Collaboration Starter"
 
 Invite a su organización asociada a unirse a Collaboration [!DNL Starter] directamente a través de la interfaz de usuario.
 
