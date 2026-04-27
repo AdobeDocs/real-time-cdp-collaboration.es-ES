@@ -2,7 +2,7 @@
 title: Amazon Marketing Cloud
 description: Learn about collaborating with Amazon Marketing Cloud in Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
 product_v2:
@@ -65,7 +65,7 @@ In the **[!UICONTROL Discover]** section, you can compare your AMC audience to a
 
 >[!IMPORTANT]
 >
->Audience data is processed from the audiences uploaded to your [!DNL Amazon Ads] account. To learn how send use Experience Platform&#39;s Destinations feature to send yours audiences to your [!DNL Amazon Ads] account, read the [Amazon Ads connection](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/amazon-ads) guide.
+>Audience data is processed from the audiences uploaded to your [!DNL Amazon Ads] account. To learn how send use Experience Platform&#39;s Destinations feature to send yours audiences to your [!DNL Amazon Ads] account, read the [Amazon Ads connection](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/advertising/amazon-ads) guide.
 
 ![The Discover section in a project with Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 

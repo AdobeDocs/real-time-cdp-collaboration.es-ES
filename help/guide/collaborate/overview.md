@@ -2,7 +2,7 @@
 title: Collaborate overview
 description: Learn about collaborating in Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: eb154fbc-258e-42c8-91c8-62435b3d3a55
 TQID: https://experienceleague.adobe.com/hPBn--hYwsYhphCF84-5HFRUuYXHgcbpo730g6uV-dc
 product_v2:

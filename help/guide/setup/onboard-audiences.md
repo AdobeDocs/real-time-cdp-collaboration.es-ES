@@ -2,7 +2,7 @@
 title: Source y administración de audiencias
 description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
 product_v2:
@@ -89,7 +89,7 @@ Next, you must make sure that the correct marketing actions are set on the sourc
 
 Use marketing actions to control which audience data to bring into Collaboration from Experience Platform. La acción de marketing **[!UICONTROL Colaboración de datos]** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
 
-Read more about the [C4, C5, and C9 data usage labels](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Read more about the [C4, C5, and C9 data usage labels](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * When the checkbox is ***enabled***, any data labeled in Experience Platform as described above is excluded and **not** brought into Collaboration.
 * Con la casilla de verificación ***deshabilitada***, no hay restricciones en los datos procedentes de Experience Platform.
@@ -156,7 +156,7 @@ A continuación, seleccione los campos de origen para asignarlos a los campos de
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
+**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
 
 Los campos de Source se asignan a los campos de destino definidos en Collaboration.
 
