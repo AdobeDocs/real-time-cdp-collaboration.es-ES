@@ -3,9 +3,9 @@ title: Configurar  [!DNL Google Cloud Storage] para el Abastecimiento de audienc
 description: Aprenda a conectar un contenedor  [!DNL Google Cloud Storage] como fuente de audiencia de autoservicio en Real-Time CDP Collaboration, incluidos los requisitos previos, la autenticación, la asignación de campos, la programación y la validación.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 2f1a40f60d244bda70d6e36a653cb46885c424ac
+source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
 workflow-type: tm+mt
-source-wordcount: '2855'
+source-wordcount: '2858'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ Aparecerá el flujo de trabajo Añadir audiencia. Seleccione **[!UICONTROL Agreg
 >id="rtcdp_collaboration_audience_sourcing_specifications_gcs"
 >title="Preparar los datos para la incorporación"
 >abstract="Lea la guía de especificación de fuentes de audiencias para aprender a dar formato y estructurar los datos de audiencia de Google Cloud Storage para Collaboration."
->additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulte la guía"
+>additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulte la guía de especificación del Abastecimiento de audiencias"
 
 La pantalla de selección de fuentes de datos enumera todos los tipos de conexión disponibles. Seleccione **[!UICONTROL Google Cloud Storage]** y, a continuación, seleccione **[!UICONTROL Siguiente]**.
 
