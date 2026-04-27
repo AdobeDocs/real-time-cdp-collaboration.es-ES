@@ -2,11 +2,15 @@
 title: Información general sobre plataformas Advertising
 description: Obtenga información sobre las plataformas publicitarias en Real-Time CDP Collaboration.
 audience: publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 3374487538a1cb7e0fd2bdf065bf31ad74f72d29
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+exl-id: 9a99fdeb-0cb7-4fa2-a94c-d06ed56dfb5d
+TQID: https://experienceleague.adobe.com/29BckMlqhZfQEBLtnnAFN4WYXusZHcj3-Y08RuvyJPM
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: 121
+ht-degree: 12%
 
 ---
 

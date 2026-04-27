@@ -1,40 +1,44 @@
 ---
-title: Las funciones de colaborador en Adobe Real-Time CDP Collaboration.
-description: Comprensión de las dos funciones de cuenta en Adobe Real-Time CDP Collaboration
+title: The collaborator roles in Adobe Real-Time CDP Collaboration.
+description: Understand the two account roles in Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser, decision-maker
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: f0b95f61-b798-400d-af52-a597d1cb66a5
-source-git-commit: 901b17c7493e76b17e780b6f7b05a69fa22303d2
+TQID: https://experienceleague.adobe.com/D8m64HZegO-pTNnx-nhlSUraxdIDgZeesT7mzepKZbc
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: 423
 ht-degree: 4%
 
 ---
 
-# Funciones de cuenta de Collaborator
+# Collaborator account roles
 
 {{limited-availability-release-note}}
 
-En Adobe Real-Time CDP Collaboration, hay dos funciones asociadas a las cuentas: un **anunciante** y un **publicador**. Las funciones se eligen durante el proceso de creación de la cuenta y deben reflejar la intención de dicha cuenta.
+In Adobe Real-Time CDP Collaboration, there are two roles associated with accounts: an **advertiser** and a **publisher**. Roles are chosen during the account creation process and should reflect the intent of that account.
 
 ## Anunciante {#advertiser}
 
-Los anunciantes son marcas que buscan llegar a audiencias específicas a través de campañas de marketing dirigidas. Invertirán en marketing para llegar a las audiencias junto con sus colaboradores y mejorar la imagen de marca, la prospección, la renovación de la participación y las conversiones. Con Collaboration, los anunciantes pueden aprovechar las perspectivas de audiencia de sus conexiones para mejorar sus estrategias de marketing y lograr sus objetivos.
+Advertisers are brands that seek to reach specific audiences through targeted marketing campaigns. They will invest in marketing to reach audiences alongside their collaborators to improve brand awareness, prospecting, re-engagement, and conversions. Using Collaboration, advertisers can leverage audience insights from their connections to enhance their marketing strategies and achieve their goals.
 
 ## Editor {#publisher}
 
-Los editores son marcas que poseen o operan contenido o servicios en línea donde se recopilan datos personales con el consentimiento del usuario. Proporcionan estos datos para su uso por parte de los anunciantes para la publicidad digital y la medición de audiencias. Con Collaboration, los editores pueden enviar sus datos de audiencia a los colaboradores para permitir campañas de marketing dirigidas y mejorar la eficacia de sus esfuerzos publicitarios.
+Publishers are brands that own or operate online content or services where personal data is collected with user consent. They provide this data for use by advertisers for digital advertising and audience measurement. Using Collaboration, publishers can send their audience data to collaborators to enable targeted marketing campaigns and improve the effectiveness of their advertising efforts.
 
 ## Agencia {#agency}
 
-Las agencias son organizaciones que planifican, administran y optimizan las campañas de marketing y medios para una o más marcas. Aprovechan los datos de origen y de terceros para crear, activar y medir audiencias en todos los canales. Con Collaboration, las agencias pueden acceder a los datos con permiso de marca en un único entorno controlado para coordinar campañas de socios cruzados, activar audiencias y mejorar la eficacia de los medios.
+Agencies are organizations that plan, manage, and optimize marketing and media campaigns for one or more brands. They leverage both first-party and third-party data, to build, activate, and measure audiences across channels. Using Collaboration, agencies can access brand-permissioned data within a single governed environment so they can coordinate cross-partner campaigns, activate audiences, and improve media effectiveness.
 
 ## Socio de datos {#data-partner}
 
-Los socios de datos son organizaciones que proporcionan conjuntos de datos y segmentos controlados de terceros que los colaboradores pueden utilizar para enriquecer sus propios datos para la segmentación, la prospección y la medición de audiencias. Con Collaboration, los socios de datos pueden poner estos datos a disposición de los colaboradores de forma segura para obtener información de audiencias y campañas, sin necesidad de transferir datos de origen al entorno del socio.
+Data partners are organizations that provide third-party, governed datasets and segments that collaborators can use to enrich their own data for audience targeting, prospecting, and measurement. Using Collaboration, data partners can securely make this data available to collaborators for audience and campaign insights, without requiring first‑party data to be transferred into the partner&#39;s environment.
 
-## Elección de la función correcta {#choosing-the-right-role}
+## Choosing the right role {#choosing-the-right-role}
 
-Al crear una cuenta en Adobe Real-Time CDP Collaboration, es esencial seleccionar la función que mejor se adapte a los objetivos de su organización. Hay casos en los que las marcas pueden ajustarse a ambas funciones, ya que una marca puede operar una plataforma en línea (editor) y también ejecuta campañas de marketing (anunciante). Aunque Collaboration ofrece flexibilidad a través de sus patrones de colaboración, se recomienda elegir la función que se ajuste a su objetivo principal.
+When creating an account in Adobe Real-Time CDP Collaboration, it is essential to select the role that best fits your organization&#39;s objectives. There are cases where brands may fit both roles, since a brand may operate an online platform (publisher) and also runs marketing campaigns (advertiser). While Collaboration allows for flexibility through its collaboration patterns, it is recommended to choose the role that aligns with your primary goal.
 
-Para comprender mejor las funciones, los diferentes patrones de colaboración y cómo se pueden usar, consulte la guía de [patrones de colaboración](/help/guide/overview/collaboration-patterns.md). Nuestra guía de [flujo de trabajo completo](/help/guide/overview/end-to-end-workflow.md) destaca cada patrón de colaboración y proporciona una visión general del producto Collaboration a través de la perspectiva de una marca.
+To get a clearer understanding of the roles, of the different collaboration patterns, and how they can be used, refer to the [collaboration patterns](/help/guide/overview/collaboration-patterns.md) guide. Our [end-to-end workflow](/help/guide/overview/end-to-end-workflow.md) guide highlights each collaboration pattern and provides a general overview of Collaboration product through the lens of a brand.

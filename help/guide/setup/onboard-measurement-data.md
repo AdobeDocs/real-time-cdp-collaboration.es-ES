@@ -2,11 +2,14 @@
 title: Adición y administración de datos de medición
 description: Aprenda a añadir datos de medición a Adobe Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 739d31b9-3f00-477d-b6be-995c7767c6ca
-source-git-commit: e06ee94afdd1edbf86430cbe348dc448419b8f4e
+TQID: https://experienceleague.adobe.com/uJgTdRoA4K-Y-Me287MRvI5-jmuW2glaigB8JMAtME4
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '2720'
+source-wordcount: 2720
 ht-degree: 4%
 
 ---
@@ -78,45 +81,45 @@ Para agregar una conexión de datos, seleccione **[!UICONTROL Agregar una nueva 
 
 #### Seleccionar fuente de datos {#select-data-source}
 
-A continuación, elija el origen de la conexión de datos. En este momento, Adobe Experience Platform es la única fuente de datos compatible.
+Next, choose the source for your data connection. At this time, Adobe Experience Platform is the only supported data source.
 
-Seleccione su fuente de datos y, a continuación, seleccione **[!UICONTROL Siguiente]**.
+Select your data source, then select **[!UICONTROL Next]**.
 
-![Paso de conexión de datos y detalles que resalta la opción Adobe Experience Platform y la opción Siguiente.](../../assets/setup/add-manage-measurement-data/select-measurement-data-source.png){zoomable="yes"}
+![The Data connection and details step highlighting the Adobe Experience Platform option and the Next option.](../../assets/setup/add-manage-measurement-data/select-measurement-data-source.png){zoomable="yes"}
 
 #### Selección de zona protegida {#select-sandbox}
 
-Seleccione la zona protegida que incluye los datos de medición que desea utilizar para los informes de medición de campañas de Collaboration. Elija la zona protegida de la lista de zonas protegidas disponibles y, a continuación, seleccione **[!UICONTROL Siguiente]**.
+Select the sandbox that includes the measurement data that you want to use for Collaboration campaign measurement reports. Choose the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**.
 
-![Paso de conexión de datos y detalles que resalta la zona protegida de producción y la opción Siguiente.](../../assets/setup/add-manage-measurement-data/select-sandbox.png){zoomable="yes"}
+![The Data connection and details step highlighting the Prod sandbox and the Next option.](../../assets/setup/add-manage-measurement-data/select-sandbox.png){zoomable="yes"}
 
-#### Seleccionar conjunto de datos de medición {#select-measurement-dataset}
+#### Select measurement dataset {#select-measurement-dataset}
 
-Aparecerá una lista de conjuntos de datos en la zona protegida seleccionada. Seleccione un conjunto de datos como sus datos de medición, luego seleccione **[!UICONTROL Siguiente]**. Puede utilizar la opción Buscar para filtrar y encontrar el conjunto de datos preferido.
+A list of datasets in the selected sandbox appears. Select a dataset as your measurement data, then select **[!UICONTROL Next]**. You can use the Search option to filter and find the preferred dataset.
 
-![Paso de conexión de datos y detalles que resalta la opción Buscar, el Conjunto de datos de evento de ejemplo y la opción Siguiente.](../../assets/setup/add-manage-measurement-data/select-measurement-dataset.png){zoomable="yes"}
+![The Data connection and details step highlighting the Search option, the Example Event Data Dataset, and the Next option.](../../assets/setup/add-manage-measurement-data/select-measurement-dataset.png){zoomable="yes"}
 
-#### Proporcione un nombre y detalles {#provide-name-and-details}
+#### Provide name and details {#provide-name-and-details}
 
-A continuación, proporcione un nombre y una descripción para la conexión de datos. Esta información le ayudará a identificar la conexión de datos más adelante.
+Next, provide a name and a description for your data connection. This information will help you identify the data connection later on.
 
-![Paso de conexión de datos y detalles con la opción de proporcionar un nombre y una descripción.](../../assets/setup/add-manage-measurement-data/data-connection-name-details.png){zoomable="yes"}
+![The Data connection and details step with the option to provide a name and description.](../../assets/setup/add-manage-measurement-data/data-connection-name-details.png){zoomable="yes"}
 
 ### Asignación {#mapping}
 
-El siguiente paso es asignar campos de los datos de medición a los campos de destino correspondientes utilizados en Collaboration. También puede enriquecer el conjunto de datos de evento con atributos del perfil del cliente en tiempo real asignando claves de unión y utilizar estos atributos para desglosar los informes de medición.
+The next step is to map fields from your measurement data to the corresponding target fields used in Collaboration. You can also choose to enrich your event dataset with attributes from Real‑Time Customer Profile by mapping join keys, and use these attributes to break down measurement reports.
 
-#### Enriquecimiento de datos de evento {#enrich-event-data}
+#### Enrich event data {#enrich-event-data}
 
-Para enriquecer los datos de evento, seleccione la opción **[!UICONTROL clave de unión al campo de Source]**.
+To enrich your event data, select the **[!UICONTROL Source field join key]** option.
 
-![Pantalla de asignación con la opción de clave de combinación de campos de Source resaltada.](../../assets/setup/add-manage-measurement-data/select-source-field-join-key.png){zoomable="yes"}
+![The Mapping screen with the Source field join key option highlighted.](../../assets/setup/add-manage-measurement-data/select-source-field-join-key.png){zoomable="yes"}
 
-En el cuadro de diálogo **[!UICONTROL clave de combinación de campos de Source]**, elija el campo de origen, seguido de **[!UICONTROL Seleccionar]**.
+In the **[!UICONTROL Source field join key]** dialog, choose the source field, followed by **[!UICONTROL Select]**.
 
-![Cuadro de diálogo de clave de combinación de campos de Source que resalta el campo de Source y la opción Siguiente.](../../assets/setup/add-manage-measurement-data/source-field-join-key-dialog.png){zoomable="yes"}
+![The Source field join key dialog highlighting the Source field and the Next option.](../../assets/setup/add-manage-measurement-data/source-field-join-key-dialog.png){zoomable="yes"}
 
-A continuación, seleccione la opción **[!UICONTROL Clave de unión de perfil]**. En el cuadro de diálogo **[!UICONTROL Clave de unión de perfil]**, seleccione el campo de perfil de la lista. Puede utilizar la opción Buscar para encontrar el campo deseado. A continuación, elija **[!UICONTROL Seleccionar]** para confirmar.
+Next, select the **[!UICONTROL Profile join key]** option. In the **[!UICONTROL Profile join key]** dialog, select the profile field from the list. Puede utilizar la opción Buscar para encontrar el campo deseado. A continuación, elija **[!UICONTROL Seleccionar]** para confirmar.
 
 ![El cuadro de diálogo Clave de unión de perfil que resalta la clave de búsqueda, el campo de perfil seleccionado y la opción Siguiente.](../../assets/setup/add-manage-measurement-data/profile-join-key-dialog.png){zoomable="yes"}
 
@@ -197,124 +200,124 @@ Puede introducir un valor para la conversión o dejarlo vacío si no desea asign
 
 ![La pantalla Agregar evento de conversión resalta la opción Valor de conversión.](../../assets/setup/add-manage-measurement-data/conversion-value.png){zoomable="yes"}
 
-A continuación, debe especificar la clave de duplicación para indicar qué filas del conjunto de datos de evento pertenecen al mismo evento de conversión subyacente (por ejemplo, la misma marca de tiempo durante un proceso de registro). Esto evita contar la misma conversión varias veces en los informes de medición. Para ello, seleccione **[!UICONTROL Clave de duplicación]**. En el diálogo **[!UICONTROL Clave de duplicación]**, busque y elija la clave, seguida de **[!UICONTROL Seleccionar]**.
+A continuación, debe especificar la clave de duplicación para indicar qué filas del conjunto de datos de evento pertenecen al mismo evento de conversión subyacente (por ejemplo, la misma marca de tiempo durante un proceso de registro). This prevents counting the same conversion multiple times in measurement reports. To do this, select **[!UICONTROL Duplication key]**. In the **[!UICONTROL Duplication key]** dialog, find and choose the key, followed by **[!UICONTROL Select]**.
 
-![Cuadro de diálogo Clave de duplicación que muestra la clave seleccionada y la opción Seleccionar.](../../assets/setup/add-manage-measurement-data/duplication-key-dialog.png){zoomable="yes"}
+![The Duplication key dialog showing the selected key and the Select option.](../../assets/setup/add-manage-measurement-data/duplication-key-dialog.png){zoomable="yes"}
 
-Después de especificar la clave de duplicación, puede agregar hasta **5** condiciones para incluir solo las filas relevantes del conjunto de datos de evento para la conversión. Elija aplicar todas o cualquiera de estas condiciones.
+After specifying the duplication key, you can add up to **5** conditions to include only relevant rows from the event dataset for the conversion. Choose to apply all or any of these conditions.
 
-Seleccione **[!UICONTROL Agregar condición]** y luego seleccione la opción de condición.
+Select **[!UICONTROL Add condition]**, then select the condition option.
 
-![La pantalla Agregar evento de conversión resalta la opción de condición después de seleccionar la opción Agregar condición.](../../assets/setup/add-manage-measurement-data/add-condition.png){zoomable="yes"}
+![The Add conversion event screen highlighting the condition option after selecting Add condition option.](../../assets/setup/add-manage-measurement-data/add-condition.png){zoomable="yes"}
 
-En el diálogo **[!UICONTROL Seleccionar campo de origen]**, busque y elija un campo de origen para la regla de condición, seguido de **[!UICONTROL Seleccionar]**.
+In the **[!UICONTROL Select source field]** dialog, find and choose a source field for the condition rule, followed by **[!UICONTROL Select]**.
 
-![El cuadro de diálogo Seleccionar campo de origen resalta el campo Tipo de evento y la opción Seleccionar.](../../assets/setup/add-manage-measurement-data/select-condition-field.png){zoomable="yes"}
+![The Select source field dialog highlighting the Event Type field and the Select option.](../../assets/setup/add-manage-measurement-data/select-condition-field.png){zoomable="yes"}
 
-Utilice el menú desplegable para seleccionar un operador lógico e introduzca el valor para la regla de configuración.
+Use the dropdown menu to select a logic operator, then enter the value for the confition rule.
 
-![La pantalla Agregar evento de conversión resalta el menú desplegable para el operador lógico y la opción Valor.](../../assets/setup/add-manage-measurement-data/logic-operator-dropdown.png){zoomable="yes"}
+![The Add conversion event screen highlighting the dropdown for logic operator and the Value option.](../../assets/setup/add-manage-measurement-data/logic-operator-dropdown.png){zoomable="yes"}
 
-Para agregar otro evento de conversión, seleccione **[!UICONTROL Agregar conversión]**. Puede incluir hasta **3** eventos de conversión en total. Una vez finalizada, revise las configuraciones de conversión y seleccione **[!UICONTROL Siguiente]**.
+To add another conversion event, select **[!UICONTROL Add conversion]**. You can include up to **3** conversion events in total. Once finished, review the conversion configurations and select **[!UICONTROL Next]**.
 
-![La pantalla Agregar evento de conversión muestra las configuraciones de evento de conversión y la opción Siguiente resaltada.](../../assets/setup/add-manage-measurement-data/add-conversion-event.png){zoomable="yes"}
+![The Add conversion event screen showing the conversion event configurations and the Next option highlighted.](../../assets/setup/add-manage-measurement-data/add-conversion-event.png){zoomable="yes"}
 
 ### Revisar {#review}
 
-Aparece la pantalla **[!UICONTROL Revisar]** con un resumen de la configuración de los datos de medición. Revise y asegúrese de que toda la información es correcta. Si necesita cambiar alguna sección, use la opción **[!UICONTROL Editar]**.
+The **[!UICONTROL Review]** screen appears with a summary of measurement data settings. Review and ensure all the information are correct. If you need to change any section, use the **[!UICONTROL Edit]** option.
 
-Finalmente, seleccione **[!UICONTROL Completar]** para finalizar la adición de los datos de medición.
+Finally, select **[!UICONTROL Complete]** to finish adding your measurement data.
 
-![La pantalla Revisar muestra un resumen de la configuración de datos de medición y la opción Completar resaltada.](../../assets/setup/add-manage-measurement-data/review-measurement-data.png){zoomable="yes"}
+![The Review screen showing a summary of measurement data settings and the Complete option highlighted.](../../assets/setup/add-manage-measurement-data/review-measurement-data.png){zoomable="yes"}
 
-Un cuadro de diálogo de confirmación confirma que los datos de medición se han creado correctamente. Puede ver los nuevos eventos de conversión configurados a partir de los datos de medición en el área de trabajo **[!UICONTROL Mis datos de medición]**.
+A confirmation dialog confirms that your measurement data was created successfully. You can see the new conversion events configured from your measurement data in the **[!UICONTROL My measurement data]** workspace.
 
-![Mi área de trabajo de datos de medición muestra una lista de eventos de conversión configurados a partir de sus datos de medición.](../../assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
+![My measurement data workspace showing a list of conversion events configured from your measurement data.](../../assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
 
-En la vista de cuadrícula o en la vista de tabla, seleccione un elemento de fila o la opción **[!UICONTROL Ver conversión]** dentro de una tarjeta de evento para ver una descripción general de un evento de conversión específico. Muestra el estado del evento, el origen y el nombre de la conexión de datos, junto con paneles detallados para:
+When in grid view or table view, select a row item or the **[!UICONTROL View conversion]** option within an event card to see an overview of a specific conversion event. It displays the event&#39;s status, source, and data connection name, along with detailed panels for:
 
-* **[!UICONTROL Detalles de conversión]**: muestra información clave sobre la conversión, incluido su tipo, la clave de duplicación utilizada para identificar eventos únicos y el valor de conversión asignado (si se especifica).
-* **[!UICONTROL Condiciones]**: muestra las reglas de condición aplicadas a este evento de conversión.
+* **[!UICONTROL Conversion details]**: Displays key information about the conversion, including its type, the duplication key used to identify unique events, and the assigned conversion value (if specified).
+* **[!UICONTROL Conditions]**: Displays the condition rules applied to this conversion event.
 
-![Pantalla de información general que muestra los detalles de un evento de conversión.](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
+![The Overview screen displaying the details for a conversion event.](../../assets/setup/add-manage-measurement-data/conversion-event-overview.png){zoomable="yes"}
 
-## Editar datos de medición {#edit-measurement-data}
+## Edit measurement data {#edit-measurement-data}
 
-Después de obtener los datos de medición, puede editar los detalles y las reglas de condición de un evento de conversión en cualquier momento.
+After sourcing your measurement data, you can edit the details and condition rules of a conversion event at anytime.
 
-En la ficha **[!UICONTROL Mis datos de medición]**, seleccione la opción de puntos suspensivos (![Icono de más](/help/assets/icons/more.png)) en la tarjeta de evento de conversión correspondiente. A continuación, seleccione **[!UICONTROL Ver conversión]** en el menú desplegable para abrir la página detallada de ese evento de conversión.
+From the **[!UICONTROL My measurement data]** tab, select the ellipsis option (![More icon](/help/assets/icons/more.png)) within the relevant conversion event card. Then select **[!UICONTROL View conversion]** from the dropdown menu to open the detailed page for that conversion event.
 
-![Pestaña Mis datos de medición con el menú de puntos suspensivos abierto y la opción Ver conversión resaltada.](/help/assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
+![My measurement data tab with the ellipsis menu open and the View conversion option highlighted.](/help/assets/setup/add-manage-measurement-data/conversion-event-list.png){zoomable="yes"}
 
 ### Editar nombre y descripción {#edit-name-and-description}
 
-Para actualizar el nombre y la descripción del evento, seleccione el icono de edición (![Editar icono](/help/assets/icons/edit.png)) en la parte superior derecha de la página.
+To update the event&#39;s name and description, select the edit icon (![Edit icon](/help/assets/icons/edit.png)) at the top right of the page.
 
-![La página del evento de visita al sitio con el icono Editar en la parte superior derecha resaltado.](/help/assets/setup/add-manage-measurement-data/edit-name-description.png){zoomable="yes"}
+![The Site Visit event page with the Edit icon on the top right highlighted.](/help/assets/setup/add-manage-measurement-data/edit-name-description.png){zoomable="yes"}
 
-En el cuadro de diálogo **[!UICONTROL Editar nombre y descripción]**, actualice los campos con los valores deseados y, a continuación, seleccione **[!UICONTROL Guardar]** para aplicar los cambios.
+In the **[!UICONTROL Edit name and description]** dialog, update the fields with the desired values, then select **[!UICONTROL Save]** to apply your changes.
 
-![Cuadro de diálogo Editar nombre y descripción con la opción Guardar resaltada.](/help/assets/setup/add-manage-measurement-data/edit-name-description-dialog.png){zoomable="yes"}
+![The Edit name and description dialog with the Save option highlighted.](/help/assets/setup/add-manage-measurement-data/edit-name-description-dialog.png){zoomable="yes"}
 
-Aparecerá un cuadro de diálogo de confirmación para confirmar que los detalles se han actualizado correctamente.
+A confirmation dialog appears to confirm that the details are successfully updated.
 
 ### Editar detalles de la conversión {#edit-conversion-details}
 
-Puede actualizar los siguientes detalles de conversión del evento:
+You can update the following conversion details of the event:
 
 | Campo | Descripción |
 |-------------------|-------------|
-| Tipo de conversión | La categoría del evento de conversión, como una visita al sitio, una compra o un registro. |
-| Clave de duplicación | Identificador de filas del conjunto de datos de evento que pertenecen al mismo evento de conversión (por ejemplo, la misma marca de tiempo). Evita recuentos duplicados. |
-| Valor de conversión | El valor asociado con cada conversión. |
+| Tipo de conversión | The category of the conversion event, such as a site visit, purchase, or sign-up. |
+| Clave de duplicación | Identifier for rows in the event dataset belonging to the same conversion event (for example, same timestamp). Prevents duplicate counts. |
+| Valor de conversión | The value associated with each conversion. |
 
 {style="table-layout:auto"}
 
-Para empezar a editar, selecciona **[!UICONTROL Editar]** en el panel **[!UICONTROL Detalles de conversión]**.
+To start editing, select **[!UICONTROL Edit]** within the **[!UICONTROL Conversion details]** panel.
 
-![La página de eventos de visita al sitio resalta la opción Editar en el panel de detalles de conversión.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details.png){zoomable="yes"}
+![The Site Visit event page highlighting the Edit option within the Conversion details panel.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details.png){zoomable="yes"}
 
-En el cuadro de diálogo **[!UICONTROL Editar detalles de conversión]**, use el menú desplegable para actualizar el tipo de conversión. Puede introducir un valor para la conversión o dejarlo vacío si no desea asignar un valor. Para editar la clave de duplicación, seleccione la opción clave existente.
+In the **[!UICONTROL Edit conversion details]** dialog, use the dropdown menu to update the conversion type. You can enter a value for the conversion, or leave it empty if you do not wish to assign a value. To edit the duplication key, select the existing key option.
 
-![Se resaltó el cuadro de diálogo Editar detalles de conversión con la opción Identificador de persona de ejemplo.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-dialog.png){zoomable="yes"}
+![The Edit conversion details dialog with the Example Person ID option highlighted.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-dialog.png){zoomable="yes"}
 
-El cuadro de diálogo **[!UICONTROL Clave de duplicación]** muestra una lista de campos disponibles agrupados en opciones como **[!UICONTROL Área de nombres de identidad]** y **[!UICONTROL Esquema de evento]**. Busque y elija la clave que desee, seguida de **[!UICONTROL Select]**.
+The **[!UICONTROL Duplication key]** dialog displays a list of available fields grouped under options such as **[!UICONTROL Identity namespace]** and **[!UICONTROL Event schema]**. Find and choose the desired key, followed by **[!UICONTROL Select]**.
 
-![Cuadro de diálogo Clave de duplicación que muestra la clave elegida y la opción Seleccionar.](../../assets/setup/add-manage-measurement-data/edit-duplication-key-dialog.png){zoomable="yes"}
+![The Duplication key dialog showing the chosen key and the Select option.](../../assets/setup/add-manage-measurement-data/edit-duplication-key-dialog.png){zoomable="yes"}
 
-Una vez que finalice, revisa las actualizaciones y selecciona **[!UICONTROL Guardar]** para aplicar los cambios.
+Once finished, review the updates and select **[!UICONTROL Save]** to apply your changes.
 
-![Cuadro de diálogo Editar detalles de conversión con la opción Guardar resaltada.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-save.png){zoomable="yes"}
+![The Edit conversion details dialog with the Save option highlighted.](/help/assets/setup/add-manage-measurement-data/edit-conversion-details-save.png){zoomable="yes"}
 
-Aparecerá un cuadro de diálogo de confirmación para confirmar que los detalles se han actualizado correctamente.
+A confirmation dialog appears to confirm that the details are successfully updated.
 
 ### Editar condiciones {#edit-conditions}
 
-Las reglas de condición especifican qué filas de datos del conjunto de datos de evento se incluyen como conversiones. Actualice estas reglas según sea necesario para garantizar que la medición refleje únicamente los datos más relevantes para el análisis.
+Condition rules specify which data rows from your event dataset are included as conversions. Update these rules as needed to ensure your measurement reflects only the most relevant data for your analysis.
 
-Para editar condiciones, seleccione **[!UICONTROL Editar]** en el panel **[!UICONTROL Condiciones]**.
+To edit conditions, select **[!UICONTROL Edit]** within the **[!UICONTROL Conditions]** panel.
 
-![La página de eventos de visita al sitio resalta la opción Editar en el panel Condiciones.](/help/assets/setup/add-manage-measurement-data/edit-conditions.png){zoomable="yes"}
+![The Site Visit event page highlighting the Edit option within the Conditions panel.](/help/assets/setup/add-manage-measurement-data/edit-conditions.png){zoomable="yes"}
 
-En el diálogo **[!UICONTROL Editar reglas de conversión]**, puede ver los detalles actuales de todas las condiciones. Seleccione una opción de condición existente para actualizar sus detalles, incluidos el campo de origen, la regla lógica y el valor.
+In the **[!UICONTROL Edit conversion rules]** dialog, you can view the current details of all conditions. Select an existing condition option to update its details including source field, logic rule and value.
 
-![Cuadro de diálogo Editar reglas de conversión que resalta las opciones para editar el campo de origen, la regla lógica y el valor de una condición existente.](/help/assets/setup/add-manage-measurement-data/edit-exisiting-condition.png){zoomable="yes"}
+![The Edit conversion rules dialog highlighting the options to edit source field, logic rule and value of an exisiting condition.](/help/assets/setup/add-manage-measurement-data/edit-exisiting-condition.png){zoomable="yes"}
 
-Para incluir reglas de conversión adicionales, seleccione **[!UICONTROL Agregar condición]**. A continuación, seleccione la nueva opción de condición vacía.
+To include additional conversion rules, select **[!UICONTROL Add condition]**. Then select the new empty condition option.
 
-![El cuadro de diálogo Editar reglas de conversión muestra la nueva opción de condición vacía después de seleccionar la opción Agregar condición.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-add-condition.png){zoomable="yes"}
+![The Edit conversion rules dialog showing the new empty condition option after selecting the Add condition option.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-add-condition.png){zoomable="yes"}
 
-En el cuadro de diálogo **[!UICONTROL Seleccionar campo de origen]**, puede ver los campos disponibles agrupados en opciones como **[!UICONTROL área de nombres de identidad]** y **[!UICONTROL esquema de evento]**. Seleccione el campo apropiado que desee usar para la condición y, a continuación, elija **[!UICONTROL Seleccionar]**. Puede usar la opción **[!UICONTROL Buscar]** para encontrar rápidamente su campo preferido.
+In the **[!UICONTROL Select source field]** dialog, you can see available fields grouped under options such as **[!UICONTROL Identity namespace]** and **[!UICONTROL Event schema]**. Select the appropriate field you want to use for your condition, then choose **[!UICONTROL Select]**. You can use the **[!UICONTROL Search]** option to quickly find your preferred field.
 
-![Cuadro de diálogo Seleccionar campo de origen que muestra el campo elegido y la opción Seleccionar.](../../assets/setup/add-manage-measurement-data/edit-condition-source-key.png){zoomable="yes"}
+![The Select source field dialog showing the chosen field and the Select option.](../../assets/setup/add-manage-measurement-data/edit-condition-source-key.png){zoomable="yes"}
 
-A continuación, utilice el menú desplegable para seleccionar un operador lógico de la lista disponible e introducir un valor para la condición.
+Next, use the dropdown menu to select a logic operator from the available list and enter a value for the condition.
 
-![El cuadro de diálogo Editar reglas de conversión resalta el menú desplegable de lógica.](../../assets/setup/add-manage-measurement-data/edit-condition-logic-dropdown.png){zoomable="yes"}
+![The Edit conversion rules dialog highlighting the logic dropdown menu.](../../assets/setup/add-manage-measurement-data/edit-condition-logic-dropdown.png){zoomable="yes"}
 
-Use **[!UICONTROL Incluir todas las condiciones]** si se requieren todas las condiciones especificadas para cada conversión, o use **[!UICONTROL Incluir cualquiera de las condiciones]** para permitir conversiones que coincidan con al menos una condición. Cuando termine de actualizar, revise y seleccione **[!UICONTROL Guardar]** para aplicar los cambios.
+Use **[!UICONTROL Include all conditions]** if all specified conditions are required for each conversion, or use **[!UICONTROL Include any of the conditions]** to allow conversions that match at least one condition. When you finish updating, review and select **[!UICONTROL Save]** to apply the changes.
 
-![Cuadro de diálogo Editar reglas de conversión con la opción Guardar resaltada.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-save.png){zoomable="yes"}
+![The Edit conversion rules dialog with the Save option highlighted.](/help/assets/setup/add-manage-measurement-data/edit-conversion-rules-save.png){zoomable="yes"}
 
 Aparecerá un cuadro de diálogo de confirmación para confirmar que los detalles se han actualizado correctamente.
 

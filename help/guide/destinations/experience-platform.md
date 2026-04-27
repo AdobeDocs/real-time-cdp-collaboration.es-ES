@@ -2,11 +2,14 @@
 title: Configuración de Adobe Experience Platform como destino
 description: Obtenga información sobre cómo configurar y administrar Adobe Experience Platform como destino en Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
-source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
+TQID: https://experienceleague.adobe.com/vOAlNzIaEKC6cZC-zMxShPTn77kmV3WbUuvZU8Svzh4
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: 1534
 ht-degree: 14%
 
 ---
@@ -15,7 +18,7 @@ ht-degree: 14%
 
 {{limited-availability-release-note}}
 
-Configure este destino para activar audiencias de su proyecto a Adobe Experience Platform. La activación de audiencias en Adobe Experience Platform le permite aprovechar las capacidades de la plataforma para la segmentación de audiencias, el análisis y la activación en varios canales de marketing. Para obtener más información sobre Adobe Experience Platform, consulte la [descripción general de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/home){target="_blank"}.
+Configure este destino para activar audiencias de su proyecto a Adobe Experience Platform. La activación de audiencias en Adobe Experience Platform le permite aprovechar las capacidades de la plataforma para la segmentación de audiencias, el análisis y la activación en varios canales de marketing. Para obtener más información sobre Adobe Experience Platform, consulte la [descripción general de Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home){target="_blank"}.
 
 >[!WARNING]
 >
@@ -150,4 +153,4 @@ Ahora que ha configurado Adobe Experience Platform como destino, puede ver las a
 
 ![El portal de audiencia con Real-Time CDP Collaboration como origen en las opciones de filtro.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Para obtener más información sobre Audience Portal, consulte la guía [Información general de Audience Portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
+Para obtener más información sobre Audience Portal, consulte la guía [Información general de Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.

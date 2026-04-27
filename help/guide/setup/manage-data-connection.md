@@ -1,12 +1,16 @@
 ---
 title: Administrar conexiones de datos
-description: Obtenga información sobre cómo administrar conexiones de datos, incluidas claves de coincidencia, programación, casos de uso y filtrado de audiencias en Real-Time CDP Collaboration
+description: Learn how to manage data connections, including match keys, scheduling, use cases, and audience filtering in Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
-source-git-commit: 87e7feb1360d905d46032b49217f3cfee4cc6d6b
+TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: 1179
 ht-degree: 6%
 
 ---
@@ -17,17 +21,17 @@ ht-degree: 6%
 
 ## Información general
 
-Utilice conexiones de datos en Real-Time CDP Collaboration para obtener audiencias de varias plataformas. Obtenga información sobre cómo administrar las claves de coincidencia y programar la actualización de datos para las conexiones de datos existentes. Además, podrá filtrar audiencias por atributos diferentes para obtener perspectivas más granulares.
+Use data connections in Real-Time CDP Collaboration to source audiences from various platforms. Learn how to manage match keys and schedule data refreshing for your existing data connections. Additionally, you&#39;ll be able to filter audiences by different attributes for more granular insights.
 
 >[!NOTE]
 >
->Para crear una nueva conexión de datos, consulte [Agregar y administrar audiencias](./onboard-audiences.md).
+>To create a new data connection, see [Add and manage audiences](./onboard-audiences.md).
 
-## Ver conexiones de datos
+## View data connections
 
-Para ver las conexiones de datos existentes, vaya a **[!UICONTROL Configuración]** y, a continuación, seleccione la pestaña **[!UICONTROL Mis conexiones de datos]**. Se muestran todas las conexiones de datos actuales, con una breve descripción general de cada conexión. Para obtener una vista completa de la información de una conexión de datos, incluidas sus claves de coincidencia, detalles de programación y audiencias, seleccione **[!UICONTROL Ver conexión de datos]** en la conexión correspondiente.
+To view existing data connections, navigate to **[!UICONTROL Setup]** and then select the **[!UICONTROL My data connections]** tab. All your current data connection are displayed, showing a brief overview for each connection. For a complete view of a data connection&#39;s information, including its match keys, scheduling details, and audiences, select **[!UICONTROL View data connection]** on the corresponding connection.
 
-![Configurar el área de trabajo con la vista de la ficha Mis conexiones de datos mostrada y resaltada.](/help/assets/setup/manage-data-connection/my-data-connections.png){zoomable="yes"}
+![Setup workspace with My data connections tab view displayed and highlighted.](/help/assets/setup/manage-data-connection/my-data-connections.png){zoomable="yes"}
 
 ### Claves de coincidencia {#match-keys}
 
@@ -36,39 +40,39 @@ Para ver las conexiones de datos existentes, vaya a **[!UICONTROL Configuración
 >title="Claves de coincidencia"
 >abstract="Las claves de coincidencia determinan cómo coincidirán los datos de diferentes fuentes. Las claves de coincidencia que se muestran a continuación son los campos de destino a los que asignó los campos de origen."
 
-Las claves de coincidencia son los campos de destino a los que [asignó los campos de origen](./onboard-audiences.md#map-fields). Para obtener más información sobre cómo funcionan las claves de coincidencia, consulte la guía [claves de coincidencia](./onboard-account.md#set-up-match-keys).
+Match keys are the target fields you [mapped your source fields to](./onboard-audiences.md#map-fields). To learn more about how match keys work, see the [match keys](./onboard-account.md#set-up-match-keys) guide.
 
-![Espacio de trabajo de conexiones de datos con la sección Claves de coincidencia resaltada.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
+![A data connections workspace with the Match keys section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-match-keys.png){zoomable="yes"}
 
 ### Programación {#scheduling}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_manage_dataconnections_scheduling"
 >title="Programación"
->abstract="Vea los detalles de programación de la conexión de datos y edite las configuraciones si es necesario."
+>abstract="View the scheduling details for your data connection, and edit the configurations if required."
 
-Ver y administrar la configuración de programación de las conexiones de datos. La programación determina la frecuencia con la que se actualiza la audiencia.
+View and manage the scheduling settings for your data connections. Scheduling determines how often the audience is refreshed.
 
-Después de crear una conexión de datos, puede actualizar su frecuencia de actualización, fecha de inicio y fecha de finalización directamente desde la sección **[!UICONTROL Programando]** del área de trabajo de conexión de datos.
+After a data connection is created, you can update its refresh frequency, start date, and end date directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
 
 >[!NOTE]
 >
->Cuando se obtienen audiencias de Adobe Experience Platform, estas están disponibles en un plazo de 24 horas tras establecer la conexión de datos. Después del abastecimiento inicial, los datos de audiencia se actualizan según la frecuencia definida.
+>When sourcing audiences from Adobe Experience Platform, audiences become available within 24 hours after the data connection is established. After the initial sourcing, audience data refreshes according to the defined frequency.
 
-Para obtener más información sobre la programación, consulte la [sección de programación](/help/guide/setup/onboard-audiences.md#schedule) en la guía para configurar audiencias.
+For more information on scheduling, see the [scheduling section](/help/guide/setup/onboard-audiences.md#schedule) in the guide to configuring audiences.
 
-![Espacio de trabajo de una conexión de datos con la sección Programación resaltada.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
+![A data connection&#39;s workspace with the Scheduling section highlighted.](/help/assets/setup/manage-data-connection/view-data-connection-scheduling.png){zoomable="yes"}
 
 ## Editar conexión de datos {#edit-data-connection}
 
-Lea las siguientes secciones para aprender a actualizar las claves de coincidencia y la configuración de programación de una conexión de datos existente.
+Read the following sections to learn how to update the match keys and scheduling settings of an existing data connection.
 
 ### Editar claves de coincidencia {#edit-match-keys}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_edit_measurement_data_connection_enrichment"
 >title="Enriquecimiento"
->abstract="No se admite desactivar el enriquecimiento. En su lugar, puede cambiar las claves de unión de enriquecimiento."
+>abstract="Turning off enrichment is not supported. You can change the enrichment join keys instead."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-manage-dataconnections" text="Enriquecimiento"
 
 >[!IMPORTANT]
@@ -108,47 +112,47 @@ Utilice la opción **[!UICONTROL Aplicar transformación]** si desea crear un ca
 
 ![Menú desplegable que muestra todos los campos de destino disponibles para asignar con el nuevo campo de origen.](/help/assets/setup/manage-data-connection/select-target-field.png){zoomable="yes"}
 
-Una vez finalizada la asignación de campos, revisa las actualizaciones y selecciona **[!UICONTROL Confirmar]** para aplicar los cambios.
+After you finish mapping fields, review your updates and select **[!UICONTROL Confirm]** to apply the changes.
 
-![Cuadro de diálogo Coincidir claves que muestra la asignación de campo actualizada con la opción Confirmar resaltada.](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
+![The Match keys dialog showing the updated field mapping with the Confirm option highlighted.](/help/assets/setup/manage-data-connection/review-and-confirm.png){zoomable="yes"}
 
-Un cuadro de diálogo de confirmación confirma que las claves de coincidencia se actualizaron correctamente.
+A confirmation dialog confirms that the match keys were updated successfully.
 
-### Editar programación {#edit-scheduling}
+### Edit scheduling {#edit-scheduling}
 
-Después de crear una conexión de datos, puede actualizar su frecuencia de actualización, fecha de inicio y fecha de finalización directamente desde la sección **[!UICONTROL Programando]** del área de trabajo de conexión de datos.
+After a data connection is created, you can update its refresh frequency, start date, and end date directly from the **[!UICONTROL Scheduling]** section of the data connection workspace.
 
-Puede editar la frecuencia de una conexión de datos existente para controlar mejor la frecuencia con la que se actualizan las audiencias. Para editar la programación, selecciona **[!UICONTROL Editar]** en la conexión de datos de la tarjeta de programación.
+You can edit the frequency of an existing data connection to better control how often audiences are refreshed. To edit the schedule, select **[!UICONTROL Edit]** from within the data connection in the scheduling card.
 
-![La sección Programación con la opción Editar resaltada.](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
+![The Scheduling section with the Edit option highlighted.](/help/assets/setup/manage-data-connection/edit-scheduling.png){zoomable="yes"}
 
-Aparece un cuadro de diálogo de confirmación que explica que cualquier cambio en la conexión de datos se aplicará a todas las audiencias asociadas. Seleccione **[!UICONTROL Aceptar]** para confirmar. Puede optar por omitir esta confirmación en el futuro.
+A confirmation dialog appears, explaining that any changes to the data connection will apply to all associated audiences. Select **[!UICONTROL OK]** to confirm. You can choose to skip this confirmation in the future.
 
-![Cuadro de diálogo de confirmación que muestra que cualquier cambio en la conexión de datos se aplicará a todas las audiencias asociadas.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
+![Confirmation dialog showing that any changes to the data connection will apply to all associated audiences.](/help/assets/setup/manage-data-connection/confirm-data-connection-changes.png){zoomable="yes"}
 
-En el cuadro de diálogo **[!UICONTROL Programación]**, seleccione el menú desplegable para actualizar la **[!UICONTROL Frecuencia]**. Configure la frecuencia de actualización para que se ejecute a diario o cada dos a seis días.
+In the **[!UICONTROL Scheduling]** dialog, select the dropdown menu to update the **[!UICONTROL Frequency]**. Set the refresh frequency to run daily or every two to six days.
 
-![El cuadro de diálogo Programación con el menú desplegable Frecuencia se ha expandido para mostrar las opciones de frecuencia de actualización de audiencia.](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
+![The Scheduling dialog with the Frequency dropdown expanded to display audience refresh frequency options.](../../assets/setup/manage-data-connection/edit-frequency.png){zoomable="yes"}
 
-A continuación, seleccione **[!UICONTROL Intervalo de fecha]** si desea actualizar el período durante el cual se rellenan y actualizan las audiencias.
+Next, select **[!UICONTROL Date range]** if you want to update the period during which audiences are populated and refreshed.
 
-![El cuadro de diálogo Programación que muestra el menú desplegable Intervalo de fechas se ha expandido para editar las fechas de inicio y finalización de la población y actualización de la audiencia.](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
+![The Scheduling dialog showing the Date range dropdown expanded to edit the start and end dates for audience population and refresh.](../../assets/setup/manage-data-connection/edit-date-range.png){zoomable="yes"}
 
-Cuando termines, revisa las actualizaciones y selecciona **[!UICONTROL Guardar]** para aplicar los cambios.
+When you&#39;re done, review the updates and select **[!UICONTROL Save]** to apply your changes.
 
-![Cuadro de diálogo Programación que resalta las actualizaciones y la opción Guardar.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
+![The Scheduling dialog highlighting the updates and Save option.](../../assets/setup/manage-data-connection/scheduling-dialog.png){zoomable="yes"}
 
 ## Eliminar conexión de datos
 
-Al eliminar una conexión de datos, se eliminarán todas las audiencias subyacentes, la configuración asociada y el uso en Collaboration. Esta acción no se puede deshacer.
+Deleting a data connection will remove all underlying audiences, associated settings, and usage across Collaboration. Esta acción no se puede deshacer.
 
-Para eliminar una conexión de datos existente, seleccione el icono Eliminar (![Eliminar icono](/help/assets/common/delete.svg)) en el área de trabajo de una conexión de datos individual.
+To delete an existing data connection, select the delete icon (![Delete icon](/help/assets/common/delete.svg)) within an individual data connection&#39;s workspace.
 
-![Área de trabajo de conexiones de datos con la opción de eliminación resaltada.](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
+![A data connections workspace with the delete option highlighted.](/help/assets/setup/manage-data-connection/delete-data-connection.png){zoomable="yes"}
 
-Aparecerá un cuadro de diálogo de confirmación. Seleccione **[!UICONTROL Eliminar]** para finalizar la eliminación de la conexión de datos.
+A confirmation dialogue will appear. Select **[!UICONTROL Delete]** to finish deleting the data connection.
 
-![Cuadro de diálogo Eliminar conexión de datos con la opción Eliminar resaltada.](/help/assets/setup/manage-data-connection/delete-data-connection-confirm.png){zoomable="yes"}
+![The Delete data connection dialog with the Delete option highlighted.](/help/assets/setup/manage-data-connection/delete-data-connection-confirm.png){zoomable="yes"}
 
 ## Administrar audiencias {#manage-audiences}
 

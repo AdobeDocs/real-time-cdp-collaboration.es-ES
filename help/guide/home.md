@@ -1,13 +1,16 @@
 ---
 title: Información general
-description: Aprenda a utilizar Adobe Real-Time Customer Data Platform (CDP) Collaboration para detectar, activar y medir audiencias de alto valor sin depender de cookies de terceros.
+description: Aprenda a utilizar Adobe Real-Time Customer Data Platform (CDP) Collaboration para detectar, activar y medir públicos de alto valor sin depender de cookies de terceros.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3128c1ea-8549-474e-adce-49b9b6802527
-source-git-commit: 3d003563e7eb6489e2a97b394f0ab185a63e35f2
+TQID: https://experienceleague.adobe.com/fPHinK-IJUQ0LNel3NRf8wFKFPUejZgeTIXugcDKAOY
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 1%
+source-wordcount: 390
+ht-degree: 11%
 
 ---
 
@@ -45,7 +48,7 @@ Una vez que tenga acceso, estará listo para configurar su cuenta de y crear la 
 
 ## Recursos
 
-Examine el [glosario](/help/guide/glossary.md) para obtener información detallada sobre los términos utilizados en el producto. Para obtener soporte técnico, acceda a la página de [Atención al cliente](https://experienceleague.adobe.com/home?lang=es&support-tab=open-ticket#support){target="_blank"} de Adobe.
+Examine el [glosario](/help/guide/glossary.md) para obtener información detallada sobre los términos utilizados en el producto. Para obtener soporte técnico, acceda a la página de [Atención al cliente](https://experienceleague.adobe.com/home?lang=en&support-tab=open-ticket#support){target="_blank"} de Adobe.
 
 ## Contáctenos.
 

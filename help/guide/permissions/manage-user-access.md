@@ -2,11 +2,14 @@
 title: Administrar el acceso de los usuarios mediante permisos
 description: Administre los permisos y el acceso de los usuarios a diferentes componentes de la interfaz de usuario de Real-Time CDP Collaboration.
 audience: admin
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0155f6a6-5e67-4415-af96-1848345842e4
-source-git-commit: 0dead396657c97cec47ddd64c8ec3c349f541a8f
+TQID: https://experienceleague.adobe.com/uPFss3qIstJmeVFF1YpQQJ0V848SiDEfy6BYyEcgPZw
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: 1406
 ht-degree: 3%
 
 ---
@@ -15,7 +18,7 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-Administre permisos y acceso de usuarios a componentes individuales dentro de Adobe Real-Time CDP Collaboration a través de la interfaz de Experience Cloud [Permissions](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"}. Los permisos permiten a los administradores de sistemas y productos definir [roles](./manage-roles.md) para administrar el acceso de los usuarios a características y recursos específicos.
+Administre permisos y acceso de usuarios a componentes individuales dentro de Adobe Real-Time CDP Collaboration a través de la interfaz de Experience Cloud [Permissions](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse){target="_blank"}. Los permisos permiten a los administradores de sistemas y productos definir [roles](./manage-roles.md) para administrar el acceso de los usuarios a características y recursos específicos.
 
 ## Configuración del acceso a los permisos {#permissions-access}
 
@@ -83,7 +86,7 @@ El usuario ahora debe tener acceso de administrador de productos y productos a E
 
 ### Administradores: configurar el acceso a la IU de Experience Platform {#product-access}
 
-En Real-Time CDP Collaboration, los administradores y los usuarios finales trabajarán con datos de Experience Platform, como audiencias y registros de auditoría. Estos datos se mantienen en instancias de Experience Platform denominadas zonas protegidas. Para garantizar que los usuarios puedan interactuar con estos datos, debe asignar [funciones predeterminadas](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home#default-roles){target="_blank"} al usuario.
+En Real-Time CDP Collaboration, los administradores y los usuarios finales trabajarán con datos de Experience Platform, como audiencias y registros de auditoría. Estos datos se mantienen en instancias de Experience Platform denominadas zonas protegidas. Para garantizar que los usuarios puedan interactuar con estos datos, debe asignar [funciones predeterminadas](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#default-roles){target="_blank"} al usuario.
 
 Para empezar, ve a [Adobe Experience Cloud](https://experience.adobe.com/). Ahora debería ver **[!UICONTROL Experience Platform]** y **[!UICONTROL Permisos]** dentro de **[!UICONTROL Acceso rápido]**.
 
@@ -109,7 +112,7 @@ Aparecerá el cuadro de diálogo **[!UICONTROL Agregar roles]**. Seleccione **[!
 
 ![Se seleccionó el cuadro de diálogo Agregar roles con los administradores de acceso y de zona protegida de producción predeterminada y se resaltó Guardar.](../../assets/permissions/add-roles.png){zoomable="yes"}
 
-Ahora tiene acceso a Experience Platform y a Permisos. En el último paso, concederá acceso a Real-Time CDP Collaboration.
+Ahora tiene acceso a Experience Platform y a Permisos. In the final step, you&#39;ll grant access to Real-Time CDP Collaboration.
 
 ### Administradores: configurar el acceso a Real-Time CDP Collaboration {#RTCDP-collaboration-access}
 
@@ -118,37 +121,37 @@ Ahora tiene acceso a Experience Platform y a Permisos. En el último paso, conce
 >title="guía de administración de acceso de usuarios"
 >abstract=""
 
-Para conceder a los usuarios acceso a Collaboration, utilizará un concepto de control de acceso denominado funciones. Las funciones definen el nivel de acceso que un administrador o usuario tiene a [recursos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home#permissions) en su organización.
+To grant users access to Collaboration, you&#39;ll use an access control concept called roles. Roles define the level of access a administrator or user has to [resources](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) in your organization.
 
-Al configurar el acceso individual a Collaboration, debe asignar las funciones de los usuarios que contengan permisos del recurso de colaboraciones. Puede usar la guía [administrar roles](./manage-roles.md) para obtener información sobre:
+When configuring individual access to Collaboration, you&#39;ll assign users&#39; roles containing permissions from the Collaborations resource. You can use the [manage roles](./manage-roles.md) guide to find out information on:
 
-- las [dos funciones estándar](./manage-roles.md#standard-roles) y los niveles de acceso que conceden a Collaboration
-- creando [funciones personalizadas](./manage-roles.md#specific-access-roles) con el recurso de Collaboration
-- la lista de permisos incluidos en el recurso de colaboraciones
+- the [two standard roles](./manage-roles.md#standard-roles) and the levels of access they grant to Collaboration
+- creating [custom roles](./manage-roles.md#specific-access-roles) using the Collaboration resource
+- the list of permissions included in the Collaborations resource
 
 >[!NOTE]
 >
->Además, se debe asignar a un usuario a una función que contenga el permiso **[!UICONTROL Prod]** en los recursos **[!UICONTROL Sandboxes]**. Ambas funciones estándar contienen este permiso. Si decide asignar a un usuario una función personalizada en lugar de una función estándar, debe asegurarse de que una de las funciones para las que está asignado contenga este permiso.
+>Additionally, a user must be assigned to a role containing the **[!UICONTROL Prod]** permission in the **[!UICONTROL Sandboxes]** resources. Both standard roles contain this permission. If you choose to assign a user a custom role instead of a standard role, you must ensure one of the roles they are assigned to contain this permission.
 
-Una vez que haya elegido o creado una función que incluya el nivel de acceso que necesita el usuario, debe asignarle dicha función.
+Once you&#39;ve chosen or created a role that encompasses the level of access your user needs, you need to assign the user to that role.
 
-#### Asignar un rol
+#### Assign a role
 
-Puede asignar varias funciones a un único usuario o asignar varios usuarios a una única función. El primer caso se trató anteriormente al [asignar los roles predeterminados](#product-access) para que un usuario tenga acceso a Experience Platform. En los pasos siguientes, asignará usuarios directamente a la función que ha seleccionado.
+You may assign multiple roles to a single user or assign multiple users to a single role. The first case was covered earlier when [assigning the default roles](#product-access) to give a user access to Experience Platform. In the next steps, you&#39;ll assign users directly to the role you&#39;ve selected.
 
-En **[!UICONTROL Permisos]**, seleccione **[!UICONTROL Roles]** en el panel izquierdo y, a continuación, seleccione su rol en la lista.
+In **[!UICONTROL Permissions]** select **[!UICONTROL Roles]** from the left panel and then select your role from the list.
 
-![Panel de permisos con el área de trabajo de roles resaltado y un rol destacado.](../../assets/permissions/select-role.png){zoomable="yes"}
+![The Permissions dashboard with the Roles workspace displayed and a role highlighted.](../../assets/permissions/select-role.png){zoomable="yes"}
 
-Se muestra la página de detalles de la función. Seleccione la ficha **[!UICONTROL Usuarios]** y luego seleccione **[!UICONTROL Agregar usuarios]**.
+The role&#39;s detail page displays. Select the **[!UICONTROL Users]** tab and then select **[!UICONTROL Add Users]**.
 
-![Área de trabajo de detalles del rol con la ficha Usuarios mostrada y Agregar usuarios resaltada.](../../assets/permissions/role-users.png){zoomable="yes"}
+![The role&#39;s detail workspace with the Users tab displayed and Add Users highlighted.](../../assets/permissions/role-users.png){zoomable="yes"}
 
-Aparecerá el cuadro de diálogo **[!UICONTROL Agregar usuarios]**. Seleccione a los usuarios de la lista y luego seleccione **[!UICONTROL Guardar]**.
+The **[!UICONTROL Add Users]** dialog appears. Select the user(s) from the list and then select **[!UICONTROL Save]**.
 
-![El cuadro de diálogo Agregar usuarios con una selección de usuario y la opción Guardar resaltada.](../../assets/permissions/add-users-to-role.png){zoomable="yes"}
+![The Add Users dialog with a user select and the Save option highlighted.](../../assets/permissions/add-users-to-role.png){zoomable="yes"}
 
-El usuario debería ver **[!UICONTROL RTCDP Collaboration]** enumerado como producto en **[!UICONTROL Acceso rápido]** en Experience Cloud.
+The user should now see **[!UICONTROL RTCDP Collaboration]** listed as a product under **[!UICONTROL Quick Access]** in Experience Cloud.
 
 ![Experience Cloud con RTCDP Collaboration destacado en Acceso rápido](../../assets/permissions/rtcdp-experience-cloud.png)
 

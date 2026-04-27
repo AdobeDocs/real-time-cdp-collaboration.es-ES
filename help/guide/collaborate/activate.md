@@ -2,12 +2,16 @@
 title: Activar públicos
 description: Obtenga información sobre cómo activar audiencias en Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
-source-git-commit: afe8560a12017c6b993f93cde8636288aa6e4991
+TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 2%
+source-wordcount: 1016
+ht-degree: 8%
 
 ---
 
@@ -45,83 +49,83 @@ En **[!UICONTROL Examinar audiencias]**, puede ver **[!UICONTROL Recuento de ide
 
 >[!IMPORTANT]
 >
->Al activar audiencias en las que se utilizan varias claves de coincidencia, si una (o más) clave de coincidencia no se superpone, no se contabiliza la audiencia o cae por debajo del umbral, toda la activación falla. Asegúrese de que las audiencias se superpongan lo suficiente y cumplan el umbral mínimo de 1000 ID en todas las claves de coincidencia antes de activarlas.
+>Al activar audiencias en las que se utilizan varias claves de coincidencia, si una (o más) clave de coincidencia no se superpone, no hay recuentos de público o cae por debajo del umbral, toda la activación falla. Asegúrese de que las audiencias se superpongan lo suficiente y cumplan el umbral mínimo de 1000 ID en todas las claves de coincidencia antes de activarlas.
 
 Seleccione la audiencia que desea activar en las campañas y luego seleccione **[!UICONTROL Guardar]**. La audiencia ahora se muestra y puede ver **[!UICONTROL Recuento de identidades]**, **[!UICONTROL identidades superpuestas]** y **[!UICONTROL Superposición %]** para la audiencia seleccionada.
 
-![Flujo de trabajo de activación de audiencia con la audiencia seleccionada mostrada.](/help/assets/collaborate/activate/audience-selected.png)
+![The Audience activation workflow with the selected audience displayed.](/help/assets/collaborate/activate/audience-selected.png)
 
 ### Editar claves de coincidencia {#edit-match-keys}
 
-A continuación, puede editar las claves de coincidencia de la audiencia seleccionando **[!UICONTROL Editar claves de coincidencia]** dentro de la audiencia seleccionada. Estas opciones se heredan de las selecciones de claves de coincidencia cuando se configuró inicialmente la conexión entre colaboradores. Puede eliminar las claves de coincidencia seleccionadas si no se aplican a una campaña específica, pero no puede añadir nuevas claves de coincidencia.
+Next, you can edit the audience&#39;s match keys by selecting **[!UICONTROL Edit match keys]** within the select audience. These options are inherited from your match key selections when the connection between collaborators was initially set up. You can remove match keys that were selected if they don&#39;t apply to a specific campaign, but you cannot add new match keys.
 
-![Flujo de trabajo de activación de audiencia con la opción Editar claves de coincidencia resaltada.](/help/assets/collaborate/activate/edit-match-keys.png)
+![The Audience activation workflow with the Edit match keys option highlighted.](/help/assets/collaborate/activate/edit-match-keys.png)
 
 Se abre el cuadro de diálogo **[!UICONTROL Editar claves de coincidencia]**, donde puede desactivar las claves de coincidencia que no desee usar. Seleccione **[!UICONTROL Guardar]** para guardar los cambios.
 
 >[!NOTE]
 >
->Se debe seleccionar al menos una clave de coincidencia. En la versión actual, las únicas claves de coincidencia disponibles son **[!UICONTROL Correo electrónico con hash]**, por lo que no puede eliminar esta clave de coincidencia.
+>At least one match key must be selected. In the current release, the only match keys available is **[!UICONTROL Hashed email]**, so you cannot remove this match key.
 
-![Cuadro de diálogo Editar claves de coincidencia en el flujo de trabajo de activación de Audience.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
+![The Edit match keys dialog in the Audiece activation workflow.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
-### Establecer frecuencia de actualización de audiencia {#set-audience-refresh-frequency}
+### Set audience refresh frequency {#set-audience-refresh-frequency}
 
-Finalmente, establezca la frecuencia y el intervalo de fechas deseados para que la audiencia se actualice. En la versión actual, la única opción de frecuencia admitida es **[!UICONTROL Una vez]**. La frecuencia **[!UICONTROL Una vez]** significa que las audiencias se activan una sola vez y no se actualizan. La opción **[!UICONTROL Date]** se rellena automáticamente con la fecha actual.
+Finally, set the desired frequency and date range for the audience to refresh. In the current release, the only supported frequency option is **[!UICONTROL Once]**. The **[!UICONTROL Once]** frequency means the audiences are activated a single time and are not refreshed. The **[!UICONTROL Date]** option is auto-populated with the current date.
 
-![Flujo de trabajo de activación de audiencia con la sección Frecuencia resaltada.](/help/assets/collaborate/activate/audience-frequency.png)
+![The Audience activation workflow with the Frequency section highlighted.](/help/assets/collaborate/activate/audience-frequency.png)
 
-Cuando esté satisfecho con las selecciones, seleccione **[!UICONTROL Activar]** para completar el flujo de trabajo.
+When satisfied with your selections, select **[!UICONTROL Activate]** to complete the workflow.
 
-## Activar tablero {#activate-dashboard}
+## Activate dashboard {#activate-dashboard}
 
-En la pestaña **[!UICONTROL Activar]**, puedes ver todas las audiencias que se enviaron a tu colaborador, así como todas las audiencias que tu colaborador activó en tu destino.
+In the **[!UICONTROL Activate]** tab, you can view all audiences sent to your collaborator, as well as all audiences your collaborator has activated to your destination.
 
-![El panel Activar muestra las secciones Audiencias enviadas y Audiencias activadas.](/help/assets/collaborate/activate/activate-dashboard.png)
+![The Activate dashboard showing the Sent audiences and Activated audiences sections.](/help/assets/collaborate/activate/activate-dashboard.png)
 
-## Ver audiencias enviadas {#view-sent-audiences}
+## View sent audiences {#view-sent-audiences}
 
-En la sección **[!UICONTROL Audiencias enviadas al colaborador]**, se enumerarán todas las audiencias que haya enviado. Actualmente, las audiencias se envían automáticamente al destino configurado del colaborador después de enviarlas. En la vista de su colaborador, estas audiencias se muestran en la sección **[!UICONTROL Audiencias activadas]**.
+In the **[!UICONTROL Sent audiences to]** collaborator section, all the audiences you&#39;ve sent will be listed. Currently, audiences are automatically sent to your collaborator&#39;s configured destination after you&#39;ve sent them. In your collaborator&#39;s view, these audiences are displayed in the **[!UICONTROL Activated audiences]** section.
 
-Dentro de cada audiencia enviada, puede ver las siguientes métricas:
-
-| Métrica | Descripción |
-|---------|----------|
-| **[!UICONTROL Nombre]** | Nombre de la audiencia. |
-| **[!UICONTROL Estado]** | El estado de la audiencia enviada. |
-| **[!UICONTROL Recuento de identidades]** | Número de identidades de la audiencia. |
-| **[!UICONTROL Identidades superpuestas]** | El número de identidades superpuestas entre esta audiencia y la población total de perfiles en el inventario del colaborador. |
-| **[!UICONTROL Creado]** | La fecha en la que se envió inicialmente la audiencia. |
-| **[!UICONTROL Último envío]** | La fecha en la que la audiencia se envió por última vez a su colaborador. |
-| **[!UICONTROL Claves coincidentes]** | Indica la clave de coincidencia utilizada para la audiencia. |
-
-## Ver audiencias activadas {#view-activated-audiences}
-
-En la sección **[!UICONTROL Audiencias activadas]** puede ver todas las audiencias que se han activado en su destino.
-
-Dentro de cada audiencia activada, puede ver las siguientes métricas:
+Within each sent audience, you can see the following metrics:
 
 | Métrica | Descripción |
 |---------|----------|
-| **[!UICONTROL Nombre]** | Nombre de la audiencia. |
-| **[!UICONTROL Estado]** | El estado de la audiencia activada. |
-| **[!UICONTROL Recuento de identidades]** | El número de identidades activadas, en función de las identidades superpuestas cuando el colaborador envió la audiencia. |
-| **[!UICONTROL Creado]** | La fecha en la que se activó la audiencia. |
-| **[!UICONTROL Última actualización]** | La fecha en la que se actualizó la audiencia por última vez, según la programación de actualización elegida durante la activación. |
-| **[!UICONTROL Destino]** | El destino en el que se activó la audiencia. |
-| **[!UICONTROL Claves coincidentes]** | Indica la clave de coincidencia utilizada para la audiencia. |
+| **[!UICONTROL Nombre]** | The name of the audience. |
+| **[!UICONTROL Estado]** | The status of the sent audience. |
+| **[!UICONTROL Recuento de identidad]** | The number of identities in the audience. |
+| **[!UICONTROL Identidades superpuestas]** | The number of overlapping identities between this audience and the total population of profiles across the collaborator&#39;s inventory. |
+| **[!UICONTROL Creado]** | The date when the audience was initially sent. |
+| **[!UICONTROL Last sent]** | The date when the audience was last sent to your collaborator. |
+| **[!UICONTROL Claves coincidentes]** | Indicates the match key used for the audience. |
 
-## Eliminar audiencias enviadas {#delete-sent-audiences}
+## View activated audiences {#view-activated-audiences}
 
-Puede eliminar las audiencias enviadas que ya no desee activar. Cuando elimina una audiencia enviada, se elimina de la sección **[!UICONTROL Audiencias enviadas a]** y ya no se activa en el destino de su colaborador.
+In the **[!UICONTROL Activated audiences]** section, you can see all the audiences that have been activated to your destination.
 
-Para eliminar una audiencia enviada, seleccione el icono **[!UICONTROL Eliminar]** (![Eliminar.](/help/assets/icons/delete.png)) junto a la audiencia en la sección **[!UICONTROL Audiencias enviadas a]**.
+Within each activated audience, you can see the following metrics:
 
-![Opción Eliminar en la sección Audiencias enviadas a.](/help/assets/collaborate/activate/delete-sent-audiences.png)
+| Métrica | Descripción |
+|---------|----------|
+| **[!UICONTROL Nombre]** | The name of the audience. |
+| **[!UICONTROL Estado]** | The status of the activated audience. |
+| **[!UICONTROL Recuento de identidad]** | The number of identities that were activated, based off the overlapping identities when your collaborator sent the audience. |
+| **[!UICONTROL Creado]** | The date when the audience was activated. |
+| **[!UICONTROL Last refreshed]** | The date when the audience was last refreshed, based on the refresh schedule chosen during activation. |
+| **[!UICONTROL Destino]** | The destination where the audience was activated to. |
+| **[!UICONTROL Claves coincidentes]** | Indicates the match key used for the audience. |
 
-Se abrirá un cuadro de diálogo de confirmación en el que se le pedirá que confirme la eliminación. Seleccione **[!UICONTROL Eliminar]** para confirmar.
+## Delete sent audiences {#delete-sent-audiences}
 
-![Cuadro de diálogo de confirmación de eliminación.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
+You can delete sent audiences that you no longer want to activate. When you delete a sent audience, it is removed from the **[!UICONTROL Sent audiences to]** section, and it will no longer be activated to your collaborator&#39;s destination.
+
+To delete a sent audience, select the **[!UICONTROL Delete]** icon (![Delete icon.](/help/assets/icons/delete.png)) next to the audience in the **[!UICONTROL Sent audiences to]** section.
+
+![The Delete option in the Sent audiences to section.](/help/assets/collaborate/activate/delete-sent-audiences.png)
+
+A confirmation dialog opens, asking you to confirm the deletion. Seleccione **[!UICONTROL Eliminar]** para confirmar.
+
+![The Delete confirmation dialog.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
 
 ## Próximos pasos {#next-steps}
 
