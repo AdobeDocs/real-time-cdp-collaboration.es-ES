@@ -6,8 +6,11 @@ badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url
 hide: true
 exl-id: a51f112d-3da7-4482-a24a-6d9f269d28d1
 TQID: https://experienceleague.adobe.com/0vUk3-vtaZvCoBmzkbrfMQF1NFaFg2NqsjJIje1sVcg
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
 source-wordcount: 546
