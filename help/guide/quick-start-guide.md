@@ -53,7 +53,7 @@ Your organization&#39;s access roles determine what users can see and do in Coll
 
 Watch this video to learn how to assign product access and permissions for Collaboration using the Admin Console and Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452216/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3452233/?captions=spa&learn=on&enablevpops)
 
 ## Step 2: Set up your Collaboration account {#set-up-your-account}
 
