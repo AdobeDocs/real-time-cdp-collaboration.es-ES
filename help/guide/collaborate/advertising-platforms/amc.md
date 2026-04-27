@@ -1,12 +1,20 @@
 ---
 title: Amazon Marketing Cloud
-description: Obtenga información acerca de la colaboración con Amazon Marketing Cloud en Real-Time CDP Collaboration.
+description: Learn about collaborating with Amazon Marketing Cloud in Real-Time CDP Collaboration.
 audience: publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
-source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
+TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: 665
 ht-degree: 22%
 
 ---
@@ -15,11 +23,11 @@ ht-degree: 22%
 
 {{limited-availability-release-note}}
 
-Después de establecer una conexión con [!DNL Amazon Marketing Cloud] ([!DNL AMC]), los anunciantes pueden [crear un proyecto](../manage-projects.md#create-project) para colaborar con [!DNL AMC] a fin de aprovechar sus capacidades de análisis avanzadas. Después de crear un proyecto, puede usar la sección **[!UICONTROL Discover]** para comparar la información de audiencias y descubrir audiencias relevantes para sus campañas.
+After forming a connection with [!DNL Amazon Marketing Cloud] ([!DNL AMC]), advertisers can [create a project](../manage-projects.md#create-project) to collaborate with [!DNL AMC] to leverage its advanced analytics capabilities. After creating a project, you can use the **[!UICONTROL Discover]** section to compare audience insights and discover relevant audiences for your campaigns.
 
 >[!IMPORTANT]
 >
->Los únicos casos de uso admitidos con [!DNL AMC] son **Detección de audiencias** y **Medición**. En este momento, solamente la sección **[!UICONTROL Discover]** está disponible en su proyecto con [!DNL AMC].
+>The only use cases supported with [!DNL AMC] are **Audience discovery** and **Measurement**. Currently, only the **[!UICONTROL Discover]** section is available within your project with [!DNL AMC].
 
 ## Descubrir {#discover}
 
@@ -53,29 +61,29 @@ Después de establecer una conexión con [!DNL Amazon Marketing Cloud] ([!DNL AM
 >title="Desglose por producto publicitario de Amazon"
 >abstract="Desglose de los “ID expuestos a anuncios solapados” a través de Amazon Ads Sponsor Product o Amazon Ads DSP."
 
-En la sección **[!UICONTROL Discover]**, puedes comparar tu audiencia AMC con todos los consumidores a los que han llegado tus Amazon Ads. También puede ver los segmentos de segmentación de Amazon con los que la audiencia tiene la mayor superposición, teniendo en cuenta solo las impresiones de DSP (estos segmentos solo pueden segmentarse en DSP).
+In the **[!UICONTROL Discover]** section, you can compare your AMC audience to all consumers reached by your Amazon Ads. You can also view Amazon targeting segments that your audience has the highest overlaps with, considering only DSP impressions (these segments can only be targeted in the DSP).
 
 >[!IMPORTANT]
 >
->Los datos de audiencias se procesan a partir de las audiencias cargadas en su cuenta de [!DNL Amazon Ads]. Para obtener información sobre cómo enviar y usar la función Destinos de Experience Platform para enviar tus audiencias a tu cuenta de [!DNL Amazon Ads], lee la guía de conexión de [Amazon Ads](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/advertising/amazon-ads).
+>Audience data is processed from the audiences uploaded to your [!DNL Amazon Ads] account. To learn how send use Experience Platform&#39;s Destinations feature to send yours audiences to your [!DNL Amazon Ads] account, read the [Amazon Ads connection](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/advertising/amazon-ads) guide.
 
-![Sección Discover en un proyecto con Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
+![The Discover section in a project with Amazon Marketing Cloud.](/help/assets/collaborate/advertising-platforms/amc-discover.png){zoomable="yes"}
 
 ### Comparar públicos {#compare-audiences}
 
-La sección **[!UICONTROL Comparar audiencias]** proporciona información sobre cómo la audiencia de [!DNL AMC] se superpone con los consumidores a los que llegan los anuncios de Amazon. En la sección **[!UICONTROL Comparar audiencias]**, puede ver las siguientes métricas:
+The **[!UICONTROL Compare audiences]** section provides insights into how your [!DNL AMC] audience overlaps with consumers reached by your Amazon Ads. Within the **[!UICONTROL Compare audiences]** section, you can view the following metrics:
 
 | Métrica | Descripción |
 |--------------------------------|---------------------------------------------------------------------------------------------------|
-| [!UICONTROL ID resueltos] | El número de identificadores [!DNL Amazon’s Identity Resolution] se pudo resolver con sus datos de audiencia. |
-| [!UICONTROL ID expuestos y superpuestos] | El número de [!UICONTROL ID resueltos] de la audiencia cargada que también se expusieron a un anuncio a través de [!DNL Amazon Ads]. |
-| [!UICONTROL Superposición %] | La proporción de [!UICONTROL ID resueltos] que se han expuesto a un anuncio a través de [!DNL Amazon Ads]. |
-| [!UICONTROL Desglose por producto de anuncios de Amazon] | Desglose de [!UICONTROL ID superpuestos y expuestos] alcanzados por [!UICONTROL producto patrocinado] o [!UICONTROL DSP]. Cada uno se representa como un porcentaje individual del número total de ID expuestos a publicidad. Dado que un ID puede pertenecer tanto a [!UICONTROL Productos patrocinados] como a [!UICONTROL DSP], es posible que los porcentajes no sumen el 100%. |
+| [!UICONTROL Resolved IDs] | The number of IDs [!DNL Amazon’s Identity Resolution] was able to resolve using your audience data. |
+| [!UICONTROL Overlapping ad exposed IDs] | The number of [!UICONTROL Resolved IDs] from the uploaded audience that have also been exposed to an ad via [!DNL Amazon Ads]. |
+| [!UICONTROL Superposición %] | The proportion of [!UICONTROL Resolved IDs] that have been exposed to an ad via [!DNL Amazon Ads]. |
+| [!UICONTROL Breakdown by Amazon ad product] | Breakdown of [!UICONTROL Overlapping ad exposed IDs] reached by either [!UICONTROL Sponsored Product] and/or [!UICONTROL DSP]. Each is represented as an individual percentage from total number of ad exposed IDs. Since an ID can belong to both [!UICONTROL Sponsored Products] and [!UICONTROL DSP], the percentages may not sum to 100%. |
 
 
 ### Públicos relevantes {#relevant-audiences}
 
-La sección **[!UICONTROL Audiencias relevantes]** proporciona información sobre [!DNL Amazon] segmentos de segmentación, o audiencias, con las que la audiencia tiene la mayor superposición, teniendo en cuenta solo las impresiones de DSP (estos segmentos solo se pueden segmentar en DSP). Puede alternar entre todas las audiencias relevantes y, dentro de cada sección, puede ver las siguientes métricas:
+The **[!UICONTROL Relevant audiences]** section provides insights into [!DNL Amazon] targeting segments, or audiences, that your audience has the highest overlaps with, considering only DSP impressions (these segments can only be targeted in the DSP). Puede alternar entre todas las audiencias relevantes y, dentro de cada sección, puede ver las siguientes métricas:
 
 | Métrica | Descripción |
 |--------------------------------|---------------------------------------------------------------------------------------------------|

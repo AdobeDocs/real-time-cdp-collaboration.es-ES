@@ -2,9 +2,15 @@
 title: Cargar archivo CSV para el abastecimiento de audiencias
 description: Obtenga información sobre cómo cargar el archivo CSV como fuente de datos de autoservicio para introducir datos de audiencia en Real-Time CDP Collaboration.
 exl-id: bbe45689-1c19-4ee1-bc7a-33a4a48d9b63
-source-git-commit: 96f6ae6c4b0c4255da8b04456497edf5b4365363
+TQID: https://experienceleague.adobe.com/sqgS0g8PUnLOyc02fJ1yiFkInVN5MlxoCbMn8lvY1-Y
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: 1100
 ht-degree: 0%
 
 ---
@@ -45,93 +51,93 @@ Aparecerá el flujo de trabajo Añadir audiencia. Seleccione **[!UICONTROL Agreg
 
 ![Espacio de trabajo Agregar audiencias con la opción Agregar una nueva conexión de datos resaltada.](../../assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-### Seleccione Archivo CSV como conexión de datos {#select-csv-file}
+### Select CSV File as the data connection {#select-csv-file}
 
-Seleccione **[!UICONTROL Archivo CSV]** como conexión de datos, seguido de **[!UICONTROL Siguiente]**.
+Select **[!UICONTROL CSV File]** as a data connection, followed by **[!UICONTROL Next]**.
 
-![La pantalla de selección de conexión de datos con el archivo CSV está disponible como opción seleccionable.](../../assets/setup/csv-audience-sourcing/select-csv-data-connection.png)
+![The data connection selection screen with CSV File available as a selectable option.](../../assets/setup/csv-audience-sourcing/select-csv-data-connection.png)
 
-### Seleccionar archivo {#select-file}
+### Select file {#select-file}
 
-Elija **[!UICONTROL Seleccionar del equipo]** para cargar un archivo CSV desde el sistema local. También puede arrastrar y soltar el archivo CSV que desee cargar en el panel [!UICONTROL Arrastrar y soltar un archivo CSV].
+Choose **[!UICONTROL Select from computer]** to upload a CSV file from your local system. Alternatively, you can drag and drop the CSV file you want to upload into the [!UICONTROL Drag and drop a CSV file] panel.
 
 >[!IMPORTANT]
 >
->Solo se admiten archivos CSV. El tamaño máximo de archivo es de **2 GB**.
+>Only CSV files are supported. The maximum file size is **2 GB**.
 
-![Seleccione un archivo CSV que contenga datos de audiencia de su sistema local.](../../assets/setup/csv-audience-sourcing/select-file.png)
+![Select a CSV file containing audience data from your local system.](../../assets/setup/csv-audience-sourcing/select-file.png)
 
-Una vez cargada, la interfaz de usuario muestra un resumen que incluye el número de columnas, un recuento de filas estimado, la estructura del archivo y una vista previa de las primeras 10 filas de datos.
+Once uploaded, the UI shows a summary including the number of columns, an estimated row count, the structure of the file, and a preview of the first 10 rows of data.
 
-Revisa el resumen y luego selecciona **[!UICONTROL Siguiente]**.
+Review the summary, then select **[!UICONTROL Next]**.
 
-![Obtenga una vista previa de los datos de audiencia de ejemplo desde el archivo CSV.](../../assets/setup/csv-audience-sourcing/preview-sample-data.png)
+![Preview the sample audience data from your CSV file.](../../assets/setup/csv-audience-sourcing/preview-sample-data.png)
 
 #### Reemplazar archivo {#replace-file}
 
-Si necesita cargar un archivo CSV diferente, elija **[!UICONTROL Reemplazar archivo]** y seleccione el nuevo archivo. A continuación, la interfaz se actualiza para mostrar un resumen actualizado de los nuevos datos.
+If you need to upload a different CSV file, choose **[!UICONTROL Replace file]** and select your new file. The interface then refreshes to display an updated summary of the new data.
 
-Después de revisar el resumen revisado, seleccione **[!UICONTROL Siguiente]**.
+After reviewing the revised summary, select **[!UICONTROL Next]**.
 
-![Seleccione la opción Reemplazar archivo para cargar un archivo CSV diferente.](../../assets/setup/csv-audience-sourcing/replace-file.png)
+![Select the Replace file option to upload a different CSV file.](../../assets/setup/csv-audience-sourcing/replace-file.png)
 
-### Confirmar confirmación de consentimiento {#confirm-consent}
+### Confirm consent acknowledgment {#confirm-consent}
 
-Antes de continuar, debe reconocer que las exclusiones de consentimiento se han eliminado de los datos de audiencia. Collaboration requiere datos de audiencia limpios sin usuarios que se hayan excluido del uso compartido de datos.
+Before proceeding, you must acknowledge that consent opt-outs have been removed from your audience data. Collaboration requires clean audience data without users who have opted out of data sharing.
 
-Marque la casilla de confirmación seguida de **[!UICONTROL OK]** para confirmar. A continuación, se cierra el cuadro de diálogo y se continúa con la pantalla Asignar campos.
+Check the confirmation box followed by **[!UICONTROL OK]** to confirm. The dialog then closes, and you proceed to the map fields screen.
 
-![El cuadro de diálogo de confirmación de exclusión de consentimiento que requiere confirmación antes de continuar.](../../assets/setup/csv-audience-sourcing/consent-optout-acknowledgment.png)
+![The consent opt-out acknowledgment dialog requiring confirmation before proceeding.](../../assets/setup/csv-audience-sourcing/consent-optout-acknowledgment.png)
 
-### Asignar campos de identidad de origen {#map-fields}
+### Map source identity fields {#map-fields}
 
-La asignación de campos determina cómo Collaboration utiliza los datos de audiencia para la activación y el análisis de superposición. En la pantalla **[!UICONTROL Asignar campos]**, utilice los menús desplegables para asignar cada campo de identidad de origen del archivo CSV al campo de destino adecuado en Collaboration.
+Field mapping determines how Collaboration uses your audience data for activation and overlap analysis. On the **[!UICONTROL Map fields]** screen, use the dropdown menus to map each source identity field from your CSV file to the appropriate target field in Collaboration.
 
-Si necesita detalles adicionales sobre un campo de destino, incluido el tipo de datos o la descripción, seleccione **[!UICONTROL Detalles de campos de destino]** para obtener más información.
+If you need additional details about a target field including the data type or description, select **[!UICONTROL Target fields details]** for more information.
 
-![Menú desplegable para asignar un campo de identidad de origen desde los datos de audiencia CSV al campo de destino en Collaboration.](../../assets/setup/csv-audience-sourcing/map-fields.png)
+![The dropdown to map a source identity field from your CSV audience data to the target field in Collaboration.](../../assets/setup/csv-audience-sourcing/map-fields.png)
 
-A continuación, revise los campos asignados y seleccione **[!UICONTROL Siguiente]**.
+Next, review the mapped fields, and then select **[!UICONTROL Next]**.
 
-![Pantalla de asignación de campos que muestra los campos de identidad de origen y destino asignados.](../../assets/setup/csv-audience-sourcing/confirm-mapped-fields.png)
+![The field mapping screen showing the mapped source and target identity fields.](../../assets/setup/csv-audience-sourcing/confirm-mapped-fields.png)
 
-### Revisión y finalización de la carga {#review-and-complete}
+### Review and complete the upload {#review-and-complete}
 
-La pantalla **[!UICONTROL Revisar]** aparece con un resumen de la configuración de audiencia del archivo CSV. Revise la información de las secciones siguientes:
+The **[!UICONTROL Review]** screen appears with a summary of the audience settings from your CSV file. Review the information in the following sections:
 
-* **[!UICONTROL Información de archivo]**: muestra el nombre de archivo, el número de columnas y el recuento estimado de filas.
-* **[!UICONTROL Asignación]**: detalla cómo se asignan los campos de origen del archivo de audiencia cargado (por ejemplo, `email`) a los campos de destino utilizados en Collaboration (por ejemplo, correo electrónico con hash).
+* **[!UICONTROL File Information]**: Displays the file name, the number of columns, and the estimated row count.
+* **[!UICONTROL Mapping]**: Lists how the source fields from your uploaded audience file (for example, `email`) map to target fields used in Collaboration (for example, Hashed email).
 
-Seleccione el icono de lápiz si necesita editar una sección. Seleccione **[!UICONTROL Completar]** para confirmar todas las secciones.
+Select the pencil icon if you need to edit a section. Select **[!UICONTROL Complete]** to confirm all sections.
 
-![Revise el resumen de la configuración de carga, incluida la información del archivo CSV y los detalles de asignación de campos.](../../assets/setup/csv-audience-sourcing/review-upload-summary.png)
+![Review the summary of upload settings including CSV file information and field mapping details.](../../assets/setup/csv-audience-sourcing/review-upload-summary.png)
 
-Aparecerá una barra de progreso debajo de las secciones de resumen para indicar el progreso de carga. Una vez finalizada la carga, un cuadro de diálogo de confirmación confirma que se ha creado la audiencia CSV y que el abastecimiento de audiencias está en curso.
+A progress bar appears below the summary sections to indicate upload progress. Once the upload completes, a confirmation dialog confirms that your CSV audience was created and audience sourcing is in progress.
 
-![Después de cargar el archivo, aparece un cuadro de diálogo de confirmación que indica que se creó la audiencia CSV y que el abastecimiento de la audiencia está en curso.](../../assets/setup/csv-audience-sourcing/upload-success-sourcing-in-progress.png)
+![After uploading file, a confirmation dialog appears stating that CSV audience was created and audience sourcing in progress.](../../assets/setup/csv-audience-sourcing/upload-success-sourcing-in-progress.png)
 
-## Revisar audiencias de origen {#review-sourced-audiences}
+## Review sourced audiences {#review-sourced-audiences}
 
-Después de cargar el archivo CSV, Collaboration empieza a obtener audiencias a partir del archivo. Este proceso puede tardar varios minutos. Cuando finalice el abastecimiento, las audiencias estarán disponibles en la pestaña **[!UICONTROL Mis audiencias]** con las mismas características e información que las audiencias que provienen de Experience Platform.
+After uploading your CSV file, Collaboration begins sourcing audiences from the file. This process may take several minutes. When the sourcing finishes, your audiences are available in the **[!UICONTROL My Audiences]** tab with the same features and information as audiences sourced from Experience Platform.
 
-![La pestaña Audiencias muestra una lista de audiencias de origen en la vista de cuadrícula.](../../assets/setup/csv-audience-sourcing/csv-audiences-list.png)
+![The Audiences tab showing a list of sourced audiences in grid view.](../../assets/setup/csv-audience-sourcing/csv-audiences-list.png)
 
-En la vista de cuadrícula o en la vista de tabla, seleccione un elemento de fila o **[!UICONTROL Ver audiencia]** para ver una descripción general de una audiencia específica. Muestra el estado de la audiencia, el origen y el nombre de la conexión de datos, junto con paneles detallados para:
+When in grid view or table view, select a row item or **[!UICONTROL View audience]** to see an overview of a specific audience. It displays the audience&#39;s status, source, and data connection name, along with detailed panels for:
 
-**[!UICONTROL Identidades]**: muestra el recuento y el desglose de identidades totales cuando los datos están disponibles.
-**[!UICONTROL Categorías]**: muestra todas las etiquetas utilizadas para organizar o filtrar la audiencia.
-**[!UICONTROL Acceso a la conexión]**: Muestra si la audiencia es privada, pública o compartida con colaboradores específicos.
-**[!UICONTROL Visibilidad de metadatos]**: Muestra qué información de audiencia (como recuento de identidades, porcentaje de superposición e índice) es visible para los colaboradores.
+**[!UICONTROL Identities]**: Displays the total identity count and breakdown once data becomes available.
+**[!UICONTROL Categories]**: Displays any tags used for organizing or filtering the audience.
+**[!UICONTROL Connection access]**: Displays whether the audience is private, public, or shared with specific collaborators.
+**[!UICONTROL Metadata visibility]**: Displays what audience information (such as identity count, overlap percentage, and index) is visible to collaborators.
 
-Utilice esta vista para confirmar los ajustes de configuración de audiencia y visibilidad antes de utilizar la audiencia en proyectos de colaboración. Para obtener más información, vea [cómo ver una audiencia individual](./onboard-audiences.md#view-individual-audiences).
+Use this view to confirm audience configuration and visibility settings before using the audience in collaboration projects. For more information, see [how to view an individual audience](./onboard-audiences.md#view-individual-audiences).
 
 ## Próximos pasos {#next-steps}
 
-Ahora ha cargado correctamente el archivo CSV en Collaboration. Una vez finalizado el abastecimiento, puede:
+You have now successfully uploaded your CSV file in Collaboration. After sourcing completes, you can:
 
-* Cree proyectos de colaboración con las audiencias de origen. Ver [Descubrir audiencias](../../guide/collaborate/discover.md).
-* Activar audiencias en destinos conectados. Ver [Activar audiencias](../../guide/collaborate/activate.md).
-* Revise la superposición de audiencias y las perspectivas. Ver [Medir el rendimiento de la campaña](../../guide/collaborate/measure.md).
-* Administre la configuración y visibilidad de su audiencia. Ver [Source y administrar audiencias](./onboard-audiences.md).
+* Create collaboration projects with your sourced audiences. See [Discover audiences](../../guide/collaborate/discover.md).
+* Activate audiences to connected destinations. See [Activate audiences](../../guide/collaborate/activate.md).
+* Review audience overlap and insights. See [Measure campaign performance](../../guide/collaborate/measure.md).
+* Manage your audience settings and visibility. See [Source and manage audiences](./onboard-audiences.md).
 
-Para obtener información acerca de otros métodos de obtención de audiencias, consulte [Configuración de AWS S3 para la obtención de audiencias](./configure-aws-s3-audience-sourcing.md) o [Audiencias de Source de Experience Platform](./onboard-audiences.md).
+For information about other audience sourcing methods, see [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) or [Source audiences from Experience Platform](./onboard-audiences.md).

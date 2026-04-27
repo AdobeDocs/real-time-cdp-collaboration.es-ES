@@ -4,10 +4,15 @@ description: Obtenga información sobre cómo administrar las conexiones en Real
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
-source-git-commit: 46d2596bd0ccdc5da32067493968945c61f8acc4
+TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: 1092
+ht-degree: 2%
 
 ---
 
@@ -62,7 +67,7 @@ Como propietario de una conexión de colaboración, puede editar la configuraci�
 >
 >El **propietario** es el colaborador que inicia la conexión al enviar la invitación al **destinatario**. Para obtener más información, consulte la [documentación sobre el establecimiento de conexiones con colaboradores](./establishing-connections.md).
 
-Para editar la configuración de conexión, vaya al área de trabajo de configuración de conexión. Seleccione el icono de tres puntos (![Icono de tres puntos.](/help/assets/icons/more.png)) para ver las acciones disponibles y, a continuación, seleccione **[!UICONTROL Editar]**.
+Para editar la configuración de conexión, vaya al área de trabajo de configuración de conexión. Seleccione el icono de tres puntos (![icono de tres puntos.](/help/assets/icons/more.png)) para ver las acciones disponibles, seleccione **[!UICONTROL Editar]**.
 
 ![Espacio de trabajo de configuración de conexión con la opción Editar resaltada.](/help/assets/connect/manage-connections/edit-connection.png){zoomable="yes"}
 

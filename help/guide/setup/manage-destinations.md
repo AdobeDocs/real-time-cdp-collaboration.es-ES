@@ -4,10 +4,16 @@ description: Obtenga información sobre cómo configurar y administrar destinos 
 audience: admin, publisher
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: b4b26761-46ac-420f-b9f7-6e829d67aec9
-source-git-commit: a7215d453021be578a32ce1af4d659845c3b8493
+TQID: https://experienceleague.adobe.com/3JoqIEJ0ilX3NHYOVersSkaa98kgPzOhqk94UP6Xc50
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 1%
+source-wordcount: 401
+ht-degree: 4%
 
 ---
 

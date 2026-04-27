@@ -4,10 +4,20 @@ description: Obtenga información sobre cómo utilizar la funcionalidad Registro
 audience: admin
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 3af1ac47-dc3d-4f19-a6b9-9e4e835977c0
-source-git-commit: eed99cfafd5ffad5a468741f7258c162454769b7
+TQID: https://experienceleague.adobe.com/zb09-bUpxJ2VPDknETHeayMuLpNRCaQ2VTnV9QnTRgE
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: 950
+ht-degree: 2%
 
 ---
 
@@ -79,25 +89,25 @@ Más información sobre [filtrado de registros de auditoría](https://experience
 
 ## Ventajas
 
-Los registros de auditoría proporcionan varios beneficios para las organizaciones que utilizan Collaboration:
+Audit logs provide several benefits for organizations using Collaboration:
 
-* **Control de datos**: Use registros de auditoría para asegurarse de que todas las actividades dentro de la plataforma se rastrean y auditan.
-* **Cumplimiento normativo**: La característica proporciona un seguimiento de las actividades de los usuarios para cumplir con los requisitos reglamentarios.
-* **Solución de problemas**: los registros de auditoría ayudan a identificar y resolver problemas al proporcionar registros detallados de las acciones del usuario.
+* **Data Governance**: Use audit logs to ensure that all activities within the platform are tracked and auditable.
+* **Regulatory Compliance**: The feature provides a trail of user activities to meet regulatory requirements.
+* **Troubleshooting**: Audit logs assist in identifying and resolving issues by providing detailed logs of user actions.
 
-## Referencia de categorías y acciones
+## Categories and actions reference
 
-La siguiente tabla proporciona una referencia de todas las categorías y acciones de Real-Time CDP Collaboration.
+The table below provides a reference of all categories and actions for Real-Time CDP Collaboration.
 
-![Categorías disponibles resaltadas en los registros de auditoría de Real-Time CDP Collaboration.](/help/assets/setup/audit-logs/available-categories.png)
+![Available categories highlighted in Real-Time CDP Collaboration audit logs.](/help/assets/setup/audit-logs/available-categories.png)
 
 | Categoría | Acciones | Descripción |
 |-------------------------------|------------------------------------------|-------------|
-| **[!UICONTROL Instancia de Collaboration]** | crear, actualizar, eliminar | Administrar cuentas, incluida la creación, actualización y eliminación de cuentas. Para obtener más información, lee la guía [configuración de tus cuentas](/help/guide/setup/onboard-account.md). |
-| **[!UICONTROL Invitación a la conexión de Collaboration]** | crear, actualizar, eliminar, aprobar, rechazar | Administre las invitaciones a conexiones, lo que incluye la creación, actualización, eliminación, aprobación y rechazo de invitaciones. Para obtener más información, lea la guía [establecimiento de conexiones](/help/guide/connect/establishing-connections.md). |
-| **[!UICONTROL Conexión de Collaboration]** | crear, actualizar, eliminar, aprobar, rechazar, solicitar aprobación | Administrar conexiones, incluida la creación, actualización, eliminación, aprobación, rechazo y solicitud de aprobación para conexiones. |
-| **[!UICONTROL Conexión de datos de Collaboration]** | crear, actualizar, eliminar | Administre las conexiones de datos desde donde obtiene y administre audiencias, incluida la creación, actualización y eliminación de conexiones de datos. Para obtener más información, lea la guía [administración de conexiones de datos](/help/guide/setup/manage-data-connection.md). |
-| **[!UICONTROL Entidad de datos de Collaboration]** | crear, actualizar, eliminar | Administrar entidades de datos para Collaboration, incluida la creación, actualización y eliminación de entidades de datos. Las entidades de datos en este contexto hacen referencia a audiencias. Para obtener más información, lea la guía [obtención y administración de audiencias](/help/guide/setup/onboard-audiences.md). |
+| **[!UICONTROL Collaboration Instance]** | create, update, delete | Manage accounts, including creating, updating, and deleting accounts. To learn morel, read the [configuring your accounts](/help/guide/setup/onboard-account.md) guide. |
+| **[!UICONTROL Collaboration Connection Invite]** | create, update, delete, approve, reject | Manage connection invites, including creating, updating, deleting, approving, and rejecting invites. For more information, read the [establishing connections](/help/guide/connect/establishing-connections.md) guide. |
+| **[!UICONTROL Collaboration Connection]** | create, update, delete, approve, reject, request approval | Manage connections, including creating, updating, deleting, approving, rejecting, and requesting approval for connections. |
+| **[!UICONTROL Collaboration Data Connection]** | create, update, delete | Manage the data connections from where you source and manage audiences, including creating, updating, and deleting data connections. For more information, read the [managing data connections](/help/guide/setup/manage-data-connection.md) guide. |
+| **[!UICONTROL Collaboration Data Entity]** | create, update, delete | Manage data entities for Collaboration, including creating, updating, and deleting data entities. Las entidades de datos en este contexto hacen referencia a audiencias. Para obtener más información, lea la guía [obtención y administración de audiencias](/help/guide/setup/onboard-audiences.md). |
 | **[!UICONTROL Proyecto Collaboration]** | crear, actualizar, eliminar | Administrar proyectos en Collaboration, incluida la creación, actualización y eliminación de proyectos. Para obtener más información, lea la guía [administrar proyectos](/help/guide/collaborate/manage-projects.md). |
 | **[!UICONTROL Módulo Collaboration]** | crear, actualizar, eliminar | Administre diferentes módulos dentro de los proyectos, incluida la creación, actualización y eliminación de varios módulos en la interfaz de usuario. Por ejemplo, la capacidad de [activar audiencias](/help/guide/collaborate/activate.md). |
 

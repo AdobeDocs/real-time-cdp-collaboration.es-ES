@@ -1,13 +1,23 @@
 ---
-title: Administrar funciones mediante Permisos
-description: Comprenda todos los recursos de funciones disponibles que proporcionan acceso a diferentes componentes dentro de la interfaz de usuario de Real-Time CDP Collaboration.
+title: Manage roles through Permissions
+description: Understand all available role resources that provide access to different components within the Real-Time CDP Collaboration UI.
 audience: admin
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 59cf5bf2-421b-4ebc-beab-30eafb098649
-source-git-commit: 1f825bb4a81dbf65c43ddadcfd444923a37a906e
+TQID: https://experienceleague.adobe.com/dB7nEQtEGG8PvCSE7eDDelH-ml2EhKOQ8ovvGXG1Ejg
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 1%
+source-wordcount: 623
+ht-degree: 3%
 
 ---
 
@@ -15,22 +25,22 @@ ht-degree: 1%
 
 {{limited-availability-release-note}}
 
-Para administrar el acceso de usuarios a diferentes componentes de la interfaz de usuario de Adobe Real-Time CDP Collaboration, un [administrador](./manage-user-access.md#system-admin-gain-access) puede definir y asignar funciones. Las funciones definen el acceso que un administrador o usuario tiene a [recursos](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home#permissions){target="_blank"} en su organización. Esta guía proporciona información sobre las funciones estándar que se proporcionan en Real-Time CDP Collaboration, así como los permisos individuales que se pueden asignar a las funciones personalizadas.
+To manage user access to different components of the Adobe Real-Time CDP Collaboration UI, an [administrator](./manage-user-access.md#system-admin-gain-access) can define and assign roles. Roles define the access that an administrator or user has to [resources](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/home#permissions){target="_blank"} in your organization. This guide will provide information on the standard roles provided in Real-Time CDP Collaboration, as well as the individual permissions you that can be assign to custom roles.
 
-Para empezar a administrar funciones, un administrador deberá tener acceso al producto Experience Platform. Para obtener información sobre cómo obtener acceso administrativo o sobre cómo obtener acceso a Experience Platform, lea la guía [administrar el acceso de usuario](./manage-user-access.md#manage-user-access-through-permissions).
+To begin managing roles, an administrator will need access to the Experience Platform product. For information on gaining administrative access, or on gaining access to Experience Platform, read the [manage user access](./manage-user-access.md#manage-user-access-through-permissions) guide.
 
-## Funciones estándar {#standard-roles}
+## Standard roles {#standard-roles}
 
-Se le han proporcionado dos funciones estándar que rellenan dos casos de uso comunes de control de acceso. Son funciones de &quot;solo lectura&quot;, lo que significa que no se pueden personalizar.
+There are two standard roles provided to you that fill two common access control use cases. These are &quot;read only&quot; roles meaning they cannot be customized.
 
-| Nombre de la función | Descripción de función | Permisos |
+| Nombre de la función | Role description | Permisos |
 | --- | --- | --- |
-| Collaboration Managers | Es un permiso de acceso completo que contiene los 15 permisos. Esto permite al usuario leer, crear y editar todos los datos. También proporciona acceso a la zona protegida **[!UICONTROL Prod]** en Experience Platform, lo que le permite importar audiencias en Real-Time CDP Collaboration. | Todos de la tabla siguiente. |
-| Visores de Collaboration | Es un permiso de acceso de solo lectura. Un usuario puede leer y descubrir datos, actividades, conexiones y mucho más. También proporciona acceso a la zona protegida **[!UICONTROL Prod]** en Experience Platform, lo que le permite importar audiencias en Real-Time CDP Collaboration. | Todos los permisos de lectura de la tabla siguiente. |
+| Collaboration Managers | This is all-access permission, containing all 15 permissions. This allows the user to read, create, and edit all data. It also provides access to the **[!UICONTROL Prod]** sandbox in Experience Platform, allowing you to import audiences into Real-Time CDP Collaboration. | All from the table below. |
+| Collaboration Viewers | This is a read-only access permission. A user can read and discover data, activities, connections, and more. It also provides access to the **[!UICONTROL Prod]** sandbox in Experience Platform, allowing you to import audiences into Real-Time CDP Collaboration. | All read permissions from the table below. |
 
 {style="table-layout:auto"}
 
-## Crear funciones de acceso específicas {#specific-access-roles}
+## Create specific access roles {#specific-access-roles}
 
 Es probable que desee crear funciones adicionales para proporcionar distintos niveles de acceso a distintos usuarios. Al crear funciones, puede administrar diferentes niveles de acceso seleccionando permisos específicos en el recurso **[!UICONTROL Colaboraciones]**. Para aprender a crear y administrar roles, consulte la guía [roles](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/roles#create-new-role){target="_blank"}.
 
@@ -48,17 +58,17 @@ A continuación, se muestra una lista de los permisos disponibles en el recurso 
 | Administrar conexiones de Collaboration | Un colaborador puede ver, crear y actualizar la configuración, así como enviar y eliminar conexiones. |
 | Leer conexiones de Collaboration | Ver conexiones. |
 | Administrar datos de audiencia | Incorporar y descubrir audiencias. Actualice las audiencias públicas, privadas y personalizadas y administre la configuración de metadatos del inventario de audiencias. |
-| Leer datos de audiencias | Leer y descubrir audiencias. |
-| Administrar datos de medición | Incorpore, actualice y elimine datos de medición. |
-| Leer datos de medición | Leer datos de medición. |
-| Administrar proyectos | Ver, crear, actualizar y eliminar proyectos para cualquiera de las actividades de detección, activación y medición. |
-| Leer proyectos | Ver proyectos para cualquiera de las actividades de detección, activación y medición. |
-| Leer actividades de usuario | Actividades de usuario de lectura. |
-| Exportar actividades de usuario | Exportar actividades de usuario. |
-| Leer supervisión de crédito de Collaboration | Supervisión del crédito a nivel de organización e instancia. |
+| Leer datos de audiencias | Read and discover audiences. |
+| Manage Measurement Data | Onboard, update, and delete measurement data. |
+| Read Measurement Data | Read measurement data. |
+| Manage Projects | View, create, update, and delete projects for any of the discover, activate, and measurement activities. |
+| Read Projects | View projects for any of the discover, activate, and measurement activities. |
+| Read User Activities | Read user activities. |
+| Export User Activities | Export user activities. |
+| Read Collaboration Credit Monitoring | Credit monitoring at the organization and instance level. |
 
 {style="table-layout:auto"}
 
 ## Próximos pasos
 
-Después de crear las funciones que definen el acceso a Collaboration, [debe asignar las funciones](./manage-user-access.md#assign-a-role) a los administradores y a los usuarios. Consulte la guía [administrar permisos para una función](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions) para obtener una descripción general completa de la administración de funciones.
+After creating roles that define access to Collaboration, you&#39;ll need to [assign the roles](./manage-user-access.md#assign-a-role) to administrators and users. Refer to the [manage permissions for a role](https://experienceleague.adobe.com/es/docs/experience-platform/access-control/abac/permissions-ui/permissions) guide for a complete overview of managing roles.
