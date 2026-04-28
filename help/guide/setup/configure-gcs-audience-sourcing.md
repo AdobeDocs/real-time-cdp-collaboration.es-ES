@@ -275,7 +275,7 @@ For more information on permissions, see [GCS IAM permissions](https://cloud.goo
 
 #### Assign IAM role to Adobe {#assign-role}
 
-Next, open the [**[!DNL Buckets]**page](https://console.cloud.google.com/storage/browser) in the [!DNL Google Cloud Console] and select the bucket that contains your audience data.
+Next, open the [**[!DNL Buckets]**&#x200B;page](https://console.cloud.google.com/storage/browser) in the [!DNL Google Cloud Console] and select the bucket that contains your audience data.
 
 Navigate to the **[!DNL Permissions]** tab, choose **[!DNL View by principals]**, and then select **[!DNL Grant access]**.
 
