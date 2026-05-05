@@ -11,10 +11,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 1393
-ht-degree: 14%
+source-wordcount: 1410
+ht-degree: 10%
 
 ---
 
@@ -77,20 +77,29 @@ Para comenzar a configurar la cuenta, primero debe configurar los detalles de la
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_peopleIDs"
->title="ID de personas propios"
->abstract="Los ID de personas propios, como las direcciones de correo electrónico, los números de teléfono con hash, o los ID de CRM, están conectados directamente a un perfil individual."
+>title="ID de personas"
+>abstract="Los ID de persona, como las direcciones de correo electrónico con hash, los números de teléfono con hash o los ID de CRM, están conectados directamente a un perfil individual."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_deviceIDs"
->title="ID de dispositivos propios"
->abstract="Los ID de dispositivos propios, como las direcciones ECID o IP, se conectan directamente a los dispositivos, que pueden compartirse entre varias personas."
+>title="ID de dispositivo"
+>abstract="Los ID de dispositivo, como las direcciones ECID o IP, se conectan directamente a dispositivos que pueden compartirse entre varias personas."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_organization_onboarding_partnerIDs"
 >title="ID de socios compatibles"
 >abstract="Los ID de socio son identificadores proporcionados por socios externos para la reconciliación de públicos. Los ID de socio no están conectados directamente a un perfil individual."
 
-![Claves de coincidencia admitidas.](/help/assets/setup/manage-account/match-keys.png){zoomable="yes"}
+La siguiente tabla muestra las claves de coincidencia admitidas en Collaboration:
+
+| ID de personas | ID de dispositivo | ID de socios |
+| ------------- | ------------- | ------------- |
+| [!DNL Hashed email] | [!DNL Hashed IPv4] | [!DNL Adfixus ID] |
+| [!DNL Hashed phone] | [!DNL IDFA] | |
+| [!DNL CRM ID] | [!DNL GAID] | |
+| [!DNL Loyalty ID] | [!DNL Demdex ID (ECID)] | |
+
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -102,16 +111,16 @@ Seleccione las claves de coincidencia que desee utilizar para reconciliar perfil
 
 #### Claves de coincidencia admitidas {#supported-match-keys}
 
-Collaboration admite tres tipos de claves de coincidencia: ID de personas de origen, ID de dispositivos de origen e ID de socios. Todas las claves de coincidencia deben cumplir los siguientes requisitos:
+Collaboration admite tres tipos de claves de coincidencia: ID de persona, ID de dispositivo e ID de socio. Todas las claves de coincidencia deben cumplir los siguientes requisitos:
 
 * Las claves de coincidencia deben estar **recortadas**, **en minúsculas**
 * Las claves de coincidencia con hash deben ser **SHA256-hashed**.
 * Si proporciona valores hash con caracteres en mayúsculas, Collaboration los convierte automáticamente a minúsculas.
 * Si el origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** durante la configuración de la conexión de datos [para aplicar el hash. &#x200B;](./manage-data-connection.md#match-keys)Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
 
-##### ID de personas propios
+##### ID de personas
 
-Los ID de personas de origen están conectados directamente a un perfil individual. Los ID admitidos actualmente son:
+Los ID de persona están conectados directamente a un perfil individual. Los ID admitidos actualmente son:
 
 * **[!UICONTROL Correo electrónico con hash]**
 * **[!UICONTROL Teléfono con hash]**
@@ -119,13 +128,14 @@ Los ID de personas de origen están conectados directamente a un perfil individu
 * **[!UICONTROL ID de fidelización]**
 <!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
-##### ID de dispositivos propios
+##### ID de dispositivo
 
-Los ID de dispositivos de origen son identificadores conectados a un dispositivo específico. Los ID admitidos actualmente son:
+Los ID de dispositivo son identificadores conectados a un dispositivo específico. Los ID admitidos actualmente son:
 
-* **[!UICONTROL IPv4 con hash]**: Direcciones IPv4 con hash
-* **[!UICONTROL IDFA]**: El identificador para anunciantes (IDFA) usado en dispositivos iOS de Apple
-* **[!UICONTROL GAID]**: ID de anunciante de Google utilizado en dispositivos Android
+* **[!UICONTROL IPv4 con hash]**
+* **[!UICONTROL IDFA]**: El identificador para anunciantes (IDFA) usado en dispositivos iOS de Apple.
+* **[!UICONTROL GAID]**: ID de anunciante de Google usado en dispositivos Android.
+* **[!UICONTROL ID de Demdex (ECID)]**: Cuando se habilitan las cookies de terceros, el ECID incluirá la cookie de terceros de Adobe, [!DNL Demdex ID]. [!DNL Demdex ID] se puede usar para hacer coincidir visitantes no autenticados basados en cookies.
 
 ##### ID de socios
 
