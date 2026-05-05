@@ -2,19 +2,15 @@
 title: Source y administración de audiencias
 description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
 workflow-type: tm+mt
-source-wordcount: 3680
-ht-degree: 18%
+source-wordcount: 3753
+ht-degree: 17%
 
 ---
 
@@ -49,7 +45,7 @@ En la ficha **[!UICONTROL Mis audiencias]** del área de trabajo **[!UICONTROL C
 >
 >Después de establecer en la primera conexión de datos y obtener la primera audiencia, puede obtener varias audiencias a partir de la conexión de datos existente. Al agregar audiencias adicionales, empezará desde el paso [seleccionar audiencia](#select-audiences), ya que la conexión de datos ya se ha establecido.
 
-Una conexión de datos es la fuente desde la que se introducen audiencias en Collaboration. Los orígenes admitidos son Adobe Experience Platform, carga de archivo CSV, [!DNL Amazon S3], [!DNL Snowflake] y [!DNL Google Cloud Storage], cada uno con su propio flujo de trabajo.
+Una conexión de datos es la fuente desde la que se introducen audiencias en Collaboration. Los orígenes admitidos son Adobe Experience Platform, carga de archivo CSV, [!DNL Amazon S3], [!DNL Snowflake] y [!DNL Google Cloud Storage], cada uno con su propio flujo de trabajo. Adobe Audience Manager estará disponible próximamente.
 
 Las secciones siguientes describen cómo seleccionar **Adobe Experience Platform** y completar los pasos específicos de Experience Platform (simulación de pruebas, administración y consentimiento). Si elige CSV, [!DNL Amazon S3], [!DNL Snowflake] o [!DNL Google Cloud Storage], use la guía vinculada en [Seleccionar origen de datos](#select-data-source) para esa opción.
 
@@ -57,41 +53,42 @@ Cualquier configuración que establezca para una conexión de datos de Experienc
 
 >[!TIP]
 >
->Hay un flujo de trabajo independiente en el que puede ver y editar las conexiones de datos. For more information, follow the [managing data connections](/help/guide/setup/manage-data-connection.md) guide.
+>Hay un flujo de trabajo independiente en el que puede ver y editar las conexiones de datos. Para obtener más información, consulte la guía [administración de conexiones de datos](/help/guide/setup/manage-data-connection.md).
 
-To begin adding your data connection, select **[!UICONTROL Add a new data connection]** and then select **[!UICONTROL Next]**.
+Para empezar a agregar su conexión de datos, seleccione **[!UICONTROL Agregar una nueva conexión de datos]** y, a continuación, seleccione **[!UICONTROL Siguiente]**.
 
-![The Add audiences workspace with the Add a new data connection option highlighted.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
+![Espacio de trabajo Agregar audiencias con la opción Agregar una nueva conexión de datos resaltada.](/help/assets/setup/add-manage-audiences/add-data-connection.png){zoomable="yes"}
 
-#### Select data source
+#### Seleccionar fuente de datos {#select-data-source}
 
-Next, you&#39;ll choose the source for your data connection. The available sources include:
+A continuación, elegirá el origen de la conexión de datos. Las fuentes disponibles incluyen:
 
-* **Adobe Experience Platform**: Select this option to bring in your audiences from Adobe Experience Platform.
-* **CSV File**: Upload a CSV file containing your audience data for quick and straightforward data ingestion. Refer to the [Upload CSV file for audience sourcing](./upload-csv-audience-sourcing.md) guide to get started.
-* **Amazon Web Services**: Connect to your Amazon S3 storage to source audience data directly from your S3 buckets. See the [Configure AWS S3 for audience sourcing](./configure-aws-s3-audience-sourcing.md) guide for step-by-step instructions.
-* **Snowflake**: Use your Snowflake data warehouse to pull in audience data seamlessly. Refer to the [Configure [!DNL Snowflake] for audience sourcing](./configure-snowflake-audience-sourcing.md) guide.
-* **Google Cloud Storage**: Connect to your GCS buckets to source audience data. See the [Configure GCS for audience sourcing](./configure-gcs-audience-sourcing.md) guide for step-by-step instructions.
+* **Adobe Experience Platform**: selecciona esta opción para traer tus audiencias desde Adobe Experience Platform.
+* **Archivo CSV**: cargue un archivo CSV que contenga los datos de su audiencia para una ingesta de datos rápida y directa. Consulte la guía [Cargar archivo CSV para fuentes de audiencia](./upload-csv-audience-sourcing.md) para empezar.
+* **Amazon Web Service**: conéctese a su almacenamiento de Amazon S3 para obtener datos de audiencia directamente de sus bloques de S3. Consulte la guía [Configuración de AWS S3 para el abastecimiento de audiencias](./configure-aws-s3-audience-sourcing.md) para obtener instrucciones paso a paso.
+* **Snowflake**: usa tu almacén de datos de Snowflake para extraer datos de audiencias sin problemas. Consulte la guía [Configurar [!DNL Snowflake] para el abastecimiento de audiencias](./configure-snowflake-audience-sourcing.md).
+* **Almacenamiento en la nube de Google**: conéctese a los bloques de GCS para obtener datos de audiencia. Consulte la guía [Configurar GCS para fuentes de audiencia](./configure-gcs-audience-sourcing.md) para obtener instrucciones paso a paso.
+* **Adobe Audience Manager** (_Próximamente_): Source sus segmentos de audiencia desde Adobe Audience Manager.
 
-Select your data source and then select **[!UICONTROL Next]**.
+Seleccione su fuente de datos y luego seleccione **[!UICONTROL Siguiente]**.
 
-![The Add audiences workspace with the Adobe Experience Platform option highlighted.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
+![Espacio de trabajo Agregar audiencias con la opción Adobe Experience Platform resaltada.](/help/assets/setup/add-manage-audiences/select-data-connection-source.png){zoomable="yes"}
 
-#### Selección de zona protegida
+#### Selección de zona protegida {#select-sandbox}
 
-After selecting your data source, you must select the sandbox that includes the audiences that you want to use for Collaboration. Select the sandbox from the list of available sandboxes and then select **[!UICONTROL Next]**
+Después de seleccionar la fuente de datos, debe seleccionar la zona protegida que incluye las audiencias que desea utilizar para Collaboration. Seleccione la zona protegida de la lista de zonas protegidas disponibles y, a continuación, seleccione **[!UICONTROL Siguiente]**
 
-![The Add audiences workspace with a sandbox selected.](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
+![Espacio de trabajo Agregar audiencias con una zona protegida seleccionada.](/help/assets/setup/add-manage-audiences/select-sandbox.png){zoomable="yes"}
 
 #### Política de gobernanza y acciones de cumplimiento {#governance-policy-and-enforcement-actions}
 
-Next, you must make sure that the correct marketing actions are set on the sourced data. You are also required to provide consent for data sourced from Experience Platform to be used for data collaboration.
+A continuación, debe asegurarse de que las acciones de marketing correctas se establecen en los datos de origen. También debe dar su consentimiento para que los datos procedentes de Experience Platform se utilicen para la colaboración de datos.
 
-Use marketing actions to control which audience data to bring into Collaboration from Experience Platform. La acción de marketing **[!UICONTROL Colaboración de datos]** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
+Utilice acciones de marketing para controlar qué datos de audiencia introducir en Collaboration desde Experience Platform. La acción de marketing **[!UICONTROL Colaboración de datos]** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
 
-Read more about the [C4, C5, and C9 data usage labels](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
-* When the checkbox is ***enabled***, any data labeled in Experience Platform as described above is excluded and **not** brought into Collaboration.
+* Si la casilla de verificación está ***habilitada***, se excluirán todos los datos etiquetados en Experience Platform como se describió anteriormente y **no** se incluirán en Collaboration.
 * Con la casilla de verificación ***deshabilitada***, no hay restricciones en los datos procedentes de Experience Platform.
 
 Obtenga más información sobre las etiquetas de uso de datos en la documentación de Experience Platform:
@@ -107,7 +104,7 @@ Una vez que haya seleccionado las acciones de marketing y las reglas de consenti
 
 ![Cuadro de diálogo Directiva de gobernanza y acciones de aplicación con la casilla de verificación y la opción Aceptar resaltadas.](/help/assets/setup/add-manage-audiences/data-collaboration-consent-confirmation.png){zoomable="yes"}
 
-### Proporcionar detalles
+### Proporcionar detalles {#provide-details}
 
 A continuación, proporcione un nombre y una descripción para la conexión de datos. Esta información le ayudará a identificar la conexión de datos más adelante.
 
@@ -142,11 +139,9 @@ A continuación, proporcione un nombre y una descripción para la conexión de d
 >abstract="Seleccione atributos del esquema de unión para la clase de perfil en Experience Platform. Esta vista muestra los atributos que están presentes en el esquema de unión y pertenecen a la clase de perfil individual XDM."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es" text="Esquema de unión en Experience Platform"
 
-A continuación, seleccione los campos de origen para asignarlos a los campos de destino en Collaboration. Los campos de destino disponibles se basarán en las claves de coincidencia seleccionadas durante la configuración de la cuenta.
+A continuación, seleccione los campos de origen para asignarlos a los campos de destino en Collaboration. Los campos de destino disponibles se basarán en las claves de coincidencia seleccionadas durante la [configuración de la cuenta](./onboard-account.md#set-up-match-keys).
 
->[!IMPORTANT]
->
->Actualmente, no se pueden editar conexiones de datos para incluir nuevos campos de asignación. Si agrega nuevas claves de coincidencia a su cuenta después de crear la conexión de datos, deberá crear una nueva conexión de datos para asignarla a ellas.
+Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la configuración de la cuenta, [!DNL Demdex ID] se extrae y asigna automáticamente a partir de ECID y no tiene que realizar ninguna acción. Para obtener más información sobre [!DNL Demdex IDs], consulte la guía [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![Espacio de trabajo Agregar audiencias con la opción de asignar campos de origen a campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -156,47 +151,52 @@ A continuación, seleccione los campos de origen para asignarlos a los campos de
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
+**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
 
 Los campos de Source se asignan a los campos de destino definidos en Collaboration.
 
 **[!UICONTROL Campos de destino]** indican cómo se hace referencia a las identidades en Collaboration. Los campos de destino son las claves de coincidencia seleccionadas durante la configuración de la cuenta. De forma predeterminada, todas las claves de coincidencia seleccionadas están disponibles.
 
-Utilice la opción **[!UICONTROL Aplicar transformación]** cuando esté suministrando *campos sin hash* a campos con hash. Collaboration will apply the hashing and transform the fields. The hashing algorithm used by Adobe is SHA256.
+Utilice la opción **[!UICONTROL Aplicar transformación]** cuando esté suministrando *campos sin hash* a campos con hash. Collaboration aplicará el hash y transformará los campos. El algoritmo hash utilizado por Adobe es SHA256.
 
 >[!ENDSHADEBOX]
 
-To begin mapping fields, select the empty source field next to the target field. The **[!UICONTROL Select source field]** dialog will appear. Select between the **[!UICONTROL Identity namespaces]** and **[!UICONTROL Profile attributes]** options to find the desired source field and then select the field from the list. You can also make use of the search option to find the desired field.
+Para empezar a asignar campos, seleccione el campo de origen vacío junto al campo de destino. Aparecerá el cuadro de diálogo **[!UICONTROL Seleccionar campo de origen]**. Seleccione entre las opciones **[!UICONTROL Áreas de nombres de identidad]** y **[!UICONTROL Atributos de perfil]** para encontrar el campo de origen deseado y, a continuación, seleccione el campo en la lista. También puede utilizar la opción de búsqueda para encontrar el campo deseado.
 
-![The Select source field dialog with the email options displayed.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
+![Cuadro de diálogo Seleccionar campo de origen con las opciones de correo electrónico mostradas.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-To handle sourcing a non-hashed field to a hashed target field, use the **[!UICONTROL Apply transformation]** option. For example, to add a second email field, select the **[!UICONTROL Add field]** option to to add a new row, then select **[!UICONTROL Hashed email]** for the target field. Select a non-hashed email source field, and then select **[!UICONTROL Apply transformation]**.
+Para controlar el abastecimiento de un campo sin hash a un campo de destino con hash, use la opción **[!UICONTROL Aplicar transformación]**. Por ejemplo, para agregar un segundo campo de correo electrónico, seleccione la opción **[!UICONTROL Agregar campo]** a para agregar una nueva fila y, a continuación, seleccione **[!UICONTROL Correo electrónico con hash]** para el campo de destino. Seleccione un campo de origen de correo electrónico sin hash y luego seleccione **[!UICONTROL Aplicar transformación]**.
 
-![The Add audiences workspace with the email source fields mapped to the target field, with Apply transformation toggled on for one.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
+![Espacio de trabajo Agregar audiencias con los campos de origen de correo electrónico asignados al campo de destino, con la opción Aplicar transformación activada para uno.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
-Continue adding mapping pairs for each target field. If you don&#39;t wish to use a match key, you can remove it using the delete (![Delete icon](/help/assets/icons/delete.png)) icon next to the field. If match key is removed, you will not be able to use it when sourcing any audiences from the connection.
+Siga agregando pares de asignación para cada campo de destino. Si no desea utilizar una clave de coincidencia, puede eliminarla mediante el icono Eliminar (![icono Eliminar](/help/assets/icons/delete.png)) situado junto al campo. Si se elimina la clave de coincidencia, no podrá utilizarla al obtener audiencias de la conexión.
 
-![The Add audiences workspace with the Delete option beside a target field highlighted.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
+![Espacio de trabajo Agregar audiencias con la opción Eliminar al lado de un campo de destino resaltado.](/help/assets/setup/add-manage-audiences/remove-target-field.png){zoomable="yes"}
 
-When you&#39;re finished mapping fields, select **[!UICONTROL Next]** to continue.
+Si agrega un nuevo campo y selecciona **[!UICONTROL ID de Demdex (ECID)]** como campo de destino, **[!UICONTROL ECID]** se seleccionará automáticamente como campo de origen correspondiente. No se requiere ninguna otra acción.
 
-![The Add audiences workspace with the map fields filled in and the Next option highlighted.](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
+<!-- The current screenshot does not show the text under the mapping dropdown as in design. Update this when it's available in the UI. -->
+![El área de trabajo Agregar audiencias con el campo de origen de ECID asignado automáticamente al campo de destino de ID de Demdex (ECID).](/help/assets/setup/add-manage-audiences/ECID-automapped-field.png){zoomable="yes"}
+
+Cuando haya terminado de asignar campos, seleccione **[!UICONTROL Siguiente]** para continuar.
+
+![Espacio de trabajo Agregar audiencias con los campos de asignación rellenados y la opción Siguiente resaltada.](/help/assets/setup/add-manage-audiences/confirm-field-mapping.png){zoomable="yes"}
 
 ### Programación {#schedule}
 
-Next, schedule when to start and end populating the audiences. The audience will be refreshed according to this schedule.
+A continuación, programe cuándo comenzar y terminar de rellenar las audiencias. La audiencia se actualizará según esta programación.
 
-![The Add audience workspace with the scheduling options displayed.](/help/assets/setup/add-manage-audiences/audience-scheduling.png){zoomable="yes"}
+![Espacio de trabajo Agregar audiencia con las opciones de programación mostradas.](/help/assets/setup/add-manage-audiences/audience-scheduling.png){zoomable="yes"}
 
 >[!IMPORTANT]
 >
->Adjusting the frequency of audience updates will help manage the [Audience Management credit activity](/help/guide/setup/my-activity.md#types-of-activities), which is calculated per audience refresh. Selecting a higher frequency can impact of the freshness of the data available for audience discover reports and audience activation.
+>Ajustar la frecuencia de las actualizaciones de audiencias ayudará a administrar la [actividad de crédito de Gestión de público](/help/guide/setup/my-activity.md#types-of-activities), que se calcula por actualización de audiencia. La selección de una frecuencia mayor puede afectar a la actualización de los datos disponibles para los informes de detección de audiencias y la activación de audiencias.
 
-Select the frequency of the audience refresh from the **[!UICONTROL Frequency]** dropdown.
+Seleccione la frecuencia de actualización de la audiencia en el menú desplegable **[!UICONTROL Frecuencia]**.
 
-![The Add audiences scheduling workspace with the Frequency dropdown open.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
+![Espacio de trabajo de programación Agregar audiencias con la lista desplegable Frecuencia abierta.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png){zoomable="yes"}
 
-Next, select the **[!UICONTROL Date range]**. La fecha de inicio es la fecha en la que la audiencia empezará a rellenarse con perfiles y la fecha de finalización es cuando la audiencia dejará de actualizarse.
+A continuación, seleccione **[!UICONTROL Intervalo de fecha]**. La fecha de inicio es la fecha en la que la audiencia empezará a rellenarse con perfiles y la fecha de finalización es cuando la audiencia dejará de actualizarse.
 
 ![Espacio de trabajo de programación Agregar audiencias con la opción Intervalo de fechas mostrada.](/help/assets/setup/add-manage-audiences/audience-scheduling-date-range.png){zoomable="yes"}
 
