@@ -3,9 +3,9 @@ title: Configurar  [!DNL Google Cloud Storage] para el Abastecimiento de audienc
 description: Aprenda a conectar un contenedor  [!DNL Google Cloud Storage] como fuente de audiencia de autoservicio en Real-Time CDP Collaboration, incluidos los requisitos previos, la autenticación, la asignación de campos, la programación y la validación.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 4f7cb15ab5747a50d42188d03bc352c1fb05263b
+source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2898'
 ht-degree: 2%
 
 ---
@@ -91,6 +91,11 @@ Aparece un cuadro de diálogo de requisitos previos en el que se describen los p
 
 ### Escriba los detalles de conexión de [!DNL Google Cloud Storage] {#authenticate-gcs-connection}
 
+>[!CONTEXTUALHELP]
+>id="rtcdp_collaboration_audience_sourcing_gcs"
+>title="Añadir audiencia de Google Cloud Storage"
+>abstract="Para conectar su almacenamiento de Google Cloud, autorice al usuario del servicio de Adobe a recuperar sus datos de audiencia para procesarlos. Siga los pasos descritos en Experience League para conceder acceso a Adobe a su almacenamiento en la nube de Google."
+
 Proporcione los detalles necesarios para permitir que Collaboration acceda a su espacio de [!DNL Google Cloud Storage]. Después de especificar la información requerida, seleccione **[!UICONTROL Siguiente]**.
 
 | Campo | Descripción |
@@ -139,40 +144,40 @@ Escriba un intervalo de fechas en el campo de entrada o seleccione el icono de c
 
 >[!IMPORTANT]
 >
->Configure la frecuencia de actualización para que coincida o no supere la velocidad a la que se actualizan los datos de audiencia GCS subyacentes. El intervalo mínimo de actualización admitido es de una vez cada seis días. Refreshing more frequently than your data changes consumes Collaboration credits without producing updated results. To monitor your credit usage, see [Track your credit consumption activity](./my-activity.md).
+>Configure la frecuencia de actualización para que coincida o no supere la velocidad a la que se actualizan los datos de audiencia GCS subyacentes. El intervalo mínimo de actualización admitido es de una vez cada seis días. La actualización con más frecuencia que los cambios de datos consume créditos de Collaboration sin producir resultados actualizados. Para supervisar tu uso de crédito, consulta [Rastrear tu actividad de consumo de crédito](./my-activity.md).
 
-![Add audience workflow on the &quot;Schedule&quot; step showing the Frequency dropdown set to a recurring interval and a calendar date range selector with start and end dates highlighted. &quot;Next&quot; is visible in the top-right corner.](../../assets/setup/gcs-audience-sourcing/gcs-schedule-settings.png)
+![Agregue el flujo de trabajo de audiencia en el paso &quot;Programar&quot;, que muestra la lista desplegable Frecuencia establecida en un intervalo recurrente y un selector de intervalo de fechas de calendario con las fechas de inicio y finalización resaltadas. &quot;Siguiente&quot; está visible en la esquina superior derecha.](../../assets/setup/gcs-audience-sourcing/gcs-schedule-settings.png)
 
 Haga clic en **[!UICONTROL Siguiente]** para continuar.
 
-### Review and complete the connection {#review-and-complete}
+### Revisión y finalización de la conexión {#review-and-complete}
 
-Review the configuration summary before creating the connection. The summary screen displays the following sections:
+Revise el resumen de la configuración antes de crear la conexión. La pantalla de resumen muestra las siguientes secciones:
 
-* **[!UICONTROL Data connection]**: The GCS bucket credentials and folder path you configured.
-* **[!UICONTROL Details]**: The name and optional description of this data connection.
-* **[!UICONTROL Mapping]**: The auto-mapped source and target identity fields.
-* **[!UICONTROL Schedule]**: The refresh frequency and active date range.
+* **[!UICONTROL Conexión de datos]**: las credenciales del contenedor GCS y la ruta de la carpeta que configuró.
+* **[!UICONTROL Detalles]**: nombre y descripción opcional de esta conexión de datos.
+* **[!UICONTROL Asignación]**: los campos de origen y destino asignados automáticamente.
+* **[!UICONTROL Programación]**: La frecuencia de actualización y el intervalo de fechas activo.
 
-![Add audience workflow on the &quot;Review&quot; step showing a summary of the data connection, details, mapping, and schedule sections with configured values, and the Complete button visible in the top-right corner.](../../assets/setup/gcs-audience-sourcing/gcs-review-summary.png)
+![Agregue flujo de trabajo de audiencia en el paso &quot;Revisar&quot;, que muestra un resumen de las secciones de conexión de datos, detalles, asignación y programación con valores configurados, y el botón Completar visible en la esquina superior derecha.](../../assets/setup/gcs-audience-sourcing/gcs-review-summary.png)
 
-Select the pencil icon (![A pencil icon.](../../assets/icons/edit.png)) next to any section to return to that step and make changes. When all sections are correct, select **[!UICONTROL Complete]**.
+Seleccione el icono de lápiz (![Un icono de lápiz.](../../assets/icons/edit.png)) al lado de cualquier sección para volver a ese paso y realizar cambios. Cuando todas las secciones sean correctas, seleccione **[!UICONTROL Completar]**.
 
-A confirmation dialog appears, indicating that Collaboration created the data connection and that audience sourcing is in progress.
+Aparece un cuadro de diálogo de confirmación que indica que Collaboration ha creado la conexión de datos y que el abastecimiento de audiencias está en curso.
 
-## Review sourced audiences {#review-sourced-audiences}
+## Revisar audiencias de origen {#review-sourced-audiences}
 
-After you complete the configuration wizard, Collaboration begins sourcing audiences from your GCS bucket asynchronously. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL My audiences]** to monitor progress. Sourcing does not complete immediately; the time required depends on the size of your data and the configured refresh frequency.
+Después de completar el asistente de configuración, Collaboration empieza a obtener audiencias del bloque GCS de forma asíncrona. Vaya a **[!UICONTROL Configuración]** > **[!UICONTROL Mis audiencias]** para supervisar el progreso. El abastecimiento no se completa inmediatamente; el tiempo necesario depende del tamaño de los datos y de la frecuencia de actualización configurada.
 
-### Monitor audience sourcing progress {#monitor-sourcing-progress}
+### Monitorización del progreso de abastecimiento de audiencia {#monitor-sourcing-progress}
 
-While Collaboration is retrieving your audience data, a banner at the top of the **[!UICONTROL My audiences]** workspace indicates that sourcing is in progress. Individual audiences appear in the list only after sourcing completes for each audience.
+Mientras Collaboration recupera sus datos de audiencia, un banner en la parte superior de **[!UICONTROL Mis audiencias]** espacio de trabajo indica que el abastecimiento está en curso. Las audiencias individuales aparecen en la lista solo después de que el abastecimiento se complete para cada audiencia.
 
-![Setup workspace on the &quot;My audiences&quot; tab showing an &quot;Audience sourcing in progress&quot; banner indicating that audiences are being sourced from a Google Cloud Storage data connection, with the audience list displayed below.](../../assets/setup/gcs-audience-sourcing/gcs-sourcing-in-progress.png)
+![Configure el área de trabajo en la ficha &quot;Mis audiencias&quot; que muestra un titular &quot;Fuente de audiencias en curso&quot; que indica que las audiencias provienen de una conexión de datos de Google Cloud Storage y que la lista de audiencias se muestra a continuación.](../../assets/setup/gcs-audience-sourcing/gcs-sourcing-in-progress.png)
 
 >[!TIP]
 >
->Audience sourcing time varies based on the size of your GCS data and the refresh frequency you configured. Es posible que los conjuntos de datos más grandes o las programaciones de actualización menos frecuentes tarden más en aparecer en el área de trabajo **[!UICONTROL Mis audiencias]**.
+>El tiempo de obtención de la audiencia varía en función del tamaño de los datos GCS y la frecuencia de actualización configurada. Es posible que los conjuntos de datos más grandes o las programaciones de actualización menos frecuentes tarden más en aparecer en el área de trabajo **[!UICONTROL Mis audiencias]**.
 
 ### Ver detalles de la audiencia de origen {#view-audience-details}
 
@@ -206,38 +211,38 @@ Para revisar o administrar la propia conexión, incluidas sus claves de coincide
 Tenga en cuenta las siguientes restricciones al configurar y utilizar el abastecimiento de audiencia [!DNL Google Cloud Storage]:
 
 * **Restricciones de clave de coincidencia:** Una vez habilitada una clave de coincidencia para una conexión de datos, no se puede quitar. Puede agregar claves de coincidencia a una conexión existente, pero no puede deshabilitarlas ni eliminarlas. Para cambiar las claves de coincidencia activas, debe [eliminar la conexión de datos](./manage-data-connection.md#delete-data-connection) y crear una nueva.
-* **One active data connection per source:** Only one active [!DNL Google Cloud Storage] data connection is supported at a time. If you need to source audiences from a different bucket, [delete the existing connection](./manage-data-connection.md#delete-data-connection) and create a new one pointing to the new bucket.
-* **Subfolder support:** Audience files must be located directly within the specified folder path. Collaboration does not traverse subfolders within that path.
+* **Una conexión de datos activa por origen:** Solo se admite una conexión de datos activa de [!DNL Google Cloud Storage] a la vez. Si necesita crear audiencias a partir de un bloque diferente, [elimine la conexión existente](./manage-data-connection.md#delete-data-connection) y cree una nueva que apunte al nuevo bloque.
+* **Compatibilidad con subcarpetas:** Los archivos de audiencia deben encontrarse directamente en la ruta de acceso de la carpeta especificada. Collaboration no atraviesa subcarpetas dentro de esa ruta.
 
 ## Resolución de problemas {#troubleshooting}
 
-Use this section to resolve issues that occur after you establish the initial connection. For errors that occur during authentication, review your credentials and bucket permissions, or contact your administrator.
+Utilice esta sección para resolver los problemas que se producen después de establecer la conexión inicial. Para ver los errores que se producen durante la autenticación, revise las credenciales y los permisos del bloque o póngase en contacto con el administrador.
 
-**Audiences are not appearing or sourcing is taking longer than expected**
+**Las audiencias no aparecen o el abastecimiento está tardando más de lo esperado**
 
-* Sourcing time scales with data volume and the configured refresh frequency. Extended processing time is expected for large datasets.
-* If audiences have not appeared within 24 hours, confirm that your audience files exist at the folder path you specified during setup and comply with the Audience Sourcing Specification.
-* Check the **[!UICONTROL My data connections]** tab for error indicators on the connection.
-* If the issue persists after completing these steps, contact Adobe customer support and provide the data connection name and bucket details.
+* El tiempo de abastecimiento se amplía con el volumen de datos y la frecuencia de actualización configurada. Se espera un tiempo de procesamiento prolongado para los conjuntos de datos grandes.
+* Si las audiencias no han aparecido en un plazo de 24 horas, confirme que los archivos de audiencia existen en la ruta de carpeta especificada durante la configuración y cumplan con la Especificación del Abastecimiento de audiencias.
+* Compruebe la pestaña **[!UICONTROL Mis conexiones de datos]** para ver los indicadores de error en la conexión.
+* Si el problema persiste después de completar estos pasos, póngase en contacto con el servicio de atención al cliente de Adobe y proporcione el nombre de la conexión de datos y los detalles del bloque.
 
-**The data connection shows a failed status after initially succeeding**
+**La conexión de datos muestra un estado de error después de haberse realizado correctamente inicialmente**
 
-* Confirm that the GCS bucket permissions and credentials have not changed since you created the connection. Any change that removes Adobe&#39;s access to the bucket causes subsequent sourcing runs to fail.
-* Verify that audience files still exist at the configured folder path and conform to the Audience Sourcing Specification.
-* If the issue persists after confirming permissions and file availability, [delete the connection](./manage-data-connection.md#delete-data-connection) and create a new one, or contact Adobe customer support.
+* Confirme que los permisos y credenciales del contenedor GCS no han cambiado desde que creó la conexión. Cualquier cambio que elimine el acceso de Adobe al bloque provoca que las ejecuciones de abastecimiento posteriores fallen.
+* Compruebe que los archivos de audiencia siguen existiendo en la ruta de carpeta configurada y que se ajustan a la Especificación del Abastecimiento de audiencias.
+* Si el problema continúa después de confirmar los permisos y la disponibilidad del archivo, [elimine la conexión](./manage-data-connection.md#delete-data-connection) y cree una nueva, o póngase en contacto con el servicio de atención al cliente de Adobe.
 
-**Audience file format errors occur during a scheduled refresh**
+**Se producen errores de formato de archivo de audiencia durante una actualización programada**
 
-* Confirm that updated files in the bucket comply with the column structure and field requirements in the [Audience Sourcing Specification](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
-* Ensure all files in the configured folder path use identical column structures. Mixed-format files in the same path can cause partial sourcing failures.
+* Confirme que los archivos actualizados en el bloque cumplen con los requisitos de campo y estructura de columna de la [especificación de fuentes de audiencia](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.2.pdf).
+* Asegúrese de que todos los archivos de la ruta de carpeta configurada utilicen estructuras de columna idénticas. Los archivos de formato mixto en la misma ruta pueden provocar errores de abastecimiento parciales.
 
-## Set up [!DNL Google Cloud Storage] permissions {#setup-gcs-permissions}
+## Configurar permisos de [!DNL Google Cloud Storage] {#setup-gcs-permissions}
 
-[!DNL Google Cloud Storage] provides a secure, scalable way to store and access your data in the cloud. To allow Adobe to read from your GCS buckets, you must configure the appropriate Identity and Access Management (IAM) permissions and service account access in your [!DNL Google Cloud] account.
+[!DNL Google Cloud Storage] ofrece una forma segura y escalable de almacenar datos y obtener acceso a ellos en la nube. Para permitir que Adobe lea desde los bloques de GCS, debe configurar los permisos de Identity and Access Management (IAM) y el acceso a la cuenta de servicio adecuados en su cuenta de [!DNL Google Cloud].
 
-### Collect Adobe&#39;s [!DNL Google Service Account] information {#collect-account-information}
+### Recopilar información de [!DNL Google Service Account] de Adobe {#collect-account-information}
 
-To get started, note the [!DNL Google Service Account] for Adobe that matches your region. You will need this information to grant Adobe access in later steps.
+Para empezar, observe el [!DNL Google Service Account] para Adobe que coincide con su región. Necesitará esta información para conceder acceso a Adobe en pasos posteriores.
 
 | Región | [!DNL Google Service Account] |
 | ------------- | --------------- |
@@ -247,43 +252,43 @@ To get started, note the [!DNL Google Service Account] for Adobe that matches yo
 
 {style="table-layout:auto"}
 
-### Set up IAM role {#setup-iam-role}
+### Configuración del rol de IAM {#setup-iam-role}
 
 >[!IMPORTANT]
 >
->You must have **Account Admin** privileges in your [!DNL Google Cloud] account to complete this setup. If you do not have these privileges, contact your administrator before proceeding.
+>Debe tener privilegios de **Administrador de cuenta** en su cuenta de [!DNL Google Cloud] para completar esta configuración. Si no tiene estos privilegios, póngase en contacto con el administrador antes de continuar.
 
-Follow the steps below to create a custom IAM role with the necessary permissions and assign it to the Adobe service account. This ensures Adobe has secure access to your GCS audience data.
+Siga los pasos a continuación para crear una función IAM personalizada con los permisos necesarios y asignarla a la cuenta de servicio de Adobe. Esto garantiza que Adobe tenga acceso seguro a los datos de audiencia de GCS.
 
-#### Create IAM role {#create-iam-role}
+#### Crear función de IAM {#create-iam-role}
 
-First, create a custom IAM role in your [!DNL Google Cloud] project with the necessary permissions to assign to Adobe.
+En primer lugar, cree una función IAM personalizada en el proyecto [!DNL Google Cloud] con los permisos necesarios para asignarla a Adobe.
 
-In the **[!DNL IAM & Admin]** page of the [[!DNL Google Cloud] Console](https://console.cloud.google.com), navigate to **[!DNL Roles]** and select **[!DNL Create role]**. Fill in the required information such as the title and ID for your new role.
+En la página **[!DNL IAM & Admin]** de la [[!DNL Google Cloud] consola](https://console.cloud.google.com), vaya a **[!DNL Roles]** y seleccione **[!DNL Create role]**. Rellene la información necesaria, como el título y el ID de la nueva función.
 
-Then add the following permissions to the role:
+A continuación, agregue los siguientes permisos a la función:
 
 | Permiso | Objetivo |
 | ------------- | --------------- |
-| `storage.buckets.get` | Read bucket metadata. |
-| `storage.objects.get` | Read object data and metadata. |
-| `storage.objects.list` | List objects in a bucket. |
+| `storage.buckets.get` | Leer metadatos de bloque. |
+| `storage.objects.get` | Leer datos y metadatos de objetos. |
+| `storage.objects.list` | Enumerar objetos en un bloque. |
 
 {style="table-layout:auto"}
 
-For more information on permissions, see [GCS IAM permissions](https://cloud.google.com/storage/docs/access-control/iam-permissions). For step-by-step instructions, see [how to create custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles).
+Para obtener más información sobre los permisos, consulte [Permisos de GCS IAM](https://cloud.google.com/storage/docs/access-control/iam-permissions). Para obtener instrucciones paso a paso, vea [cómo crear funciones personalizadas](https://docs.cloud.google.com/iam/docs/creating-custom-roles).
 
-#### Assign IAM role to Adobe {#assign-role}
+#### Asignar la función IAM a Adobe {#assign-role}
 
-Next, open the [**[!DNL Buckets]**&#x200B;page](https://console.cloud.google.com/storage/browser) in the [!DNL Google Cloud Console] and select the bucket that contains your audience data.
+A continuación, abra la página [**[!DNL Buckets]**](https://console.cloud.google.com/storage/browser) en [!DNL Google Cloud Console] y seleccione el contenedor que contiene los datos de audiencia.
 
-Navigate to the **[!DNL Permissions]** tab, choose **[!DNL View by principals]**, and then select **[!DNL Grant access]**.
+Vaya a la ficha **[!DNL Permissions]**, elija **[!DNL View by principals]** y, a continuación, seleccione **[!DNL Grant access]**.
 
-In the **[!DNL Add principals]** dialog, add the [Adobe Google Service Account](#collect-account-information) as the principal and assign the custom IAM role you created earlier. Select **[!DNL Save]** to confirm the setup.
+En el cuadro de diálogo **[!DNL Add principals]**, agregue la [cuenta del servicio Adobe Google](#collect-account-information) como principal y asigne el rol IAM personalizado que creó anteriormente. Seleccione **[!DNL Save]** para confirmar la instalación.
 
-Adobe now has secure access your audience data in the selected GCS bucket. Review any additional [prerequisites](#prerequisites) as needed, or proceed to [begin sourcing audiences from GCS into Collaboration](#configure-gcs-connection).
+Adobe ahora tiene acceso seguro a sus datos de audiencia en el bloque GCS seleccionado. Revise [requisitos previos](#prerequisites) adicionales según sea necesario o proceda a [comenzar a obtener audiencias de GCS en Collaboration](#configure-gcs-connection).
 
-#### Collect [!DNL Google Cloud Storage] details {#collect-gcs-details}
+#### Recopilar detalles de [!DNL Google Cloud Storage] {#collect-gcs-details}
 
 Finalmente, reúna los detalles de su cubo GCS como se muestra en la tabla siguiente. Necesitará esta información para configurar la conexión entre su GCS y Collaboration.
 
