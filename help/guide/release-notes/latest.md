@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: 7affd3abf7a10019503825cb20d9be1ad4000603
 workflow-type: tm+mt
-source-wordcount: 1461
+source-wordcount: 1903
 ht-degree: 3%
 
 ---
@@ -26,9 +26,48 @@ ht-degree: 3%
 
 {{limited-availability-release-note}}
 
-**Última actualización**: enero de 2026.
+**Última actualización**: abril de 2026.
 
 Estas notas de la versión abarcan la funcionalidad incluida en Adobe Real-Time CDP Collaboration. Las versiones de Collaboration funcionan con un modelo de entrega continua, que permite una cadencia de versión mensual aproximada. Estas notas de la versión se actualizan con frecuencia, por lo que asegúrese de consultarlas regularmente.
+
+## Abril de 2026 {#april-2026}
+
+Las nuevas funciones ya están disponibles en Real-Time CDP Collaboration. Entre ellas se incluyen Collaboration [!DNL Starter] para invitar socios, fuentes de audiencia expandidas de [!DNL Snowflake] y [!DNL Google Cloud Storage], compatibilidad con [!DNL Demdex ID (ECID)] como clave de coincidencia y dos nuevas funciones de colaborador: Agencia y socio de datos.
+
+**Funciones nuevas o actualizadas**
+
+| Función | Descripción |
+| ------- | ----------- |
+| Real-Time CDP Collaboration [!DNL Starter] | Ahora puede invitar a socios que no tengan una licencia de Collaboration a colaborar con usted a través de Collaboration [!DNL Starter]. Los socios invitados pueden obtener audiencias, descubrir superposiciones y activar audiencias dentro de la conexión compartida. Consulte la [descripción general [!DNL Starter] de Collaboration](../overview/starter-overview.md) para comenzar. |
+| Se está obteniendo la audiencia de autoservicio de [!DNL Snowflake] y [!DNL Google Cloud Storage] | Ahora puede obtener audiencias de origen directamente desde su bloque de [!DNL Snowflake Secure Data Share] o [!DNL Google Cloud Storage] en Collaboration. Para obtener instrucciones de configuración, consulte las siguientes guías: <ul><li>[Configurar [!DNL Snowflake] para el abastecimiento de audiencias](../setup/configure-snowflake-audience-sourcing.md) </li><li> [Configurar [!DNL Google Cloud Storage] para el abastecimiento de audiencias](../setup/configure-gcs-audience-sourcing.md) </li></ul> |
+| [!DNL Demdex ID] clave de coincidencia | [!DNL Demdex ID] (ECID) ahora se admite como clave de coincidencia para la coincidencia de identidades anónimas basadas en cookies en todas las plataformas. Mejora la precisión de la superposición de audiencias sin depender de datos de usuario autenticados. Consulte [claves de coincidencia admitidas](../setup/onboard-account.md#supported-match-keys) para obtener más información. |
+| Nuevas funciones de colaborador | Collaboration ahora admite dos funciones de colaborador adicionales, incluidas **Agencia** y **Socio de datos**. Estas funciones amplían la forma en que diferentes organizaciones pueden participar y trabajar juntas dentro de la plataforma. Más información sobre: <ul><li>[Funciones de cuenta de colaborador](../overview/roles.md)</li><li>[patrones de Collaboration](../overview/collaboration-patterns.md)</li><li>[Flujo de trabajo de extremo a extremo](../overview/end-to-end-workflow.md)</li></ul> |
+
+{style="table-layout:auto"}
+
+## Marzo de 2026 {#march-2026}
+
+Ahora puede generar informes de medición de campañas y administrar los datos de medición en Real-Time CDP Collaboration.
+
+**Funciones nuevas o actualizadas**
+
+| Función | Descripción |
+| ------- | ----------- |
+| Disponibilidad general de medición | Los informes de medición ahora están disponibles de forma general en Collaboration. Ahora puede introducir los ID de campaña asociados con las campañas de marketing como publicador, obtener datos de conversión como anunciante y generar dos tipos de informes: **Resumen de campaña** para los resultados generales de la campaña y **Atribución** para las perspectivas de eficacia de la campaña. Para empezar, consulte las siguientes guías: <ul><li>[ID de campaña de entrada](../collaborate/manage-projects.md#manage-campaign-id)</li><li>[Datos de conversión de Source](../setup/onboard-measurement-data.md)</li><li>[Crear y ver informes de medición](../collaborate/measure.md)</li></ul> |
+| Administración del ciclo vital de medición | Collaboration también admite la administración de mediciones:<ul><li> Los anunciantes ahora pueden editar o eliminar conexiones de datos de medición y eventos de conversión asociados para garantizar un análisis de campaña preciso y actualizado. Para obtener más información, consulte [Administrar conexión de datos de medición](../setup/manage-measurement-data-connection.md) y [Administrar eventos de conversión](../setup/onboard-measurement-data.md#edit-measurement-data).</li><li>También puede editar o eliminar informes de mediciones programadas directamente desde la ficha **[!UICONTROL Measure]** en cualquier proyecto de colaboración. Esta opción está disponible para todos los usuarios. Consulte la [guía de administración de informes de medición](../collaborate/measure.md) para obtener más detalles.</li></ul> |
+
+{style="table-layout:auto"}
+
+## Febrero de 2026 {#february-2026}
+
+Real-Time CDP Collaboration ahora admite la edición de la conexión existente y la configuración de conexión de datos directamente en la interfaz.
+
+**Característica nueva o actualizada**
+
+| Función | Descripción |
+| ------- | ----------- |
+| Editar la configuración de conexión | Los propietarios de conexión ahora pueden actualizar los casos de uso, las claves de coincidencia, los permisos de activación y las divisiones de crédito después de establecer una conexión. Consulte [Editar conexión](../connect/manage-connections.md#edit-connection) para obtener instrucciones paso a paso. |
+| Editar conexiones de datos | Actualice las claves de coincidencia y las configuraciones de programación para las conexiones de datos existentes directamente en Collaboration. Consulte [Editar conexión de datos](../setup/manage-data-connection.md#edit-data-connection) para obtener instrucciones paso a paso. |
 
 ## Enero de 2026 {#january-2026}
 
