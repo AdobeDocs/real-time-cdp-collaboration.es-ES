@@ -10,7 +10,7 @@ exl-id: d1b0ca65-344d-4df0-9e07-222c79f1cdb7
 source-git-commit: bd2227e8eaac82a30566df1299f4cd3ca2cbe60b
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 11%
+ht-degree: 56%
 
 ---
 
@@ -25,4 +25,4 @@ Vuelva más tarde para obtener orientación detallada e información sobre la im
 >[!CONTEXTUALHELP]
 > id="rtcdp_collaboration_amc_attribution_lookback_period"
 > title="Período retrospectivo de atribución"
-> abstract="AMC aplica un período de atribución de 30 días fijo: las conversiones que se producen hasta 30 días después de la última impresión pueden atribuirse a impresiones dentro del intervalo de fechas del informe. Este valor no se puede editar; programe la fecha de ejecución del informe al menos 30 días después del final del intervalo para garantizar que se capturan todas las conversiones aptas."
+> abstract="AMC aplica un período fijo de atribución de 30 días: las conversiones que se producen hasta 30 días después de la última impresión pueden atribuirse a impresiones dentro del intervalo de fechas del informe. Este valor no se puede editar; programe la fecha de ejecución del informe al menos 30 días después del final del intervalo para garantizar que se capturan todas las conversiones aptas."
