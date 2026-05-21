@@ -2,7 +2,7 @@
 title: Configurar  [!DNL Google Cloud Storage] para el Abastecimiento de audiencias
 description: Aprenda a conectar un contenedor  [!DNL Google Cloud Storage] como fuente de audiencia de autoservicio en Real-Time CDP Collaboration, incluidos los requisitos previos, la autenticación, la asignación de campos, la programación y la validación.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
 workflow-type: tm+mt
 source-wordcount: '2898'
