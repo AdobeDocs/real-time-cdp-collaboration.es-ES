@@ -2,8 +2,8 @@
 title: Configurar  [!DNL Google Cloud Storage] para el Abastecimiento de audiencias
 description: Aprenda a conectar un contenedor  [!DNL Google Cloud Storage] como fuente de audiencia de autoservicio en Real-Time CDP Collaboration, incluidos los requisitos previos, la autenticación, la asignación de campos, la programación y la validación.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Antes de continuar, confirme lo siguiente con su administrador de [!DNL Google C
 
 ### Preparación de los datos de audiencia {#prepare-audience-data}
 
-Los archivos de audiencia deben cumplir con la **[Especificación de fuentes de audiencia (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)** antes de que comience el abastecimiento. Revise la especificación para la definición de esquema completa y los ejemplos de nivel de campo. Los requisitos clave incluyen:
+Los archivos de audiencia deben cumplir con la **[Especificación de fuentes de audiencia (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)** antes de que comience el abastecimiento. Revise la especificación para la definición de esquema completa y los ejemplos de nivel de campo. Los requisitos clave incluyen:
 
 * **Formato de archivo:** CSV, con comas como delimitadores de campo y barras verticales (`|`) como separadores de varios valores dentro de un solo campo.
 * **Campos obligatorios:** Cada registro debe incluir una columna `AUDIENCE_ID` y al menos una columna de clave de coincidencia admitida.
@@ -85,7 +85,7 @@ La pantalla de selección de fuentes de datos enumera todos los tipos de conexi�
 
 ![Flujo de trabajo Agregar audiencia que muestra la pantalla de selección de fuentes de datos con Google Cloud Storage seleccionado y Siguiente resaltado.](../../assets/setup/gcs-audience-sourcing/gcs-data-source-selection.png)
 
-Aparece un cuadro de diálogo de requisitos previos en el que se describen los pasos de configuración necesarios (por ejemplo, la configuración del contenedor GCS y la asignación de funciones IAM) y se indica que los datos deben cumplir con la **[[!UICONTROL especificación de fuentes de audiencias]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**. Seleccione **[!UICONTROL Iniciar incorporación]** para confirmar el cumplimiento antes de continuar.
+Aparece un cuadro de diálogo de requisitos previos en el que se describen los pasos de configuración necesarios (por ejemplo, la configuración del contenedor GCS y la asignación de funciones IAM) y se indica que los datos deben cumplir con la **[[!UICONTROL especificación de fuentes de audiencias]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**. Seleccione **[!UICONTROL Iniciar incorporación]** para confirmar el cumplimiento antes de continuar.
 
 ![Los requisitos previos de la lista modal &quot;Prepare your GCS bucket for onboarding&quot; (Prepare your GCS bucket for onboarding), entre los que se incluyen la creación de un bucket GCS, la configuración del acceso IAM para Adobe y el cumplimiento de la Especificación de Abastecimiento de Audiencia, con las opciones Cancelar e &quot;Iniciar la incorporación&quot;.](../../assets/setup/gcs-audience-sourcing/gcs-onboarding-prerequisites-dialog.png)
 
@@ -130,7 +130,7 @@ La pantalla **[!UICONTROL Mapping]** es de solo lectura. Collaboration asigna au
 
 ![Cuadro de diálogo &quot;Vista previa de datos GCS&quot; que muestra una tabla de datos de audiencia de ejemplo con columnas como AUDIENCE_ID y HASHED_EMAIL_SHA_256, y un botón Cerrar en la esquina inferior derecha.](../../assets/setup/gcs-audience-sourcing/gcs-data-preview.png){zoomable="yes"}
 
-Confirme que las asignaciones mostradas reflejen los campos de los archivos de audiencia. Si no lo hacen, detenga y corrija los archivos para que se ajusten a la [especificación de fuentes de audiencias](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf) antes de continuar. Haga clic en **[!UICONTROL Siguiente]** para continuar.
+Confirme que las asignaciones mostradas reflejen los campos de los archivos de audiencia. Si no lo hacen, detenga y corrija los archivos para que se ajusten a la [especificación de fuentes de audiencias](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf) antes de continuar. Haga clic en **[!UICONTROL Siguiente]** para continuar.
 
 ![Agregue el flujo de trabajo de audiencia en el paso &quot;Asignar campos&quot; que muestra los campos de origen asignados automáticamente (AUDIENCE\_ID y HASHED\_EMAIL\_SHA\_256) a los campos de identidad de destino, con la opción &quot;Previsualizar datos de origen&quot; visible y el botón Siguiente en la esquina superior derecha.](../../assets/setup/gcs-audience-sourcing/gcs-mapping-auto-fields.png)
 
@@ -233,7 +233,7 @@ Utilice esta sección para resolver los problemas que se producen después de es
 
 **Se producen errores de formato de archivo de audiencia durante una actualización programada**
 
-* Confirme que los archivos actualizados en el bloque cumplen con los requisitos de campo y estructura de columna de la [especificación de fuentes de audiencia](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf).
+* Confirme que los archivos actualizados en el bloque cumplen con los requisitos de campo y estructura de columna de la [especificación de fuentes de audiencia](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf).
 * Asegúrese de que todos los archivos de la ruta de carpeta configurada utilicen estructuras de columna idénticas. Los archivos de formato mixto en la misma ruta pueden provocar errores de abastecimiento parciales.
 
 ## Configurar permisos de [!DNL Google Cloud Storage] {#setup-gcs-permissions}
