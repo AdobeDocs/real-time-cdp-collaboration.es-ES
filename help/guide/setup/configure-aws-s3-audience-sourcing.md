@@ -2,7 +2,7 @@
 title: Configurar  [!DNL Amazon S3] para el Abastecimiento de audiencias
 description: Aprenda a configurar y conectar su almacenamiento de  [!DNL Amazon S3]  como fuente de datos de autoservicio para introducir datos de audiencia en Real-Time CDP Collaboration.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: e7d6ff3a93e8ac4027327c9d0e347e03a7a8aa52
+source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 8%
@@ -28,7 +28,7 @@ Las audiencias obtenidas a través de S3 siguen las mismas reglas de gobernanza 
 
 Antes de configurar la conexión de datos de S3, asegúrese de lo siguiente:
 
-* Tiene acceso a un bloque **[!DNL Amazon S3]activo** que contiene archivos de audiencia que se ajustan a la **[especificación de fuentes de audiencia (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)**.
+* Tiene acceso a un bloque **[!DNL Amazon S3]activo** que contiene archivos de audiencia que se ajustan a la **[especificación de fuentes de audiencia (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**.
 * Ha creado un **rol de IAM** en AWS que concede permiso a Adobe para acceder a su bloque mediante el método **rol asumido** (no claves de acceso/secretas). Consulte **[Configuración de permisos de AWS para el abastecimiento de audiencias](./configure-aws-permissions-audience-sourcing.md)** para obtener instrucciones detalladas. La función IAM debe incluir los siguientes permisos:
 
    * `ListBucket`
@@ -71,7 +71,7 @@ Seleccione **[!UICONTROL Amazon S3]** como conexión de datos, seguido de **[!UI
 >abstract="Lea la guía de especificación de fuentes de públicos para aprender a dar formato y estructurar los datos de público de Amazon S3 para Collaboration."
 >additional-url="https://www.adobe.com/go/rtcdp-collaboration-audience-sourcing" text="Consulte la guía"
 
-Aparecerá un cuadro de diálogo que explica cómo se deben estructurar los archivos de audiencia. Use el vínculo a **[[!UICONTROL Especificación de fuentes de audiencia]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1.3.pdf)** para aprender a dar formato y estructurar los datos de audiencia de [!DNL Amazon S3] para que Collaboration los lea correctamente.
+Aparecerá un cuadro de diálogo que explica cómo se deben estructurar los archivos de audiencia. Use el vínculo a **[[!UICONTROL Especificación de fuentes de audiencia]](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)** para aprender a dar formato y estructurar los datos de audiencia de [!DNL Amazon S3] para que Collaboration los lea correctamente.
 
 >[!IMPORTANT]
 >
