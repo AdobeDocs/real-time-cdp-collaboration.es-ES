@@ -11,7 +11,7 @@ topic_v2:
 source-git-commit: cb901016a35867be647f165c953f5753eec6dfa5
 workflow-type: tm+mt
 source-wordcount: 1121
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -61,8 +61,8 @@ Seleccione **[!UICONTROL Archivo CSV]** como conexión de datos, seguido de **[!
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sourcing_csv"
->title="Adición de audiencias a partir de archivos CSV"
->abstract="Cargue un archivo CSV desde el equipo para originar las audiencias en Real-Time CDP Collaboration."
+>title="Añadir público desde archivos CSV"
+>abstract="Cargue un archivo CSV desde su equipo para importar los públicos a Real-Time CDP Collaboration."
 
 Elija **[!UICONTROL Seleccionar del equipo]** para cargar un archivo CSV desde el sistema local. También puede arrastrar y soltar el archivo CSV que desee cargar en el panel [!UICONTROL Arrastrar y soltar un archivo CSV].
 
