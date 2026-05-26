@@ -2,12 +2,12 @@
 title: Configurar  [!DNL Snowflake] para el Abastecimiento de audiencias
 description: Aprenda a configurar y conectar su  [!DNL Snowflake Secure Data Share] fuente de datos de autoservicio para ingerir datos de audiencia en Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
 source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
 workflow-type: tm+mt
 source-wordcount: '1586'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -152,12 +152,12 @@ Una vez finalizado, seleccione **[!UICONTROL Iniciar incorporación]**.
 
 ![Prepare su [!DNL Snowflake Share] para el cuadro de diálogo de incorporación con un vínculo a las especificaciones de fuentes de audiencias.](../../assets/setup/snowflake-audience-sourcing/prepare-snowflake-share-onboarding-dialog.png)
 
-### Autenticar la conexión [!DNL Snowflake Share] {#authenticate-snowflake-share-connection}
+### Autenticar la conexión de [!DNL Snowflake Share] {#authenticate-snowflake-share-connection}
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_snowflake"
->title="Añadir audiencia de Snowflake"
->abstract="Para conectar su recurso compartido de Snowflake, autorice al usuario del servicio de Adobe a recuperar sus datos de audiencia para procesarlos. Siga los pasos descritos en Experience League para conceder acceso a Adobe a su recurso compartido de Snowflake."
+>title="Añadir público de Snowflake"
+>abstract="Para conectar Snowflake Share, autorice al usuario de servicio de Adobe para que recupere los datos de su público para procesarlos. Siga los pasos que se describen en Experience League para conceder a Adobe acceso a Snowflake Share."
 
 En este paso, debe proporcionar las credenciales de [!DNL Snowflake Share] necesarias para conectar su [!DNL Snowflake Share] a Collaboration:
 
