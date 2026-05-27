@@ -10,7 +10,7 @@ landing-page-breadcrumb-title: Experience Platform
 type: Documentation
 mini-toc-levels: 2
 index: true
-git-repo: https://github.com/AdobeDocs/real-time-cdp-collaboration.en
+git-repo: https://github.com/AdobeDocs/real-time-cdp-collaboration.es-ES
 source-git-commit: 38d2fd88c9fe4fff27664ec7e97179bc8485c085
 workflow-type: tm+mt
 source-wordcount: 71
