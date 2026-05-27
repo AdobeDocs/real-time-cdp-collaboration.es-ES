@@ -1,7 +1,8 @@
 ---
 cloud: Experience Cloud
 solution: Real-Time Customer Data Platform
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
 usetq: true
 product: experience cloud
 landing-page-name: experience-platform
