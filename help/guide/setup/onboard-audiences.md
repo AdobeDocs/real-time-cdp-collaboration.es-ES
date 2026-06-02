@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
 workflow-type: tm+mt
-source-wordcount: 3753
+source-wordcount: 3741
 ht-degree: 17%
 
 ---
@@ -49,7 +49,7 @@ En la ficha **[!UICONTROL Mis audiencias]** del área de trabajo **[!UICONTROL C
 >
 >Después de establecer en la primera conexión de datos y obtener la primera audiencia, puede obtener varias audiencias a partir de la conexión de datos existente. Al agregar audiencias adicionales, empezará desde el paso [seleccionar audiencia](#select-audiences), ya que la conexión de datos ya se ha establecido.
 
-Una conexión de datos es la fuente desde la que se introducen audiencias en Collaboration. Los orígenes admitidos son Adobe Experience Platform, carga de archivo CSV, [!DNL Amazon S3], [!DNL Snowflake] y [!DNL Google Cloud Storage], cada uno con su propio flujo de trabajo. Adobe Audience Manager estará disponible próximamente.
+Una conexión de datos es la fuente desde la que se introducen audiencias en Collaboration. Para obtener más información acerca de todos los orígenes disponibles, vea [Resumen de orígenes](./source-overview.md).
 
 Las secciones siguientes describen cómo seleccionar **Adobe Experience Platform** y completar los pasos específicos de Experience Platform (simulación de pruebas, administración y consentimiento). Si elige CSV, [!DNL Amazon S3], [!DNL Snowflake] o [!DNL Google Cloud Storage], use la guía vinculada en [Seleccionar origen de datos](#select-data-source) para esa opción.
 
@@ -343,7 +343,7 @@ La disponibilidad de la audiencia para su uso en proyectos con colaboradores dif
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_view_audience_metadata_visibility"
 >title="Visibilidad de los metadatos"
->abstract="<p>Indica qué metadatos del público son visibles para otros colaboradores antes de que se conecten con usted o dentro de las vistas del proyecto.</p> <p> **Recuento de identidad** controla si su colaborador puede ver los recuentos de identidad de sus públicos cuando visualiza los informes de superposición en la pestaña de detección.</p><p> El **Porcentaje de solapamiento de público** controla si los colaboradores pueden descubrir los porcentajes de solapamiento entre sus públicos y los suyos.</p><p> **[!UICONTROL Índice de público]** controla si los colaboradores pueden ver el índice de público dentro de un proyecto. Esta funcionalidad solo está disponible cuando tiene tres o más públicos activos.</p> <br> Para que la configuración de visibilidad de metadatos surta efecto, el público debe establecerse en público o personalizado."
+>abstract="<p>Indica qué metadatos del público son visibles para otros colaboradores antes de que se conecten con usted o dentro de las vistas del proyecto.</p> <p> **Recuento de identidad** controla si su colaborador puede ver los recuentos de identidad de sus públicos cuando visualiza los informes de superposición en la pestaña de detección.</p><p> **% de solapamiento de público** controla si los colaboradores pueden descubrir los porcentajes de solapamiento entre sus públicos y los suyos.</p><p> **[!UICONTROL Índice de público]** controla si los colaboradores pueden ver el índice de público dentro de un proyecto. Esta funcionalidad solo está disponible cuando tiene tres o más públicos activos.</p> <br> Para que la configuración de visibilidad de metadatos surta efecto, el público debe establecerse en público o personalizado."
 
 >[!NOTE]
 >
