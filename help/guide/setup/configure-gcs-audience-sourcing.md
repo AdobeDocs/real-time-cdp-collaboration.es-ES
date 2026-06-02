@@ -2,10 +2,10 @@
 title: Configurar  [!DNL Google Cloud Storage] para el Abastecimiento de audiencias
 description: Aprenda a conectar un contenedor  [!DNL Google Cloud Storage] como fuente de audiencia de autoservicio en Real-Time CDP Collaboration, incluidos los requisitos previos, la autenticación, la asignación de campos, la programación y la validación.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: 7ce74c7f87432c026e673c2197b0b8c3f91fb6f0
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2910'
 ht-degree: 4%
 
 ---
@@ -21,7 +21,7 @@ Esta guía cubre el flujo de trabajo de configuración completo: preparación de
 
 Las audiencias provenientes de [!DNL Google Cloud Storage] siguen las mismas reglas de gobernanza y administración de datos que las audiencias provenientes de Adobe Experience Platform.
 
-Otros métodos de obtención disponibles incluyen [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) y [carga de archivo CSV](./upload-csv-audience-sourcing.md).
+Otros métodos de obtención disponibles incluyen [Experience Platform](./onboard-audiences.md), [Amazon S3](./configure-aws-s3-audience-sourcing.md), [Snowflake](./configure-snowflake-audience-sourcing.md) y [carga de archivo CSV](./upload-csv-audience-sourcing.md). Para obtener más información sobre todos los orígenes disponibles en Collaboration, consulte [Resumen de orígenes](./source-overview.md).
 
 ## Requisitos previos {#prerequisites}
 
