@@ -4,7 +4,7 @@ description: Descubra cómo Adobe Real-Time CDP Collaboration Starter le ayuda a
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: c759496b528ed6c1e173f1ca1f1469da572c85df
+source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
@@ -36,7 +36,7 @@ Para iniciar la invitación, proporcione la siguiente información a su socio co
 * Función (Anunciante/Publicador): Anunciante
 * Industria
 
-Después de recibir y aceptar la invitación, su organización debe revisar y firmar un pedido de ventas sin costo con Adobe para tener acceso a Collaboration [!DNL Starter]. Para obtener más información sobre el proceso de invitación, consulte la guía [invitar a un colaborador a Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-collaborator).
+Después de recibir y aceptar la invitación, su organización debe revisar y firmar un pedido de ventas sin costo con Adobe para tener acceso a Collaboration [!DNL Starter]. Para obtener más información sobre el proceso de invitación, consulte la guía [invitar a un colaborador a Collaboration [!DNL Starter]](../connect/establishing-connections.md#invite-non-licensed-collaborator).
 
 ## Mecanismos de protección {#guardrails}
 
@@ -53,7 +53,7 @@ Lea la siguiente tabla para comprender las protecciones clave que se aplican a s
 
 ## Introducción {#getting-started}
 
-Después de [aceptar tu invitación y aceptar los términos](../connect/establishing-connections.md#accept-invitation-sign-terms), inicia sesión en [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} con tus credenciales. Antes de poder usar Collaboration, se debe otorgar a su cuenta el acceso y las funciones correspondientes.
+Una vez que [acepte su invitación y acepte los términos](../connect/establishing-connections.md#accept-invitation-sign-terms), inicie sesión en [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} con sus credenciales. Antes de poder usar Collaboration, se debe otorgar a su cuenta el acceso y las funciones correspondientes.
 
 Use este flujo de trabajo para configurar su cuenta de [!DNL Starter] y comenzar a colaborar con su socio.
 
@@ -65,7 +65,7 @@ Una vez finalizado, debería ver **[!UICONTROL Permisos]**, **[!UICONTROL Experi
 
 ![Espacio de trabajo de Adobe Experience Cloud que muestra permisos, Experience Platform y Real-Time CDP Collaboration después de configurar el acceso de administrador de productos.](/help/assets/overview/starter/setup-admin-access.png){zoomable="yes"}
 
-Para obtener más información acerca de las funciones de acceso y los distintos productos de Adobe Experience Cloud, lea la [descripción general del control de acceso](../permissions/overview.md).
+Para obtener más información sobre las funciones de acceso y los distintos productos de Adobe Experience Cloud, lea la [descripción general del control de acceso](../permissions/overview.md).
 
 ### Configure los permisos {#configure-permissions}
 
