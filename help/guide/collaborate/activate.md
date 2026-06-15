@@ -2,19 +2,15 @@
 title: Activar públicos
 description: Obtenga información sobre cómo activar audiencias en Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1063
 ht-degree: 8%
 
 ---
@@ -75,9 +71,11 @@ Se abre el cuadro de diálogo **[!UICONTROL Editar claves de coincidencia]**, do
 
 ### Establecer frecuencia de actualización de audiencia {#set-audience-refresh-frequency}
 
-Finalmente, establezca la frecuencia y el intervalo de fechas deseados para que la audiencia se actualice. En la versión actual, la única opción de frecuencia admitida es **[!UICONTROL Una vez]**. La frecuencia **[!UICONTROL Una vez]** significa que las audiencias se activan una sola vez y no se actualizan. La opción **[!UICONTROL Date]** se rellena automáticamente con la fecha actual.
+Finalmente, establezca la frecuencia y el intervalo de fechas deseados para la activación de la audiencia. Utilice el menú desplegable **[!UICONTROL Frecuencia]** para elegir si la audiencia se activa una vez o se actualiza según una programación recurrente. Seleccione **[!UICONTROL Una vez]** para activar la audiencia una sola vez o una frecuencia recurrente como **[!UICONTROL Diario]**, **[!UICONTROL Cada 2 días]**, **[!UICONTROL Cada 3 días]**, **[!UICONTROL Cada 4 días]**, **[!UICONTROL Cada 5 días]**, **[!UICONTROL Cada 6 días]**, **[!UICONTROL Cada 2 semanas]**, **[!UICONTROL Cada 3 semanas]** o **[!UICONTROL Mensual]**.
 
-![Flujo de trabajo de activación de audiencia con la sección Frecuencia resaltada.](/help/assets/collaborate/activate/audience-frequency.png)
+![El menú desplegable Frecuencia del flujo de trabajo de activación de audiencia muestra las opciones disponibles, que incluyen Una vez, Diario, cada 2 a 6 días, cada 2 a 3 semanas y Mensualmente.](/help/assets/collaborate/activate/activation-frequency.png)
+
+Utilice el campo **[!UICONTROL Intervalo de fecha]** para definir cuándo comienza y finaliza la programación de activación.
 
 Cuando esté satisfecho con las selecciones, seleccione **[!UICONTROL Activar]** para completar el flujo de trabajo.
 
@@ -100,7 +98,7 @@ Dentro de cada audiencia enviada, puede ver las siguientes métricas:
 | **[!UICONTROL Recuento de identidad]** | Número de identidades de la audiencia. |
 | **[!UICONTROL Identidades superpuestas]** | El número de identidades superpuestas entre esta audiencia y la población total de perfiles en el inventario del colaborador. |
 | **[!UICONTROL Creado]** | La fecha en la que se envió inicialmente la audiencia. |
-| **[!UICONTROL Último envío]** | La fecha en la que la audiencia se envió por última vez a su colaborador. |
+| **[!UICONTROL Último envío]** | La fecha en la que la audiencia se puso a disposición del colaborador por última vez mediante el flujo de trabajo de activación, ya sea desde una activación única o desde una programación recurrente. |
 | **[!UICONTROL Claves coincidentes]** | Indica la clave de coincidencia utilizada para la audiencia. |
 
 ## Ver audiencias activadas {#view-activated-audiences}
@@ -115,7 +113,7 @@ Dentro de cada audiencia activada, puede ver las siguientes métricas:
 | **[!UICONTROL Estado]** | El estado de la audiencia activada. |
 | **[!UICONTROL Recuento de identidad]** | El número de identidades activadas, en función de las identidades superpuestas cuando el colaborador envió la audiencia. |
 | **[!UICONTROL Creado]** | La fecha en la que se activó la audiencia. |
-| **[!UICONTROL Última actualización]** | La fecha en la que se actualizó la audiencia por última vez, según la programación de actualización elegida durante la activación. |
+| **[!UICONTROL Última actualización]** | La fecha en la que se actualizó la audiencia por última vez, según la frecuencia seleccionada durante la activación. |
 | **[!UICONTROL Destino]** | El destino en el que se activó la audiencia. |
 | **[!UICONTROL Claves coincidentes]** | Indica la clave de coincidencia utilizada para la audiencia. |
 
