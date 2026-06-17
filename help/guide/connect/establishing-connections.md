@@ -13,10 +13,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: fb824ee8d84cb8dc125da82a4afd6f50e3ce80cf
+source-git-commit: 5e722bc0077495561181519121bab9bb267dc7e1
 workflow-type: tm+mt
-source-wordcount: 3420
-ht-degree: 10%
+source-wordcount: 3459
+ht-degree: 9%
 
 ---
 
@@ -320,7 +320,7 @@ A continuación, seleccione **[!UICONTROL Aceptar]** para continuar con la conex
 
 ## Invitar a un colaborador sin licencia (Iniciador) {#invite-non-licensed-collaborator}
 
-Siga los pasos a continuación para invitar a su socio sin licencia a unirse a Real-Time CDP Collaboration [!DNL Starter]. Si desea obtener más detalles acerca de Collaboration [!DNL Starter] y una descripción general paso a paso del proceso, consulte la [[!DNL Starter] documentación general](../overview/starter-overview.md).
+Siga los pasos a continuación para invitar a su socio sin licencia a unirse a Real-Time CDP Collaboration [!DNL Starter]. Las invitaciones se envían directamente a la dirección de correo electrónico del colaborador y deben aceptarse antes de poder establecer una conexión. Si desea obtener más detalles acerca de Collaboration [!DNL Starter] y una descripción general paso a paso del proceso, consulte la [[!DNL Starter] documentación general](../overview/starter-overview.md).
 
 Antes de iniciar el proceso de invitación, recopile la siguiente información de su colaborador:
 
@@ -369,9 +369,14 @@ Un cuadro de diálogo de confirmación confirma que la invitación se ha enviado
 
 ![El cuadro de diálogo de confirmación confirma que la invitación se envió correctamente.](/help/assets/connect/establish-connection/invite-collaborator/invite-sent-confirmation.png){zoomable="yes"}
 
+Después de enviar la invitación, su organización asociada recibe un correo electrónico con instrucciones para revisar y firmar los términos y condiciones de Real-Time Collaboration.
+
 ### Acepte la invitación y firme los términos {#accept-invitation-sign-terms}
 
-Después de enviar la invitación, su organización asociada recibe un correo electrónico con instrucciones para revisar y aceptar los términos y condiciones de Real-Time Collaboration. También pueden explorar las funciones de Collaboration antes de aceptar.
+Para continuar, la organización asociada invitada debe:
+
+- Abra el correo electrónico de invitación.
+- Siga el vínculo para revisar y firmar los términos y condiciones de Real-Time CDP Collaboration.
 
 ![Correo electrónico de invitación para unirse a Collaboration Starter.](/help/assets/connect/establish-connection/invite-collaborator/invitation-email.png){zoomable="yes"}
 
@@ -379,10 +384,11 @@ Una vez que la organización asociada acepta los términos y condiciones, Adobe 
 
 ### Confirmación de aprovisionamiento {#provisioning-confirmation}
 
-Una vez completado el proceso de aprovisionamiento, se envía un correo electrónico de bienvenida a la organización invitada, que confirma que Collaboration [!DNL Starter] está listo para usar. Este correo electrónico proporciona instrucciones sobre cómo:
+Una vez completado el proceso de aprovisionamiento, se envía un segundo correo electrónico a la organización invitada para confirmar que Collaboration [!DNL Starter] está listo para su uso. Este correo electrónico de bienvenida proporciona instrucciones sobre cómo:
 
 - [Configuración del acceso de administrador y usuario](../setup/starter-admin-access.md)
 - [Configuración de permisos para acceder a Collaboration](../setup/starter-permission-controls.md)
+- [Establezca una conexión con el colaborador invitado](#connect)
 
 ![Correo electrónico de bienvenida enviado a la organización invitada con instrucciones para configurar el acceso y los permisos necesarios.](/help/assets/connect/establish-connection/invite-collaborator/welcome-email.png){zoomable="yes" width="700"}
 
@@ -390,4 +396,4 @@ Una vez que su socio tenga acceso a Collaboration, tanto usted como la organizac
 
 ## Próximos pasos
 
-Después de establecer una conexión con su colaborador, usted y su colaborador ahora pueden [crear proyectos](/help/guide/collaborate/manage-projects.md#create-project).
+Después de establecer una conexión, puedes [crear proyectos](/help/guide/collaborate/manage-projects.md#create-project) con tu colaborador.
