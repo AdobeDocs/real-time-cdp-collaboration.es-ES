@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration permite un uso compartido de datos y una colaboración seguros y sin problemas entre anunciantes y editores, lo que facilita perspectivas de audiencia en tiempo real y estrategias de marketing personalizadas.
-source-git-commit: 07666bc6d001e602c270a611ad1da3ea5f301dbd
+source-git-commit: eeaa3053e4b701d6eac00d8c012c387efb4c3509
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 29%
+source-wordcount: '217'
+ht-degree: 28%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 29%
       * [Información general de fuentes](./setup/source-overview.md)
       * [Configuración de AEP para el abastecimiento de audiencias](./setup/onboard-audiences.md)
       * [Configuración de permisos de AWS para el abastecimiento de audiencias](./setup/configure-aws-permissions-audience-sourcing.md)
+      * [Configuración del almacenamiento de Azure para el abastecimiento de audiencias](./setup/configure-azure-storage-audience-sourcing.md)
       * [Configuración de Amazon S3 para el abastecimiento de audiencias](./setup/configure-aws-s3-audience-sourcing.md)
       * [Configuración de GCS para el abastecimiento de audiencias](./setup/configure-gcs-audience-sourcing.md)
       * [Cargar archivo CSV para el abastecimiento de audiencias](./setup/upload-csv-audience-sourcing.md)
