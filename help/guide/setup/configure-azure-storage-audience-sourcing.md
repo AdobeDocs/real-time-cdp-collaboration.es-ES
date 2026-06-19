@@ -2,7 +2,7 @@
 title: Audiencias de Source del almacenamiento  [!DNL Azure] en Real-Time CDP Collaboration
 description: Datos de audiencia de origen de Source del almacenamiento de Azure Blob o del almacenamiento de Azure Data Lake Gen2 en Real-Time CDP Collaboration.
 keywords: Real-Time CDP Collaboration; abastecimiento de audiencia; [!DNL Azure Blob Storage]; [!DNL Azure Data Lake Storage] Gen2
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 3b62837cecf6cf7c288ce1633d43312ff6a92664
 workflow-type: tm+mt
 source-wordcount: '2050'
