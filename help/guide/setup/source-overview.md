@@ -2,9 +2,9 @@
 title: Información general de fuentes
 description: Obtenga información acerca de los conectores de origen en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-source-git-commit: 07666bc6d001e602c270a611ad1da3ea5f301dbd
+source-git-commit: b30d1b01e929e586404faac34650c7fd479d071b
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '400'
 ht-degree: 6%
 
 ---
@@ -39,8 +39,8 @@ Las siguientes fuentes están disponibles en Collaboration. Para ver la guía de
 | [[!DNL Google Cloud Storage]](./configure-gcs-audience-sourcing.md) | Conecte los bloques de GCS para introducir los datos de audiencia almacenados en su entorno [!DNL Google Cloud]. | Disponible |
 | [Carga de archivo CSV](./upload-csv-audience-sourcing.md) | Cargue un archivo CSV con formato directamente desde el sistema local. | Disponible |
 | Adobe Audience Manager | Incluya segmentos de Audience Manager existentes en sus proyectos de Collaboration. | *Próximamente* |
-| [!DNL Azure Blob Storage] | Conecte los contenedores de [!DNL Azure Blob Storage] para obtener conjuntos de datos de origen desde el entorno de [!DNL Microsoft Azure]. | *Próximamente* |
-| [!DNL Azure Data Lake Storage] | Conecte su cuenta de [!DNL Azure Data Lake Storage Gen 2] para introducir los datos de audiencia almacenados en su repositorio de datos de [!DNL Azure]. | *Próximamente* |
+| [[!DNL Azure Blob Storage]](./configure-azure-storage-audience-sourcing.md) | Conecte los contenedores de [!DNL Azure Blob Storage] para obtener conjuntos de datos de origen desde el entorno de [!DNL Microsoft Azure]. | Disponible |
+| [[!DNL Azure Data Lake Storage]](./configure-azure-storage-audience-sourcing.md) | Conecte su cuenta de [!DNL Azure Data Lake Storage Gen 2] para introducir los datos de audiencia almacenados en su repositorio de datos de [!DNL Azure]. | Disponible |
 
 {style="table-layout:auto"}
 
