@@ -104,7 +104,7 @@ La pantalla **[!UICONTROL Mapping]** es de solo lectura. Collaboration asigna au
 
 Puede revisar la asignación, pero no puede modificarla en esta fase. Haga clic en **[!UICONTROL Siguiente]** para continuar.
 
-![Agregar flujo de trabajo de audiencia en el paso &quot;Asignar campos&quot; que muestra los campos de origen asignados a los campos de identidad de destino ](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)
+![Agregar flujo de trabajo de audiencia en el paso &quot;Asignar campos&quot; que muestra los campos de origen asignados a los campos de identidad de destino &#x200B;](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)
 
 ### Programar actualización de datos {#schedule-data-refresh}
 
