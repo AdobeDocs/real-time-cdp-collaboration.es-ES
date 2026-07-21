@@ -2,18 +2,14 @@
 title: Source y administración de audiencias
 description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
 workflow-type: tm+mt
-source-wordcount: 3741
+source-wordcount: 3752
 ht-degree: 17%
 
 ---
@@ -72,7 +68,7 @@ A continuación, elegirá el origen de la conexión de datos. Las fuentes dispon
 * **Amazon Web Service**: conéctese a su almacenamiento de Amazon S3 para obtener datos de audiencia directamente de sus bloques de S3. Consulte la guía [Configuración de AWS S3 para el abastecimiento de audiencias](./configure-aws-s3-audience-sourcing.md) para obtener instrucciones paso a paso.
 * **Snowflake**: usa tu almacén de datos de Snowflake para extraer datos de audiencias sin problemas. Consulte la guía [Configurar [!DNL Snowflake] para el abastecimiento de audiencias](./configure-snowflake-audience-sourcing.md).
 * **Almacenamiento en la nube de Google**: conéctese a los bloques de GCS para obtener datos de audiencia. Consulte la guía [Configurar GCS para fuentes de audiencia](./configure-gcs-audience-sourcing.md) para obtener instrucciones paso a paso.
-* **Adobe Audience Manager** (_Próximamente_): Source sus segmentos de audiencia desde Adobe Audience Manager.
+* **Adobe Audience Manager**: Source elimina los segmentos de audiencia de Adobe Audience Manager. Consulte la guía [Configuración de Adobe Audience Manager para el abastecimiento de audiencias](./configure-aam-audience-sourcing.md) para comenzar.
 
 Seleccione su fuente de datos y luego seleccione **[!UICONTROL Siguiente]**.
 
@@ -90,7 +86,7 @@ A continuación, debe asegurarse de que las acciones de marketing correctas se e
 
 Utilice acciones de marketing para controlar qué datos de audiencia introducir en Collaboration desde Experience Platform. La acción de marketing **[!UICONTROL Colaboración de datos]** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
 
-Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Si la casilla de verificación está ***habilitada***, se excluirán todos los datos etiquetados en Experience Platform como se describió anteriormente y **no** se incluirán en Collaboration.
 * Con la casilla de verificación ***deshabilitada***, no hay restricciones en los datos procedentes de Experience Platform.
@@ -145,7 +141,7 @@ A continuación, proporcione un nombre y una descripción para la conexión de d
 
 A continuación, seleccione los campos de origen para asignarlos a los campos de destino en Collaboration. Los campos de destino disponibles se basarán en las claves de coincidencia seleccionadas durante la [configuración de la cuenta](./onboard-account.md#set-up-match-keys).
 
-Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la configuración de la cuenta, [!DNL Demdex ID] se extrae y asigna automáticamente a partir de ECID y no tiene que realizar ninguna acción. Para obtener más información sobre [!DNL Demdex IDs], consulte la guía [[!DNL Demdex ID]](https://experienceleague.adobe.com/es/docs/experience-platform/collection/identity/unified-identity-support).
+Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la configuración de la cuenta, [!DNL Demdex ID] se extrae y asigna automáticamente a partir de ECID y no tiene que realizar ninguna acción. Para obtener más información sobre [!DNL Demdex IDs], consulte la guía [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![Espacio de trabajo Agregar audiencias con la opción de asignar campos de origen a campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -155,7 +151,7 @@ Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la con
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
+**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
 
 Los campos de Source se asignan a los campos de destino definidos en Collaboration.
 
