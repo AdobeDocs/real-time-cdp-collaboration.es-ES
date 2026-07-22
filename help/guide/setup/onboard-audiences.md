@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d342230ae846982fb9f54bfe989306224fbc0ef
+source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
 workflow-type: tm+mt
-source-wordcount: 3741
+source-wordcount: 3773
 ht-degree: 17%
 
 ---
@@ -51,7 +51,7 @@ En la ficha **[!UICONTROL Mis audiencias]** del área de trabajo **[!UICONTROL C
 
 Una conexión de datos es la fuente desde la que se introducen audiencias en Collaboration. Para obtener más información acerca de todos los orígenes disponibles, vea [Resumen de orígenes](./source-overview.md).
 
-Las secciones siguientes describen cómo seleccionar **Adobe Experience Platform** y completar los pasos específicos de Experience Platform (simulación de pruebas, administración y consentimiento). Si elige CSV, [!DNL Amazon S3], [!DNL Snowflake] o [!DNL Google Cloud Storage], use la guía vinculada en [Seleccionar origen de datos](#select-data-source) para esa opción.
+Las secciones siguientes describen cómo seleccionar **Adobe Experience Platform** y completar los pasos específicos de Experience Platform (simulación de pruebas, administración y consentimiento). Si elige CSV, [!DNL Amazon S3], [!DNL Snowflake], [!DNL Google Cloud Storage], Adobe Audience Manager o [!DNL Databricks Delta Share], use la guía vinculada en [Seleccionar origen de datos](#select-data-source) para esa opción.
 
 Cualquier configuración que establezca para una conexión de datos de Experience Platform se aplicará a todas las audiencias procedentes de esa conexión.
 
@@ -72,7 +72,8 @@ A continuación, elegirá el origen de la conexión de datos. Las fuentes dispon
 * **Amazon Web Service**: conéctese a su almacenamiento de Amazon S3 para obtener datos de audiencia directamente de sus bloques de S3. Consulte la guía [Configuración de AWS S3 para el abastecimiento de audiencias](./configure-aws-s3-audience-sourcing.md) para obtener instrucciones paso a paso.
 * **Snowflake**: usa tu almacén de datos de Snowflake para extraer datos de audiencias sin problemas. Consulte la guía [Configurar [!DNL Snowflake] para el abastecimiento de audiencias](./configure-snowflake-audience-sourcing.md).
 * **Almacenamiento en la nube de Google**: conéctese a los bloques de GCS para obtener datos de audiencia. Consulte la guía [Configurar GCS para fuentes de audiencia](./configure-gcs-audience-sourcing.md) para obtener instrucciones paso a paso.
-* **Adobe Audience Manager** (_Próximamente_): Source sus segmentos de audiencia desde Adobe Audience Manager.
+* **[!DNL Databricks Delta Share]**: conéctese a [!DNL Databricks Delta Share] para obtener datos de audiencia de origen desde el entorno [!DNL Databricks]. Consulte la guía [Configurar [!DNL Databricks Delta Share] para obtener audiencias](./configure-databricks-audience-sourcing.md).
+* **Adobe Audience Manager**: Source elimina los segmentos de audiencia de Adobe Audience Manager. Consulte la guía [Configuración de Adobe Audience Manager para el abastecimiento de audiencias](./configure-aam-audience-sourcing.md) para comenzar.
 
 Seleccione su fuente de datos y luego seleccione **[!UICONTROL Siguiente]**.
 

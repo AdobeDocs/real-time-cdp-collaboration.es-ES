@@ -2,10 +2,10 @@
 title: Información general de fuentes
 description: Obtenga información acerca de los conectores de origen en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-source-git-commit: b30d1b01e929e586404faac34650c7fd479d071b
+source-git-commit: 23f7d91d37d0d9c9b352716caa4827dcc87093d8
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 6%
+source-wordcount: '412'
+ht-degree: 7%
 
 ---
 
@@ -38,7 +38,8 @@ Las siguientes fuentes están disponibles en Collaboration. Para ver la guía de
 | [[!DNL Snowflake]](./configure-snowflake-audience-sourcing.md) | Conecte su [!DNL Snowflake Secure Data Share] para incorporar conjuntos de datos de audiencia a gran escala. | Disponible |
 | [[!DNL Google Cloud Storage]](./configure-gcs-audience-sourcing.md) | Conecte los bloques de GCS para introducir los datos de audiencia almacenados en su entorno [!DNL Google Cloud]. | Disponible |
 | [Carga de archivo CSV](./upload-csv-audience-sourcing.md) | Cargue un archivo CSV con formato directamente desde el sistema local. | Disponible |
-| Adobe Audience Manager | Incluya segmentos de Audience Manager existentes en sus proyectos de Collaboration. | *Próximamente* |
+| [Adobe Audience Manager](./configure-aam-audience-sourcing.md) | Incluya segmentos de Audience Manager existentes en sus proyectos de Collaboration. | Disponible |
+| [[!DNL Databricks Delta Share]](./configure-databricks-audience-sourcing.md) | Conecte su [!DNL Databricks Delta Share] para traer conjuntos de datos de audiencias a gran escala desde su entorno de [!DNL Databricks]. | Disponible |
 | [[!DNL Azure Blob Storage]](./configure-azure-storage-audience-sourcing.md) | Conecte los contenedores de [!DNL Azure Blob Storage] para obtener conjuntos de datos de origen desde el entorno de [!DNL Microsoft Azure]. | Disponible |
 | [[!DNL Azure Data Lake Storage]](./configure-azure-storage-audience-sourcing.md) | Conecte su cuenta de [!DNL Azure Data Lake Storage Gen 2] para introducir los datos de audiencia almacenados en su repositorio de datos de [!DNL Azure]. | Disponible |
 
