@@ -2,19 +2,15 @@
 title: Información general de los públicos
 description: Obtenga información acerca de las audiencias en Real-Time CDP Collaboration, incluido de dónde pueden proceder.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f7cd44177d60bfd3d3db384f7b1a250ace4c3633
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 160bd29d89d1ce828476d68e917e0271d0852eb6
 workflow-type: tm+mt
 source-wordcount: 707
 ht-degree: 5%
 
 ---
-
 
 # Información general de los públicos
 

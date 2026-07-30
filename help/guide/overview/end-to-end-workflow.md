@@ -2,16 +2,13 @@
 title: Flujo de trabajo de extremo a extremo
 description: Comprenda el flujo de trabajo completo del uso de Real-Time CDP Collaboration en función de su patrón de colaboración.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 90f9341e-5dd7-4521-a602-edb0263838c5
 TQID: https://experienceleague.adobe.com/9edtg5tMbnB3BrdLrDkcHQ-AjBNOqMFGojAja3NCwCs
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4dba099a1bf484d9e2dfa71d5ad21a1ac076d794
 workflow-type: tm+mt
 source-wordcount: 1738
 ht-degree: 0%
@@ -29,11 +26,11 @@ En Adobe Real-Time CDP Collaboration, el flujo de trabajo completo varía en fun
 Antes de empezar, asegúrese de tener una comprensión sólida de estos conceptos clave:
 
 - **patrones de Collaboration**: estos patrones definen cómo trabajan juntos los colaboradores. Hay cinco patrones distintos:
-   - [anunciante a editor](./collaboration-patterns.md#advertiser-to-publisher)
-   - [de marca a marca](./collaboration-patterns.md#brand-to-brand)
-   - [partner de anunciante a datos](./collaboration-patterns.md#advertiser-to-data-partner)
-   - [de agencia a editor](./collaboration-patterns.md#agency-to-publisher)
-   - [plataforma de anunciante a agencia](./collaboration-patterns.md#advertiser-to-agency-platform)
+  - [anunciante a editor](./collaboration-patterns.md#advertiser-to-publisher)
+  - [de marca a marca](./collaboration-patterns.md#brand-to-brand)
+  - [partner de anunciante a datos](./collaboration-patterns.md#advertiser-to-data-partner)
+  - [de agencia a editor](./collaboration-patterns.md#agency-to-publisher)
+  - [plataforma de anunciante a agencia](./collaboration-patterns.md#advertiser-to-agency-platform)
 - **Funciones de cuenta**: Las funciones de cuenta determinan las capacidades dentro de la plataforma. Deben coincidir con los objetivos, la marca y las metas de su organización. Hay cuatro funciones de cuenta: [anunciante](./roles.md#advertiser), [editor](./roles.md#publisher), [agencia](./roles.md#agency) y [socio de datos](./roles.md#data-partner).
 - **Casos de uso**: Los casos de uso definen las formas de aprovechar Collaboration para lograr sus objetivos de marketing. Hay tres casos de uso de colaboración: [Discover](./use-cases.md#discover), [Activate](./use-cases.md#activate) y [Measure](./use-cases.md#measure).
 
@@ -52,7 +49,7 @@ En esta guía se utilizan tres simuladores de colaborador para ilustrar el flujo
 
 Para empezar, [!UICONTROL Luma] necesita [crear una cuenta](../setup/onboard-account.md) con la función de anunciante, mientras que [!UICONTROL TV Tube] crea una cuenta con la función de publicador.
 
-Después de establecer sus cuentas, tanto [!UICONTROL Luma] como [!UICONTROL TV Tube] deben [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). Solo [!UICONTROL TV Tube] activará audiencias para campañas de marketing, por lo que necesitan [configurar un destino](../setup/manage-destinations.md).
+Después de establecer sus cuentas, tanto [!UICONTROL Luma] como [!UICONTROL TV Tube] deben [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). Solo [!UICONTROL TV Tube] activará audiencias para campañas de marketing, por lo que necesitan [configurar un destino](../destinations/manage-destinations.md).
 
 Una vez que ambos colaboradores tengan sus cuentas configuradas, están listos para [formar una conexión](../connect/establishing-connections.md) dentro de la plataforma. [!UICONTROL Luma] usa la función [descubrir colaboradores](../connect/discover-collaborators.md) para encontrar [!UICONTROL TV Tube] e iniciar una solicitud de conexión. Después de que [!UICONTROL TV Tube] acepte la solicitud de conexión, [!UICONTROL Luma] configura las opciones de conexión para definir cómo colaborarán. [!UICONTROL TV Tube] acepta la solicitud de conexión para establecer un vínculo seguro entre las dos marcas.
 
@@ -66,7 +63,7 @@ Después de activar las audiencias, [!UICONTROL TV Tube] ejecuta campañas de ma
 
 [!UICONTROL Fit Apparel], una marca de ropa deportiva, quiere colaborar con [!UICONTROL Luma], otra marca de ropa deportiva, para compartir datos de audiencia y perspectivas con el fin de mejorar los esfuerzos de marketing.
 
-Después de establecer sus cuentas, tanto [!UICONTROL Fit Apparel] como [!UICONTROL Luma] necesitan [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). Tanto [!UICONTROL Fit Apparel] como [!UICONTROL Luma] activarán audiencias para las campañas de marketing, por lo que ambos deberán [configurar un destino](../setup/manage-destinations.md).
+Después de establecer sus cuentas, tanto [!UICONTROL Fit Apparel] como [!UICONTROL Luma] necesitan [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). Tanto [!UICONTROL Fit Apparel] como [!UICONTROL Luma] activarán audiencias para las campañas de marketing, por lo que ambos deberán [configurar un destino](../destinations/manage-destinations.md).
 
 Después de obtener sus audiencias, [!UICONTROL Fit Apparel] y [!UICONTROL Luma] [forman una conexión](../connect/establishing-connections.md) dentro de la plataforma para compartir datos de audiencia de forma segura. Para ello, deben utilizar la característica [invitación a la conexión privada](../connect/establishing-connections.md#private-connection-invite). [!UICONTROL Luma] comparte su código de conexión con [!UICONTROL Fit Apparel], que lo usa para iniciar una solicitud de conexión. Después de que [!UICONTROL Luma] acepte la solicitud de conexión, [!UICONTROL Fit Apparel] configura las opciones de conexión para definir cómo colaborarán. En la configuración, [!UICONTROL Ajustar ropa] especifica que ambos colaboradores pueden activar audiencias para campañas de marketing. Para completar la conexión, [!UICONTROL Luma] acepta la solicitud para establecer un vínculo seguro entre las dos marcas.
 
@@ -80,7 +77,7 @@ Finalmente, después de ejecutar sus campañas, ambas marcas cargan datos en [Me
 
 [!UICONTROL Luma], una empresa minorista deportiva, desea conectarse con [!DNL Amazon Marketing Cloud] ([!DNL AMC]) para mejorar sus capacidades de marketing mediante el uso de las herramientas de segmentación y resolución de identidades de [!DNL AMC]. Luma ya tiene una cuenta [!DNL Amazon Advertising] activa y se ha aprobado el uso de [!DNL AMC].
 
-Para empezar, [!UICONTROL Luma] necesita [crear una cuenta](../setup/onboard-account.md) con la función de anunciante. Después de establecer su cuenta, [!UICONTROL Luma] debe [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). Dado que [!UICONTROL Luma] activará audiencias para las campañas de marketing, deben [configurar un destino](../setup/manage-destinations.md).
+Para empezar, [!UICONTROL Luma] necesita [crear una cuenta](../setup/onboard-account.md) con la función de anunciante. Después de establecer su cuenta, [!UICONTROL Luma] debe [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). Dado que [!UICONTROL Luma] activará audiencias para las campañas de marketing, deben [configurar un destino](../destinations/manage-destinations.md).
 
 Una vez que [!UICONTROL Luma] haya configurado su cuenta, estarán listos para [formar una conexión](../connect/establishing-connections.md) con [!DNL AMC] dentro de la plataforma. [!UICONTROL Luma] usa la función [Discover collaborative](../connect/discover-collaborators.md) para encontrar [!UICONTROL Amazon Marketing Cloud] e [iniciar una solicitud de conexión](../connect/advertising-platforms/amc.md). Después de autenticar y autorizar la conexión mediante la página de inicio de sesión de [!DNL Amazon], se establece la conexión con [!DNL AMC].
 
@@ -94,7 +91,7 @@ Una vez establecida la conexión, [!UICONTROL Luma] [crea un proyecto](../collab
 
 Para empezar, [!UICONTROL Luma] necesita [crear una cuenta](../setup/onboard-account.md) con la función de anunciante, mientras que [!UICONTROL DataM8] crea una cuenta con la función de socio de datos.
 
-Después de establecer sus cuentas, tanto [!UICONTROL Luma] como [!UICONTROL DataM8] deben [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). Ambos colaboradores pueden activar audiencias para campañas de marketing, por lo que todos necesitan [configurar un destino](../setup/manage-destinations.md).
+Después de establecer sus cuentas, tanto [!UICONTROL Luma] como [!UICONTROL DataM8] deben [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). Ambos colaboradores pueden activar audiencias para campañas de marketing, por lo que todos necesitan [configurar un destino](../destinations/manage-destinations.md).
 
 Una vez que ambos colaboradores tengan sus cuentas configuradas, están listos para [formar una conexión](../connect/establishing-connections.md) dentro de la plataforma. [!UICONTROL Luma] usa la característica [Discover collaborative](../collaborate/discover.md) para encontrar [!UICONTROL DataM8] e iniciar una solicitud de conexión. Después de que [!UICONTROL DataM8] acepte la solicitud de conexión, [!UICONTROL Luma] configura las opciones de conexión para definir cómo colaborarán. [!UICONTROL DataM8] acepta la solicitud de conexión para establecer un vínculo seguro entre los dos colaboradores.
 
@@ -110,30 +107,30 @@ Una vez establecida la conexión, [!UICONTROL Luma] [crea un proyecto](../collab
 
 Para empezar, [!UICONTROL Agency99] necesita [crear una cuenta](../setup/onboard-account.md) con el rol de agencia, mientras que [!UICONTROL TV Tube] crea una cuenta con el rol de editor.
 
-Después de establecer sus cuentas, tanto [!UICONTROL Agency99] como [!UICONTROL TV Tube] deben [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). [!UICONTROL Agency99] configurará subcuentas de clientes y datos de clientes de origen en su área de trabajo. Solo [!UICONTROL TV Tube] activará audiencias para campañas de marketing, por lo que necesitan [configurar un destino](../setup/manage-destinations.md).
+Después de establecer sus cuentas, tanto [!UICONTROL Agency99] como [!UICONTROL TV Tube] deben [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). [!UICONTROL Agency99] configurará subcuentas de clientes y datos de clientes de origen en su área de trabajo. Solo [!UICONTROL TV Tube] activará audiencias para campañas de marketing, por lo que necesitan [configurar un destino](../destinations/manage-destinations.md).
 
-Una vez que ambos colaboradores tengan sus cuentas configuradas, están listos para [formar una conexión](../connect/establishing-connections.md) dentro de la plataforma. [!UICONTROL Agency99] usa la función [Discover collaborative](../collaborate/discover.md) para encontrar [!UICONTROL TV Tube] e iniciar una solicitud de conexión. [!UICONTROL Agency99] hará esto por uno o varios clientes que quieran colaborar con [!UICONTROL TV Tube]. Después de que [!UICONTROL TV Tube] acepte las solicitudes de conexión, [!UICONTROL Agency99] configura las opciones de conexión para definir cómo se realiza cada colaboración. [!UICONTROL TV Tube] accepts the connection request(s) to establish a secure link between the two brands.
+Una vez que ambos colaboradores tengan sus cuentas configuradas, están listos para [formar una conexión](../connect/establishing-connections.md) dentro de la plataforma. [!UICONTROL Agency99] usa la función [Discover collaborative](../collaborate/discover.md) para encontrar [!UICONTROL TV Tube] e iniciar una solicitud de conexión. [!UICONTROL Agency99] hará esto por uno o varios clientes que quieran colaborar con [!UICONTROL TV Tube]. Después de que [!UICONTROL TV Tube] acepte las solicitudes de conexión, [!UICONTROL Agency99] configura las opciones de conexión para definir cómo se realiza cada colaboración. [!UICONTROL TV Tube] acepta las solicitudes de conexión para establecer un vínculo seguro entre las dos marcas.
 
-After the connection is established, [!UICONTROL Agency99] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL TV Tube] in each client sub-account. During the project setup, they choose the collaboration use cases that best fit their objectives: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md), and [Measure](../collaborate/measure.md).
+Una vez establecida la conexión, [!UICONTROL Agency99] [crea un proyecto](../collaborate/manage-projects.md) para iniciar su colaboración con [!UICONTROL TV Tube] en cada subcuenta de cliente. Durante la configuración del proyecto, eligen los casos de uso de colaboración que mejor se ajustan a sus objetivos: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md) y [Measure](../collaborate/measure.md).
 
-[!UICONTROL Agency99] leverages the [Discover](../collaborate/discover.md) use case to gain insights into [!UICONTROL TV Tube]&#39;s audience data. Once [!UICONTROL Agency99] has identified the target audience segments, they [activate](../collaborate/activate.md) these audiences.
+[!UICONTROL Agency99] aprovecha el caso de uso [Discover](../collaborate/discover.md) para obtener información sobre los datos de audiencia de [!UICONTROL TV Tube]. Una vez que [!UICONTROL Agency99] ha identificado los segmentos de audiencia objetivo, [activan](../collaborate/activate.md) estas audiencias.
 
-After activating the audiences, [!UICONTROL TV Tube] runs targeted marketing campaigns and uploads data to [measure](../collaborate/measure.md) the results to evaluate the effectiveness of their campaign.
+Después de activar las audiencias, [!UICONTROL TV Tube] ejecuta campañas de marketing dirigidas y carga datos en [medir](../collaborate/measure.md) los resultados para evaluar la eficacia de su campaña.
 
-## Advertiser-to-agency platform workflow {#advertiser-to-agency-platform-workflow}
+## Flujo de trabajo de la plataforma entre anunciante y agencia {#advertiser-to-agency-platform-workflow}
 
-[!UICONTROL Luma], an athletic retail company, wants to collaborate with [!UICONTROL Holdco], an agency platform, to share data and receive paid media insights.
+[!UICONTROL Luma], una empresa minorista deportiva, quiere colaborar con [!UICONTROL Holdco], una plataforma de agencias, para compartir datos y recibir información de medios de pago.
 
-To begin, [!UICONTROL Luma] needs to [create an account](../setup/onboard-account.md) with the advertiser role, while [!UICONTROL Holdco] creates an account with the agency role. 
+Para empezar, [!UICONTROL Luma] necesita [crear una cuenta](../setup/onboard-account.md) con la función de anunciante, mientras que [!UICONTROL Holdco] crea una cuenta con la función de agencia. 
 
-After establishing their accounts, both [!UICONTROL Luma] and [!UICONTROL Holdco] must [create a data connection and source audiences](../setup/onboard-audiences.md). Both collaborators may activate audiences for marketing campaigns, so they each need to [configure a destination](../setup/manage-destinations.md). 
+Después de establecer sus cuentas, tanto [!UICONTROL Luma] como [!UICONTROL Holdco] deben [crear una conexión de datos y audiencias de origen](../setup/onboard-audiences.md). Ambos colaboradores pueden activar audiencias para campañas de marketing, por lo que todos necesitan [configurar un destino](../destinations/manage-destinations.md). 
 
-Once both collaborators have their accounts set up, they&#39;re ready to [form a connection](../connect/establishing-connections.md) within the platform. [!UICONTROL Luma] uses the [discover collaborators](../collaborate/discover.md) feature to find [!UICONTROL Holdco] and initiate a connection request. After [!UICONTROL Holdco] accepts the connection request, [!UICONTROL Luma] configures the connection settings to define how they will collaborate.
+Una vez que ambos colaboradores tengan sus cuentas configuradas, están listos para [formar una conexión](../connect/establishing-connections.md) dentro de la plataforma. [!UICONTROL Luma] usa la función [descubrir colaboradores](../collaborate/discover.md) para encontrar [!UICONTROL Holdco] e iniciar una solicitud de conexión. Después de que [!UICONTROL Holdco] acepte la solicitud de conexión, [!UICONTROL Luma] configura las opciones de conexión para definir cómo colaborarán.
 
-[!UICONTROL Holdco] accepts the connection request to establish a secure link between the two collaborators.
+[!UICONTROL Holdco] acepta la solicitud de conexión para establecer un vínculo seguro entre los dos colaboradores.
 
-After the connection is established, [!UICONTROL Luma] [creates a project](../collaborate/manage-projects.md) to kick off their collaboration with [!UICONTROL Holdco]. During the project setup, they choose the collaboration use cases that best fit their objectives: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md), and [Measure](../collaborate/measure.md).
+Una vez establecida la conexión, [!UICONTROL Luma] [crea un proyecto](../collaborate/manage-projects.md) para iniciar su colaboración con [!UICONTROL Holdco]. Durante la configuración del proyecto, eligen los casos de uso de colaboración que mejor se ajustan a sus objetivos: [Discover](../collaborate/discover.md), [Activate](../collaborate/activate.md) y [Measure](../collaborate/measure.md).
 
-[!UICONTROL Luma] leverages the [Discover](../collaborate/discover.md) use case to gain insights into [!UICONTROL Holdco]&#39;s audience data. Once [!UICONTROL Luma] has identified the target audience segments, they [activate](../collaborate/activate.md) these audiences.
+[!UICONTROL Luma] aprovecha el caso de uso [Discover](../collaborate/discover.md) para obtener información sobre los datos de audiencia de [!UICONTROL Holdco]. Una vez que [!UICONTROL Luma] ha identificado los segmentos de audiencia objetivo, [activan](../collaborate/activate.md) estas audiencias.
 
-[!UICONTROL Holdco] can also [activate](../collaborate/activate.md) their audiences to [!UICONTROL Luma]. [!UICONTROL Luma] uses these capabilities to receive paid media insights from agency-run campaigns for insights, CDP profile appends and owned media orchestration.
+[!UICONTROL Holdco] también puede [activar](../collaborate/activate.md) sus audiencias en [!UICONTROL Luma]. [!UICONTROL Luma] usa estas capacidades para recibir información de medios de pago de campañas dirigidas por la agencia para obtener información, datos anexados de perfiles CDP y orquestación de medios propia.

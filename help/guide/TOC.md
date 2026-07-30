@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration permite intercambiar datos y colaborar de forma segura y sin problemas entre anunciantes y editores, lo que facilita obtener datos de audiencia en tiempo real y estrategias de marketing personalizadas.
-source-git-commit: 884e5d87448de554ba258a0d24f023979fc4768c
+source-git-commit: 3e31c6bc68a516698ee9b4e24ab4773afae5551b
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 36%
+source-wordcount: '243'
+ht-degree: 34%
 
 ---
 
@@ -36,7 +36,6 @@ ht-degree: 36%
     * [Configurar el uso compartido de deltas de Databricks para Audience Sourcing](./setup/configure-databricks-audience-sourcing.md)
     * [Configuración de Adobe Audience Manager para el abastecimiento de audiencias](./setup/configure-aam-audience-sourcing.md)
   * [Administrar conexiones de datos](./setup/manage-data-connection.md)
-  * [Configuración y administración de destinos](./setup/manage-destinations.md)
   * [Rastrear la actividad de consumo de crédito](/help/guide/setup/my-activity.md)
   * {hide-from-toc}[Cruces de identidad](./setup/identity-crosswalk.md)
   * [Adición y administración de datos de medición](./setup/onboard-measurement-data.md)
@@ -66,8 +65,9 @@ ht-degree: 36%
     * {hide-from-toc}[Crear informes de medición AMC](./collaborate/advertising-platforms/amc-measure.md)
 * Destinos {#destinations}
   * [Información general](/help/guide/destinations/overview.md)
-  * {hide-from-toc}[Configurar y administrar un destino](./destinations/manage-destinations.md)
-  * [Adobe Experience Platform](./destinations/experience-platform.md)
+  * [Configurar y administrar destinos de almacenamiento en la nube](./destinations/manage-destinations.md)
+  * [Requisitos de destino de almacenamiento en nube](./destinations/cloud-storage-destination-requirements.md)
+  * [Configuración de Adobe Experience Platform como destino](./destinations/experience-platform.md)
 * Permisos {#permissions}
   * [Información general](/help/guide/permissions/overview.md)
   * [Administrar el acceso de usuario](./permissions/manage-user-access.md)

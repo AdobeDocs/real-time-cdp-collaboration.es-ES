@@ -2,28 +2,23 @@
 title: Configuración de Adobe Experience Platform como destino
 description: Obtenga información sobre cómo configurar y administrar Adobe Experience Platform como destino en Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 594610a0-9102-448a-b59b-ec162ef9dd57
 TQID: https://experienceleague.adobe.com/vOAlNzIaEKC6cZC-zMxShPTn77kmV3WbUuvZU8Svzh4
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: c84582bb81289ce761c664af7db177535ff00a00
 workflow-type: tm+mt
-source-wordcount: 1534
-ht-degree: 14%
+source-wordcount: 1548
+ht-degree: 15%
 
 ---
 
 # Configuración de Adobe Experience Platform como destino
 
-{{limited-availability-release-note}}
-
 Configure este destino para activar audiencias de su proyecto a Adobe Experience Platform. La activación de audiencias en Adobe Experience Platform le permite aprovechar las capacidades de la plataforma para la segmentación de audiencias, el análisis y la activación en varios canales de marketing. Para obtener más información sobre Adobe Experience Platform, consulte la [descripción general de Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/landing/home){target="_blank"}.
+
+Adobe Experience Platform usa un flujo de trabajo de configuración específico del destino que difiere del flujo de trabajo de destino de almacenamiento en la nube descrito en [Configurar y administrar destinos de almacenamiento en la nube](./manage-destinations.md).
 
 >[!WARNING]
 >
@@ -31,13 +26,11 @@ Configure este destino para activar audiencias de su proyecto a Adobe Experience
 
 ## Configurar destino {#configure-destination}
 
-Para configurar Adobe Experience Platform como destino, vaya a **[!UICONTROL Configuración]** y luego seleccione la pestaña **[!UICONTROL Mis destinos]**. Seleccione **[!UICONTROL Configurar]** para Adobe Experience Platform.
+Para configurar Adobe Experience Platform como destino, vaya al área de trabajo **[!UICONTROL Activation]**, seleccione la pestaña **[!UICONTROL Catálogo]** y seleccione **[!UICONTROL Configurar]** para Adobe Experience Platform.
 
-![Área de trabajo Mis destinos con la opción de configuración resaltada para el destino de Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/setup-aep.png)
+![La ficha Catálogo muestra las tarjetas de proveedor de destino con la tarjeta Adobe Experience Platform resaltada.](../../assets/destinations/adobe-experience-platform/setup-experience-platform.png)
 
 Aparece el flujo de trabajo **[!UICONTROL Crear destino]**.
-
-![Flujo de trabajo Crear destino para Adobe Experience Platform.](/help/assets/destinations/adobe-experience-platform/create-destination.png)
 
 ### Configurar zona protegida {#configure-sandbox}
 
@@ -126,7 +119,7 @@ La clave vinculada ya está configurada.
 
 >[!NOTE]
 >
->Solo se puede utilizar un área de nombres de destino de clave vinculada por asignación de activación. Por ejemplo, si vincula un ID con hash a un ID de CRM, al activar la opción de clave vinculada para otro campo, también se vinculará al ID de CRM.
+>Solo puede utilizar un área de nombres de destino de clave vinculada por asignación de activación. Por ejemplo, si vincula un ID con hash a un ID de CRM, al activar la opción de clave vinculada para otro campo, también se vinculará al ID de CRM.
 
 Cuando haya terminado de asignar todas las claves de coincidencia, revise la configuración. La sección **[!UICONTROL Vista previa]** proporciona un resumen de su configuración.
 
@@ -144,9 +137,9 @@ Una vez que hayas configurado Experience Platform como destino, puedes empezar a
 
 >[!IMPORTANT]
 >
->Usted **debe** configurar Experience Platform como destino *antes* de que su colaborador active una audiencia. Si el destino no está configurado, la audiencia se le enviará y será visible en la ficha **[!UICONTROL Activar]** dentro de un proyecto, pero no se activará en Experience Platform.
+>Usted **debe** configurar Experience Platform como destino *antes* de que su colaborador active una audiencia. Si el destino no está configurado, la audiencia se le enviará y será visible en el nivel de proyecto **[!UICONTROL Activar]**, pero no se activará en Experience Platform.
 
-Una vez activada la audiencia, estará disponible en [Audience Portal](#audience-portal) en Experience Platform con Real-Time CDP Collaboration como origen.  Estas audiencias se pueden usar en campañas y participación de clientes.
+Una vez activada la audiencia, estará disponible en [Audience Portal](#audience-portal) en Experience Platform con Real-Time CDP Collaboration como origen. Estas audiencias se pueden usar en campañas y participación de clientes.
 
 ### Portal de públicos {#audience-portal}
 
@@ -158,4 +151,4 @@ Ahora que ha configurado Adobe Experience Platform como destino, puede ver las a
 
 ![El portal de audiencia con Real-Time CDP Collaboration como origen en las opciones de filtro.](/help/assets/destinations/adobe-experience-platform/audience-portal.png)
 
-Para obtener más información sobre Audience Portal, consulte la guía [Información general de Audience Portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.
+Para obtener más información sobre Audience Portal, consulte la guía [Información general de Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#manage-audiences){target="_blank"}.

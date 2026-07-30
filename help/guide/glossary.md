@@ -1,27 +1,18 @@
 ---
 title: Glosario
-description: Understand key terminology for Real-Time CDP Collaboration
+description: Comprender la terminología clave de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 hide: true
 exl-id: 870c45d0-df68-487f-bbe2-d9862a8ea62e
 TQID: https://experienceleague.adobe.com/aamkkPQbkaATqzByHmnTU2QGiUXLOn1yhz1jPA8LgGc
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
-source-wordcount: 837
-ht-degree: 5%
+source-wordcount: 934
+ht-degree: 4%
 
 ---
 
@@ -29,27 +20,35 @@ ht-degree: 5%
 
 {{limited-availability-release-note}}
 
-This glossary provides definitions for key terms identified in the Adobe Real-Time CDP Collaboration product and documentation. Understanding these terms will help you better utilize the product and its features.
+Este glosario proporciona definiciones de términos clave identificados en el producto y la documentación de Adobe Real-Time CDP Collaboration. Comprender estos términos le ayudará a utilizar mejor el producto y sus funciones.
 
 ## A
 
+### Activar (en colaboración)
+
+Hace referencia a la acción de enviar una audiencia a otro colaborador dentro de un proyecto compartido. Cuando activa una audiencia a un colaborador, esta se envía al destino preconfigurado de ese colaborador, donde está disponible para su uso en campañas. Para obtener instrucciones, consulte [Activar audiencias](/help/guide/collaborate/activate.md). No debe confundirse con **Activar (en un destino)**.
+
+### Activar (en un destino)
+
+Hace referencia al destino al que llega una audiencia activada, como una plataforma de almacenamiento en la nube o Adobe Experience Platform, y al espacio de trabajo donde se configuran, exploran y supervisan los destinos. Las audiencias siguen llegando a un destino a través de la acción [Activar audiencias](/help/guide/collaborate/activate.md) de un proyecto; este espacio de trabajo controla qué destinos están disponibles y cómo se configuran. Para obtener instrucciones, consulte [Información general sobre destinos](/help/guide/destinations/overview.md). No debe confundirse con **Activar (a colaborador)**.
+
 ### Anunciante
 
-Any entity that will spend marketing budget to reach audiences across publishers or other brand partners to achieve goals of brand awareness, prospecting, re-engagement, and conversions.
+Cualquier entidad que gaste el presupuesto de marketing para llegar a audiencias de varios editores u otros socios de marca para lograr los objetivos de imagen de marca, prospección, renovación de participación y conversiones.
 
 ## C
 
 ### Almacenamiento en la nube
 
-Cloud storage is a cloud computing solution that enables storing data and files on the internet through a cloud computing provider and is almost always a part of an organization&#39;s data stack. Examples include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
+El almacenamiento en la nube es una solución de computación en la nube que permite almacenar datos y archivos en Internet a través de un proveedor de computación en la nube y casi siempre forma parte de la pila de datos de una organización. Algunos ejemplos son Amazon Web Service (AWS), Microsoft Azure y Google Cloud Platform (GCP).
 
-### Connection request
+### Solicitud de conexión
 
-A connection request is a formal request sent from one organization to another to establish a data-sharing connection. Once accepted, it allows the two parties to collaborate and share audience data securely.
+Una solicitud de conexión es una solicitud formal enviada de una organización a otra para establecer una conexión de uso compartido de datos. Una vez aceptado, permite a las dos partes colaborar y compartir datos de audiencia de forma segura.
 
 ### Configuración de conexión
 
-After a connection request is accepted, the initiator of that request sends the connection settings to the collaborator for approval. These connection settings govern the way that the collaborators work together on projects and include match keys to be used, billing ownership, and more.
+Una vez aceptada una solicitud de conexión, el iniciador de dicha solicitud envía la configuración de conexión al colaborador para su aprobación. Esta configuración de conexión rige la forma en que los colaboradores trabajan juntos en los proyectos e incluye las claves de coincidencia que se van a utilizar, la propiedad de facturación, etc.
 
 <!--
 
@@ -61,31 +60,31 @@ An identity crosswalk is a tool used to connect different identifiers across dat
 
 ## D
 
-### Data clean room
+### Sala de limpieza de datos
 
-A secure collaboration environment which allows two or more participants to leverage data assets for specific, mutually agreed upon uses, while guaranteeing enforcement of strict data access limitations. This infrastructure layer is often provided by cloud storage providers and/or by data warehouses like Snowflake and Databricks and is best suited for technical users like data engineers and data scientists proficient in skills such as SQL.
+Un entorno de colaboración seguro que permite a dos o más participantes aprovechar los activos de datos para usos específicos mutuamente acordados, a la vez que garantiza el cumplimiento de estrictas limitaciones de acceso a los datos. Esta capa de infraestructura a menudo la proporcionan proveedores de almacenamiento en la nube o almacenes de datos como Snowflake y Databricks, y es más adecuada para usuarios técnicos como ingenieros de datos y científicos de datos con habilidades como SQL.
 
 ### Colaboración de datos
 
-Data collaboration involves combining and analyzing data within a company or alongside partners for various purposes, such as audience targeting, measurement, and insights. Data collaboration platforms offer secure environments to share data safely while meeting privacy and security concerns.
+La colaboración de datos implica combinar y analizar datos dentro de una empresa o junto con socios para varios fines, como segmentación de audiencia, medición y perspectivas. Las plataformas de colaboración de datos ofrecen entornos seguros para compartir datos de forma segura, a la vez que satisfacen los problemas de privacidad y seguridad.
 
 ### Conexión de datos
 
-A data connection is the source from where you can import data into Real-Time CDP Collaboration. Currently, Experience Platform is the only available data connection. Read more about [managing data connections](/help/guide/setup/manage-data-connection.md).
+Una conexión de datos es el origen desde el que se pueden importar datos a Real-Time CDP Collaboration. Actualmente, Experience Platform es la única conexión de datos disponible. Más información sobre [administrar conexiones de datos](/help/guide/setup/manage-data-connection.md).
 
-### Data sharing agreement
+### Acuerdo de uso compartido de datos
 
-A data sharing agreement is a formal contract between two or more parties outlining the terms and conditions for sharing data. It ensures that all parties comply with legal and privacy requirements and establishes guidelines for data usage and protection.
+Un acuerdo de uso compartido de datos es un contrato formal entre dos o más partes en el que se describen los términos y condiciones para compartir datos. Garantiza que todas las partes cumplan con los requisitos legales y de privacidad y establece directrices para el uso y la protección de los datos.
 
-### Device identifier
+### Identificador del dispositivo
 
-A device identifier is a unique number associated with a device, such as a smartphone or tablet. It is used to track and identify the device across various platforms and services, enabling personalized user experiences and targeted advertising.
+Un identificador de dispositivo es un número único asociado a un dispositivo, como un smartphone o una tableta. Se utiliza para rastrear e identificar el dispositivo en varias plataformas y servicios, lo que permite experiencias de usuario personalizadas y publicidad segmentada.
 
 ## I
 
 ### Invitación
 
-An invite in Adobe Real-Time CDP Collaboration refers to a request sent to another user or organization to join a project or data collaboration effort. Invites help facilitate secure and controlled access to shared data and resources.
+Una invitación en Adobe Real-Time CDP Collaboration hace referencia a una solicitud enviada a otro usuario u organización para unirse a un proyecto o esfuerzo de colaboración de datos. Invita a que se facilite el acceso seguro y controlado a los datos y recursos compartidos.
 
 <!--
 
@@ -101,43 +100,43 @@ In the context of identity crosswalks, a join key is a unique identifier used to
 
 ### Claves de coincidencia
 
-Match keys are unique identifiers used to link records across different datasets. They help ensure that data from different sources can be accurately matched and integrated, facilitating better data analysis and audience segmentation.
+Las claves de coincidencia son identificadores únicos utilizados para vincular registros en diferentes conjuntos de datos. Ayudan a garantizar que los datos de diferentes fuentes se puedan emparejar e integrar con precisión, lo que facilita un mejor análisis de datos y segmentación de audiencia.
 
 ## O
 
-### Overlap
+### Superposición
 
-An overlap (or audience overlap) refers to the common audience segments that exist between different datasets. Understanding audience overlap helps identify potential collaboration opportunities and allows for more targeted marketing efforts by leveraging shared audience data.
+Una superposición (o superposición de audiencias) se refiere a los segmentos de audiencia comunes que existen entre diferentes conjuntos de datos. Comprender la superposición de audiencias ayuda a identificar posibles oportunidades de colaboración y permite realizar esfuerzos de marketing más específicos aprovechando los datos de audiencia compartidos.
 
 ## P
 
 ### Proyecto
 
-A project in Adobe Real-Time CDP Collaboration is a workspace where users can collaborate on specific data integration and audience segmentation tasks. Projects help organize and manage data-sharing efforts, making collaboration more efficient and streamlined.
+Un proyecto en Adobe Real-Time CDP Collaboration es un espacio de trabajo en el que los usuarios pueden colaborar en tareas específicas de integración de datos y segmentación de audiencia. Los proyectos ayudan a organizar y administrar los esfuerzos de intercambio de datos, lo que hace que la colaboración sea más eficiente y ágil.
 
 ### Público general
 
-Within the context of projects, this is an audience that is discoverable by your collaborator. Audiences can be private, custom, or public. Private audiences are not discoverable by any other collaborators. Custom audiences can be discovered by certain collaborators only, and public audiences can be discovered by all collaborators.
+En el contexto de los proyectos, se trata de una audiencia que el colaborador puede descubrir. Las audiencias pueden ser privadas, personalizadas o públicas. Las audiencias privadas no se pueden detectar en ningún otro colaborador. Solo ciertos colaboradores pueden descubrir audiencias personalizadas, y todos los colaboradores pueden descubrir audiencias públicas.
 
 ### Editor
 
-A Publisher is an owner or operator of online content or services where personal data is collected with consent and is available for use by other entities for digital advertising and audience measurement.
+Un publicador es propietario u operador de contenido o servicios en línea donde los datos personales se recopilan con consentimiento y están disponibles para su uso por otras entidades para la publicidad digital y la medición de audiencia.
 
 ## S
 
-### Sketches {#sketches}
+### Bocetos {#sketches}
 
-Sketches (or data sketches) are simplified summaries of audience data used in Real-Time CDP Collaboration. They allow brands and publishers to analyze audience overlaps and insights without sharing actual customer data. Think of them like anonymous headcounts rather than detailed customer profiles.
-In Adobe Real-Time CDP Collaboration, data sketches:
+Los bocetos (o bocetos de datos) son resúmenes simplificados de los datos de audiencia utilizados en Real-Time CDP Collaboration. Permiten a marcas y editores analizar las superposiciones y perspectivas de audiencia sin compartir datos reales de los clientes. Considérelos como si fueran recuentos de personas anónimas en lugar de perfiles detallados de los clientes.
+En Adobe Real-Time CDP Collaboration, los bocetos de datos:
 
-* Help determine how similar two audiences are
-* Maintain privacy while enabling collaboration
-* Need to be refreshed at least every 7 days to remain valid
+* Ayudar a determinar la similitud entre dos audiencias
+* Mantenga la privacidad y habilite la colaboración
+* Debe actualizarse al menos cada 7 días para seguir siendo válido
 
-If sketches aren&#39;t refreshed regularly, audience overlap reports will show zero values and audience sharing may become temporarily unavailable. Data sketches are automatically refreshed whenever an audience membership is updated in Real-Time CDP Collaboration.
+Si los bocetos no se actualizan con regularidad, los informes de superposición de audiencias mostrarán valores cero y es posible que el uso compartido de audiencias no esté disponible temporalmente. Los bocetos de datos se actualizan automáticamente cada vez que se actualiza un abono a audiencia en Real-Time CDP Collaboration.
 
 ## U
 
 ### Ejemplo de uso
 
-A use case defines a specific business scenario or problem that can be addressed using Adobe Real-Time CDP Collaboration. En Real-Time CDP Collaboration, hay casos de uso de muestra disponibles, como la detección de audiencias o la medición, para ayudarle a lograr un objetivo determinado.
+Un caso de uso define un escenario empresarial específico o un problema que se puede abordar con Adobe Real-Time CDP Collaboration. En Real-Time CDP Collaboration, hay casos de uso de muestra disponibles, como la detección de audiencias o la medición, para ayudarle a lograr un objetivo determinado.
