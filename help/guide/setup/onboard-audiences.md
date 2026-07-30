@@ -2,18 +2,14 @@
 title: Source y administración de audiencias
 description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 3773
+source-wordcount: 3758
 ht-degree: 17%
 
 ---
@@ -23,6 +19,8 @@ ht-degree: 17%
 {{limited-availability-release-note}}
 
 Las audiencias son grupos específicos de usuarios o clientes segmentados según varios atributos. Esto permite a los colaboradores colaborar en marketing segmentado y experiencias personalizadas para lograr campañas publicitarias más eficaces. Esta guía explica cómo crear audiencias en Real-Time CDP Collaboration, ver el panel de audiencias y administrar audiencias individuales.
+
+Para obtener una explicación conceptual de las audiencias en Collaboration, vea [Información general sobre audiencias](../setup/audiences-overview.md).
 
 ## Audiencias de Source en Collaboration {#source-audiences}
 
@@ -91,7 +89,7 @@ A continuación, debe asegurarse de que las acciones de marketing correctas se e
 
 Utilice acciones de marketing para controlar qué datos de audiencia introducir en Collaboration desde Experience Platform. La acción de marketing **[!UICONTROL Colaboración de datos]** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
 
-Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Si la casilla de verificación está ***habilitada***, se excluirán todos los datos etiquetados en Experience Platform como se describió anteriormente y **no** se incluirán en Collaboration.
 * Con la casilla de verificación ***deshabilitada***, no hay restricciones en los datos procedentes de Experience Platform.
@@ -146,7 +144,7 @@ A continuación, proporcione un nombre y una descripción para la conexión de d
 
 A continuación, seleccione los campos de origen para asignarlos a los campos de destino en Collaboration. Los campos de destino disponibles se basarán en las claves de coincidencia seleccionadas durante la [configuración de la cuenta](./onboard-account.md#set-up-match-keys).
 
-Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la configuración de la cuenta, [!DNL Demdex ID] se extrae y asigna automáticamente a partir de ECID y no tiene que realizar ninguna acción. Para obtener más información sobre [!DNL Demdex IDs], consulte la guía [[!DNL Demdex ID]](https://experienceleague.adobe.com/es/docs/experience-platform/collection/identity/unified-identity-support).
+Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la configuración de la cuenta, [!DNL Demdex ID] se extrae y asigna automáticamente a partir de ECID y no tiene que realizar ninguna acción. Para obtener más información sobre [!DNL Demdex IDs], consulte la guía [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![Espacio de trabajo Agregar audiencias con la opción de asignar campos de origen a campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -156,7 +154,7 @@ Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la con
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
+**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
 
 Los campos de Source se asignan a los campos de destino definidos en Collaboration.
 
@@ -239,7 +237,7 @@ Cada audiencia contiene una descripción general de la siguiente información:
 | **[!UICONTROL Nombre]** | Nombre de la audiencia. |
 | **[!UICONTROL Identidades]** | Indica el número de identidades presentes en esta audiencia. Tenga en cuenta que si el mismo perfil tiene dos o más identidades y estas identidades se utilizan como claves de coincidencia en el proyecto, el perfil aparecerá dos veces en el recuento. |
 | **[!UICONTROL Estado]** | Indica si la audiencia está activa y si se puede utilizar en proyectos. El estado **[!UICONTROL Pendiente]** indica que la audiencia se ha originado recientemente y que las identidades aún no se han rellenado. Las audiencias de origen se rellenarán con perfiles después de la actualización inicial, que generalmente se produce dentro de las 24 horas siguientes a la configuración de la conexión de datos. |
-| **[!UICONTROL Source]** | Indica el origen de la audiencia. En la versión actual de Collaboration, Experience Platform es la única fuente compatible. |
+| **[!UICONTROL Source]** | Indica el origen de la audiencia. |
 | **[!UICONTROL Conexión de datos]** | La conexión de datos desde la que se origina la audiencia. Puede seleccionar el nombre para ver la conexión de datos. |
 | **[!UICONTROL Acceso a la conexión]** | Define si la audiencia es pública o privada. Las audiencias públicas se pueden descubrir en los informes de superposición y se pueden activar dentro de un proyecto. |
 | **[!UICONTROL Creado]** | Indica cuándo se originó la audiencia inicialmente en Collaboration. |
@@ -265,7 +263,7 @@ Se muestra la siguiente información para cada audiencia individual:
 | Elemento | Descripción |
 |----------|---------|
 | **[!UICONTROL Estado]** | Indica si la audiencia está activa y si se puede utilizar en proyectos. |
-| **[!UICONTROL Source]** | Indica el origen de la audiencia. En la versión actual de Collaboration, Experience Platform es la única fuente compatible. |
+| **[!UICONTROL Source]** | Indica el origen de la audiencia. |
 | **[!UICONTROL Conexión de datos]** | La conexión de datos desde la que se origina la audiencia. |
 | **[!UICONTROL Última actualización]** | Indica la última fecha y hora en que la audiencia se actualizó en Collaboration. Esto no hace referencia a la última actualización de la audiencia, sino a la última modificación de la configuración o los metadatos de la audiencia |
 | **[!UICONTROL Última actualización por]** | Indica el usuario que actualizó la audiencia por última vez. |

@@ -2,16 +2,18 @@
 title: Información general de fuentes
 description: Obtenga información acerca de los conectores de origen en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-source-git-commit: 23f7d91d37d0d9c9b352716caa4827dcc87093d8
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 7%
+source-wordcount: '433'
+ht-degree: 6%
 
 ---
 
 # Información general de fuentes
 
 En Adobe Real-Time CDP Collaboration, una fuente (o conexión de datos) es de donde provienen los datos de audiencia. Puede conectarse a varios tipos de fuentes, como aplicaciones de Adobe, almacenamiento basado en la nube o archivos de su sistema local, para [crear y administrar audiencias](./onboard-audiences.md) para sus proyectos de Collaboration. Durante el flujo de trabajo de fuentes de audiencia, puede elegir y configurar su fuente preferida según las necesidades de su organización.
+
+Para obtener una descripción general conceptual del modo en que las audiencias, las fuentes, las conexiones de datos, los proyectos y los destinos se ajustan en Collaboration, consulte [Información general sobre audiencias](./audiences-overview.md).
 
 ## Conectar un origen {#connect-a-source}
 

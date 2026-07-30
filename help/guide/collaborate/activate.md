@@ -2,19 +2,15 @@
 title: Activar públicos
 description: Obtenga información sobre cómo activar audiencias en Adobe Real-Time CDP Collaboration.
 audience: admin, publisher
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 4b38559f30c55f4cb1607d373fb1318416382c32
 workflow-type: tm+mt
-source-wordcount: 1063
+source-wordcount: 1078
 ht-degree: 8%
 
 ---
@@ -27,7 +23,9 @@ ht-degree: 8%
 >
 >El área de trabajo **[!UICONTROL Activar]** solo está disponible si el caso de uso **Activación de audiencias** se habilitó [durante el proceso de conexión](../connect/establishing-connections.md#connection-settings). Para obtener más información sobre los casos de uso, consulte la guía [administrar proyectos](./manage-projects.md#project-use-cases).
 
-La activación de audiencias permite activar audiencias para utilizarlas en campañas. La activación puede realizarla el colaborador en función de la configuración de activación de audiencia [configurada en la conexión](/help/guide/connect/establishing-connections.md#configure-connection-settings). Después de [descubrir las mejores audiencias para tu campaña](./discover.md), actívalas para que estén disponibles para su uso. Al activar una audiencia, se envía al destino preconfigurado del colaborador, como Adobe Experience Platform, donde está disponible para su uso en campañas. Para obtener más información sobre la configuración de destinos, consulte la guía [descripción general de destinos](../destinations/overview.md).
+Puede utilizar la activación de audiencia para activar la audiencia con fines de campaña. La activación puede realizarla el colaborador en función de la configuración de activación de audiencia [configurada en la conexión](/help/guide/connect/establishing-connections.md#configure-connection-settings). Después de [descubrir las mejores audiencias para tu campaña](./discover.md), actívalas para que estén disponibles para su uso. Al activar una audiencia, se envía al destino preconfigurado del colaborador, como Adobe Experience Platform, donde está disponible para su uso en campañas. Para obtener más información sobre la configuración de destinos, consulte la guía [descripción general de destinos](../destinations/overview.md).
+
+Para obtener una explicación conceptual de dónde encaja la activación en los flujos de trabajo admitidos, consulte [Información general de audiencias](../setup/audiences-overview.md).
 
 ## Activar nuevas audiencias {#activate-new-audiences}
 
