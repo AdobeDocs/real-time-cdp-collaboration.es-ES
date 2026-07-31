@@ -1,8 +1,7 @@
 ---
 title: Activar públicos
-description: Obtenga información sobre cómo activar audiencias en Adobe Real-Time CDP Collaboration.
-audience: admin, publisher
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+description: Obtenga información sobre cómo enviar audiencias a colaboradores y activar manualmente las audiencias recibidas a destinos en Adobe Real-Time CDP Collaboration.
+audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
 product_v2:
@@ -12,127 +11,197 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5c0fd0c7a7914f5c7828b76150b266d4625b6266
+source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
 workflow-type: tm+mt
-source-wordcount: 1063
-ht-degree: 8%
+source-wordcount: 1565
+ht-degree: 3%
 
 ---
 
 # Activar públicos
 
-{{limited-availability-release-note}}
+Use la ficha **[!UICONTROL Activar]** de un proyecto para enviar audiencias a su colaborador, revisar las audiencias recibidas de su colaborador y activar las audiencias recibidas para enviarlas a un destino configurado. Para configurar y administrar destinos desde el área de trabajo **[!UICONTROL Activation]** de nivel superior, consulte la [descripción general de destinos](../destinations/overview.md).
 
 >[!IMPORTANT]
 >
->El área de trabajo **[!UICONTROL Activar]** solo está disponible si el caso de uso **Activación de audiencias** se habilitó [durante el proceso de conexión](../connect/establishing-connections.md#connection-settings). Para obtener más información sobre los casos de uso, consulte la guía [administrar proyectos](./manage-projects.md#project-use-cases).
+>La ficha **[!UICONTROL Activar]** solo está disponible si el caso de uso **Activación de audiencias** se habilitó [durante el proceso de conexión](../connect/establishing-connections.md#connection-settings). Para obtener más información sobre los casos de uso, consulte [Administrar proyectos](./manage-projects.md#project-use-cases).
 
-La activación de audiencias permite activar audiencias para utilizarlas en campañas. La activación puede realizarla el colaborador en función de la configuración de activación de audiencia [configurada en la conexión](/help/guide/connect/establishing-connections.md#configure-connection-settings). Después de [descubrir las mejores audiencias para tu campaña](./discover.md), actívalas para que estén disponibles para su uso. Al activar una audiencia, se envía al destino preconfigurado del colaborador, como Adobe Experience Platform, donde está disponible para su uso en campañas. Para obtener más información sobre la configuración de destinos, consulte la guía [descripción general de destinos](../destinations/overview.md).
+Use la [pestaña Discover](./discover.md) para identificar las audiencias que mejor se ajustan a su campaña y luego envíelas a su colaborador. El colaborador receptor selecciona un destino configurado y programa la audiencia recibida para su activación.
 
-## Activar nuevas audiencias {#activate-new-audiences}
+Enviar y activar son acciones independientes. El envío proporciona a su colaborador acceso a una audiencia. A continuación, el colaborador receptor selecciona un destino y activa manualmente la audiencia recibida.
 
-Para empezar a activar audiencias, ve a la pestaña **[!UICONTROL Activar]** del área de trabajo del proyecto.
+Las secciones y acciones disponibles dependen de si la organización envía o recibe audiencias en el proyecto. La ficha **[!UICONTROL Activar]** contiene las siguientes secciones:
+
+| Sección | Descripción |
+|---|---|
+| **[!UICONTROL Se enviaron las audiencias a [colaborador]]** | Audiencias que ha enviado a su colaborador. |
+| **[!UICONTROL Audiencias recibidas]** | Audiencias que le ha enviado su colaborador y que están disponibles para su activación. |
+| **[!UICONTROL Audiencias activadas]** | Audiencias recibidas que ha activado a un destino. |
+
+![La pestaña Activar a nivel de proyecto con recuentos de resumen en las secciones superior y audiencias enviadas y recibidas y audiencias activadas expandidas. Cada sección muestra recuentos de estado y una tabla de detalles de audiencia.](/help/assets/collaborate/activate/activate-dashboard.png)
+
+## Requisitos previos {#prerequisites}
+
+Antes de enviar o activar audiencias, asegúrese de lo siguiente:
+
+- Las audiencias provienen de y están disponibles para su envío. Para obtener más información, consulte [Source y administrar audiencias](../setup/onboard-audiences.md).
+- Si necesita activar las audiencias recibidas, debe configurarse como mínimo un destino. Para obtener más información, consulte la [descripción general de destinos](../destinations/overview.md).
+
+## Enviar públicos {#send-audiences}
+
+Envíe una audiencia para que su colaborador tenga acceso a ella. Después de enviar la audiencia, esta aparece en la sección **[!UICONTROL Audiencias enviadas al colaborador]&rbrack;** y en la sección **[!UICONTROL Audiencias recibidas]** del colaborador.&lbrack;
+
+Vaya a **[!UICONTROL Colaborar]**, abra un proyecto y seleccione la ficha **[!UICONTROL Activar]**.
+
+En la sección **[!UICONTROL Audiencias enviadas a [colaborador]]**, seleccione el icono de agregar (![Agregar icono.](/help/assets/icons/plus.png)). Si no se han enviado audiencias, selecciona **[!UICONTROL Enviar audiencia]** en la pantalla vacía.
+
+![La pestaña Activar a nivel de proyecto cuando no se han enviado audiencias. El mensaje para mostrar vacío explica que no ha enviado ninguna audiencia y muestra el botón Enviar audiencia.](/help/assets/collaborate/activate/activate-new-audiences.png)
+
+Se abre el flujo de trabajo **[!UICONTROL Enviar audiencias]**. Use el selector de audiencia para encontrar una audiencia o seleccione **[!UICONTROL Examinar audiencias]** para comparar las audiencias disponibles.
+
+![Flujo de trabajo Enviar audiencias con un selector de audiencia y un botón Examinar audiencias. El flujo de trabajo permite que el remitente elija una audiencia antes de configurar las claves de coincidencia y la configuración de acceso.](/help/assets/collaborate/activate/audience-activation.png)
+
+En el cuadro de diálogo **[!UICONTROL Examinar audiencias]**, revise **[!UICONTROL Recuento de identidades]**, **[!UICONTROL Identidades superpuestas]** y **[!UICONTROL Superposición %]** para cada audiencia.
+
+![El cuadro de diálogo Examinar audiencias enumera las audiencias disponibles con su recuento de identidades, recuento de identidades superpuesto y porcentaje de superposición.](/help/assets/collaborate/activate/browse-audiences.png)
 
 >[!IMPORTANT]
 >
->**Antes de que** pueda activar una audiencia, su colaborador **debe** configurar un destino. Al activar una audiencia, esta se envía automáticamente al destino configurado del colaborador. Si no se configura ningún destino, no se pueden activar las audiencias.
->
->![Activa el espacio de trabajo cuando el colaborador no tiene ningún destino configurado.](/help/assets/collaborate/activate/no-destination-configured.png)
+>Si una audiencia utiliza varias claves de coincidencia, cada clave de coincidencia seleccionada debe alcanzar el umbral de superposición requerido. Use la [pestaña Discover](./discover.md) para confirmar que la audiencia cumple los requisitos de superposición antes de enviarla.
 
-Seleccione el icono de agregar (![Agregar icono.](/help/assets/icons/plus.png)) o la opción **[!UICONTROL Activar audiencia]** si no se han enviado audiencias anteriores para su activación.
+Seleccione la audiencia que desee enviar y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
-![El área de trabajo de activación en un proyecto sin audiencias agregadas.](/help/assets/collaborate/activate/activate-new-audiences.png)
+La audiencia seleccionada aparece en el flujo de trabajo con su identidad e información de superposición.
 
-Se abre el flujo de trabajo activar audiencias, donde puede seleccionar la audiencia que desea enviar a su colaborador. Utilice el menú desplegable para seleccionar una audiencia o buscar una audiencia específica. Para ver más información sobre las audiencias antes de realizar la selección, selecciona **[!UICONTROL Examinar audiencias]**
-
-![Flujo de trabajo de activación de audiencia con las opciones desplegables y Examinar audiencias resaltadas.](/help/assets/collaborate/activate/audience-activation.png)
-
-En **[!UICONTROL Examinar audiencias]**, puede ver **[!UICONTROL Recuento de identidades]**, **[!UICONTROL Identidades superpuestas]** y **[!UICONTROL Superposición %]** para cada audiencia.
-
-![Cuadro de diálogo Examinar audiencias que muestra las audiencias disponibles.](/help/assets/collaborate/activate/browse-audiences.png)
-
->[!IMPORTANT]
->
->Al activar audiencias en las que se utilizan varias claves de coincidencia, si una (o más) clave de coincidencia no se superpone, no hay recuentos de público o cae por debajo del umbral, toda la activación falla. Asegúrese de que las audiencias se superpongan lo suficiente y cumplan el umbral mínimo de 1000 ID en todas las claves de coincidencia antes de activarlas.
-
-Seleccione la audiencia que desea activar en las campañas y luego seleccione **[!UICONTROL Guardar]**. La audiencia ahora se muestra y puede ver **[!UICONTROL Recuento de identidades]**, **[!UICONTROL identidades superpuestas]** y **[!UICONTROL Superposición %]** para la audiencia seleccionada.
-
-![Flujo de trabajo de activación de audiencia con la audiencia seleccionada mostrada.](/help/assets/collaborate/activate/audience-selected.png)
+![Flujo de trabajo Enviar audiencias con una audiencia seleccionada que muestra su recuento de identidades, recuento de identidades superpuesto, porcentaje de superposición, claves de coincidencia y opción Editar claves de coincidencia.](/help/assets/collaborate/activate/audience-selected.png)
 
 ### Editar claves de coincidencia {#edit-match-keys}
 
-A continuación, puede editar las claves de coincidencia de la audiencia seleccionando **[!UICONTROL Editar claves de coincidencia]** dentro de la audiencia seleccionada. Estas opciones se heredan de las selecciones de claves de coincidencia cuando se configuró inicialmente la conexión entre colaboradores. Puede eliminar las claves de coincidencia seleccionadas si no se aplican a una campaña específica, pero no puede añadir nuevas claves de coincidencia.
+Utilice las claves de coincidencia configuradas para la conexión de colaborador o elimine las claves de coincidencia que no se apliquen a la audiencia.
 
-![Flujo de trabajo de activación de audiencia con la opción Editar claves de coincidencia resaltada.](/help/assets/collaborate/activate/edit-match-keys.png)
+Seleccione **[!UICONTROL Editar claves de coincidencia]** en la audiencia seleccionada.
 
-Se abre el cuadro de diálogo **[!UICONTROL Editar claves de coincidencia]**, donde puede desactivar las claves de coincidencia que no desee usar. Seleccione **[!UICONTROL Guardar]** para guardar los cambios.
+![La audiencia seleccionada en el flujo de trabajo Enviar audiencias con la opción Editar claves de coincidencia resaltada.](/help/assets/collaborate/activate/edit-match-keys.png)
+
+Aparecerá el cuadro de diálogo **[!UICONTROL Editar claves de coincidencia]**. Desactive las claves de coincidencia que no desee usar y, a continuación, seleccione **[!UICONTROL Guardar]**.
 
 >[!NOTE]
 >
->Se debe seleccionar al menos una clave de coincidencia.
+>Debe permanecer seleccionada al menos una clave de coincidencia.
 
-![Cuadro de diálogo Editar claves de coincidencia en el flujo de trabajo de activación de Audience.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
+![Cuadro de diálogo Editar claves de coincidencia con controles de alternancia para las claves de coincidencia disponibles a través de la conexión de colaborador y un botón Guardar.](/help/assets/collaborate/activate/edit-match-keys-selection.png)
 
-### Establecer frecuencia de actualización de audiencia {#set-audience-refresh-frequency}
+### Configuración del acceso a audiencias {#configure-audience-access}
 
-Finalmente, establezca la frecuencia y el intervalo de fechas deseados para la activación de la audiencia. Utilice el menú desplegable **[!UICONTROL Frecuencia]** para elegir si la audiencia se activa una vez o se actualiza según una programación recurrente. Seleccione **[!UICONTROL Una vez]** para activar la audiencia una sola vez o una frecuencia recurrente como **[!UICONTROL Diario]**, **[!UICONTROL Cada 2 días]**, **[!UICONTROL Cada 3 días]**, **[!UICONTROL Cada 4 días]**, **[!UICONTROL Cada 5 días]**, **[!UICONTROL Cada 6 días]**, **[!UICONTROL Cada 2 semanas]**, **[!UICONTROL Cada 3 semanas]** o **[!UICONTROL Mensual]**.
+Configure cómo se envía la audiencia y cuánto tiempo puede acceder a ella su colaborador.
 
-![El menú desplegable Frecuencia del flujo de trabajo de activación de audiencia muestra las opciones disponibles, que incluyen Una vez, Diario, cada 2 a 6 días, cada 2 a 3 semanas y Mensualmente.](/help/assets/collaborate/activate/activation-frequency.png)
+Utilice el control **[!UICONTROL Duración del acceso]** para seleccionar una de las opciones siguientes:
 
-Utilice el campo **[!UICONTROL Intervalo de fecha]** para definir cuándo comienza y finaliza la programación de activación.
+- **[!UICONTROL Enviar ahora (solo una vez)]**: Envíe la audiencia una vez. El colaborador receptor puede activarlo una vez.
+- **[!UICONTROL Programar envío recurrente de audiencia]**: Actualice la audiencia durante un período de acceso especificado. Utilice el control **[!UICONTROL Intervalo de fechas]** para seleccionar las fechas de inicio y finalización.
 
-Cuando esté satisfecho con las selecciones, seleccione **[!UICONTROL Activar]** para completar el flujo de trabajo.
+![El paso Duración del acceso en el flujo de trabajo Enviar audiencias con opciones para enviar la audiencia una vez o programar un envío recurrente de la audiencia. La opción recurrente muestra los controles de fecha para definir el período de acceso.](/help/assets/collaborate/activate/activation-frequency.png)
 
-## Activar tablero {#activate-dashboard}
+Una vez completada la configuración de audiencia y acceso, seleccione **[!UICONTROL Enviar]**.
 
-En la pestaña **[!UICONTROL Activar]**, puedes ver todas las audiencias que se enviaron a tu colaborador, así como todas las audiencias que tu colaborador activó en tu destino.
-
-![El panel Activar muestra las secciones Audiencias enviadas y Audiencias activadas.](/help/assets/collaborate/activate/activate-dashboard.png)
+La audiencia aparece en la sección **[!UICONTROL Audiencias enviadas al [colaborador]]**. Su colaborador puede revisarlo en la sección **[!UICONTROL Audiencias recibidas]**.
 
 ## Ver audiencias enviadas {#view-sent-audiences}
 
-En la sección **[!UICONTROL Audiencias enviadas al colaborador]**, se enumerarán todas las audiencias que haya enviado. Actualmente, las audiencias se envían automáticamente al destino configurado del colaborador después de enviarlas. En la vista de su colaborador, estas audiencias se muestran en la sección **[!UICONTROL Audiencias activadas]**.
+Utilice la sección **[!UICONTROL Audiencias enviadas a [colaborador]]** para revisar las audiencias que ha enviado y supervisar su estado de acceso actual.
 
-Dentro de cada audiencia enviada, puede ver las siguientes métricas:
+Cada audiencia enviada muestra la siguiente información:
 
-| Métrica | Descripción |
-|---------|----------|
-| **[!UICONTROL Nombre]** | Nombre de la audiencia. |
-| **[!UICONTROL Estado]** | El estado de la audiencia enviada. |
+| Columna | Descripción |
+|---|---|
+| **[!UICONTROL Nombre de audiencia]** | Nombre de la audiencia enviada. |
+| **[!UICONTROL Estado]** | El estado de acceso actual de la audiencia. |
 | **[!UICONTROL Recuento de identidad]** | Número de identidades de la audiencia. |
-| **[!UICONTROL Identidades superpuestas]** | El número de identidades superpuestas entre esta audiencia y la población total de perfiles en el inventario del colaborador. |
-| **[!UICONTROL Creado]** | La fecha en la que se envió inicialmente la audiencia. |
-| **[!UICONTROL Último envío]** | La fecha en la que la audiencia se puso a disposición del colaborador por última vez mediante el flujo de trabajo de activación, ya sea desde una activación única o desde una programación recurrente. |
-| **[!UICONTROL Claves coincidentes]** | Indica la clave de coincidencia utilizada para la audiencia. |
+| **[!UICONTROL Identidades superpuestas]** | Número de identidades que se superponen con el inventario del colaborador. |
+| **[!UICONTROL Creado]** | La fecha y la hora en que se envió la audiencia por primera vez. |
+| **[!UICONTROL Último envío]** | La fecha y la hora en que los datos de audiencia se enviaron más recientemente a su colaborador. |
+| **[!UICONTROL Duración del acceso]** | La configuración de acceso establecida cuando se envió la audiencia. |
+| **[!UICONTROL Claves coincidentes]** | Las claves de coincidencia utilizadas al enviar la audiencia. |
 
-## Ver audiencias activadas {#view-activated-audiences}
+### Eliminar una audiencia enviada {#delete-sent-audience}
 
-En la sección **[!UICONTROL Audiencias activadas]** puede ver todas las audiencias que se han activado en su destino.
+Elimine una audiencia enviada para eliminarla de la lista de audiencias enviadas y revoque el acceso de su colaborador.
 
-Dentro de cada audiencia activada, puede ver las siguientes métricas:
+Seleccione el icono de eliminación (![Eliminar icono.](/help/assets/icons/delete.png)) junto a la audiencia en la sección **[!UICONTROL Audiencias enviadas a [colaborador]]**.
 
-| Métrica | Descripción |
-|---------|----------|
-| **[!UICONTROL Nombre]** | Nombre de la audiencia. |
-| **[!UICONTROL Estado]** | El estado de la audiencia activada. |
-| **[!UICONTROL Recuento de identidad]** | El número de identidades activadas, en función de las identidades superpuestas cuando el colaborador envió la audiencia. |
-| **[!UICONTROL Creado]** | La fecha en la que se activó la audiencia. |
-| **[!UICONTROL Última actualización]** | La fecha en la que se actualizó la audiencia por última vez, según la frecuencia seleccionada durante la activación. |
-| **[!UICONTROL Destino]** | El destino en el que se activó la audiencia. |
-| **[!UICONTROL Claves coincidentes]** | Indica la clave de coincidencia utilizada para la audiencia. |
+![La sección Audiencias enviadas con el icono de eliminación mostrado junto a una fila de audiencia.](/help/assets/collaborate/activate/delete-sent-audiences.png)
 
-## Eliminar audiencias enviadas {#delete-sent-audiences}
+Aparecerá un cuadro de diálogo de confirmación. Seleccione **[!UICONTROL Eliminar]** para confirmar.
 
-Puede eliminar las audiencias enviadas que ya no desee activar. Cuando elimina una audiencia enviada, se elimina de la sección **[!UICONTROL Audiencias enviadas a]** y ya no se activa en el destino de su colaborador.
+![Cuadro de diálogo de confirmación de eliminación de audiencia enviada que explica que se eliminará la audiencia y que el colaborador perderá el acceso, con los botones Cancelar y Eliminar.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
 
-Para eliminar una audiencia enviada, seleccione el icono **[!UICONTROL Eliminar]** (![Eliminar icono.](/help/assets/icons/delete.png)) junto a la audiencia en la sección **[!UICONTROL Audiencias enviadas a]**.
+La audiencia se elimina de la sección y el colaborador pierde el acceso a ella.
 
-![Opción Eliminar en la sección Audiencias enviadas a.](/help/assets/collaborate/activate/delete-sent-audiences.png)
+## Ver audiencias recibidas {#received-audiences}
 
-Se abrirá un cuadro de diálogo de confirmación en el que se le pedirá que confirme la eliminación. Seleccione **[!UICONTROL Eliminar]** para confirmar.
+Utilice la sección **[!UICONTROL Audiencias recibidas]** para revisar las audiencias que le ha enviado su colaborador. Una audiencia recibida debe activarse manualmente antes de enviar sus datos a un destino.
 
-![Cuadro de diálogo de confirmación de eliminación.](/help/assets/collaborate/activate/delete-sent-audiences-confirmation.png)
+Cada audiencia recibida muestra la siguiente información:
+
+| Columna | Descripción |
+|---|---|
+| **[!UICONTROL Nombre de audiencia]** | Nombre de la audiencia recibida. |
+| **[!UICONTROL Estado]** | El estado de acceso actual de la audiencia. |
+| **[!UICONTROL Recuento de identidad]** | Número de identidades de la audiencia. |
+| **[!UICONTROL Identidades superpuestas]** | El número de identidades que se superponen con el inventario. |
+| **[!UICONTROL Última ejecución de flujo de datos]** | La fecha y la hora de la ejecución del flujo de datos más reciente para la audiencia. |
+| **[!UICONTROL Duración del acceso]** | La configuración de acceso configurada por el colaborador que envió la audiencia. |
+| **[!UICONTROL Claves coincidentes]** | Las claves de coincidencia utilizadas para la audiencia. |
+
+![La sección Audiencias recibidas con recuentos de público activos y caducados. Cada fila de audiencia muestra su nombre, estado, información de identidad, última ejecución del flujo de datos, duración del acceso, claves de coincidencia y un icono de agregar que se utilizó para iniciar la activación.](/help/assets/collaborate/activate/received-audiences-section.png)
+
+### Activar una audiencia recibida {#activate-received-audience}
+
+Active una audiencia recibida para enviar sus datos a uno de los destinos configurados.
+
+En la sección **[!UICONTROL Audiencias recibidas]**, seleccione el icono Agregar (![Agregar icono.](/help/assets/icons/plus.png)) junto a la audiencia que desea activar.
+
+Aparecerá el cuadro de diálogo **[!UICONTROL Activar audiencia]**.
+
+Use **[!UICONTROL Destino]** para seleccionar el destino que recibe los datos de audiencia. Si la lista de destinos está vacía, configure un destino antes de continuar. Para obtener instrucciones, consulte la [descripción general de destinos](../destinations/overview.md).
+
+Use **[!UICONTROL Fecha]** para seleccionar la fecha en la que se ejecutará la activación y, a continuación, seleccione **[!UICONTROL Activar]**.
+
+![El cuadro de diálogo Activar audiencia se abrió desde una audiencia recibida. El cuadro de diálogo contiene un menú desplegable Destino para seleccionar un destino configurado, un campo Fecha con un control de calendario y los botones Cancelar y Activar.](/help/assets/collaborate/activate/activate-received-audience.png)
+
+El cuadro de diálogo se cierra y la activación aparece en la sección **[!UICONTROL Audiencias activadas]**. La audiencia recibida permanecerá disponible en la sección **[!UICONTROL Audiencias recibidas]** mientras su acceso permanezca activo.
+
+## Ver audiencias activadas {#activated-audiences}
+
+Utilice la sección **[!UICONTROL Audiencias activadas]** para confirmar qué audiencias recibidas se han activado y revisar su destino y estado de envío.
+
+Cada audiencia activada muestra la siguiente información:
+
+| Columna | Descripción |
+|---|---|
+| **[!UICONTROL Nombre de audiencia]** | Nombre de la audiencia activada. |
+| **[!UICONTROL Estado]** | El estado de activación actual. |
+| **[!UICONTROL Recuento activado]** | El número de identidades activadas en el destino. |
+| **[!UICONTROL Última actualización]** | La fecha y la hora en que se actualizó la audiencia activada más recientemente. |
+| **[!UICONTROL Destino]** | Destino que recibe los datos de audiencia. |
+| **[!UICONTROL Frecuencia]** | La frecuencia de activación. Las activaciones manuales se muestran **[!UICONTROL Una vez]**. |
+| **[!UICONTROL Fecha]** | La fecha en la que se ejecuta la activación. |
+| **[!UICONTROL Claves coincidentes]** | Las claves de coincidencia incluidas en la audiencia activada. |
+
+![La sección Audiencias activadas con recuentos de activación activos, archivados y pausados. Cada fila muestra el nombre de la audiencia, el estado, el recuento activado, la fecha de la última actualización, el destino, la frecuencia, la fecha de activación, las claves de coincidencia y un icono de eliminación.](/help/assets/collaborate/activate/activated-audiences-section.png)
+
+### Eliminar una audiencia activada {#delete-activated-audience}
+
+Elimine una audiencia activada para eliminar la activación de la sección **[!UICONTROL Audiencias activadas]**.
+
+Seleccione el icono de eliminación (![Eliminar icono.](/help/assets/icons/delete.png)) junto a la audiencia activada.
+
+Aparecerá un cuadro de diálogo de confirmación. Seleccione **[!UICONTROL Eliminar]** para confirmar.
+
+![Cuadro de diálogo de confirmación de eliminación de audiencia activada que explica que la audiencia se eliminará de la lista de audiencias activadas y que se podrá activar de nuevo más tarde, con los botones Cancelar y Eliminar.](/help/assets/collaborate/activate/delete-activated-audience-confirmation.png)
+
+La activación se elimina de la lista. Puede volver a activar la audiencia recibida mientras su acceso permanezca activo.
 
 ## Próximos pasos {#next-steps}
 
-Después de activar audiencias y ejecutar campañas, trabaje con el equipo de ingeniería y habilitación de Adobe para cargar datos de medición y ver los [informes de medición](/help/guide/collaborate/measure.md) correspondientes.
+Después de enviar o activar audiencias, monitorice su estado en las secciones **[!UICONTROL Audiencias enviadas a [colaboradores]]** y **[!UICONTROL Audiencias activadas]**. Una vez finalizadas las campañas, trabaje con el equipo de ingeniería y habilitación de Adobe para cargar los datos de medición y ver los [informes de medición](./measure.md) correspondientes.

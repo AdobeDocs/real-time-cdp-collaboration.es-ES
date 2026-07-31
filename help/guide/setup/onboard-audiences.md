@@ -11,9 +11,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 33e4aeab1bb50edac6308c4b12ced2ab9430ed74
+source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
 workflow-type: tm+mt
-source-wordcount: 3773
+source-wordcount: 3758
 ht-degree: 17%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 17%
 {{limited-availability-release-note}}
 
 Las audiencias son grupos específicos de usuarios o clientes segmentados según varios atributos. Esto permite a los colaboradores colaborar en marketing segmentado y experiencias personalizadas para lograr campañas publicitarias más eficaces. Esta guía explica cómo crear audiencias en Real-Time CDP Collaboration, ver el panel de audiencias y administrar audiencias individuales.
+
+Para obtener una explicación conceptual de las audiencias en Collaboration, vea [Información general sobre audiencias](../setup/audiences-overview.md).
 
 ## Audiencias de Source en Collaboration {#source-audiences}
 
@@ -239,7 +241,7 @@ Cada audiencia contiene una descripción general de la siguiente información:
 | **[!UICONTROL Nombre]** | Nombre de la audiencia. |
 | **[!UICONTROL Identidades]** | Indica el número de identidades presentes en esta audiencia. Tenga en cuenta que si el mismo perfil tiene dos o más identidades y estas identidades se utilizan como claves de coincidencia en el proyecto, el perfil aparecerá dos veces en el recuento. |
 | **[!UICONTROL Estado]** | Indica si la audiencia está activa y si se puede utilizar en proyectos. El estado **[!UICONTROL Pendiente]** indica que la audiencia se ha originado recientemente y que las identidades aún no se han rellenado. Las audiencias de origen se rellenarán con perfiles después de la actualización inicial, que generalmente se produce dentro de las 24 horas siguientes a la configuración de la conexión de datos. |
-| **[!UICONTROL Source]** | Indica el origen de la audiencia. En la versión actual de Collaboration, Experience Platform es la única fuente compatible. |
+| **[!UICONTROL Source]** | Indica el origen de la audiencia. |
 | **[!UICONTROL Conexión de datos]** | La conexión de datos desde la que se origina la audiencia. Puede seleccionar el nombre para ver la conexión de datos. |
 | **[!UICONTROL Acceso a la conexión]** | Define si la audiencia es pública o privada. Las audiencias públicas se pueden descubrir en los informes de superposición y se pueden activar dentro de un proyecto. |
 | **[!UICONTROL Creado]** | Indica cuándo se originó la audiencia inicialmente en Collaboration. |
@@ -265,7 +267,7 @@ Se muestra la siguiente información para cada audiencia individual:
 | Elemento | Descripción |
 |----------|---------|
 | **[!UICONTROL Estado]** | Indica si la audiencia está activa y si se puede utilizar en proyectos. |
-| **[!UICONTROL Source]** | Indica el origen de la audiencia. En la versión actual de Collaboration, Experience Platform es la única fuente compatible. |
+| **[!UICONTROL Source]** | Indica el origen de la audiencia. |
 | **[!UICONTROL Conexión de datos]** | La conexión de datos desde la que se origina la audiencia. |
 | **[!UICONTROL Última actualización]** | Indica la última fecha y hora en que la audiencia se actualizó en Collaboration. Esto no hace referencia a la última actualización de la audiencia, sino a la última modificación de la configuración o los metadatos de la audiencia |
 | **[!UICONTROL Última actualización por]** | Indica el usuario que actualizó la audiencia por última vez. |
