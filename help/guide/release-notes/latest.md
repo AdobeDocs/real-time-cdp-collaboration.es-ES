@@ -15,10 +15,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ec15512bc5c6579ade907fc238cfe5394862dc7e
+source-git-commit: c74300c6d38a33dfdc7c7d50306b26ef61a7494b
 workflow-type: tm+mt
-source-wordcount: 1968
-ht-degree: 4%
+source-wordcount: 2054
+ht-degree: 3%
 
 ---
 
@@ -32,13 +32,15 @@ Estas notas de la versión abarcan la funcionalidad incluida en Adobe Real-Time 
 
 ## Julio de 2026 {#july-2026}
 
-Real-Time CDP Collaboration ahora admite opciones adicionales de abastecimiento de audiencia de autoservicio.
+Real-Time CDP Collaboration ahora admite opciones adicionales de abastecimiento de audiencia de autoservicio, junto con flujos de trabajo más sencillos de activación y configuración de destino.
 
 **Funciones nuevas o actualizadas**
 
 | Función | Descripción |
 | ------- | ----------- |
 | Abastecimiento de audiencia de autoservicio de [!DNL Databricks Delta Share] y Adobe Audience Manager | Ahora puede obtener audiencias de origen directamente desde su [!DNL Databricks Delta Share] o incluir segmentos de Adobe Audience Manager aptos en Collaboration. Para obtener instrucciones de configuración, consulte las siguientes guías: <ul><li>[Configurar [!DNL Databricks Delta Share] para el abastecimiento de audiencias](../setup/configure-databricks-audience-sourcing.md)</li><li>[Configurar Adobe Audience Manager para el abastecimiento de audiencias](../setup/configure-aam-audience-sourcing.md)</li></ul> |
+| Activación manual de audiencias recibidas | Ahora puede activar manualmente las audiencias recibidas de un colaborador a un destino configurado y elegir cuándo se ejecuta la activación. Esto proporciona a los destinatarios más control sobre la entrega de la audiencia. Consulte [Activar audiencias](../collaborate/activate.md) para obtener instrucciones paso a paso. |
+| Destinos de almacenamiento en la nube de autoservicio | Ahora puede configurar y administrar destinos de almacenamiento en la nube compatibles directamente desde Activation Workspace y utilizarlos para activar las audiencias recibidas. Consulte [Configurar y administrar destinos de almacenamiento en la nube](../destinations/manage-destinations.md) para obtener instrucciones de configuración. |
 
 {style="table-layout:auto"}
 
