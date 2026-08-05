@@ -4,9 +4,13 @@ description: Obtenga información sobre cómo enviar audiencias a colaboradores 
 audience: admin, publisher, advertiser
 exl-id: fd82fcbf-ab39-48e0-9438-0a9046693431
 TQID: https://experienceleague.adobe.com/bfPHtcW8Mf6RhIlg5fKcJmPSEKDyAODjbNRJ5D3SMkQ
-product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2:
+  - id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
 source-wordcount: 1589
@@ -45,7 +49,7 @@ Antes de enviar o activar audiencias, asegúrese de lo siguiente:
 
 ## Enviar públicos {#send-audiences}
 
-Envíe una audiencia para que su colaborador tenga acceso a ella. Después de enviar la audiencia, esta aparece en la sección **[!UICONTROL Audiencias enviadas al colaborador]]** y en la sección **[!UICONTROL Audiencias recibidas]** del colaborador.[
+Envíe una audiencia para que su colaborador tenga acceso a ella. Después de enviar la audiencia, esta aparece en la sección **[!UICONTROL Audiencias enviadas al colaborador]&rbrack;** y en la sección **[!UICONTROL Audiencias recibidas]** del colaborador.&lbrack;
 
 Vaya a **[!UICONTROL Colaborar]**, abra un proyecto y seleccione la ficha **[!UICONTROL Activar]**.
 
