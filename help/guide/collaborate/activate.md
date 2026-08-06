@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5d12a5004a6854392c130fd6b93a841fb22cf6ab
+source-git-commit: 87a7ddb5b6ef1661e347a3dd7842523639d54859
 workflow-type: tm+mt
-source-wordcount: 1565
+source-wordcount: 1589
 ht-degree: 3%
 
 ---
@@ -58,6 +58,10 @@ En la sección **[!UICONTROL Audiencias enviadas a [colaborador]]**, seleccione 
 ![La pestaña Activar a nivel de proyecto cuando no se han enviado audiencias. El mensaje para mostrar vacío explica que no ha enviado ninguna audiencia y muestra el botón Enviar audiencia.](/help/assets/collaborate/activate/activate-new-audiences.png)
 
 Se abre el flujo de trabajo **[!UICONTROL Enviar audiencias]**. Use el selector de audiencia para encontrar una audiencia o seleccione **[!UICONTROL Examinar audiencias]** para comparar las audiencias disponibles.
+
+>[!IMPORTANT]
+>
+>Solo las audiencias con más de 1000 identidades superpuestas están disponibles para la activación. Si la superposición de audiencias está cerca del umbral de identidad de 1000, puede producirse un error de activación.
 
 ![Flujo de trabajo Enviar audiencias con un selector de audiencia y un botón Examinar audiencias. El flujo de trabajo permite que el remitente elija una audiencia antes de configurar las claves de coincidencia y la configuración de acceso.](/help/assets/collaborate/activate/audience-activation.png)
 

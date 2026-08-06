@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+source-git-commit: dc86508b6327694a612625d427e3165a5e34e800
 workflow-type: tm+mt
-source-wordcount: 2120
-ht-degree: 100%
+source-wordcount: 2132
+ht-degree: 99%
 
 ---
 
@@ -51,6 +51,10 @@ Para empezar a usar la ficha **[!UICONTROL Discover]** dentro del proyecto, debe
 
 Una vez cumplidos estos requisitos previos, puede empezar a explorar y comparar las superposiciones entre usted y las audiencias de su colaborador.
 
+>[!IMPORTANT]
+>
+>Las comparaciones de audiencias con menos de 1000 identidades superpuestas no devuelven resultados.
+
 >[!NOTE]
 >
 >Este área de trabajo de **[!UICONTROL Discover]** no es relevante para colaboraciones con plataformas publicitarias. Actualmente, Amazon Marketing Cloud es la única plataforma de publicidad disponible en Real-Time CDP Collaboration. Para obtener más información sobre el área de trabajo [!DNL AMC] **[!UICONTROL Discover]**, lea la guía de [Amazon Marketing Cloud](/help/guide/collaborate/advertising-platforms/amc.md).
@@ -85,6 +89,8 @@ Una vez cumplidos estos requisitos previos, puede empezar a explorar y comparar 
 Utilice la sección de comparación de audiencias para obtener información enriquecida sobre la superposición entre las audiencias de y de su colaborador. Para cambiar la selección de audiencias, usa el selector desplegable en la parte superior de la sección **[!UICONTROL Comparar audiencias]**. Puede seleccionar una o todas las audiencias y una o todas las audiencias de su colaborador para compararlas entre sí.
 
 ![El área de trabajo de Discover con el selector de audiencia resaltado en la sección Comparar audiencias.](/help/assets/collaborate/discover/compare-audiences-selector.png)
+
+
 
 En la sección de comparación de audiencias, puede ver las siguientes métricas, que se basan en las claves de coincidencia que usted y su colaborador acordaron para el proyecto:
 
