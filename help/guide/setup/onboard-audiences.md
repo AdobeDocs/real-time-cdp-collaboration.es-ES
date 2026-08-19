@@ -2,19 +2,15 @@
 title: Source y administración de audiencias
 description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
 workflow-type: tm+mt
-source-wordcount: 3758
-ht-degree: 17%
+source-wordcount: 3958
+ht-degree: 16%
 
 ---
 
@@ -93,7 +89,7 @@ A continuación, debe asegurarse de que las acciones de marketing correctas se e
 
 Utilice acciones de marketing para controlar qué datos de audiencia introducir en Collaboration desde Experience Platform. La acción de marketing **[!UICONTROL Colaboración de datos]** admite las etiquetas de uso de datos C4, C5 y C9. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
 
-Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Obtenga más información sobre las [etiquetas de uso de datos C4, C5 y C9](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Si la casilla de verificación está ***habilitada***, se excluirán todos los datos etiquetados en Experience Platform como se describió anteriormente y **no** se incluirán en Collaboration.
 * Con la casilla de verificación ***deshabilitada***, no hay restricciones en los datos procedentes de Experience Platform.
@@ -148,7 +144,7 @@ A continuación, proporcione un nombre y una descripción para la conexión de d
 
 A continuación, seleccione los campos de origen para asignarlos a los campos de destino en Collaboration. Los campos de destino disponibles se basarán en las claves de coincidencia seleccionadas durante la [configuración de la cuenta](./onboard-account.md#set-up-match-keys).
 
-Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la configuración de la cuenta, [!DNL Demdex ID] se extrae y asigna automáticamente a partir de ECID y no tiene que realizar ninguna acción. Para obtener más información sobre [!DNL Demdex IDs], consulte la guía [[!DNL Demdex ID]](https://experienceleague.adobe.com/es/docs/experience-platform/collection/identity/unified-identity-support).
+Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la configuración de la cuenta, [!DNL Demdex ID] se extrae y asigna automáticamente a partir de ECID y no tiene que realizar ninguna acción. Para obtener más información sobre [!DNL Demdex IDs], consulte la guía [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![Espacio de trabajo Agregar audiencias con la opción de asignar campos de origen a campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -158,7 +154,7 @@ Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la con
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
+**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
 
 Los campos de Source se asignan a los campos de destino definidos en Collaboration.
 
@@ -172,7 +168,23 @@ Para empezar a asignar campos, seleccione el campo de origen vacío junto al cam
 
 ![Cuadro de diálogo Seleccionar campo de origen con las opciones de correo electrónico mostradas.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-Para controlar el abastecimiento de un campo sin hash a un campo de destino con hash, use la opción **[!UICONTROL Aplicar transformación]**. Por ejemplo, para agregar un segundo campo de correo electrónico, seleccione la opción **[!UICONTROL Agregar campo]** a para agregar una nueva fila y, a continuación, seleccione **[!UICONTROL Correo electrónico con hash]** para el campo de destino. Seleccione un campo de origen de correo electrónico sin hash y luego seleccione **[!UICONTROL Aplicar transformación]**.
+Algunos atributos de perfil se modelan dentro de una lista, que es una matriz de objetos (mostrados como `Object[]` en el cuadro de diálogo). Los identificadores o atributos clave suelen residir dentro de estos registros repetidos, como un número de cuenta o un identificador de vehículo.
+
+En la opción **[!UICONTROL Atributos de perfil]**, expanda el campo de lista en el cuadro de diálogo **[!UICONTROL Seleccionar campo de origen]** y, a continuación, seleccione el campo anidado que desea asignar a una clave de coincidencia. Por ejemplo, expanda `devices` y seleccione `Device ID`. A continuación, el campo anidado rellena el campo de origen para esa fila de asignación y se asigna a un campo de destino de la misma manera que cualquier otro campo de origen.
+
+Si un perfil tiene varios valores en el campo anidado, Collaboration coincide con cada valor y lo cuenta de forma individual. No es necesario aplanar ni reestructurar los datos con antelación.
+
+![Cuadro de diálogo Seleccionar campo de origen con la lista de dispositivos expandida y el campo Identificador de dispositivo seleccionado para la asignación.](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>La selección de un campo anidado dentro de una lista tiene las siguientes limitaciones:
+>
+>* Puede seleccionar campos anidados solo para claves de coincidencia. No se admite la selección de un campo anidado como atributo.
+>* Puede seleccionar un campo anidado por lista a la vez.
+>* Las listas de valores simples, en lugar de las listas de objetos, aparecen en el cuadro de diálogo, pero no se pueden seleccionar.
+
+Para controlar el abastecimiento de un campo sin hash a un campo de destino con hash, use la opción **[!UICONTROL Aplicar transformación]**. Por ejemplo, para agregar un segundo campo de correo electrónico, selecciona la opción **[!UICONTROL Agregar campo]** para agregar una nueva fila, luego selecciona **[!UICONTROL Correo electrónico con hash]** para el campo de destino. Seleccione un campo de origen de correo electrónico sin hash y luego seleccione **[!UICONTROL Aplicar transformación]**.
 
 ![Espacio de trabajo Agregar audiencias con los campos de origen de correo electrónico asignados al campo de destino, con la opción Aplicar transformación activada para uno.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 

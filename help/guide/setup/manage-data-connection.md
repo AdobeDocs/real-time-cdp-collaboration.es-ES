@@ -2,19 +2,15 @@
 title: Administrar conexiones de datos
 description: Obtenga información sobre cómo administrar conexiones de datos, incluidas claves de coincidencia, programación, casos de uso y filtrado de audiencias en Real-Time CDP Collaboration
 audience: administrator, data engineer
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: d142d3ed-f56a-4150-a885-571728a73ac8
 TQID: https://experienceleague.adobe.com/QvkEpR1fJMZ5BXrucAzEtxFNSfSMS-2hIZvMSg63ySE
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
+source-wordcount: 1299
 ht-degree: 8%
 
 ---
@@ -109,6 +105,8 @@ A continuación, seleccione el campo de origen vacío. El cuadro de diálogo **[
 Elija el campo de origen que desee, seguido de **[!UICONTROL Seleccionar]**.
 
 ![Cuadro de diálogo Seleccionar campo de origen con la opción GAID seleccionada.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+En la opción **[!UICONTROL Atributos de perfil]**, algunos campos de origen se modelan dentro de una lista, que es una matriz de objetos. Puede expandir estos campos de lista y seleccionar un campo anidado dentro de ellos para asignarlo a una clave de coincidencia. Para obtener más información, consulte la guía [asignar campos](./onboard-audiences.md#map-fields).
 
 En el cuadro de diálogo **[!UICONTROL Claves de coincidencia]**, utilice el menú desplegable para asignar el nuevo campo de origen a un campo de destino. Todos los campos de destino disponibles son las claves de coincidencia configuradas para la cuenta de Collaborator. Si no ves el campo de destino que necesitas, [edita las claves de coincidencia](./onboard-account.md#edit-match-keys) de tu cuenta para agregarlo.
 
