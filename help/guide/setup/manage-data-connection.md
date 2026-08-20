@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 867dad8a34086c3dd9a36f35577de7889c28a727
+source-git-commit: 07471fb3690c3ff57d21231da3d126cf9545677a
 workflow-type: tm+mt
-source-wordcount: 1253
+source-wordcount: 1299
 ht-degree: 8%
 
 ---
@@ -109,6 +109,8 @@ A continuación, seleccione el campo de origen vacío. El cuadro de diálogo **[
 Elija el campo de origen que desee, seguido de **[!UICONTROL Seleccionar]**.
 
 ![Cuadro de diálogo Seleccionar campo de origen con la opción GAID seleccionada.](/help/assets/setup/manage-data-connection/select-source-field.png){zoomable="yes"}
+
+En la opción **[!UICONTROL Atributos de perfil]**, algunos campos de origen se modelan dentro de una lista, que es una matriz de objetos. Puede expandir estos campos de lista y seleccionar un campo anidado dentro de ellos para asignarlo a una clave de coincidencia. Para obtener más información, consulte la guía [asignar campos](./onboard-audiences.md#map-fields).
 
 En el cuadro de diálogo **[!UICONTROL Claves de coincidencia]**, utilice el menú desplegable para asignar el nuevo campo de origen a un campo de destino. Todos los campos de destino disponibles son las claves de coincidencia configuradas para la cuenta de Collaborator. Si no ves el campo de destino que necesitas, [edita las claves de coincidencia](./onboard-account.md#edit-match-keys) de tu cuenta para agregarlo.
 

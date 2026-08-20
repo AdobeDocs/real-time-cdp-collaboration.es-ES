@@ -11,10 +11,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9b1c698c251acb2efd2c125b64f0bd56e3b62403
+source-git-commit: c524b54ce4ff9f5a37c2c064ad5304e011c61652
 workflow-type: tm+mt
-source-wordcount: 3758
-ht-degree: 17%
+source-wordcount: 3958
+ht-degree: 16%
 
 ---
 
@@ -172,7 +172,23 @@ Para empezar a asignar campos, seleccione el campo de origen vacío junto al cam
 
 ![Cuadro de diálogo Seleccionar campo de origen con las opciones de correo electrónico mostradas.](/help/assets/setup/add-manage-audiences/select-source-field.png){zoomable="yes"}
 
-Para controlar el abastecimiento de un campo sin hash a un campo de destino con hash, use la opción **[!UICONTROL Aplicar transformación]**. Por ejemplo, para agregar un segundo campo de correo electrónico, seleccione la opción **[!UICONTROL Agregar campo]** a para agregar una nueva fila y, a continuación, seleccione **[!UICONTROL Correo electrónico con hash]** para el campo de destino. Seleccione un campo de origen de correo electrónico sin hash y luego seleccione **[!UICONTROL Aplicar transformación]**.
+Algunos atributos de perfil se modelan dentro de una lista, que es una matriz de objetos (mostrados como `Object[]` en el cuadro de diálogo). Los identificadores o atributos clave suelen residir dentro de estos registros repetidos, como un número de cuenta o un identificador de vehículo.
+
+En la opción **[!UICONTROL Atributos de perfil]**, expanda el campo de lista en el cuadro de diálogo **[!UICONTROL Seleccionar campo de origen]** y, a continuación, seleccione el campo anidado que desea asignar a una clave de coincidencia. Por ejemplo, expanda `devices` y seleccione `Device ID`. A continuación, el campo anidado rellena el campo de origen para esa fila de asignación y se asigna a un campo de destino de la misma manera que cualquier otro campo de origen.
+
+Si un perfil tiene varios valores en el campo anidado, Collaboration coincide con cada valor y lo cuenta de forma individual. No es necesario aplanar ni reestructurar los datos con antelación.
+
+![Cuadro de diálogo Seleccionar campo de origen con la lista de dispositivos expandida y el campo Identificador de dispositivo seleccionado para la asignación.](/help/assets/setup/add-manage-audiences/select-source-field-nested.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>La selección de un campo anidado dentro de una lista tiene las siguientes limitaciones:
+>
+>* Puede seleccionar campos anidados solo para claves de coincidencia. No se admite la selección de un campo anidado como atributo.
+>* Puede seleccionar un campo anidado por lista a la vez.
+>* Las listas de valores simples, en lugar de las listas de objetos, aparecen en el cuadro de diálogo, pero no se pueden seleccionar.
+
+Para controlar el abastecimiento de un campo sin hash a un campo de destino con hash, use la opción **[!UICONTROL Aplicar transformación]**. Por ejemplo, para agregar un segundo campo de correo electrónico, selecciona la opción **[!UICONTROL Agregar campo]** para agregar una nueva fila, luego selecciona **[!UICONTROL Correo electrónico con hash]** para el campo de destino. Seleccione un campo de origen de correo electrónico sin hash y luego seleccione **[!UICONTROL Aplicar transformación]**.
 
 ![Espacio de trabajo Agregar audiencias con los campos de origen de correo electrónico asignados al campo de destino, con la opción Aplicar transformación activada para uno.](/help/assets/setup/add-manage-audiences/apply-transformation.png){zoomable="yes"}
 
