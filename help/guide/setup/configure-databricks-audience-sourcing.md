@@ -2,7 +2,7 @@
 title: Configurar  [!DNL Databricks Delta Share] para el Abastecimiento de audiencias
 description: Aprenda a configurar y conectar  [!DNL Databricks Delta Share] para el abastecimiento de audiencias en Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 876b7d2996d3027f81159252f714c2305d6d23b4
 workflow-type: tm+mt
 source-wordcount: '2816'
@@ -93,7 +93,7 @@ La pantalla de selección de fuentes de datos enumera todos los tipos de conexi�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_databricks"
 >title="Experience League"
->abstract="Consulte la guía de abastecimiento de [!DNL Databricks Delta Share] para obtener instrucciones sobre cómo configurar su recurso compartido para el abastecimiento de audiencias"
+>abstract="Consulte la guía de fuentes de [!DNL Databricks Delta Share] para obtener instrucciones sobre cómo configurar su recurso compartido para las fuentes de públicos"
 
 Proporcione los detalles necesarios para permitir que Collaboration acceda a su [!DNL Delta Share]. Escriba los detalles del proveedor, recurso compartido, esquema y tabla de su [!DNL Databricks Delta Share]. La tabla de pertenencia necesaria debe estar disponible en el esquema compartido. Si utiliza una tabla de metadatos, también debe estar disponible en el mismo esquema compartido.
 Después de especificar la información requerida, seleccione **[!UICONTROL Conectar]**.
