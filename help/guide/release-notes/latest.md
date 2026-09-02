@@ -2,22 +2,15 @@
 title: Últimas notas de la versión de Real-Time CDP Collaboration
 description: Siga las últimas versiones de Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 8513c648-1cc1-4544-b86d-2ee3193ab60f
 TQID: https://experienceleague.adobe.com/re4oFblCLiZpspWIS7D4EEYNh36EDhULEOd2-ccXH28
-product_v2:
-  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
-feature_v2:
-  - id: ba929a52-9339-4154-9487-317dc875a3c7
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
+product_v2: id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+feature_v2: id: ba929a52-9339-4154-9487-317dc875a3c7
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
 workflow-type: tm+mt
-source-wordcount: 2131
+source-wordcount: 2255
 ht-degree: 4%
 
 ---
@@ -38,7 +31,9 @@ Real-Time CDP Collaboration ahora admite los informes de medición [!DNL Amazon 
 
 | Función | Descripción |
 | ------- | ----------- |
-| Informes de medición de [!DNL AMC] | Mida el rendimiento de sus campañas de Amazon Ads usando los datos de [!DNL AMC] directamente en Collaboration. Desde la ficha [!UICONTROL Measure] de un proyecto [!DNL AMC], puede crear informes de **Resumen de campaña** y **Atribución** para evaluar el rendimiento de la campaña y comprender la atribución de conversión. Para obtener más información, consulte [Crear informes de medición de Amazon Marketing Cloud](../collaborate/advertising-platforms/amc-measure.md). |
+| Informes de medición de [!DNL AMC] | Mida el rendimiento de sus campañas de Amazon Ads usando los datos de [!DNL AMC] directamente en Collaboration. Desde la ficha **[!UICONTROL Measure]** de un proyecto [!DNL AMC], puede crear informes de **Resumen de campaña** y **Atribución** para evaluar el rendimiento de la campaña y comprender la atribución de conversión. Para obtener más información, consulte [Crear informes de medición de Amazon Marketing Cloud](../collaborate/advertising-platforms/amc-measure.md). |
+| Asignar claves de coincidencia para atributos de perfil anidados | Ahora puede asignar claves de coincidencia a campos anidados dentro de campos de perfil basados en listas, como un ID de dispositivo dentro de una matriz de `devices`, sin acoplar ni reestructurar los datos de antemano. Collaboration coincide con cada valor del campo anidado y lo cuenta individualmente. Actualmente, solo se admiten campos anidados para claves de coincidencia, no como atributos de perfil. Para obtener más información, consulte [asignar campos](../setup/onboard-audiences.md#map-fields). |
+| Informes de conversión de nivel de ubicación | Los informes de atribución ahora incluyen una tabla de **conversiones por ubicación**, que muestra el recuento de conversiones y el valor de conversión de cada ID de ubicación dentro de un ID de campaña. Esto le proporciona resultados independientes para campañas con varias ubicaciones. La etiqueta de métrica anterior **[!UICONTROL Ingresos estimados]** se ha actualizado a **[!UICONTROL Valor de conversión]** para mayor claridad. Para obtener más información, consulte [conversiones por ubicación](../collaborate/measure.md#conversions-by-placement). |
 
 {style="table-layout:auto"}
 
@@ -146,7 +141,7 @@ Real-time CDP Collaboration ahora admite la colaboración de marca a marca. Los 
 
 * Real-Time CDP Collaboration ya está disponible para los clientes de **Australia** y **Nueva Zelanda**. Está disponible automáticamente para los clientes de Real-Time CDP Prime y Ultimate en estas regiones.
 * Real-Time CDP Collaboration ahora ofrece [destinos de autoservicio](../destinations/overview.md) a través de la ficha **[!UICONTROL Mis destinos]** en la sección **[!UICONTROL Configuración]**. Los destinos le permiten activar audiencias en plataformas de terceros, como redes de publicidad o plataformas de administración de datos, para llegar a sus clientes a través de varios canales. Actualmente, solo se admiten destinos de Adobe Experience Platform. Si le interesa configurar un destino diferente, póngase en contacto con su representante de Adobe. Para obtener más información sobre los destinos, lea la guía [descripción general de destinos](../destinations/overview.md).
-  * Los destinos también agregan compatibilidad para ver audiencias de Collaboration en [Adobe Experience Platform audience portal](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
+  * Los destinos también agregan compatibilidad para ver audiencias de Collaboration en [Adobe Experience Platform audience portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences).
 * Ahora puede editar la frecuencia de actualización de audiencia para conexiones de datos existentes en Collaboration. Actualmente, puede elegir actualizar las audiencias diariamente o cada dos a seis días. Para obtener más información sobre cómo editar la frecuencia de actualización de la audiencia, lea la guía [administrar conexiones de datos](../setup/manage-data-connection.md#scheduling).
 * Las divisiones de crédito entre colaboradores ahora se establecen para cada caso de uso seleccionado dentro de la conexión. Puede establecer diferentes reglas de consumo de crédito para cada caso de uso para controlar mejor cómo se utilizan los créditos. Para obtener más información acerca de la funcionalidad de división de crédito, lee la guía [configuración de conexión](../connect/establishing-connections.md#connection-settings). Para obtener más información sobre cómo se consumen los créditos, lea la guía [tipos de actividades de crédito](../setup/my-activity.md#types-of-activities). <br> ![Pantalla de configuración de conexión que muestra la funcionalidad de división de crédito.](/help/assets/release-notes/2025/credit-split.png){zoomable="yes"}
 * Los editores ahora pueden establecer nombres e ID de anunciantes antes de aceptar la configuración de conexión de un anunciante. Los editores pueden establecer nombres e ID que se alineen con sus sistemas internos, que pueden ser diferentes de los nombres e ID del anunciante. Para obtener más información sobre cómo agregar nombres e ID de anunciantes, lee la guía [configuración de conexión](../connect/establishing-connections.md#connection-settings.md). <br> ![Pantalla de configuración de conexión que muestra los nombres e ID del anunciante de configuración del publicador.](/help/assets/release-notes/2025/add-advertiser-names-modal.png){zoomable="yes"}
@@ -158,7 +153,7 @@ Real-time CDP Collaboration ahora admite la colaboración de marca a marca. Los 
 
 ## Marzo de 2025 {#march-2025}
 
-* Al [obtener audiencias](/help/guide/setup/onboard-audiences.md) en Collaboration, ahora puede establecer una frecuencia de actualización de audiencia de **cada uno a seis días** para administrar mejor la [actividad de crédito de Gestión de público](/help/guide/setup/my-activity.md#types-of-activities). Para obtener más información, lea la guía [administrar audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences). <br> ![Pantalla de programación que muestra diferentes intervalos de frecuencia para actualizar el abono a audiencia.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Pantalla de programación que muestra diferentes intervalos de frecuencia para actualizar la pertenencia a audiencias."){width="250" align="center" zoomable="yes"}
+* Al [obtener audiencias](/help/guide/setup/onboard-audiences.md) en Collaboration, ahora puede establecer una frecuencia de actualización de audiencia de **cada uno a seis días** para administrar mejor la [actividad de crédito de Gestión de público](/help/guide/setup/my-activity.md#types-of-activities). Para obtener más información, lea la guía [administrar audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal.md#manage-audiences). <br> ![Pantalla de programación que muestra diferentes intervalos de frecuencia para actualizar el abono a audiencia.](/help/assets/setup/add-manage-audiences/audience-scheduling-frequency.png "Pantalla de programación que muestra diferentes intervalos de frecuencia para actualizar la pertenencia a audiencias."){width="250" align="center" zoomable="yes"}
 * Al establecer una conexión con un colaborador, ahora puede seleccionar entre **casos de uso** predefinidos. El caso de uso seleccionado determina qué secciones de proyecto y qué funcionalidad del producto están disponibles. Para obtener más información, lea la guía [administrar proyectos](/help/guide/collaborate/manage-projects.md#project-use-cases).
   * *Medición* habilita la sección del proyecto **Medida**.
   * *Detección de audiencias* habilita la sección del proyecto **Discover**.
