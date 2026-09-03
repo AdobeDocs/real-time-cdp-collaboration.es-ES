@@ -93,7 +93,7 @@ La pantalla de selección de fuentes de datos enumera todos los tipos de conexi�
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_audience_sharing_databricks"
 >title="Experience League"
->abstract="Consulte la guía de abastecimiento de [!DNL Databricks Delta Share] para obtener instrucciones sobre cómo configurar su recurso compartido para el abastecimiento de audiencias"
+>abstract="Consulte la guía de fuentes de [!DNL Databricks Delta Share] para obtener instrucciones sobre cómo configurar su recurso compartido para las fuentes de públicos"
 
 Proporcione los detalles necesarios para permitir que Collaboration acceda a su [!DNL Delta Share]. Escriba los detalles del proveedor, recurso compartido, esquema y tabla de su [!DNL Databricks Delta Share]. La tabla de pertenencia necesaria debe estar disponible en el esquema compartido. Si utiliza una tabla de metadatos, también debe estar disponible en el mismo esquema compartido.
 Después de especificar la información requerida, seleccione **[!UICONTROL Conectar]**.

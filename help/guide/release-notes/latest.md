@@ -15,9 +15,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 21f15134c9319aacf332a9f430b51d84f69498b0
+source-git-commit: 0e46c6f1bc2a0ce5752c7c08700429c97a8b0d45
 workflow-type: tm+mt
-source-wordcount: 2131
+source-wordcount: 2255
 ht-degree: 4%
 
 ---
@@ -38,7 +38,9 @@ Real-Time CDP Collaboration ahora admite los informes de medición [!DNL Amazon 
 
 | Función | Descripción |
 | ------- | ----------- |
-| Informes de medición de [!DNL AMC] | Mida el rendimiento de sus campañas de Amazon Ads usando los datos de [!DNL AMC] directamente en Collaboration. Desde la ficha [!UICONTROL Measure] de un proyecto [!DNL AMC], puede crear informes de **Resumen de campaña** y **Atribución** para evaluar el rendimiento de la campaña y comprender la atribución de conversión. Para obtener más información, consulte [Crear informes de medición de Amazon Marketing Cloud](../collaborate/advertising-platforms/amc-measure.md). |
+| Informes de medición de [!DNL AMC] | Mida el rendimiento de sus campañas de Amazon Ads usando los datos de [!DNL AMC] directamente en Collaboration. Desde la ficha **[!UICONTROL Measure]** de un proyecto [!DNL AMC], puede crear informes de **Resumen de campaña** y **Atribución** para evaluar el rendimiento de la campaña y comprender la atribución de conversión. Para obtener más información, consulte [Crear informes de medición de Amazon Marketing Cloud](../collaborate/advertising-platforms/amc-measure.md). |
+| Asignar claves de coincidencia para atributos de perfil anidados | Ahora puede asignar claves de coincidencia a campos anidados dentro de campos de perfil basados en listas, como un ID de dispositivo dentro de una matriz de `devices`, sin acoplar ni reestructurar los datos de antemano. Collaboration coincide con cada valor del campo anidado y lo cuenta individualmente. Actualmente, solo se admiten campos anidados para claves de coincidencia, no como atributos de perfil. Para obtener más información, consulte [asignar campos](../setup/onboard-audiences.md#map-fields). |
+| Informes de conversión de nivel de ubicación | Los informes de atribución ahora incluyen una tabla de **conversiones por ubicación**, que muestra el recuento de conversiones y el valor de conversión de cada ID de ubicación dentro de un ID de campaña. Esto le proporciona resultados independientes para campañas con varias ubicaciones. La etiqueta de métrica anterior **[!UICONTROL Ingresos estimados]** se ha actualizado a **[!UICONTROL Valor de conversión]** para mayor claridad. Para obtener más información, consulte [conversiones por ubicación](../collaborate/measure.md#conversions-by-placement). |
 
 {style="table-layout:auto"}
 
