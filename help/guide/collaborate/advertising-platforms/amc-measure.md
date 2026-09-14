@@ -4,14 +4,12 @@ description: Obtenga información sobre cómo crear e interpretar informes de me
 audience: advertiser
 keywords: AMC, Amazon Marketing Cloud, informes de medición, resumen de campaña, atribución, Real-Time CDP Collaboration
 solution: Real-Time Customer Data Platform Collaboration
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 944914557c10b43abbe4915e061c219aca9f783f
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 6%
-
+ht-degree: 13%
 ---
-
 
 # Crear [!DNL Amazon Marketing Cloud] informes de medición {#amc-measurement-reports}
 
@@ -43,7 +41,7 @@ Si la campaña que necesita no aparece en la lista, compruebe que pertenece a la
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_date_range"
 >title="Intervalo de fecha"
->abstract="Establezca las fechas de inicio y finalización de los datos de campaña para incluirlos en el informe. El intervalo de fechas está limitado a una ventana retrospectiva de 365 días con un intervalo máximo de 90 días. Solo puede informar sobre campañas anteriores."
+>abstract="Defina las fechas de inicio y finalización de los datos de campaña para incluirlos en el informe. El intervalo de fechas se limita a una ventana retrospectiva de 365 días con un intervalo máximo de 90 días. Solo puede informar sobre campañas anteriores."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_measure_report_run_date"
