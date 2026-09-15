@@ -7,18 +7,20 @@ exl-id: 1a1b8fec-384b-465f-832d-0772c518fdf1
 TQID: https://experienceleague.adobe.com/jNTQWEaUuuvgqKboJWsUH4XoKStP49nB0GLUSze0eXw
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 feature_v2:
   - id: ba929a52-9339-4154-9487-317dc875a3c7
+    internal-label: Use cases
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: b29c92fa411198ec4e9a0a493c91ee302a327697
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 11%
-
+source-wordcount: '699'
+ht-degree: 21%
 ---
-
 # Amazon Marketing Cloud
 
 {{limited-availability-release-note}}
@@ -40,22 +42,22 @@ Después de establecer una conexión con [!DNL Amazon Marketing Cloud] ([!DNL AM
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_resolved_ids"
 >title="ID resueltos"
->abstract="El número de ID que la resolución de identidad de Amazon pudo resolver con sus datos de audiencia."
+>abstract="El número de ID que la resolución de identidad de Amazon pudo resolver con los datos de su público."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlapping_ad_exposed_ids"
 >title="ID expuestos a anuncios solapados"
->abstract="Representa el número de &quot;ID resueltos&quot; de la audiencia cargada que también se han expuesto a un anuncio a través de Amazon Ads."
+>abstract="Representa el número de “ID resueltos” del público cargado que también se han expuesto en un anuncio a través de Amazon Ads."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_overlap_percentage"
 >title="% de solapamiento"
->abstract="La proporción de &quot;ID resueltos&quot; que se han expuesto a un anuncio a través de Amazon Ads."
+>abstract="La proporción de “ID resueltos” que se han expuesto a un anuncio a través de Amazon Ads."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_amc_discover_amazon_breakdown"
 >title="Desglose por producto publicitario de Amazon"
->abstract="Desglose de &quot;ID superpuestos y expuestos&quot; alcanzados por el producto patrocinado por Amazon Ads o por Amazon Ads DSP."
+>abstract="Desglose de “Solapamiento de ID expuestos a publicidad” a través de Amazon Ads Sponsor Product y/o Amazon Ads DSP."
 
 En la sección **[!UICONTROL Discover]**, puedes comparar tu audiencia AMC con todos los consumidores a los que han llegado tus Amazon Ads. También puede ver los segmentos de segmentación de Amazon con los que la audiencia tiene la mayor superposición, teniendo en cuenta solo las impresiones de DSP (estos segmentos solo pueden segmentarse en DSP).
 

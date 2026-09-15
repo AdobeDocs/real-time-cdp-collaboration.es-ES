@@ -7,17 +7,19 @@ exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
 workflow-type: tm+mt
-source-wordcount: 3970
+source-wordcount: '3970'
 ht-degree: 16%
-
 ---
-
 # Source y administración de audiencias
 
 {{limited-availability-release-note}}
@@ -43,7 +45,7 @@ En la ficha **[!UICONTROL Mis audiencias]** del área de trabajo **[!UICONTROL C
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_marketing_actions"
 >title="Acción de marketing"
->abstract="<p>Utilice acciones de marketing para controlar qué datos del público se importarán a Real-Time CDP Collaboration desde Experience Platform. La acción de marketing <strong>Data Collaboration</strong> admite las etiquetas de uso de datos C4, C5, C9, S1, S2, PSPD y RHD. La acción de marketing <strong>Ciencia de datos</strong> admite la etiqueta de uso de datos C9.</p> <p> <ul><li> Con la casilla de verificación <em>habilitada</em>, cualquier dato marcado con las etiquetas llamadas arriba en Experience Platform se excluye y <strong>no</strong> se incorpora a Real-Time CDP Collaboration.</li><li> Con la casilla de verificación <em>deshabilitada</em>, no hay restricciones en los datos de Experience Platform que se pueden importar a Real-Time CDP Collaboration.</li></ul></p>"
+>abstract="<p>Utilice acciones de marketing para controlar qué datos del público se importarán a Real-Time CDP Collaboration desde Experience Platform. La acción de marketing <strong>Colaboración de datos</strong> es compatible con las etiquetas de uso de datos C4, C5 y C9, S1, S2, PSPD y RHD. La acción de marketing <strong>Ciencia de datos</strong> admite la etiqueta de uso de datos C9.</p> <p> <ul><li> Con la casilla de verificación <em>habilitada</em>, cualquier dato marcado con las etiquetas llamadas arriba en Experience Platform se excluye y <strong>no</strong> se incorpora a Real-Time CDP Collaboration.</li><li> Con la casilla de verificación <em>deshabilitada</em>, no hay restricciones en los datos de Experience Platform que se pueden importar a Real-Time CDP Collaboration.</li></ul></p>"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=es" text="Información general sobre las etiquetas de uso de datos"
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/reference.html?lang=es" text="Glosario de etiquetas de uso de datos"
 
@@ -91,7 +93,7 @@ Después de seleccionar la fuente de datos, debe seleccionar la zona protegida q
 
 A continuación, debe asegurarse de que las acciones de marketing correctas se establecen en los datos de origen. También debe dar su consentimiento para que los datos procedentes de Experience Platform se utilicen para la colaboración de datos.
 
-Utilice acciones de marketing para controlar qué datos de audiencia introducir en Collaboration desde Experience Platform. La acción de marketing **[!UICONTROL Data Collaboration]** admite las etiquetas de uso de datos C4, C5, C9, S1, S2, PSPD y RHD. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
+Utilice acciones de marketing para controlar qué datos de audiencia introducir en Collaboration desde Experience Platform. La acción de marketing **[!UICONTROL Colaboración de datos]** es compatible con las etiquetas de uso de datos C4, C5 y C9, S1, S2, PSPD y RHD. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
 
 Obtenga más información sobre las [etiquetas de uso de datos C4, C5, C9, S1, S2, PSPD y RHD](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
