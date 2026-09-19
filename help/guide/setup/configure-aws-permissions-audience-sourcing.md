@@ -1,13 +1,12 @@
 ---
 title: Configuración de permisos de AWS para el abastecimiento de audiencias
-description: Aprenda a configurar los permisos de AWS Identity and Access Management (IAM) para conceder a Adobe acceso seguro de solo lectura a su  [!DNL Amazon S3] bloque para el abastecimiento de audiencias en Real-Time CDP Collaboration.
-source-git-commit: 73f11b7341cf94540dc01f8803291f6dc3cd5038
+description: Obtenga información sobre cómo configurar los permisos de AWS Identity and Access Management (IAM) para conceder a Adobe acceso seguro de solo lectura a su bloque [!DNL Amazon S3] para el abastecimiento de audiencias en Real-Time CDP Collaboration.
+exl-id: a48b800f-4bb3-4be6-af8e-b42a65a25c5b
+source-git-commit: f0e260d9bf15a0230940c967e6d73e7431625358
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '659'
 ht-degree: 1%
-
 ---
-
 # Configuración de permisos de AWS para el abastecimiento de audiencias
 
 Utilice esta guía para configurar las políticas y funciones de AWS Identity and Access Management (IAM) que otorgan a Adobe acceso seguro de solo lectura a su bloque de Amazon S3. Este acceso permite a Real-Time CDP Collaboration obtener audiencias a partir del compartimento de S3.
