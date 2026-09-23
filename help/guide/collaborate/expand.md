@@ -1,12 +1,12 @@
 ---
 title: Creación de audiencias de expansión en Expandir
 description: Aprenda a crear audiencias de expansión a partir de una audiencia semilla con la población de audiencias de un colaborador en Adobe Real-Time CDP Collaboration.
-source-git-commit: 88cd685742a4d85850cbf732ef93ab215287c22a
+source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 1%
 ---
-# Creación de audiencias de expansión en Expandir
+# (Beta) Cree audiencias de expansión en Expandir
 
 Use la ficha **[!UICONTROL Expand]** en un proyecto para crear una audiencia de expansión a partir de una de sus audiencias. Collaboration utiliza la población de audiencias de su colaborador para encontrar perfiles similares a su audiencia semilla, lo que le ayuda a alcanzar nuevos clientes potenciales sin exponer los datos de audiencia subyacentes de su colaborador. La audiencia de expansión resultante se envía a su colaborador para su activación.
 
