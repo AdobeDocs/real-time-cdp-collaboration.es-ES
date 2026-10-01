@@ -56,7 +56,7 @@ Antes de enviar o activar audiencias, asegúrese de lo siguiente:
 
 ## Enviar públicos {#send-audiences}
 
-Envíe una audiencia para que su colaborador tenga acceso a ella. Después de enviar la audiencia, esta aparece en la sección **[!UICONTROL Audiencias enviadas al colaborador]]** y en la sección **[!UICONTROL Audiencias recibidas]** del colaborador.[
+Envíe una audiencia para que su colaborador tenga acceso a ella. Después de enviar la audiencia, esta aparece en la sección **[!UICONTROL Audiencias enviadas al colaborador]&rbrack;** y en la sección **[!UICONTROL Audiencias recibidas]** del colaborador.&lbrack;
 
 Vaya a **[!UICONTROL Colaborar]**, abra un proyecto y seleccione la ficha **[!UICONTROL Activar]**.
 
