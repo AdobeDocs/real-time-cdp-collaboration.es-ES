@@ -1,21 +1,21 @@
 ---
 title: Administrar conexiones
-description: Obtenga información sobre cómo administrar las conexiones en Real-Time CDP Collaboration.
+description: Obtenga información sobre cómo administrar conexiones y configurar la activación automática en Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3ce7e66b31332836fd6cc6137c94622436505cc9
+    internal-label: Insights
+source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: '1297'
 ht-degree: 2%
-
 ---
-
 # Administrar conexiones {#manage-connections}
 
 {{limited-availability-release-note}}
@@ -35,6 +35,22 @@ Aparece el área de trabajo de información general de conexión, que muestra de
 Aparecerá el espacio de trabajo de configuración de conexión, que muestra los detalles de conexión entre usted y su colaborador. Aquí puede ver todos los ajustes seleccionados durante el proceso de conexión, el estado actual de la conexión, el propietario de la conexión y la información de contacto de su colaborador. Para obtener información sobre la configuración de conexión específica, consulte la guía [configuración de conexión](/help/guide/connect/establishing-connections.md#connection-settings).
 
 ![Espacio de trabajo de configuración de conexión que muestra detalles de conexión.](/help/assets/connect/manage-connections/connection-settings.png){zoomable="yes"}
+
+### Configuración de un destino de activación automática {#configure-auto-activation-destination}
+
+Como colaborador receptor, puede seleccionar un destino que Collaboration utilice para activar automáticamente las audiencias que se le envíen a través de la conexión. Antes de empezar, asegúrese de que posee al menos un destino activo. Para obtener instrucciones sobre la configuración de destinos, consulte [descripción general de destinos](../destinations/overview.md).
+
+En el área de trabajo de configuración de conexión, ve a **[!UICONTROL Control de activación]** y selecciona **[!UICONTROL EDITAR]**. A continuación, elija un **[!UICONTROL destino de activación automática]** en el menú desplegable y seleccione **[!UICONTROL Guardar]** para confirmar.
+
+>[!NOTE]
+>
+>La activación automática está disponible para todos los destinos.
+
+![Se seleccionó el cuadro de diálogo Control de activación con Exportaciones de audiencia de Northstar como destino de activación automática y se resaltó el botón Guardar.](/help/assets/connect/manage-connections/configure-auto-activation-destination.png){zoomable="yes"}
+
+Después de guardar el destino, el colaborador que envía una audiencia elige su programación de activación. El destino aparece como una selección de solo lectura en el flujo de trabajo de envío. Cuando se recibe la audiencia, Collaboration crea la activación según esa programación. En otras palabras, el receptor elige el destino, el remitente elige la programación y Collaboration crea la activación.
+
+Los cambios en el destino de activación automática solo se aplican a las audiencias compartidas después del cambio. Las activaciones creadas automáticamente existentes siguen utilizando su destino original. Para desactivar la activación automática para recursos compartidos futuros, borre el destino de activación automática y guarde los cambios.
 
 ## Eliminar conexión {#delete-connection}
 
