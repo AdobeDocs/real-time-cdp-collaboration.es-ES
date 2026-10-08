@@ -4,7 +4,10 @@ description: Obtenga información sobre cómo administrar conexiones de datos de
 audience: administrator, data engineer
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: dfe72315-6fcc-4ad7-b100-fc992ba9abbc
-source-git-commit: 874005b191d002e14aa134264f6678ec38a0d6a7
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 4%

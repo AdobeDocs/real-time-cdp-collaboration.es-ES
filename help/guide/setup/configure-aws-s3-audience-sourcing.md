@@ -1,14 +1,15 @@
 ---
-title: Configurar  [!DNL Amazon S3] para el Abastecimiento de audiencias
-description: Aprenda a configurar y conectar su almacenamiento de  [!DNL Amazon S3]  como fuente de datos de autoservicio para introducir datos de audiencia en Real-Time CDP Collaboration.
+title: Configurar [!DNL Amazon S3] para el Abastecimiento de audiencias
+description: Aprenda a configurar y conectar su almacenamiento de [!DNL Amazon S3] como fuente de datos de autoservicio para introducir datos de audiencia en Real-Time CDP Collaboration.
 exl-id: 566ceb1b-a72a-413d-b07d-409723892616
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1626'
 ht-degree: 8%
-
 ---
-
 # Configurar [!DNL Amazon S3] para el abastecimiento de audiencia
 
 Obtenga información sobre cómo configurar y conectar su almacenamiento de [!DNL Amazon S3] en la interfaz de usuario de Adobe Real-Time CDP Collaboration a los datos de audiencia de origen para su activación y análisis de superposición.
@@ -31,15 +32,15 @@ Antes de configurar la conexión de datos de S3, asegúrese de lo siguiente:
 * Tiene acceso a un bloque **[!DNL Amazon S3]activo** que contiene archivos de audiencia que se ajustan a la **[especificación de fuentes de audiencia (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf)**.
 * Ha creado un **rol de IAM** en AWS que concede permiso a Adobe para acceder a su bloque mediante el método **rol asumido** (no claves de acceso/secretas). Consulte **[Configuración de permisos de AWS para el abastecimiento de audiencias](./configure-aws-permissions-audience-sourcing.md)** para obtener instrucciones detalladas. La función IAM debe incluir los siguientes permisos:
 
-   * `ListBucket`
-   * `GetBucketLocation`
-   * `GetObject`
+  * `ListBucket`
+  * `GetBucketLocation`
+  * `GetObject`
 
 * Tiene preparados los siguientes valores:
 
-   * **Nombre de recurso de Amazon (ARN) de rol de IAM**
-   * **Nombre del contenedor S3**
-   * **Ruta de la carpeta** (el prefijo del directorio que contiene los archivos de audiencia)
+  * **Nombre de recurso de Amazon (ARN) de rol de IAM**
+  * **Nombre del contenedor S3**
+  * **Ruta de la carpeta** (el prefijo del directorio que contiene los archivos de audiencia)
 
 >[!NOTE]
 >

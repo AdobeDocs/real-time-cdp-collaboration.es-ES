@@ -1,16 +1,17 @@
 ---
-title: 'Configurar el acceso de administrador para la incorporación de Collaboration [!DNL Starter] '
+title: Configurar el acceso de administrador para la incorporación de Collaboration [!DNL Starter]
 description: Obtenga información sobre cómo configurar el acceso de administrador para Adobe Real-Time CDP Collaboration [!DNL Starter] mediante Admin Console en Adobe Experience Cloud.
 audience: users invited to Real-Time CDP Collaboration [!DNL Starter]
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7b5aa5e2-1238-4a0b-be20-becfe6c9e0b7
-source-git-commit: db4cc34592e49254163d7db54f93238146ce72a4
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '830'
 ht-degree: 3%
-
 ---
-
 # Configurar el acceso de administrador para la incorporación de Collaboration [!DNL Starter]
 
 Como el primer usuario de su organización en acceder a Adobe Experience Platform a través de Collaboration [!DNL Starter], usted es responsable de configurar y administrar el acceso para su equipo. Debe concederse los permisos de administrador y usuario necesarios para empezar a trabajar en Real-Time CDP Collaboration. Lea esta guía para aprender a configurar el acceso necesario en Admin Console para poder administrar permisos para colaboraciones en la interfaz de permisos.
@@ -41,7 +42,7 @@ Lea esta sección para concederse privilegios de administrador para comenzar a c
 
 #### Acceso a Admin Console {#access-admin-console}
 
-Para empezar, inicia sesión en [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} con tus credenciales. Puede ver una lista de los productos disponibles en la sección **[!UICONTROL Acceso rápido]**. Seleccione **[!UICONTROL Admin Console]**.
+Para empezar, inicie sesión en [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} con sus credenciales. Puede ver una lista de los productos disponibles en la sección **[!UICONTROL Acceso rápido]**. Seleccione **[!UICONTROL Admin Console]**.
 
 ![Página principal de Adobe Experience Cloud con Admin Console resaltado.](../../assets/setup/starter/admin-access/select-admin-console.png){zoomable="yes"}
 

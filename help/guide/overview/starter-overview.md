@@ -4,13 +4,14 @@ description: Descubra cómo Adobe Real-Time CDP Collaboration Starter le ayuda a
 audience: publisher, advertiser, invited users to Real-Time CDP Collaboration Starter
 badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 7ae0bd3d-eee9-48c0-9f18-a56033fee52d
-source-git-commit: d0d854f73fa835984e5cff5207ce3e01297c8deb
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 5%
-
 ---
-
 # Información general de Adobe Real-Time CDP Collaboration [!DNL Starter]
 
 Use Adobe Real-Time CDP Collaboration [!DNL Starter] para colaborar con un socio con licencia en proyectos de datos centrados en la privacidad. No necesita su propia licencia de Collaboration para participar.
@@ -91,6 +92,6 @@ Ahora ha completado la configuración inicial y ha configurado su organización 
 
 * [Source y administración de audiencias](../setup/onboard-audiences.md)
 * [Casos de uso del proyecto](../collaborate/overview.md#project-use-cases):
-   * [Descubra superposiciones y compare audiencias](../collaborate/discover.md)
-   * [Activar públicos](../collaborate/activate.md)
-   * [Medir el rendimiento de la campaña](../collaborate/measure.md)
+  * [Descubra superposiciones y compare audiencias](../collaborate/discover.md)
+  * [Activar públicos](../collaborate/activate.md)
+  * [Medir el rendimiento de la campaña](../collaborate/measure.md)
