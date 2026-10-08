@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Esta documentación proporciona detalles sobre cómo se usan los créditos al unirse a Adobe Real-Time CDP Collaboration [!DNL Starter] como usuario invitado. Obtenga más información acerca de quién es responsable del uso del crédito y consideraciones importantes para el acceso y la administración.
 
-Para obtener una descripción general de Collaboration [!DNL Starter], lea la [descripción general de Real-Time CDP Collaboration [!DNL Starter] 3}.](../overview/starter-overview.md)
+Para obtener una descripción general de Collaboration [!DNL Starter], lea la [descripción general de Real-Time CDP Collaboration [!DNL Starter] 3&rbrace;.](../overview/starter-overview.md)
 
 ## Cómo funciona el uso del crédito {#credit-usage}
 
