@@ -1,16 +1,17 @@
 ---
-title: Configurar  [!DNL Snowflake] para el Abastecimiento de audiencias
-description: Aprenda a configurar y conectar su  [!DNL Snowflake Secure Data Share] fuente de datos de autoservicio para ingerir datos de audiencia en Real-Time CDP Collaboration.
+title: Configurar [!DNL Snowflake] para el Abastecimiento de audiencias
+description: Aprenda a configurar y conectar su [!DNL Snowflake Secure Data Share] como fuente de datos de autoservicio para introducir datos de audiencia en Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 11a73116-4919-48a3-bf44-de2a10c102c1
-source-git-commit: 87022cf8a3b911979fd4603073b485159b5b0b2b
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1600'
 ht-degree: 7%
-
 ---
-
 # Configurar [!DNL Snowflake] para el abastecimiento de audiencia
 
 Aprenda a configurar y conectar su [!DNL Snowflake Secure Data Share] en la interfaz de usuario de Adobe Real-Time CDP Collaboration a los datos de audiencia de origen para la activación y el análisis de superposición.
@@ -28,10 +29,10 @@ Antes de configurar la conexión de [!DNL Snowflake], asegúrese de cumplir los 
 * Ha creado un [!DNL Snowflake Share] y ha configurado los permisos necesarios en su cuenta de [!DNL Snowflake] para conceder acceso a Adobe a su [!DNL Snowflake Secure Data Share]. Obtenga información sobre [cómo configurar [!DNL Snowflake] permisos](#set-up-snowflake-permissions).
 * Tiene preparados los siguientes [!DNL Snowflake Share] valores:
 
-   * **Nombre para compartir**
-   * **Identificador de cuenta**
-   * **Esquema**
-   * **Ver**
+  * **Nombre para compartir**
+  * **Identificador de cuenta**
+  * **Esquema**
+  * **Ver**
 
 * Los datos de audiencia de [!DNL Snowflake Secure Data Share] deben cumplir los requisitos de formato descritos en la guía [Especificación de fuentes de audiencia (v1.3)](../../assets/quick-start/RTCDP_Collaboration_Audience_Sourcing_Spec_v1_3.pdf).
 * Todas las claves de coincidencia del archivo de audiencia [!DNL Snowflake] también deben habilitarse para la cuenta de Collaboration. Aprenda a [habilitar las claves de coincidencia](./onboard-account.md#set-up-match-keys) o a [agregar nuevas claves de coincidencia](./onboard-account.md#edit-match-keys) a su cuenta.
@@ -166,7 +167,7 @@ En este paso, debe proporcionar las credenciales de [!DNL Snowflake Share] neces
 | Compartir nombre | El nombre de su [!DNL Snowflake Share]. | `ADOBE_DATA_SHARE` |
 | Identificador de cuenta | El identificador único de su cuenta de Snowflake. | `CUSTOMER_ORG.CUSTOMER_SNOWFLAKE_ACCOUNT` |
 | Esquema | El esquema de su [!DNL Snowflake Share] que contiene sus datos de audiencia. | `CUSTOMER_SCHEMA` |
-| Ver | El conjunto de datos real del que Collaboration extrae datos de audiencia. | `SECURE_VIEW_FOR_ADOBE` |
+| Vista | El conjunto de datos real del que Collaboration extrae datos de audiencia. | `SECURE_VIEW_FOR_ADOBE` |
 
 {style="table-layout:auto"}
 

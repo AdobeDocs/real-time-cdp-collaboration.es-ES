@@ -1,7 +1,10 @@
 ---
 title: Creación de audiencias de expansión en Expandir
 description: Aprenda a crear audiencias de expansión a partir de una audiencia semilla con la población de audiencias de un colaborador en Adobe Real-Time CDP Collaboration.
-source-git-commit: d2585628407acf10ad8388231259c77991a9a0b0
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 1%

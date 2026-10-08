@@ -2,14 +2,15 @@
 title: Configuración de Adobe Audience Manager para el abastecimiento de audiencias
 description: Aprenda a conectar Adobe Audience Manager como fuente de datos para poder obtener audiencias de origen aptas en Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
-source-git-commit: be12b4c3b1d3d40fa9ceb43b319f55254b05e4df
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+product_v2:
+  - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
+source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 1%
-
 ---
-
 
 # Configuración de Adobe Audience Manager para el abastecimiento de audiencias
 
@@ -104,7 +105,7 @@ La pantalla **[!UICONTROL Mapping]** es de solo lectura. Collaboration asigna au
 
 Puede revisar la asignación, pero no puede modificarla en esta fase. Haga clic en **[!UICONTROL Siguiente]** para continuar.
 
-![Agregar flujo de trabajo de audiencia en el paso &quot;Asignar campos&quot; que muestra los campos de origen asignados a los campos de identidad de destino &#x200B;](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)
+![Agregar flujo de trabajo de audiencia en el paso &quot;Asignar campos&quot; que muestra los campos de origen asignados a los campos de identidad de destino ](../../assets/setup/aam-audience-sourcing/audience-manager-map-fields.png)
 
 ### Programar actualización de datos {#schedule-data-refresh}
 
