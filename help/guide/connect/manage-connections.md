@@ -2,7 +2,7 @@
 title: Administrar conexiones
 description: Obtenga información sobre cómo administrar conexiones y configurar la activación automática en Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 50120839-4a20-4ec1-8887-9342bd17c52d
 TQID: https://experienceleague.adobe.com/plolWAj37G7hiH7gMYxDwJJDVXAIfMhSQHPRypErbxw
 product_v2:
@@ -11,9 +11,9 @@ product_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 991ea79aa90841bee833a04a304a52a407d377c7
+source-git-commit: 3c781fcb761c0d74241d66a7e75e3206fc1bc1da
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1311'
 ht-degree: 2%
 ---
 # Administrar conexiones {#manage-connections}
@@ -38,7 +38,9 @@ Aparecerá el espacio de trabajo de configuración de conexión, que muestra los
 
 ### Configuración de un destino de activación automática {#configure-auto-activation-destination}
 
-Como colaborador receptor, puede seleccionar un destino que Collaboration utilice para activar automáticamente las audiencias que se le envíen a través de la conexión. Antes de empezar, asegúrese de que posee al menos un destino activo. Para obtener instrucciones sobre la configuración de destinos, consulte [descripción general de destinos](../destinations/overview.md).
+Como colaborador receptor, puede seleccionar un destino que Collaboration utilice para activar automáticamente las audiencias que se le envíen a través de la conexión. Si no configura un destino de activación automática, debe activar las audiencias recibidas manualmente.
+
+Antes de empezar, asegúrese de que posee al menos un destino activo. Para obtener instrucciones sobre la configuración de destinos, consulte [descripción general de destinos](../destinations/overview.md).
 
 En el área de trabajo de configuración de conexión, ve a **[!UICONTROL Control de activación]** y selecciona **[!UICONTROL EDITAR]**. A continuación, elija un **[!UICONTROL destino de activación automática]** en el menú desplegable y seleccione **[!UICONTROL Guardar]** para confirmar.
 
