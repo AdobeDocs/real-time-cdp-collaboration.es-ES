@@ -167,7 +167,7 @@ En este paso, debe proporcionar las credenciales de [!DNL Snowflake Share] neces
 | Compartir nombre | El nombre de su [!DNL Snowflake Share]. | `ADOBE_DATA_SHARE` |
 | Identificador de cuenta | El identificador único de su cuenta de Snowflake. | `CUSTOMER_ORG.CUSTOMER_SNOWFLAKE_ACCOUNT` |
 | Esquema | El esquema de su [!DNL Snowflake Share] que contiene sus datos de audiencia. | `CUSTOMER_SCHEMA` |
-| Vista | El conjunto de datos real del que Collaboration extrae datos de audiencia. | `SECURE_VIEW_FOR_ADOBE` |
+| Ver | El conjunto de datos real del que Collaboration extrae datos de audiencia. | `SECURE_VIEW_FOR_ADOBE` |
 
 {style="table-layout:auto"}
 
