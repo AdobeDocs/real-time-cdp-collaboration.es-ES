@@ -2,7 +2,7 @@
 title: Configurar el almacenamiento de [!DNL Azure] para la fuente de exposición de publicidad
 description: Los datos de exposición a la publicidad de Source (registro de publicidad) del almacenamiento de Azure Data Lake o del almacenamiento de blobs a Real-Time CDP Collaboration para la medición centrada en la privacidad.
 keywords: Real-Time CDP Collaboration; fuente de registro de anuncios; [!DNL Azure Data Lake Storage]; [!DNL Azure Blob Storage]
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1779'

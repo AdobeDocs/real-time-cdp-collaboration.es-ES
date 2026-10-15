@@ -2,7 +2,7 @@
 title: Configurar [!DNL Google Cloud Storage] para el origen de exposición de publicidad
 description: Aprenda a conectar un bloque de [!DNL Google Cloud Storage] como origen de registro de anuncios de autoservicio para exposiciones de publicidad en la medición de Real-Time CDP Collaboration.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 source-git-commit: 02f344c9fcfff20c84c2e92b5aa4647829dd5d2f
 workflow-type: tm+mt
 source-wordcount: '1712'
