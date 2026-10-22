@@ -4,9 +4,9 @@ description: Aprenda a crear audiencias de expansión a partir de una audiencia 
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 3fa87a65d9f231fe717df3dd5f63f1e6720c90e9
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '892'
 ht-degree: 1%
 ---
 # (Beta) Cree audiencias de expansión en Expandir
@@ -15,12 +15,14 @@ Use la ficha **[!UICONTROL Expand]** en un proyecto para crear una audiencia de 
 
 ## Requisitos previos {#prerequisites}
 
-Antes de usar la ficha **[!UICONTROL Expand]**, debería tener:
+Antes de usar la ficha **[!UICONTROL Expand]**, complete estos requisitos previos:
 
-* [Se originó](/help/guide/setup/onboard-audiences.md) al menos una audiencia para usarla como audiencia semilla
-* [Conectado](/help/guide/connect/establishing-connections.md) con un colaborador
-* [Creó un proyecto](/help/guide/collaborate/manage-projects.md) con ese colaborador
-* Si está recibiendo una audiencia de expansión, un [destino](/help/guide/destinations/overview.md) configurado para recibir audiencias activadas
+* [Source usa al menos una audiencia](/help/guide/setup/onboard-audiences.md) como audiencia semilla.
+* [Conectar con un colaborador](/help/guide/connect/establishing-connections.md).
+* [Cree un proyecto](/help/guide/collaborate/manage-projects.md) con ese colaborador.
+* Si recibe audiencias de expansión, [configure un destino de activación automática](/help/guide/connect/manage-connections.md#configure-auto-activation-destination) para la conexión. Debe tener un destino activo antes de configurar la activación automática.
+
+Para obtener más información sobre cómo enviar audiencias y activar audiencias recibidas, consulte [Activar audiencias](/help/guide/collaborate/activate.md).
 
 ## Expandir información general {#expand-overview}
 
