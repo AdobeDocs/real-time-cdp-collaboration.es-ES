@@ -7,8 +7,10 @@ exl-id: cbf21cc8-41b4-4dfe-88b7-47bd9a19cbc7
 TQID: https://experienceleague.adobe.com/A01vUw6jGKigHNQHQc9nYfC5V9f6xB4mKeLqnPBfl2o
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
+    internal-label: Real-Time Customer Data Platform
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 146b4214b909f7c854107d9ff4e7975c85ea794d
 workflow-type: tm+mt
 source-wordcount: 119
