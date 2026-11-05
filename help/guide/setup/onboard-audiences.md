@@ -2,7 +2,7 @@
 title: Source y administración de audiencias
 description: Obtenga información sobre cómo crear y administrar audiencias en Adobe Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: 0a5158fa-73d3-4406-af20-2b6c7be9934e
 TQID: https://experienceleague.adobe.com/aGnYCTj23Tth2Hbq1Y-ALmFPVa36vKCYWXVu3-8wf0Q
 product_v2:
@@ -15,10 +15,10 @@ topic_v2:
     internal-label: Governance
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: e4951569c5f5190b7f1b7f9b85cf4397ffdeef6d
+source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
-source-wordcount: '3970'
-ht-degree: 16%
+source-wordcount: '4152'
+ht-degree: 15%
 ---
 # Source y administración de audiencias
 
@@ -95,7 +95,7 @@ A continuación, debe asegurarse de que las acciones de marketing correctas se e
 
 Utilice acciones de marketing para controlar qué datos de audiencia introducir en Collaboration desde Experience Platform. La acción de marketing **[!UICONTROL Colaboración de datos]** es compatible con las etiquetas de uso de datos C4, C5 y C9, S1, S2, PSPD y RHD. La acción de marketing **[!UICONTROL Ciencia de datos]** admite la etiqueta de uso de datos C9.
 
-Obtenga más información sobre las [etiquetas de uso de datos C4, C5, C9, S1, S2, PSPD y RHD](https://experienceleague.adobe.com/es/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
+Obtenga más información sobre las [etiquetas de uso de datos C4, C5, C9, S1, S2, PSPD y RHD](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference#contract){target="_blank"}.
 
 * Si la casilla de verificación está ***habilitada***, se excluirán todos los datos etiquetados en Experience Platform como se describió anteriormente y **no** se incluirán en Collaboration.
 * Con la casilla de verificación ***deshabilitada***, no hay restricciones en los datos procedentes de Experience Platform.
@@ -129,7 +129,7 @@ A continuación, proporcione un nombre y una descripción para la conexión de d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Campos de destino"
->abstract="Los campos de destino son las claves de coincidencia seleccionadas durante la configuración de la cuenta. De forma predeterminada, todas las claves de coincidencia seleccionadas están disponibles."
+>abstract="Los campos de destino identifican cómo se utilizan los datos de origen asignados en Collaboration. Las claves de coincidencia a nivel de cuenta están disponibles de forma predeterminada. Los campos Nombre y Dirección postal utilizados para la resolución de identidades están disponibles durante la configuración de la conexión de datos y no requieren la habilitación a nivel de cuenta."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
@@ -148,9 +148,22 @@ A continuación, proporcione un nombre y una descripción para la conexión de d
 >abstract="Seleccione atributos del esquema de unión para la clase de perfil en Experience Platform. Esta vista muestra los atributos que están presentes en el esquema de unión y pertenecen a la clase de perfil individual XDM."
 >additional-url="https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es" text="Esquema de unión en Experience Platform"
 
-A continuación, seleccione los campos de origen para asignarlos a los campos de destino en Collaboration. Los campos de destino disponibles se basarán en las claves de coincidencia seleccionadas durante la [configuración de la cuenta](./onboard-account.md#set-up-match-keys).
+A continuación, seleccione los campos de origen para asignarlos a los campos de destino en Collaboration. Los campos de destino disponibles se basan en las claves de coincidencia seleccionadas durante la [configuración de la cuenta](./onboard-account.md#set-up-match-keys). Los campos [!UICONTROL Nombre] y [!UICONTROL Dirección postal] utilizados para la resolución de identidades están disponibles durante la configuración de la conexión de datos y no es necesario habilitarlos en el nivel de cuenta.
 
-Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la configuración de la cuenta, [!DNL Demdex ID] se extrae y asigna automáticamente a partir de ECID y no tiene que realizar ninguna acción. Para obtener más información sobre [!DNL Demdex IDs], consulte la guía [[!DNL Demdex ID]](https://experienceleague.adobe.com/es/docs/experience-platform/collection/identity/unified-identity-support).
+#### Asignar campos de nombre y dirección postal para el ID principal de Epsilon {#map-name-postal-address}
+
+Para usar **[!UICONTROL Nombre]** y **[!UICONTROL Dirección postal]** para la resolución de identidades, asigne al menos un subcomponente en ambos campos:
+
+* **[!UICONTROL Nombre]:** [!UICONTROL Nombre], [!UICONTROL Apellido] o [!UICONTROL Nombre completo].
+* **[!UICONTROL Dirección postal]:** [!UICONTROL Dirección de calle], [!UICONTROL Ciudad], [!UICONTROL Estado], [!UICONTROL Código postal] o [!UICONTROL País].
+
+Cuando Adobe Experience Platform es la fuente de datos, Collaboration asigna automáticamente los atributos de perfil disponibles de la zona protegida seleccionada a los subcomponentes [!UICONTROL Name] y [!UICONTROL Postal address]. Revise las asignaciones sugeridas y corrija los campos que falten o que estén asignados incorrectamente.
+
+No es necesario asignar cada subcomponente. Para excluir un subcomponente para el que no tenga datos, elimine su fila de asignación. Los valores de [!UICONTROL Nombre] y [!UICONTROL Dirección postal] no tienen un valor hash.
+
+Para obtener más información sobre el uso de estos campos, consulte [Configurar y administrar la resolución de identidad](./identity-resolution.md).
+
+Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la configuración de la cuenta, [!DNL Demdex ID] se extrae y asigna automáticamente a partir de ECID y no tiene que realizar ninguna acción. Para obtener más información sobre [!DNL Demdex IDs], consulte la guía [[!DNL Demdex ID]](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/unified-identity-support).
 
 ![Espacio de trabajo Agregar audiencias con la opción de asignar campos de origen a campos de destino.](/help/assets/setup/add-manage-audiences/add-map-fields.png){zoomable="yes"}
 
@@ -160,13 +173,13 @@ Si seleccionó [!DNL Demdex ID (ECID)] como clave de coincidencia durante la con
 
 >[!BEGINSHADEBOX]
 
-**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
+**[!UICONTROL Los campos de Source]** son áreas de nombres y atributos de identidad de Experience Platform. Estas incluyen áreas de nombres de identidad [standard](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html?lang=es#standard){target="_blank"} y [custom](https://experienceleague.adobe.com/docs/experience-platform/identity/features/namespaces.html#create-namespaces){target="_blank"}. También incluyen atributos de perfil que están presentes en el [esquema de unión](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schema.html?lang=es){target="_blank"} y pertenecen a la clase XDM Individual Profile.
 
-Los campos de Source se asignan a los campos de destino definidos en Collaboration.
+Los campos de Source se asignan a campos de destino definidos en Collaboration.
 
-**[!UICONTROL Campos de destino]** indican cómo se hace referencia a las identidades en Collaboration. Los campos de destino son las claves de coincidencia seleccionadas durante la configuración de la cuenta. De forma predeterminada, todas las claves de coincidencia seleccionadas están disponibles.
+**[!UICONTROL Campos de destino]** indican cómo se usan los datos de origen asignados en Collaboration. La mayoría de los campos de destino son claves de coincidencia seleccionadas durante la configuración de la cuenta. Los campos **[!UICONTROL Nombre]** y **[!UICONTROL Dirección postal]** para la resolución de identidades se proporcionan durante la configuración de la conexión de datos y no requieren la habilitación a nivel de cuenta.
 
-Utilice la opción **[!UICONTROL Aplicar transformación]** cuando esté suministrando *campos sin hash* a campos con hash. Collaboration aplicará el hash y transformará los campos. El algoritmo hash utilizado por Adobe es SHA256.
+Utilice la opción **[!UICONTROL Aplicar transformación]** cuando esté suministrando campos sin hash a campos con hash. Collaboration aplica el hashing SHA256 para transformar los campos. Los valores de [!UICONTROL Nombre] y [!UICONTROL Dirección postal] no tienen un valor hash.
 
 >[!ENDSHADEBOX]
 

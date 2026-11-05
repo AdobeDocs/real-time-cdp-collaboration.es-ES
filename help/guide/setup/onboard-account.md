@@ -2,7 +2,7 @@
 title: Configuración y administración de la cuenta
 description: Obtenga información sobre cómo configurar y administrar varios aspectos de su cuenta en Real-Time CDP Collaboration
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
 exl-id: a95e932a-9681-48f2-bf34-6fe5a50597d7
 TQID: https://experienceleague.adobe.com/PRmSkRSE2tQ-5t5hHKzDAGrkF6-irmZid2Akq6-PQv8
 product_v2:
@@ -15,13 +15,11 @@ topic_v2:
     internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0d0807ccae4c5f1cbfcf36fad7b76b51a3b925f
+source-git-commit: b40ca0030b48f01a4f27716fbf39e587d858e3f4
 workflow-type: tm+mt
-source-wordcount: 1410
+source-wordcount: '1432'
 ht-degree: 14%
-
 ---
-
 # Configuración y administración de la cuenta
 
 {{limited-availability-release-note}}
@@ -59,7 +57,7 @@ Para comenzar a configurar la cuenta, primero debe configurar los detalles de la
 * La **[!UICONTROL región]** se establece automáticamente en función de tu cuenta de Adobe Experience Cloud. Esto no se puede cambiar en ningún momento.
 * Agrega un **[!UICONTROL correo electrónico de contacto]** a tu cuenta. Debe ser una dirección de correo electrónico basada en el equipo o en la función. No se deben proporcionar direcciones de correo electrónico personales.
 * Sube un **[!UICONTROL logotipo]** para tu cuenta. Actualmente, se admiten imágenes de tipo SVG. Esto es opcional, pero cargar un logotipo ayuda a representar visualmente su marca en la interfaz de Collaboration
-* Seleccione una imagen para la imagen del encabezado de la cuenta.
+* Seleccione una imagen para la cabecera de la cuenta.
 
 >[!NOTE]
 >
@@ -105,6 +103,10 @@ La siguiente tabla muestra las claves de coincidencia admitidas en Collaboration
 
 {style="table-layout:auto"}
 
+>[!NOTE]
+>
+>Los campos Nombre y Dirección postal utilizados para la resolución de identidad de [!DNL Epsilon Core ID] no están configurados como claves de coincidencia de nivel de cuenta. Asigne estos campos al configurar una conexión de datos de audiencia. Para obtener más información, consulte [Asignar campos](./onboard-audiences.md#map-fields).
+
 >[!IMPORTANT]
 >
 >Las claves de coincidencia que seleccione durante la configuración de la cuenta determinarán las claves de coincidencia disponibles en las conexiones. Aunque puede [eliminar las claves de coincidencia no deseadas](../connect/establishing-connections.md#connection-settings) durante la configuración de la conexión, las claves de coincidencia no se pueden agregar después de establecer una conexión. Es importante que seleccione **todas** las claves de coincidencia que planea usar en futuras campañas durante la configuración de la cuenta.
@@ -120,7 +122,7 @@ Collaboration admite tres tipos de claves de coincidencia: ID de persona, ID de 
 * Las claves de coincidencia deben estar **recortadas**, **en minúsculas**
 * Las claves de coincidencia con hash deben ser **SHA256-hashed**.
 * Si proporciona valores hash con caracteres en mayúsculas, Collaboration los convierte automáticamente a minúsculas.
-* Si el origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** durante la configuración de la conexión de datos [para aplicar el hash. &#x200B;](./manage-data-connection.md#match-keys)Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
+* Si el origen contiene **identificadores de texto sin formato**, use la opción **[!UICONTROL Aplicar transformación]** durante la configuración de la conexión de datos [para aplicar el hash. ](./manage-data-connection.md#match-keys)Esta opción solo está disponible cuando obtiene audiencias de Experience Platform y no es compatible con fuentes basadas en la nube.
 
 ##### ID de personas
 
@@ -130,7 +132,6 @@ Los ID de persona están conectados directamente a un perfil individual. Los ID 
 * **[!UICONTROL Teléfono con hash]**
 * **[!UICONTROL ID de CRM]**
 * **[!UICONTROL ID de fidelización]**
-<!-- * **[!UICONTROL Custom ID]**: Custom identifiers -->
 
 ##### ID de dispositivo
 
@@ -151,13 +152,9 @@ Los ID de socio son identificadores proporcionados por socios externos para la r
 >
 >La integración de Adobe con [!DNL AdFixus] asigna los [!UICONTROL ID de AdFixus] únicos para cada cuenta a un formato común codificado en Adobe. Estas asignaciones se utilizan para identificar superposiciones entre colaboradores. Al activar audiencias con **[!UICONTROL AdFixus ID]**, se usan los ID originales. El formato con codificación Adobe nunca abandona Collaboration.
 
-Al seleccionar **[!UICONTROL ID de AdFixus]**, deberá proporcionar el ID correspondiente de su socio externo en la sección **[!UICONTROL Credenciales de cuenta]**. Esta opción solo estará disponible *después de que* active **[!UICONTROL AdFixus ID]**. Escriba su ID de AdFixus en el campo **[!UICONTROL ID de cuenta]**, para asegurarse de comprobar la precisión del valor.
+Al seleccionar **[!UICONTROL ID de AdFixus]**, deberá proporcionar el ID correspondiente de su socio externo en la sección **[!UICONTROL Credenciales de cuenta]**. Esta opción solo estará disponible *después de que* active **[!UICONTROL AdFixus ID]**. Escriba su ID de AdFixus en el campo **[!UICONTROL ID de cuenta]**, para asegurarse de comprobar la precisión del valor. Una vez que haya seleccionado todas las claves de coincidencia deseadas, seleccione **[!UICONTROL Completar]** para finalizar el flujo de trabajo de configuración de la cuenta.
 
 ![El cuadro de diálogo Coincidir claves con el identificador de AdFixus activado y la sección Credenciales de cuenta resaltada.](/help/assets/setup/manage-account/adfixus-settings.png){zoomable="yes"}
-
-Una vez que haya seleccionado todas las claves de coincidencia deseadas, seleccione **[!UICONTROL Completar]** para finalizar el flujo de trabajo de configuración de la cuenta.
-
-![Área de trabajo Configurar cuenta con la sección Claves de coincidencia mostrada.](/help/assets/setup/manage-account/add-account-match-keys.png){zoomable="yes"}
 
 ## Editar cuenta {#edit-account}
 
