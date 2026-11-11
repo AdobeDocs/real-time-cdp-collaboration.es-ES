@@ -174,6 +174,6 @@ Utilice estas comprobaciones para solucionar problemas de datos de origen, expor
 
 ## Próximos pasos {#next-steps}
 
-Después de ingerir y validar los atributos, genere audiencias en [!DNL Adobe Real-Time CDP] combinando señales de enriquecimiento con datos de origen. Para obtener más información, consulte la [guía del Generador de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
+Después de ingerir y validar los atributos, genere audiencias en [!DNL Adobe Real-Time CDP] combinando señales de enriquecimiento con datos de origen. Para obtener más información, consulte la [guía del Generador de audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
 
-Para activar audiencias para destinos, personalización o recorridos de clientes, consulta la [guía de activación de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
+Para activar audiencias para destinos, personalización o recorridos de clientes, consulta la [guía de activación de audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
