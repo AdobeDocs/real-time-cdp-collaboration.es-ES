@@ -4,17 +4,17 @@ description: Obtenga información sobre cómo exportar atributos de enriquecimie
 audience: advertiser
 hide: true
 badge: Alpha
-source-git-commit: d090aff6ea091f60c9b3bbaf2ca72fcf8017d7d1
+source-git-commit: 303d7185169962ad7398adfffcc732bf86336a74
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 1%
+source-wordcount: '1512'
+ht-degree: 0%
 ---
 
 # Enriquecimiento del perfil de la Trade Desk (Alpha)
 
 Utilice la fuente de datos de registro de impresión de flujo de datos de evento sin procesar (REDS) de [!DNL The Trade Desk] para exportar atributos de enriquecimiento y contexto de medios de pago a sus perfiles de origen.
 
-Una vez que el archivo CSV llegue a su destino de exportación [!DNL Amazon S3], ingréselo en [!DNL Adobe Real-Time CDP]. En esta versión, la exportación del archivo no actualiza automáticamente los perfiles ni activa las experiencias. El enriquecimiento automatizado de perfiles de nuevo a [!DNL Adobe Real-Time CDP] será una característica de una versión posterior.
+Una vez que el archivo CSV llegue a su destino de exportación [!DNL Amazon S3], ingréselo en [!DNL Adobe Real-Time CDP]. En esta versión, la exportación del archivo no actualiza automáticamente los perfiles ni activa las experiencias. Se ha planificado el enriquecimiento automatizado de perfiles en [!DNL Adobe Real-Time CDP] para una versión posterior.
 
 La exposición de publicidad añade contexto a los perfiles de los clientes. No confirma la participación, la intención de compra ni los intereses a largo plazo.
 
@@ -30,7 +30,7 @@ Antes de comenzar, colabore con su administrador, equipo de medios y equipo de d
 
 ### Autorizar la fuente de origen {#authorize-source-feed}
 
-Complete la carta de acceso proporcionada por [!DNL The Trade Desk] para autorizar a [!DNL The Trade Desk] a enviar registros REDS directamente a Adobe.
+Para autorizar la entrega del registro de REDS directamente a Adobe, complete la carta de acceso proporcionada por [!DNL The Trade Desk].
 
 [!DNL The Trade Desk] aprovisiona la fuente de origen y Adobe configura el acceso y la ingesta. Antes de crear un proyecto, confirme que la conexión está activa y que la fuente está lista.
 
@@ -46,49 +46,53 @@ Complete la carta de acceso del cuadro de diálogo de conexión y guarde su ID d
 
 ### Conexión con el socio {#connect-partner}
 
-Conéctese a [!DNL The Trade Desk] y agregue la información de su anunciante:
+Para conectar con [!DNL The Trade Desk], abre **[!UICONTROL Discover colaboradores]** en **[!UICONTROL Connect]** y busca el socio.
 
-1. En **[!UICONTROL Connect]**, abra **[!UICONTROL Discover colaboradores]**.
-1. Busque [!DNL The Trade Desk].
-   ![El catálogo de colaboradores enumera [!DNL The Trade Desk] y su opción [!UICONTROL Conectar].](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
-1. Seleccione **[!UICONTROL Conectar]** para [!DNL The Trade Desk] y siga las instrucciones del cuadro de diálogo de conexión.
-   ![El cuadro de diálogo de conexión explica la autorización de REDS y la configuración del ID de socio para [!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
-1. Una vez que la conexión esté activa, abra **[!UICONTROL Configuración de la conexión]**. En **[!UICONTROL Información del anunciante]**, selecciona **[!UICONTROL Editar]** para actualizar la información existente o **[!UICONTROL Agregar]** para escribir información nueva.
-   ![La configuración de conexión activa muestra [!UICONTROL Información del anunciante] y el control [!UICONTROL Editar].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
-1. Escriba su ID de socio y su nombre en **[!UICONTROL ID de socio]** y **[!UICONTROL nombre de socio]**; a continuación, seleccione **[!UICONTROL Guardar]**. Encuentre su ID de socio en su cuenta de [!DNL The Trade Desk] en **[!UICONTROL Identificadores de puestos]**.
-   ![El cuadro de diálogo de información del anunciante tiene los campos ID de socio y nombre de socio necesarios, así como un control [!UICONTROL Guardar].](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+![El catálogo de colaboradores enumera [!DNL The Trade Desk] y su opción [!UICONTROL Conectar].](../../../assets/collaborate/advertising-platforms/discover-collaborators-trade-desk.png){zoomable="yes"}
 
-Una vez que la conexión esté activa y guarde la información del anunciante, espere a que se confirme que Adobe ha recibido los registros de REDS. A continuación, cree un proyecto.
+Seleccione **[!UICONTROL Conectar]** para [!DNL The Trade Desk] y siga las instrucciones del cuadro de diálogo de conexión.
+
+![El cuadro de diálogo de conexión explica la autorización de REDS y la configuración del ID de socio para [!DNL The Trade Desk].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-instructions.png){zoomable="yes"}
+
+Una vez que la conexión esté activa, abre **[!UICONTROL Configuración de conexión]** y ve a **[!UICONTROL Información del anunciante]**. Para actualizar la información existente, seleccione **[!UICONTROL Editar]**. Para escribir información nueva, seleccione **[!UICONTROL Agregar]**.
+
+![La configuración de conexión activa muestra [!UICONTROL Información del anunciante] y el control [!UICONTROL Editar].](../../../assets/collaborate/advertising-platforms/trade-desk-connection-settings.png){zoomable="yes"}
+
+Para guardar tu información de anunciante, escribe el ID y el nombre del socio en **[!UICONTROL ID de socio]** y **[!UICONTROL nombre de socio]**, y luego selecciona **[!UICONTROL Guardar]**. Su ID de socio aparece en **[!UICONTROL Identificadores de puestos]** en su cuenta de [!DNL The Trade Desk].
+
+![El cuadro de diálogo de información del anunciante tiene los campos ID de socio y nombre de socio necesarios, así como un control [!UICONTROL Guardar].](../../../assets/collaborate/advertising-platforms/trade-desk-advertiser-partner-info-dialog.png){zoomable="yes"}
+
+Después de guardar la información del anunciante, espere a que Adobe confirme la recepción de los registros de REDS antes de crear un proyecto.
 
 ### Crear un proyecto {#create-project}
 
-Cree un proyecto para la conexión:
+Para crear un proyecto, ve a **[!UICONTROL Colaborar]** y selecciona **[!UICONTROL Mis proyectos]**, luego **[!UICONTROL Crear un proyecto]** o el icono de agregar (![Agregar un proyecto.](/help/assets/icons/plus.png)).
 
-1. En **[!UICONTROL Colaborar]**, seleccione **[!UICONTROL Mis proyectos]**.
-1. Seleccione **[!UICONTROL Crear un proyecto]** o el icono de agregar (![Agregar un proyecto.](/help/assets/icons/plus.png)).
-1. En **[!UICONTROL Crear proyecto]**, seleccione [!DNL The Trade Desk] de **[!UICONTROL Colaborador]**.
-   ![El formulario [!UICONTROL Crear proyecto] enumera [!DNL The Trade Desk] e incluye el nombre del proyecto, la descripción y los campos de imagen.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
-1. Escriba un **[!UICONTROL nombre de proyecto]** y **[!UICONTROL descripción]**, y después elija una imagen para identificar el proyecto.
-1. Seleccione **[!UICONTROL Crear]**.
+En **[!UICONTROL Crear proyecto]**, seleccione [!DNL The Trade Desk] de **[!UICONTROL Colaborador]**.
+
+![El formulario [!UICONTROL Crear proyecto] enumera [!DNL The Trade Desk] e incluye el nombre del proyecto, la descripción y los campos de imagen.](../../../assets/collaborate/advertising-platforms/trade-desk-create-project.png){zoomable="yes"}
+
+Para identificar el proyecto, escribe **[!UICONTROL Nombre del proyecto]** y **[!UICONTROL Descripción]**, y luego selecciona una imagen. Una vez completados los detalles del proyecto, seleccione **[!UICONTROL Crear]**.
 
 Para administrar proyectos en general, consulte la [Guía de creación y administración de proyectos](/help/guide/collaborate/manage-projects.md).
 
 ## Seleccionar y exportar atributos {#select-export-attributes}
 
-Exporte atributos de enriquecimiento del proyecto:
+Para seleccionar atributos de enriquecimiento para la exportación, abra el proyecto y seleccione **[!UICONTROL Enrich]**. Para comprender la disponibilidad de la señal, revise los valores de cobertura de cada atributo antes de seleccionar los atributos que desee utilizar.
+
+![La página [!UICONTROL Enrich] agrupa las señales seleccionables por categoría y muestra los valores de cobertura.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
 
 <!-- TODO: Replace the destination screenshot with one showing the [!UICONTROL Export Attributes] action. -->
 
-1. Abra el proyecto y seleccione **[!UICONTROL Enrich]**.
-1. Revise los valores de cobertura de cada atributo para comprender la disponibilidad de la señal.
-1. Seleccione los atributos que desee utilizar para el enriquecimiento.
-   ![La página [!UICONTROL Enrich] agrupa las señales seleccionables por categoría y muestra los valores de cobertura.](../../../assets/collaborate/advertising-platforms/enrich-attribute-selection.png){zoomable="yes"}
-1. Seleccione el destino de exportación [!DNL Amazon S3] configurado para la salida de enriquecimiento. Para configurar un destino, consulte [Configurar y administrar destinos de almacenamiento en la nube](/help/guide/destinations/manage-destinations.md).
-   <!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
-1. Revise los atributos y el destino seleccionados y, a continuación, seleccione **[!UICONTROL Exportar atributos]**.
-   <!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+Seleccione el destino de exportación [!DNL Amazon S3] configurado para la salida de enriquecimiento. Si necesita configurar un destino, consulte [Configurar y administrar destinos de almacenamiento en la nube](/help/guide/destinations/manage-destinations.md).
 
-Al enviar una exportación, se inicia la entrega si el destino está configurado correctamente. Verifique que la entrega de archivos se haya realizado correctamente fuera de [!DNL Adobe Real-Time CDP Collaboration].
+<!-- ![The [!UICONTROL Choose a destination] screen lists a destination and the [!UICONTROL Export Attributes] action.](../../../assets/collaborate/advertising-platforms/enrich-choose-destination.png){zoomable="yes"} -->
+
+Revise los atributos y el destino seleccionados y, a continuación, seleccione **[!UICONTROL Exportar atributos]**.
+
+<!-- ![The destination screen confirms that enrichment has started.](../../../assets/collaborate/advertising-platforms/enrich-request-confirmation.png){zoomable="yes"} -->
+
+Al enviar una exportación, se inicia la entrega si el destino está configurado correctamente. Después de enviar la exportación, compruebe que la entrega de archivos se ha realizado correctamente fuera de [!DNL Adobe Real-Time CDP Collaboration].
 
 Adobe procesa los atributos de enriquecimiento cuando crea un proyecto y luego semanalmente. Cada ejecución usa los últimos 90 días de los datos de [!DNL The Trade Desk] disponibles. Cada exportación incluye los atributos seleccionados de la ejecución completada más reciente. Para exportar atributos actualizados, solicite otra exportación una vez finalizada una ejecución posterior.
 
@@ -121,13 +125,13 @@ Las señales geográficas describen el contexto publicitario en lugar de una cas
 
 ### Cobertura de atributo {#attribute-coverage}
 
-La cobertura describe la frecuencia con la que los registros procesados incluyen un valor de atributo. Para las señales sí/no, como **[!UICONTROL CTV expuesto]**, la cobertura cuenta los registros con un valor verdadero. La cobertura no indica tasas de coincidencia de identidad ni la proporción de perfiles de origen que recibirán un atributo.
+La cobertura describe la frecuencia con la que los registros procesados incluyen un valor de atributo. Para las señales sí/no, como **[!UICONTROL CTV expuesto]**, la cobertura cuenta los registros con un valor verdadero. La cobertura no indica tasas de coincidencia de identidad ni la proporción de perfiles de origen que reciben un atributo.
 
 La coincidencia de identidad, la disponibilidad de la señal de origen y la ingesta afectan a las actualizaciones de perfil. La cobertura no confirma la finalización de la exportación ni las actualizaciones del perfil.
 
 ### Ámbito del flujo de trabajo {#workflow-scope}
 
-Utilice el catálogo depurado para enriquecer los datos de [!DNL The Trade Desk]. No puede exportar registros sin procesar ni crear expresiones de atributo personalizadas. No se admiten otras integraciones de plataforma del lado de la demanda (DSP) y plataforma del lado de la oferta (SSP).
+Para enriquecer datos de [!DNL The Trade Desk], use el catálogo depurado. No puede exportar registros sin procesar ni crear expresiones de atributo personalizadas. No se admiten otras integraciones de plataforma del lado de la demanda (DSP) y plataforma del lado de la oferta (SSP).
 
 Este flujo de trabajo no admite el descubrimiento de oportunidades de enriquecimiento, el análisis de superposición de audiencias o la medición de atribución e incrementalidad.
 
@@ -154,11 +158,11 @@ Compruebe la exportación de forma independiente de las actualizaciones de perfi
 1. Introduzca el archivo utilizando las asignaciones de identidad y esquema confirmadas para la zona protegida y el conjunto de datos de destino.
 1. Revise los resultados de la ingesta y compruebe que una muestra de perfiles esperados contenga los atributos de enriquecimiento.
 
-La exportación de un archivo no confirma que la ingesta haya actualizado los perfiles. Introduzca cada exportación posterior por separado para actualizar los perfiles.
+La exportación de un archivo no confirma que la ingesta haya actualizado los perfiles. Para actualizar los perfiles, introduzca cada exportación posterior por separado.
 
 ## Solución de problemas de enriquecimiento {#troubleshoot-enrichment}
 
-Utilice estas comprobaciones para solucionar problemas de datos de origen, exportación e ingesta:
+Para solucionar problemas de datos de origen, exportación e ingesta, utilice las siguientes comprobaciones:
 
 | Problema | Qué comprobar |
 | --- | --- |
@@ -174,6 +178,6 @@ Utilice estas comprobaciones para solucionar problemas de datos de origen, expor
 
 ## Próximos pasos {#next-steps}
 
-Después de ingerir y validar los atributos, genere audiencias en [!DNL Adobe Real-Time CDP] combinando señales de enriquecimiento con datos de origen. Para obtener más información, consulte la [guía del Generador de audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
+Después de ingerir y validar los atributos, genere audiencias en [!DNL Adobe Real-Time CDP] combinando señales de enriquecimiento con datos de origen. Para obtener más información, consulte la [guía del Generador de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-builder){target="_blank"}.
 
-Para activar audiencias para destinos, personalización o recorridos de clientes, consulta la [guía de activación de audiencias](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
+Para activar audiencias para destinos, personalización o recorridos de clientes, consulta la [guía de activación de audiencias](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activation-overview){target="_blank"}.
