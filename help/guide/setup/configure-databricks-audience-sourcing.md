@@ -1,15 +1,15 @@
 ---
 title: Configurar [!DNL Databricks Delta Share] para el Abastecimiento de audiencias
-description: Obtenga información sobre cómo configurar y conectar [!DNL Databricks Delta Share] para el abastecimiento de audiencias en Real-Time CDP Collaboration.
+description: Obtenga información sobre cómo configurar y conectar [!DNL Databricks Delta Share] para el abastecimiento de audiencias en Real-Time CDP Collaboration, incluido el uso compartido del historial.
 audience: admin, publisher, advertiser
-badgelimitedavailability: label="Disponibilidad limitada" type="Informative" url="https://helpx.adobe.com/es/legal/product-descriptions/real-time-customer-data-platform-collaboration.html newtab=true"
+badgelimitedavailability: label="Disponibilidad limitada" type="Informativo" url="https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-collaboration.html" newtab=true
 product_v2:
   - id: fdddec33-c9cb-4459-b8b6-2664395a6f10
     internal-label: Real-Time Customer Data Platform
-source-git-commit: 5b308de53e76129c8d5f3870ff4646424c2dd69e
+source-git-commit: 2c6b8967566bcb1ea1851763a13d965bddfb9236
 workflow-type: tm+mt
-source-wordcount: '2818'
-ht-degree: 2%
+source-wordcount: '3294'
+ht-degree: 1%
 ---
 
 # Configurar [!DNL Databricks Delta Share] para el abastecimiento de audiencia
@@ -18,7 +18,7 @@ Utilice esta guía para conectar [!DNL Databricks Delta Share] a Adobe Real-Time
 
 Al conectar [!DNL Databricks Delta Share], Collaboration lee los datos de audiencia directamente desde el recurso compartido del catálogo Unity. Una vez finalizado el abastecimiento, puede utilizar las audiencias para la activación y el análisis de superposición en proyectos de colaboración.
 
-En esta guía se explica cómo preparar los requisitos previos, conectar [!DNL Delta Share], especificar tablas de origen, asignar campos de identidad y comprobar que el abastecimiento de audiencias se inicia correctamente.
+En esta guía se explica cómo completar los requisitos previos, conectar [!DNL Delta Share], especificar tablas de origen, asignar campos de identidad y comprobar que el abastecimiento de audiencias se inicia correctamente.
 
 Las audiencias procedentes de [!DNL Databricks] siguen las mismas reglas de gobernanza y administración de datos que las audiencias procedentes de Adobe Experience Platform y otras fuentes de nube compatibles.
 
@@ -44,17 +44,18 @@ Para obtener instrucciones paso a paso sobre cómo publicar un recurso compartid
 
 Estructurar las tablas de audiencias para que Collaboration pueda detectar audiencias y asignar identidades correctamente.
 
-* **Tabla de pertenencia (obligatoria):** Una tabla del esquema compartido que contiene una fila por par de perfil-audiencia. Esta tabla debe incluir una columna que se pueda asignar a `AUDIENCE_ID` y al menos una columna de clave de coincidencia admitida. Collaboration utiliza esta tabla para la vista previa de datos de origen y la asignación de campos.
+* **Tabla de pertenencia (obligatoria):** Una tabla del esquema compartido que contiene una fila por par de perfil-audiencia. Esta tabla debe incluir una columna `AUDIENCE_ID` y al menos una columna de clave de coincidencia admitida. Collaboration utiliza esta tabla para la vista previa de datos de origen y la asignación de campos.
 * **Tabla de metadatos (opcional):** Si mantiene un catálogo independiente de audiencias (una fila por audiencia con ID de audiencia, nombre, recuentos o metadatos similares), puede proporcionar esta tabla para que Collaboration lea las definiciones de audiencia de ella en lugar de inferir ID de audiencia distintos únicamente de la tabla de pertenencia.
 * **Claves de coincidencia admitidas:** `HASHED_EMAIL_SHA_256`, `HASHED_PHONE_SHA_256`, `HASHED_IPV4_SHA_256`, `CRM_ID`, `LOYALTY_ID`, `ADFIXUS_ID` y otras claves de coincidencia habilitadas para su cuenta de Collaboration.
 * **Requisitos de hash:** Todos los valores de clave de coincidencia deben estar recortados, en minúsculas y con hash SHA256 antes de almacenarse en [!DNL Databricks]. Collaboration no hash ni normaliza los datos antes de la ingesta.
 * **Coherencia de columna:** La tabla de pertenencia debe exponer nombres de columna estables que Collaboration pueda asignar a las claves de coincidencia habilitadas.
+* **Uso compartido del historial (recomendado):** Para mejorar el rendimiento del abastecimiento, especialmente en tablas grandes, habilite el uso compartido del historial al compartir tablas de audiencia. El uso compartido de historial permite a Collaboration leer datos en paralelo mediante una versión de tabla coherente. Sin compartir el historial, el abastecimiento de audiencias se completa usando un proceso más lento y de consulta única. Para obtener más información, consulte [Habilitar el uso compartido del historial](#enable-history-sharing).
 
 Todas las claves de coincidencia presentes en la tabla de pertenencia también deben habilitarse para la cuenta de Collaboration. Para agregar o habilitar claves de coincidencia, consulte [Configurar claves de coincidencia](./onboard-account.md#set-up-match-keys).
 
 ### Valores necesarios antes de comenzar {#required-values}
 
-Tenga preparados los siguientes valores antes de iniciar el asistente de configuración.
+Tenga preparados los siguientes valores antes de iniciar el flujo de trabajo de configuración.
 
 
 | Valor | Descripción |
@@ -69,7 +70,7 @@ Tenga preparados los siguientes valores antes de iniciar el asistente de configu
 
 ## Configurar su conexión de [!DNL Databricks] {#configure-databricks-connection}
 
-El flujo de trabajo de configuración es un asistente de varios pasos dentro del área de trabajo **[!UICONTROL Setup]**. Complete cada paso de forma secuencial.
+El flujo de trabajo de configuración incluye varios pasos en el área de trabajo **[!UICONTROL Setup]**. Complete cada paso de forma secuencial.
 
 ### Añadir una nueva conexión de datos {#add-data-connection}
 
@@ -106,11 +107,11 @@ Collaboration valida el recurso compartido y lo monta en el espacio de trabajo d
 | **[!UICONTROL Nombre de proveedor]** | El nombre del proveedor del catálogo Unity que Adobe utiliza para consumir su recurso compartido. Consulte [Valores necesarios antes de comenzar](#required-values). |
 | **[!UICONTROL Nombre para compartir]** | Nombre de [!DNL Delta Share] publicado en Adobe. |
 | **[!UICONTROL Esquema]** | El esquema del recurso compartido que contiene las tablas de audiencia. |
-| **[!UICONTROL Tabla de datos]** | El nombre de tabla dentro del esquema que contiene filas de miembros de audiencia (una fila por perfil en una audiencia). |
+| **[!UICONTROL Tabla de suscripciones]** | El nombre de tabla dentro del esquema que contiene filas de miembros de audiencia (una fila por perfil en una audiencia). |
 | **[!UICONTROL Tabla de metadatos]** | La tabla que enumera las audiencias (una fila por audiencia). |
 
 
-![Flujo de trabajo Agregar audiencia que muestra el formulario de conexión compartida de Databricks con los campos Nombre del proveedor, Nombre del recurso compartido, Esquema, Tabla de datos y Tabla de metadatos, y el botón Siguiente disponible.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
+![El flujo de trabajo Agregar audiencia que muestra el formulario compartido de conexión de Databricks con los campos Nombre del proveedor, Nombre del recurso compartido, Esquema, Tabla de pertenencia y Tabla de metadatos, y el botón Siguiente disponible.](../../assets/setup/databricks-audience-sourcing/databricks-connect-share-successful.png)
 
 Si no se encuentra el recurso compartido o el esquema aún no está visible, aparecerá un mensaje de error. Compruebe los valores con su administrador de [!DNL Databricks] e inténtelo de nuevo.
 
@@ -171,7 +172,7 @@ Aparece un cuadro de diálogo de confirmación que indica que Collaboration ha c
 
 ## Revisar audiencias de origen {#review-sourced-audiences}
 
-Después de completar el asistente de configuración, Collaboration empieza a obtener audiencias de las tablas [!DNL Databricks] de forma asíncrona. Vaya a **[!UICONTROL Configuración] > [!UICONTROL Mis audiencias]** para supervisar el progreso. El abastecimiento no se completa inmediatamente; el tiempo necesario depende del tamaño de los datos.
+Una vez completado el flujo de trabajo de configuración, Collaboration empieza a obtener audiencias de las tablas [!DNL Databricks] de forma asíncrona. Vaya a **[!UICONTROL Configuración] > [!UICONTROL Mis audiencias]** para supervisar el progreso. El abastecimiento no se completa inmediatamente; el tiempo necesario depende del tamaño de los datos.
 
 ### Monitorización del progreso de abastecimiento de audiencia {#monitor-sourcing-progress}
 
@@ -181,7 +182,9 @@ Mientras Collaboration recupera sus datos de audiencia, un banner en la parte su
 
 >[!TIP]
 >
->El tiempo de obtención de la audiencia varía en función del tamaño de la tabla de suscripciones y de si utiliza una tabla de metadatos para la detección de audiencias. Los conjuntos de datos más grandes pueden tardar más en aparecer en el espacio de trabajo **[!UICONTROL Mis audiencias]**.
+>Para mejorar el rendimiento del abastecimiento de audiencias, especialmente para tablas grandes, habilite el uso compartido del historial. Esto permite a Collaboration leer los datos en paralelo desde una versión de tabla coherente. Sin embargo, los recursos compartidos entre nubes utilizan un proceso de consulta única, incluso cuando el uso compartido del historial está habilitado.
+>
+>El tiempo de obtención de la audiencia también depende de factores como el tamaño de la tabla de suscripciones y la detección de audiencias basada en metadatos. Los conjuntos de datos más grandes pueden tardar más en aparecer en **[!UICONTROL Mis audiencias]**. Para obtener más información, consulte [Habilitar el uso compartido del historial](#enable-history-sharing).
 
 ### Ver detalles de la audiencia de origen {#view-audience-details}
 
@@ -216,11 +219,13 @@ Para revisar la propia conexión, incluidas sus claves de coincidencia, vaya a *
 
 Tenga en cuenta las siguientes restricciones al configurar y utilizar el abastecimiento de audiencia [!DNL Databricks Delta Share]:
 
-* **Solo uso compartido nativo:** La interfaz de usuario solo admite Databricks-to-Databricks nativos [!DNL Delta Sharing]. Los flujos de autenticación de token de portador y OIDC no están disponibles en el asistente de configuración.
-* **No hay ningún explorador de tablas en el asistente:** Debe escribir los nombres de tablas manualmente. Collaboration valida los nombres de las tablas al obtener una vista previa de las tablas; no muestra automáticamente todas las tablas del recurso compartido.
+* **Solo uso compartido nativo:** La interfaz de usuario solo admite Databricks-to-Databricks nativos [!DNL Delta Sharing]. Los flujos de autenticación de token de portador y OIDC no están disponibles en el flujo de trabajo de configuración.
+* **Entrada manual de nombre de tabla:** Debe escribir los nombres de tabla manualmente. Collaboration valida los nombres de las tablas al obtener una vista previa de las tablas; no muestra automáticamente todas las tablas del recurso compartido.
 * **Límite de fila de tabla de metadatos:** Cuando se usa una tabla de metadatos para la detección de audiencias, Collaboration importa hasta 100 000 filas de audiencia de esa tabla. Póngase en contacto con el servicio de asistencia técnica de Adobe si el catálogo supera este límite.
 * **Restricciones de clave de coincidencia:** Una vez habilitada una clave de coincidencia para una conexión de datos, no se puede quitar. Puede agregar claves de coincidencia a una conexión existente, pero no puede deshabilitarlas ni eliminarlas. Para cambiar las claves de coincidencia activas, debe [eliminar la conexión de datos](./manage-data-connection.md#delete-data-connection) y crear una nueva.
 * **Se requiere una tabla de pertenencia:** Incluso cuando utiliza una tabla de metadatos para la detección de audiencias, debe especificar una tabla de pertenencia. Collaboration lee filas de identidad de la tabla de pertenencia durante la ingesta.
+* **Se recomienda compartir el historial para tablas grandes:** Para mejorar el rendimiento de abastecimiento para tablas grandes, habilite el uso compartido del historial. Esto permite a Collaboration leer los datos en paralelo. Sin compartir el historial, el abastecimiento usa un proceso de consulta única más lento. Para obtener más información, consulte [Habilitar el uso compartido del historial](#enable-history-sharing).
+* **Recursos compartidos entre nubes:** Cuando su proveedor de [!DNL Databricks] y el área de trabajo de Adobe usan entornos de nube diferentes, el abastecimiento usa un proceso de consulta única independientemente de si el uso compartido del historial está habilitado. Por ejemplo, esto se aplica cuando su proveedor utiliza [!DNL Azure] y el espacio de trabajo de Adobe utiliza AWS. No se requiere ninguna configuración adicional.
 
 ## Resolución de problemas {#troubleshooting}
 
@@ -240,16 +245,32 @@ Utilice esta sección para resolver los problemas que se producen durante o desp
 
 **La validación de asignación de campos bloquea el progreso**
 
-* Confirme que la tabla de pertenencia incluye una columna que se puede asignar a **`AUDIENCE_ID`**.
-* Asegúrese de que al menos dos campos de identidad estén completamente asignados (origen y destino).
+* Confirme que la tabla de suscripciones incluye una columna `AUDIENCE_ID` y al menos una columna de clave de coincidencia admitida.
+* Confirme que al menos una clave de coincidencia admitida tenga asignados un campo de origen y un campo de destino.
 * Use **[!UICONTROL Vista previa de los datos de origen]** para comprobar que los nombres de columna coinciden con las claves de coincidencia habilitadas.
 
 **Las audiencias no aparecen o el abastecimiento está tardando más de lo esperado**
 
+* Confirme que las tablas se comparten con el historial. Ejecute `SHOW ALL IN SHARE <share_name>;` y compruebe que `history_sharing` es `ENABLED`. Si el uso compartido del historial está deshabilitado, vuelva a agregar la tabla con `WITH HISTORY`. Para obtener más información, consulte [Habilitar el uso compartido del historial](#enable-history-sharing).
 * El abastecimiento se escala con el volumen de datos. Se espera un tiempo de procesamiento más largo para las tablas de abono grandes.
 * Si las audiencias no han aparecido en un plazo de 24 horas, consulte la pestaña **[!UICONTROL Mis conexiones de datos]** para ver si hay indicadores de error en la conexión.
 * Compruebe que la estructura de la tabla de suscripciones y las asignaciones de campos coinciden con los requisitos de [Prepare los datos de audiencia](#prepare-audience-data).
 * Si el problema persiste, póngase en contacto con Atención al cliente de Adobe y proporcione el nombre de la conexión de datos y los detalles de la tabla.
+
+**Error al habilitar el uso compartido del historial**
+
+Si el área de trabajo rechaza el comando `ALTER TABLE`, quite la tabla del recurso compartido y agregue la tabla con el historial. Reemplace `<share_name>`, `<catalog>`, `<schema>` y `<table>` por sus identificadores de nombre compartido y de tabla.
+
+>[!IMPORTANT]
+>
+> No elimine y vuelva a agregar una tabla mientras se está ejecutando una fuente de Adobe.
+
+```sql
+ALTER SHARE <share_name> REMOVE TABLE <catalog>.<schema>.<table>;
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+Después de volver a agregar la tabla, [compruebe que el uso compartido del historial esté habilitado](#enable-history-sharing).
 
 **La conexión de datos muestra un estado de error después de haberse realizado correctamente inicialmente**
 
@@ -273,28 +294,62 @@ Prepare lo siguiente en su área de trabajo [!DNL Databricks]:
 * Se leerá un [!DNL Delta Share] que contiene el esquema y las tablas de Collaboration.
 * Una tabla de pertenencia con una fila por cada par de perfil-audiencia y columnas para **`AUDIENCE_ID`** y claves de coincidencia.
 * Una tabla de metadatos opcional si tiene pensado utilizar la detección de audiencias basada en metadatos.
+* Uso compartido de historial habilitado para cada tabla del recurso compartido (recomendado).
 
 ### Publicar el recurso compartido {#publish}
 
 Siga los procedimientos [!DNL Databricks Delta Sharing] de su organización para conceder acceso al recurso compartido a la cuenta de consumidor de Adobe. Los pasos exactos dependen de la implementación de [!DNL Databricks] y del modelo de gobernanza. En general:
 
 1. En Unity Catalog, cree o identifique el recurso compartido que contiene el esquema y las tablas de audiencia.
-2. Agregue el esquema (o tablas individuales) al recurso compartido.
+2. Agregue el esquema o las tablas individuales al recurso compartido de Databricks. Adobe recomienda habilitar el uso compartido del historial para cada tabla. Para obtener más información, consulte [Habilitar el uso compartido del historial](#enable-history-sharing).
 3. Conceda el recurso compartido a la cuenta de consumidor [!DNL Databricks] de Adobe mediante el uso compartido nativo entre Databricks y Databricks.
-4. Confirme con su contacto de Adobe que el recurso compartido está visible en el lado del consumidor y anote el nombre del proveedor y el nombre del recurso compartido para el asistente de configuración de Collaboration.
-5. Para obtener la documentación del producto [!DNL Databricks] en [!DNL Delta Sharing], consulte la [Documentación de uso compartido de delta de Databricks](https://docs.databricks.com/aws/en/delta-sharing).
+4. Confirme con su contacto de Adobe que el recurso compartido está visible en el lado del consumidor y anote el nombre del proveedor y el nombre del recurso compartido para el flujo de trabajo de configuración de Collaboration.
+
+>[!NOTE]
+>
+> Para obtener instrucciones del producto, consulte la [Documentación de uso compartido de delta de Databricks](https://docs.databricks.com/aws/en/delta-sharing){target="_blank"}.
+
+### Habilitar uso compartido del historial {#enable-history-sharing}
+
+Para mejorar el rendimiento de las fuentes en tablas grandes, habilite el uso compartido del historial para cada tabla de audiencia. Esto permite a Collaboration leer los datos en paralelo con una versión de tabla coherente. Sin compartir el historial, Collaboration utiliza un proceso de consulta única más lento.
+
+Los recursos compartidos entre nubes utilizan la lectura de consulta única incluso con el historial habilitado. Para obtener más información, consulte [Limitaciones conocidas](#known-limitations).
+
+El uso compartido de historial proporciona a Adobe acceso a versiones anteriores de las tablas que comparte, pero no a otras tablas. No es necesario conceder acceso adicional cuando se habilita el uso compartido del historial de una tabla que ya se comparte con Adobe.
+
+Use los siguientes comandos SQL en el área de trabajo [!DNL Databricks]. Reemplace `<share_name>`, `<catalog>`, `<schema>` y `<table>` por sus identificadores de nombre compartido y de tabla.
+
+Para agregar una tabla con historial, ejecute:
+
+```sql
+ALTER SHARE <share_name> ADD TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+Para habilitar el uso compartido del historial para una tabla que ya esté en el recurso compartido, ejecute:
+
+```sql
+ALTER SHARE <share_name> ALTER TABLE <catalog>.<schema>.<table> WITH HISTORY;
+```
+
+Para verificar el uso compartido del historial, ejecute:
+
+```sql
+SHOW ALL IN SHARE <share_name>;
+```
+
+Confirme que `history_sharing` es `ENABLED` para cada tabla de audiencias, incluida la tabla de metadatos si usa una. El uso compartido del historial tiene efecto en la siguiente ejecución de abastecimiento.
 
 ### Recopilar detalles de [!DNL Databricks] para Collaboration {#collect-databricks-details}
 
 Después de publicar el recurso compartido, asegúrese de que tiene disponibles el nombre del proveedor, el nombre del recurso compartido, el esquema y los nombres de tabla para el flujo de trabajo de configuración de Collaboration.
 
-Reúna los detalles siguientes antes de iniciar el asistente de configuración de Collaboration.
+Reúna los detalles siguientes antes de iniciar el flujo de trabajo de configuración de Collaboration.
 
 | Campo | Descripción | Ejemplo |
-| ------| ----------- | ------- |
+| ------ | ----------- | ------- |
 | Nombre del proveedor | Identificador de proveedor en el metaalmacén Unity Catalog de Adobe (desde la incorporación de Adobe) | `your_org_provider` |
 | Compartir nombre | Nombre del [!DNL Delta Share] publicado | `audience_share_prod` |
-| Esquema | Esquema | `collaboration_audiences` |
+| Esquema | Esquema dentro del recurso compartido que contiene las tablas de audiencia. | `collaboration_audiences` |
 | Tabla de abono | Tabla con filas de miembros de perfil-audiencia | `audience_members` |
 | Tabla de metadatos (opcional) | Tabla con audiencias (una fila por audiencia) | `audience_catalog` |
 
