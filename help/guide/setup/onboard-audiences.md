@@ -18,7 +18,7 @@ topic_v2:
 source-git-commit: b381d126dfdf1a6377f93c4f24905492de0bdb73
 workflow-type: tm+mt
 source-wordcount: '4152'
-ht-degree: 15%
+ht-degree: 16%
 ---
 # Source y administración de audiencias
 
@@ -129,7 +129,7 @@ A continuación, proporcione un nombre y una descripción para la conexión de d
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_target_fields"
 >title="Campos de destino"
->abstract="Los campos de destino identifican cómo se utilizan los datos de origen asignados en Collaboration. Las claves de coincidencia a nivel de cuenta están disponibles de forma predeterminada. Los campos Nombre y Dirección postal utilizados para la resolución de identidades están disponibles durante la configuración de la conexión de datos y no requieren la habilitación a nivel de cuenta."
+>abstract="Los campos de destino identifican cómo se utilizan los datos de origen asignados en Collaboration. Las claves de coincidencia a nivel de cuenta están disponibles de forma predeterminada. Los campos Nombre y Dirección postal que se utilizan para la resolución de identidades están disponibles durante la configuración de la conexión de datos y no requieren que se activen a nivel de cuenta."
 
 >[!CONTEXTUALHELP]
 >id="rtcdp_collaboration_import_audience_mapping_apply_transformation"
