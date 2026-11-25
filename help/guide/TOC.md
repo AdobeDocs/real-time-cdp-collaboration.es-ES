@@ -2,10 +2,10 @@
 user-guide-title: Real-Time CDP Collaboration
 breadcrumb-title: Real-Time CDP Collaboration
 user-guide-description: Adobe Real-Time CDP Collaboration permite intercambiar datos y colaborar de forma segura y sin problemas entre anunciantes y editores, lo que facilita obtener datos de audiencia en tiempo real y estrategias de marketing personalizadas.
-source-git-commit: 7d357938bfa89b8ce9a8633c6d09589c0c5762e5
+source-git-commit: 5ad6bc22bc2070de9adc9ce6256113aaeeac8fce
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 30%
+source-wordcount: '283'
+ht-degree: 32%
 ---
 
 # Real-Time CDP Collaboration {#using}
@@ -33,6 +33,7 @@ ht-degree: 30%
     * [Configuración de Snowflake para el abastecimiento de audiencias](./setup/configure-snowflake-audience-sourcing.md)
     * [Configurar el uso compartido de deltas de Databricks para Audience Sourcing](./setup/configure-databricks-audience-sourcing.md)
     * [Configuración de Adobe Audience Manager para el abastecimiento de audiencias](./setup/configure-aam-audience-sourcing.md)
+  * {hide-from-toc}[Acceso de audiencia y concesiones](./setup/virtual-audience-access.md)
   * [Administrar conexiones de datos](./setup/manage-data-connection.md)
   * [Configuración y administración de la resolución de identidad](./setup/identity-resolution.md)
   * [Rastrear la actividad de consumo de crédito](/help/guide/setup/my-activity.md)
@@ -72,6 +73,7 @@ ht-degree: 30%
   * [Configurar y administrar destinos de almacenamiento en la nube](./destinations/manage-destinations.md)
   * [Requisitos de destino de almacenamiento en nube](./destinations/cloud-storage-destination-requirements.md)
   * [Configuración de Adobe Experience Platform como destino](./destinations/experience-platform.md)
+  * {hide-from-toc}[Activar audiencias directamente (1P)](./destinations/direct-audience-activation.md)
 * Permisos {#permissions}
   * [Información general](/help/guide/permissions/overview.md)
   * [Administrar el acceso de usuario](./permissions/manage-user-access.md)
